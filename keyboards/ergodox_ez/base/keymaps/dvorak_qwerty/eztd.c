@@ -14,21 +14,37 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifdef EZTD_ENABLE
+
 #include QMK_KEYBOARD_H
 #include "eztd.h"
+#include "keycode_handler.h"
 
-uint8_t eztd_step(tap_dance_state_t *state, eztd_data *data);
-
-// send key down event. This method can be overridden to
-// handle advanced key codes with special cases.
-__attribute__((weak)) void eztd_reg(uint16_t keycode){
-    register_code16(keycode);
+__attribute__((weak)) bool eztd_key_event_kb(uint16_t keycode, bool pressed) {
+    return false;
+}
+__attribute__((weak)) bool eztd_key_event_user(uint16_t keycode, bool pressed) {
+    return false;
 }
 
-// send key up event. This method can be overridden to
-// handle advanced key codes with special cases.
-__attribute__((weak)) void eztd_unreg(uint16_t keycode){
-    unregister_code16(keycode);
+void eztd_key_event(uint16_t keycode, const bool pressed) {
+    if (eztd_key_event_user(keycode, pressed)) {
+        return;
+    }
+    if (eztd_key_event_kb(keycode, pressed)) {
+        return;
+    }
+
+    switch(keycode) {
+        case KC_TRANSPARENT:
+        case QK_MOD_TAP ... QK_MOD_TAP_MAX:
+        case QK_TAP_DANCE ... QK_TAP_DANCE_MAX:
+            // These features are not compatible with
+            // tap dancing, ignore them.
+            return;
+    }
+
+    process_keycode_full(keycode, pressed);
 }
 
 uint8_t eztd_step(tap_dance_state_t *state, eztd_data *data) {
@@ -123,11 +139,11 @@ void eztd_each(tap_dance_state_t *state, void *user_data) {
     }
     // Send all the over taps
     for (int i=0; i<taps; i++) {
-        eztd_reg(data->tap);
+        eztd_key_event(data->tap, true);
 #       if TAP_CODE_DELAY > 0
             wait_ms(TAP_CODE_DELAY);
 #       endif
-        eztd_unreg(data->tap);
+        eztd_key_event(data->tap, false);
     }
 }
 
@@ -136,13 +152,13 @@ void eztd_finished(tap_dance_state_t *state, void *user_data) {
     data->step = eztd_step(state, data);
     // send key down event when tap dance is finished.
     switch (data->step) {
-        case EZTD_SINGLE_TAP: eztd_reg(data->tap); break;
-        case EZTD_SINGLE_HOLD: eztd_reg(data->hold); break;
-        case EZTD_DOUBLE_TAP: eztd_reg(data->double_tap); break;
-        case EZTD_DOUBLE_HOLD: eztd_reg(data->double_hold); break;
-        case EZTD_TRIPLE_TAP: eztd_reg(data->triple_tap); break;
-        case EZTD_TRIPLE_HOLD: eztd_reg(data->triple_hold); break;
-        // no default case, cases for over taps handled in eztd_step
+        case EZTD_SINGLE_TAP: eztd_key_event(data->tap, true); break;
+        case EZTD_SINGLE_HOLD: eztd_key_event(data->hold, true); break;
+        case EZTD_DOUBLE_TAP: eztd_key_event(data->double_tap, true); break;
+        case EZTD_DOUBLE_HOLD: eztd_key_event(data->double_hold, true); break;
+        case EZTD_TRIPLE_TAP: eztd_key_event(data->triple_tap, true); break;
+        case EZTD_TRIPLE_HOLD: eztd_key_event(data->triple_hold, true); break;
+        // no default case: cases for over taps handled in eztd_each()
     }
 }
 
@@ -153,13 +169,15 @@ void eztd_reset(tap_dance_state_t *state, void *user_data) {
 #   endif
     // send key up event when tap dance is reset.
     switch (data->step) {
-        case EZTD_SINGLE_TAP: eztd_unreg(data->tap); break;
-        case EZTD_SINGLE_HOLD: eztd_unreg(data->hold); break;
-        case EZTD_DOUBLE_TAP: eztd_unreg(data->double_tap); break;
-        case EZTD_DOUBLE_HOLD: eztd_unreg(data->double_hold); break;
-        case EZTD_TRIPLE_TAP: eztd_unreg(data->triple_tap); break;
-        case EZTD_TRIPLE_HOLD: eztd_unreg(data->triple_hold); break;
-        // no default case, cases for over taps handled in eztd_step
+        case EZTD_SINGLE_TAP: eztd_key_event(data->tap, false); break;
+        case EZTD_SINGLE_HOLD: eztd_key_event(data->hold, false); break;
+        case EZTD_DOUBLE_TAP: eztd_key_event(data->double_tap, false); break;
+        case EZTD_DOUBLE_HOLD: eztd_key_event(data->double_hold, false); break;
+        case EZTD_TRIPLE_TAP: eztd_key_event(data->triple_tap, false); break;
+        case EZTD_TRIPLE_HOLD: eztd_key_event(data->triple_hold, false); break;
+        // no default case: cases for over taps handled in eztd_each()
     }
     data->step = EZTD_UNPRESSED;
 }
+
+#endif // EZTD_ENABLE

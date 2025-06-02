@@ -17,6 +17,8 @@
 #include QMK_KEYBOARD_H
 #include "version.h"
 #include "eztd.h"
+#include "ezovrd.h"
+#include "keycode_handler.h"
 
 enum layer_names {
     LAY_DVORAK, // base
@@ -49,13 +51,57 @@ enum tap_dance_keycodes {
 
 // used as portions of tap dances
 enum custom_keycodes {
-    MO_CTRL_KEY_AND_LAYOUT = SAFE_RANGE, // control key and layer while held
-    MO_ALT_KEY_AND_LAYOUT, // alt key and layer while held
-    MO_META_KEY_AND_LAYOUT, // meta key and layer while held
-    MO_NUMFN_LAYOUT, // number/function layer while held
-    TG_NUMFN_LAYOUT, // toggle number/function layer
-    MO_BASE_LAYER, // swap base layer while held
-    TG_BASE_LAYER, // toggle base layer qwerty <-> dvorak
+    MO_TG_QWERTY = SAFE_RANGE, // toggle the qwerty layer while held
+    MO_TG_NUMFN, // toggle the num/fn layer while held
+};
+
+enum unicode_names {
+    U_EM_DASH, U_LEFT_ARROW, U_UP_ARROW, U_RIGHT_ARROW, U_DOWN_ARROW, U_BOX_EMPTY, U_BOX_CHECKED, U_BOX_CROSSED, U_BLACK_STAR, U_WHITE_STAR, U_CPYRGHT,
+    U_RGSTRD, U_TRDMRK, U_SMILE, U_ROFL, U_MND_BLWN, U_SALUTE, U_MELTFC, U_TEARS, U_CRY, U_SKULL, U_WHTCHK, U_CROSS, U_WARNING, U_100, U_PNKHRT, U_FIRE,
+    U_HNDSAIR, U_PARTY, U_MUSIC_2, U_MUSIC_3, U_SPARKLES, U_EYES, U_SHIP, U_DELIVERY, U_BUG, U_THMB_UP, U_THMB_DN, U_LINK, U_PALMTR,
+};
+
+const uint32_t PROGMEM unicode_map[] = {
+    [U_EM_DASH] = 0x2014,  // —
+    [U_LEFT_ARROW] = 0x2190,  // ←
+    [U_UP_ARROW] = 0x2191,  // ↑
+    [U_RIGHT_ARROW] = 0x2192,  // →
+    [U_DOWN_ARROW] = 0x2193,  // ↓
+    [U_BOX_EMPTY] = 0x2610,  // ☐
+    [U_BOX_CHECKED] = 0x2611,  // ☑
+    [U_BOX_CROSSED] = 0x2612,  // ☒
+    [U_BLACK_STAR] = 0x2605,  // ★
+    [U_WHITE_STAR] = 0x2606,  // ☆
+    [U_CPYRGHT] = 0x00A9, // ©
+    [U_RGSTRD] = 0x00AE, // ®
+    [U_TRDMRK] = 0x2122, // ™
+    [U_SMILE] = 0x1F60A, // 😊
+    [U_ROFL] = 0x1F923, // 🤣
+    [U_MND_BLWN] = 0x1F92F, // 🤯
+    [U_SALUTE] = 0x1FAE1, // 🫡
+    [U_MELTFC] = 0x1FAE0, // 🫠
+    [U_TEARS] = 0x1F979, // 🥹
+    [U_CRY] = 0x1F62C, // 😭
+    [U_SKULL] = 0x1F480, // 💀
+    [U_WHTCHK] = 0x2705, // ✅
+    [U_CROSS] = 0x274C, // ❌
+    [U_WARNING] = 0x26A0, // ⚠
+    [U_100] = 0x1F4AF, // 💯
+    [U_PNKHRT] = 0x1FA77, // 🩷
+    [U_FIRE] = 0x1F525, // 🔥
+    [U_HNDSAIR] = 0x1F64C, // 🙌
+    [U_PARTY] = 0x1F389, // 🎉
+    [U_MUSIC_2] = 0x1F3B5, // 🎵
+    [U_MUSIC_3] = 0x1F3B6, // 🎶
+    [U_SPARKLES] = 0x2728, // ✨
+    [U_EYES] = 0x1F440, // 👀
+    [U_SHIP] = 0x1F6A2, // 🚢
+    [U_DELIVERY] = 0x1F69A, // 🚚
+    [U_BUG] = 0x1F41E, // 🐞
+    [U_THMB_UP] = 0x1F44D, // 👍
+    [U_THMB_DN] = 0x1F44E, // 👎
+    [U_LINK] = 0x1F517, // 🔗
+    [U_PALMTR] = 0x1F334, // 🌴
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -83,11 +129,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [LAY_NUM_FN] = LAYOUT_ergodox_pretty(
 /*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
-    XXXXXXX,       KC_F1,         KC_F2,         KC_F3,         KC_F4,         KC_F5,         XXXXXXX,           XXXXXXX,       KC_F6,         KC_F7,         KC_F8,         KC_F9,         KC_F10,        KC_F11,
-    XXXXXXX,       XXXXXXX,       XXXXXXX,       XXXXXXX,       XXXXXXX,       XXXXXXX,       XXXXXXX,           XXXXXXX,       KC_KP_ASTERISK,KC_KP_7,       KC_KP_8,       KC_KP_9,       KC_KP_MINUS,   KC_F12,
-    XXXXXXX,       XXXXXXX,       XXXXXXX,       XXXXXXX,       XXXXXXX,       XXXXXXX,                                         KC_KP_SLASH,   KC_KP_4,       KC_KP_5,       KC_KP_6,       KC_KP_PLUS,    XXXXXXX,
-    XXXXXXX,       XXXXXXX,       XXXXXXX,       KC_UP,         XXXXXXX,       XXXXXXX,       XXXXXXX,           XXXXXXX,       KC_EQUAL,      KC_KP_1,       KC_KP_2,       KC_KP_3,       KC_KP_ENTER,   KC_NUM_LOCK,
-    XXXXXXX,       XXXXXXX,       KC_LEFT,       KC_DOWN,       KC_RIGHT,                                                                      KC_KP_0,       KC_KP_0,       KC_KP_DOT,     KC_KP_ENTER,   XXXXXXX,
+    UM(U_SMILE),   KC_F1,         KC_F2,         KC_F3,         KC_F4,         KC_F5,         UM(U_WHTCHK),      UM(U_CPYRGHT), KC_F6,         KC_F7,         KC_F8,         KC_F9,         KC_F10,        KC_F11,
+    UM(U_ROFL),    UM(U_TEARS),   UM(U_100),     UM(U_HNDSAIR), UM(U_SHIP),    UM(U_BUG),     UM(U_CROSS),       UM(U_RGSTRD),  KC_KP_ASTERISK,KC_KP_7,       KC_KP_8,       KC_KP_9,       KC_KP_MINUS,   KC_F12,
+    UM(U_MND_BLWN),UM(U_CRY),     UM(U_PNKHRT),  UM(U_PARTY),   UM(U_DELIVERY),UM(U_EYES),                                      KC_KP_SLASH,   KC_KP_4,       KC_KP_5,       KC_KP_6,       KC_KP_PLUS,    UM(U_PALMTR),
+    UM(U_SALUTE),  UM(U_SKULL),   UM(U_FIRE),    KC_UP,         UM(U_MUSIC_2), UM(U_MUSIC_3), UM(U_WARNING),     UM(U_TRDMRK),  KC_EQUAL,      KC_KP_1,       KC_KP_2,       KC_KP_3,       KC_KP_ENTER,   KC_NUM_LOCK,
+    UM(U_MELTFC),  UM(U_SPARKLES),KC_LEFT,       KC_DOWN,       KC_RIGHT,                                                                      KC_KP_0,       KC_KP_0,       KC_KP_DOT,     KC_KP_ENTER,   UM(U_LINK),
                                                                                KC_ESC,        TD(LAY_OUT),       TD(SHOT_FILE), KC_DELETE,
                                                                                               TD(HOME_TOP),      KC_PAGE_UP,
                                                                 KC_ENTER,      KC_TAB,        TD(END_BTM),       KC_PGDN,       KC_BSPC,       KC_SPACE
@@ -125,6 +171,41 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                                                               A(KC_HOME),        A(KC_PAGE_UP),
                                                                 A(KC_ENTER),   A(KC_TAB),     A(KC_END),         A(KC_PGDN),    A(KC_BSPC),    A(KC_SPACE)
   ),
+};
+
+tap_dance_action_t tap_dance_actions[] = {
+    [LCDT_SHFT] = EZTD_TAP_HOLD_DTAP(KC_LEFT_PAREN, KC_LEFT_SHIFT, QK_CAPS_WORD_TOGGLE),
+    [LCDT_CRTL] = EZTD_TAP_HOLD(KC_LEFT_ANGLE_BRACKET,  LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL)),
+    [LCDT_META] = EZTD_TAP_HOLD_DTAP(KC_LEFT_BRACKET, LM(LAY_QWERTY_META, MOD_MASK_GUI), QK_AUTO_SHIFT_TOGGLE),
+    [LCDT_ALT] = EZTD_TAP_HOLD_DTAP(KC_LEFT_CURLY_BRACE, LM(LAY_QWERTY_ALT, MOD_MASK_ALT), KC_INS),
+    [RCDT_ALT] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_CURLY_BRACE, LM(LAY_QWERTY_ALT, MOD_MASK_ALT), G(KC_L)),
+    [RCDT_META] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_BRACKET, LM(LAY_QWERTY_META, MOD_MASK_GUI), KC_F11),
+    [RCDT_CRTL] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_ANGLE_BRACKET, LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL), A(KC_F4)),
+    [RCDT_SHFT] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_PAREN, KC_RIGHT_SHIFT, KC_CAPS),
+    [LAY_OUT] = EZTD_TAP_HOLD_DTAP_DHOLD(TG(LAY_NUM_FN), MO_TG_NUMFN, TG(LAY_QWERTY), MO_TG_QWERTY),
+    [MUTE_MVS] = EZTD_TAP_DTAP_TTAP(C(S(KC_M)), C(S(KC_O)), KC_AUDIO_MUTE),
+    [CALC_MAIL] = EZTD_TAP_DTAP(KC_CALCULATOR, KC_MAIL),
+    [HOME_TOP] =  EZTD_TAP_DTAP(KC_HOME, C(KC_HOME)),
+    [END_BTM] = EZTD_TAP_DTAP(KC_END, C(KC_END)),
+    [SHOT_FILE] = EZTD_TAP_DTAP(KC_PSCR, KC_MY_COMPUTER),
+    [NEXT_FF] = EZTD_TAP_HOLD(KC_MEDIA_NEXT_TRACK, KC_MEDIA_FAST_FORWARD),
+    [PREV_RW] = EZTD_TAP_HOLD(KC_MEDIA_PREV_TRACK, KC_MEDIA_REWIND),
+    [PLAY_PLYR] = EZTD_TAP_DTAP(KC_MEDIA_PLAY_PAUSE, KC_MEDIA_SELECT),
+};
+
+const key_override_t *key_overrides[] = {
+	&ezovrd_make_basic(MOD_MASK_SHIFT, KC_COMMA, UM(U_LEFT_ARROW)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, KC_DOT, UM(U_RIGHT_ARROW)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, TD(NEXT_FF), UM(U_UP_ARROW)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, TD(PREV_RW), UM(U_DOWN_ARROW)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, TD(PLAY_PLYR), UM(U_EM_DASH)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, TD(MUTE_MVS), UM(U_BOX_EMPTY)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, KC_VOLU, UM(U_BOX_CHECKED)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, KC_VOLD, UM(U_BOX_CROSSED)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, KC_9, UM(U_BLACK_STAR)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, KC_0, UM(U_WHITE_STAR)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, TD(LAY_OUT), UM(U_THMB_DN)),
+	&ezovrd_make_basic(MOD_MASK_SHIFT, TD(SHOT_FILE), UM(U_THMB_UP)),
 };
 
 // use callback when layer is switched to set lights based on layer
@@ -167,100 +248,91 @@ void matrix_scan_user(void) {
     }
 }
 
-// handle key down for tap dances
-void eztd_reg(uint16_t keycode){
+// handle custom actions in tap dances
+bool eztd_key_event_user(uint16_t keycode, bool pressed){
     switch (keycode) {
-        case QK_CAPS_WORD_TOGGLE:
-            caps_word_toggle();
-            break;
-        case KC_RIGHT_SHIFT:
-        case KC_LEFT_SHIFT:
-            register_mods(MOD_MASK_SHIFT);
-            break;
-        case MO_CTRL_KEY_AND_LAYOUT:
-            register_mods(MOD_MASK_CTRL);
-            layer_on(LAY_QWERTY_CONTROL);
-            break;
-        case MO_ALT_KEY_AND_LAYOUT:
-            register_mods(MOD_MASK_ALT);
-            layer_on(LAY_QWERTY_ALT);
-            break;
-        case MO_META_KEY_AND_LAYOUT:
-            register_mods(MOD_MASK_GUI);
-            layer_on(LAY_QWERTY_META);
-            break;
-        case MO_NUMFN_LAYOUT:
-        case TG_NUMFN_LAYOUT:
-            layer_invert(LAY_NUM_FN);
-            break;
-        case MO_BASE_LAYER:
-        case TG_BASE_LAYER:
-            layer_invert(LAY_DVORAK);
+        case MO_TG_QWERTY:
             layer_invert(LAY_QWERTY);
-            break;
-        case QK_AUTO_SHIFT_TOGGLE:
-            autoshift_toggle();
-            break;
-        default:
-            register_code16(keycode);
+            return true;
+        case MO_TG_NUMFN:
+            layer_invert(LAY_NUM_FN);
+            return true;
     }
+    return false;
 }
 
-// handle key up for tap dances
-void eztd_unreg(uint16_t keycode){
-    switch (keycode) {
-        case QK_CAPS_WORD_TOGGLE:
-            break;
-        case KC_RIGHT_SHIFT:
-        case KC_LEFT_SHIFT:
-            unregister_mods(MOD_MASK_SHIFT);
-            break;
-        case MO_CTRL_KEY_AND_LAYOUT:
-            unregister_mods(MOD_MASK_CTRL);
-            layer_off(LAY_QWERTY_CONTROL);
-            break;
-        case MO_ALT_KEY_AND_LAYOUT:
-            unregister_mods(MOD_MASK_ALT);
-            layer_off(LAY_QWERTY_ALT);
-            break;
-        case MO_META_KEY_AND_LAYOUT:
-            unregister_mods(MOD_MASK_GUI);
-            layer_off(LAY_QWERTY_META);
-            break;
-        case MO_NUMFN_LAYOUT:
-            layer_invert(LAY_NUM_FN);
-            break;
-        case TG_NUMFN_LAYOUT:
-            break;
-        case MO_BASE_LAYER:
-            layer_invert(LAY_DVORAK);
-            layer_invert(LAY_QWERTY);
-            break;
-        case TG_BASE_LAYER:
-            break;
-        case QK_AUTO_SHIFT_TOGGLE:
-            break;
-        default:
-            unregister_code16(keycode);
+// Walk though the key overrides to see if the shift key has
+// been overridden for this key.  If so, return the override.
+uint16_t get_shift_replacement(uint16_t keycode) {
+    for(int i=0; i<sizeof(key_overrides)/sizeof(key_overrides[0]); i++){
+        if(key_overrides[i]->trigger == keycode && key_overrides[i]->suppressed_mods == MOD_MASK_SHIFT) {
+            return key_overrides[i]->replacement;
+        }
     }
+    return 0;
 }
 
-tap_dance_action_t tap_dance_actions[] = {
-    [LCDT_SHFT] = EZTD_TAP_HOLD_DTAP(KC_LEFT_PAREN, S(XXXXXXX), QK_CAPS_WORD_TOGGLE),
-    [LCDT_CRTL] = EZTD_TAP_HOLD(KC_LEFT_ANGLE_BRACKET, MO_CTRL_KEY_AND_LAYOUT),
-    [LCDT_META] = EZTD_TAP_HOLD_DTAP(KC_LEFT_BRACKET, MO_META_KEY_AND_LAYOUT, QK_AUTO_SHIFT_TOGGLE),
-    [LCDT_ALT] = EZTD_TAP_HOLD_DTAP(KC_LEFT_CURLY_BRACE, MO_ALT_KEY_AND_LAYOUT, KC_INS),
-    [RCDT_ALT] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_CURLY_BRACE, MO_ALT_KEY_AND_LAYOUT, G(KC_L)),
-    [RCDT_META] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_BRACKET, MO_META_KEY_AND_LAYOUT, KC_F11),
-    [RCDT_CRTL] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_ANGLE_BRACKET, MO_CTRL_KEY_AND_LAYOUT, A(KC_F4)),
-    [RCDT_SHFT] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_PAREN, S(XXXXXXX), KC_CAPS),
-    [LAY_OUT] = EZTD_TAP_HOLD_DTAP_DHOLD(TG_NUMFN_LAYOUT, MO_NUMFN_LAYOUT, TG_BASE_LAYER, MO_BASE_LAYER),
-    [MUTE_MVS] = EZTD_TAP_DTAP_TTAP(C(S(KC_M)), C(S(KC_O)), KC_AUDIO_MUTE),
-    [CALC_MAIL] = EZTD_TAP_DTAP(KC_CALCULATOR, KC_MAIL),
-    [HOME_TOP] =  EZTD_TAP_DTAP(KC_HOME, C(KC_HOME)),
-    [END_BTM] = EZTD_TAP_DTAP(KC_END, C(KC_END)),
-    [SHOT_FILE] = EZTD_TAP_DTAP(KC_PSCR, KC_MY_COMPUTER),
-    [NEXT_FF] = EZTD_TAP_HOLD(KC_MEDIA_NEXT_TRACK, KC_MEDIA_FAST_FORWARD),
-    [PREV_RW] = EZTD_TAP_HOLD(KC_MEDIA_PREV_TRACK, KC_MEDIA_REWIND),
-    [PLAY_PLYR] = EZTD_TAP_DTAP(KC_MEDIA_PLAY_PAUSE, KC_MEDIA_SELECT),
-};
+// handle auto shift presses
+void autoshift_press_user(uint16_t keycode, bool shifted, keyrecord_t *record) {
+    if (shifted) {
+        uint16_t replacement = get_shift_replacement(keycode);
+        if (replacement){
+            // found a key override, use the replacement for auto shift
+            process_keycode_full(replacement, true);
+            return;
+        }
+        // for regular keys, shift modifier needs to be active to get shifted behavior
+        add_weak_mods(MOD_BIT(KC_LSFT));
+    }
+    // no override found or shift not held, use normal key code
+    register_code16(keycode);
+}
+
+// handle auto shift releases
+void autoshift_release_user(uint16_t keycode, bool shifted, keyrecord_t *record) {
+    if (shifted) {
+        uint16_t replacement = get_shift_replacement(keycode);
+        if (replacement){
+            // found a key override, use the replacement for auto shift
+            process_keycode_full(replacement, false);
+            return;
+        }
+    }
+    // no override found or shift not held, use normal key code
+    unregister_code16(keycode);
+}
+
+// Use the callback for OS detection to set the unicode mode
+bool process_detected_host_os_user(os_variant_t detected_os) {
+
+    switch (detected_os) {
+        case OS_MACOS:
+        case OS_IOS:
+            set_unicode_input_mode(UNICODE_MODE_MACOS);
+            // Flash the red light
+            ergodox_right_led_1_on();
+            ergodox_right_led_2_off();
+            break;
+        case OS_WINDOWS:
+            set_unicode_input_mode(UNICODE_MODE_WINCOMPOSE);
+            // Flash the red and green lights
+            ergodox_right_led_1_on();
+            ergodox_right_led_2_on();
+            break;
+        case OS_LINUX:
+            set_unicode_input_mode(UNICODE_MODE_LINUX);
+            // Flash the green light
+            ergodox_right_led_1_off();
+            ergodox_right_led_2_on();
+            break;
+        default:
+            break;
+    }
+
+    // wait and unflash the lights
+    wait_ms(500);
+    ergodox_right_led_1_off();
+    ergodox_right_led_2_off();
+
+    return true;
+}

@@ -14,15 +14,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#define USB_SUSPEND_WAKEUP_DELAY 0
-#define AUTO_SHIFT_MODIFIERS
-#define AUTO_SHIFT_TIMEOUT 220
-#define NO_AUTO_SHIFT_TAB
-#define LAYER_STATE_8BIT
-#define TAPPING_TERM 200
-#define TAP_CODE_DELAY 10
-#define EZTD_ENABLE
-#define UNICODE_SELECTED_MODES UNICODE_MODE_LINUX, UNICODE_MODE_MACOS, UNICODE_MODE_WINCOMPOSE
-#define OS_DETECTION_KEYBOARD_RESET
-#define UNICODE_CYCLE_PERSIST false
-#define UNICODE_TYPE_DELAY 2
+#include QMK_KEYBOARD_H
+#include "keycode_handler.h"
+
+bool ezovrd_key_event(bool pressed, void *context) {
+    return process_keycode_full((uint16_t)context, pressed);
+}

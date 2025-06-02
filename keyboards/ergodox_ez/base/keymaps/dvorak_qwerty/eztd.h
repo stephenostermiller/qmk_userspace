@@ -16,6 +16,12 @@
 
 #pragma once
 
+#ifdef EZTD_ENABLE
+
+#ifndef TAP_DANCE_ENABLE
+#   error "EZTD_ENABLE requires TAP_DANCE_ENABLE."
+#endif
+
 enum {
     EZTD_UNPRESSED, // initial state and state after reset
     EZTD_SINGLE_TAP, // key tapped once
@@ -53,35 +59,36 @@ typedef struct {
 void eztd_each(tap_dance_state_t *state, void *user_data);
 void eztd_finished(tap_dance_state_t *state, void *user_data);
 void eztd_reset(tap_dance_state_t *state, void *user_data);
-void eztd_reg(uint16_t keycode);
-void eztd_unreg(uint16_t keycode);
-
-#define MAKE_EZTD_EVENT(press) MAKE_EVENT((0), (0), (press), KEY_EVENT)
+void eztd_keyevent(uint16_t keycode, bool pressed);
+bool eztd_keyevent_kb(uint16_t keycode, bool pressed);
+bool eztd_keyevent_user(uint16_t keycode, bool pressed);
 
 // non-flow tap should be used when the tap dance key includes holding a modifier
 #define EZTD_TAP_HOLD_DTAP_DHOLD_TTAP_THOLD(single_tap_keycode, single_hold_keycode, double_tap_keycode, double_hold_keycode, triple_tap_keycode, triple_hold_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, single_tap_keycode, single_hold_keycode, double_tap_keycode, double_hold_keycode, triple_tap_keycode, triple_hold_keycode})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, (single_tap_keycode), (single_hold_keycode), (double_tap_keycode), (double_hold_keycode), (triple_tap_keycode), (triple_hold_keycode)})}
 #define EZTD_TAP_HOLD_DTAP_DHOLD(single_tap_keycode, single_hold_keycode, double_tap_keycode, double_hold_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, single_tap_keycode, single_hold_keycode, double_tap_keycode, double_hold_keycode, XXXXXXX, XXXXXXX})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, (single_tap_keycode), (single_hold_keycode), (double_tap_keycode), (double_hold_keycode), XXXXXXX, XXXXXXX})}
 #define EZTD_TAP_HOLD_DTAP(single_tap_keycode, single_hold_keycode, double_tap_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, single_tap_keycode, single_hold_keycode, double_tap_keycode, double_tap_keycode, XXXXXXX, XXXXXXX})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, (single_tap_keycode), (single_hold_keycode), double_tap_keycode, (double_tap_keycode), XXXXXXX, XXXXXXX})}
 #define EZTD_TAP_HOLD(single_tap_keycode, single_hold_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, single_tap_keycode, single_hold_keycode, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, (single_tap_keycode), (single_hold_keycode), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX})}
 #define EZTD_TAP_DTAP_TTAP(single_tap_keycode, double_tap_keycode, triple_tap_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, single_tap_keycode, single_tap_keycode, double_tap_keycode, double_tap_keycode, triple_tap_keycode, triple_tap_keycode})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, (single_tap_keycode), (single_tap_keycode), double_tap_keycode, (double_tap_keycode), (triple_tap_keycode), triple_tap_keycode})}
 #define EZTD_TAP_DTAP(single_tap_keycode, double_tap_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, single_tap_keycode, single_tap_keycode, double_tap_keycode, double_tap_keycode, XXXXXXX, XXXXXXX})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, false, (single_tap_keycode), (single_tap_keycode), double_tap_keycode, (double_tap_keycode), XXXXXXX, XXXXXXX})}
 
 // flow tap should be used when the tap dance key is a letter or number.
 #define EZTD_FLOWTAP_HOLD_DTAP_DHOLD_TTAP_THOLD(single_tap_keycode, single_hold_keycode, double_tap_keycode, double_hold_keycode, triple_tap_keycode, triple_hold_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, single_tap_keycode, single_hold_keycode, double_tap_keycode, double_hold_keycode, triple_tap_keycode, triple_hold_keycode})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, (single_tap_keycode), (single_hold_keycode), (double_tap_keycode), (double_hold_keycode), (triple_tap_keycode), (triple_hold_keycode)})}
 #define EZTD_FLOWTAP_HOLD_DTAP_DHOLD(single_tap_keycode, single_hold_keycode, double_tap_keycode, double_hold_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, single_tap_keycode, single_hold_keycode, double_tap_keycode, double_hold_keycode, XXXXXXX, XXXXXXX})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, (single_tap_keycode), (single_hold_keycode), (double_tap_keycode), (double_hold_keycode), XXXXXXX, XXXXXXX})}
 #define EZTD_FLOWTAP_HOLD_DTAP(single_tap_keycode, single_hold_keycode, double_tap_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, single_tap_keycode, single_hold_keycode, double_tap_keycode, double_tap_keycode, XXXXXXX, XXXXXXX})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, (single_tap_keycode), (single_hold_keycode), double_tap_keycode, (double_tap_keycode), XXXXXXX, XXXXXXX})}
 #define EZTD_FLOWTAP_HOLD(single_tap_keycode, single_hold_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, single_tap_keycode, single_hold_keycode, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, (single_tap_keycode), (single_hold_keycode), XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX})}
 #define EZTD_FLOWTAP_DTAP_TTAP(single_tap_keycode, double_tap_keycode, triple_tap_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, single_tap_keycode, single_tap_keycode, double_tap_keycode, double_tap_keycode, triple_tap_keycode, triple_tap_keycode})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, (single_tap_keycode), (single_tap_keycode), double_tap_keycode, (double_tap_keycode), (triple_tap_keycode), triple_tap_keycode})}
 #define EZTD_FLOWTAP_DTAP(single_tap_keycode, double_tap_keycode) \
-    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, single_tap_keycode, single_tap_keycode, double_tap_keycode, double_tap_keycode, XXXXXXX, XXXXXXX})}
+    {.fn = {eztd_each, eztd_finished, eztd_reset}, .user_data = (void *)&((eztd_data){EZTD_UNPRESSED, true, (single_tap_keycode), (single_tap_keycode), double_tap_keycode, (double_tap_keycode), XXXXXXX, XXXXXXX})}
+
+#endif // EZTD_ENABLE

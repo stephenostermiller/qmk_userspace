@@ -8,4 +8,10 @@ SPACE_CADET_ENABLE = no
 CAPS_WORD_ENABLE = yes
 RGBLIGHT_ENABLE = no
 LTO_ENABLE = yes
+KEY_OVERRIDE_ENABLE = yes
+UNICODEMAP_ENABLE = yes
+OS_DETECTION_ENABLE = yes
+
+SRC += keycode_handler.c
+SRC += ezovrd.c
 SRC += eztd.c
