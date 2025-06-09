@@ -1,0 +1,10 @@
+{
+    "modules": [
+        "stephen_ostermiller/auto_unicode_os",
+        "stephen_ostermiller/unicode_macro_map",
+        "stephen_ostermiller/send_mixed_string",
+        "stephen_ostermiller/process_keycode_any",
+        "stephen_ostermiller/eztd",
+        "stephen_ostermiller/ezovrd"
+    ]
+}
