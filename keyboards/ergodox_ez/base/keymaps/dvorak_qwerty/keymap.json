@@ -1,5 +1,6 @@
 {
     "modules": [
+        "stephen_ostermiller/auto_shift_overrides",
         "stephen_ostermiller/auto_unicode_os",
         "stephen_ostermiller/unicode_macro_map",
         "stephen_ostermiller/send_mixed_string",

@@ -260,47 +260,6 @@ void matrix_scan_user(void) {
     }
 }
 
-// Walk though the key overrides to see if the shift key has
-// been overridden for this key.  If so, return the override.
-uint16_t get_shift_replacement(uint16_t keycode) {
-    for(int i=0; i<sizeof(key_overrides)/sizeof(key_overrides[0]); i++){
-        if(key_overrides[i]->trigger == keycode && key_overrides[i]->suppressed_mods == MOD_MASK_SHIFT) {
-            return key_overrides[i]->replacement;
-        }
-    }
-    return 0;
-}
-
-// handle auto shift presses
-void autoshift_press_user(uint16_t keycode, bool shifted, keyrecord_t *record) {
-    if (shifted) {
-        uint16_t replacement = get_shift_replacement(keycode);
-        if (replacement){
-            // found a key override, use the replacement for auto shift
-            process_keycode_any(replacement, true);
-            return;
-        }
-        // for regular keys, shift modifier needs to be active to get shifted behavior
-        add_weak_mods(MOD_BIT(KC_LSFT));
-    }
-    // no override found or shift not held, use normal key code
-    register_code16(keycode);
-}
-
-// handle auto shift releases
-void autoshift_release_user(uint16_t keycode, bool shifted, keyrecord_t *record) {
-    if (shifted) {
-        uint16_t replacement = get_shift_replacement(keycode);
-        if (replacement){
-            // found a key override, use the replacement for auto shift
-            process_keycode_any(replacement, false);
-            return;
-        }
-    }
-    // no override found or shift not held, use normal key code
-    unregister_code16(keycode);
-}
-
 // Use the callback for OS detection to flash different
 // lights for different OS.
 bool process_detected_host_os_user(os_variant_t detected_os) {
