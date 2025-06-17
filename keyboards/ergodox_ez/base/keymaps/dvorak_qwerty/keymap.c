@@ -31,6 +31,7 @@ enum custom_keycodes {
     MO_TG_QWERTY = SAFE_RANGE,  MO_TG_NUMFN,
 };
 
+
 // handle custom keycodes
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
@@ -45,6 +46,126 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     }
     return true;
 }
+const char u_bullet[] PROGMEM = "•";
+const char u_em_dash[] PROGMEM = "—";
+
+const char u_w_arrow[] PROGMEM = "←";
+const char u_n_arrow[] PROGMEM = "↑";
+const char u_e_arrow[] PROGMEM = "→";
+const char u_s_arrow[] PROGMEM = "↓";
+const char u_sw_arrow[] PROGMEM = "↙";
+const char u_se_arrow[] PROGMEM = "↘";
+const char u_nw_arrow[] PROGMEM = "↖";
+const char u_ne_arrow[] PROGMEM = "↗";
+const char u_ew_arrow[] PROGMEM = "↔";
+const char u_ns_arrow[] PROGMEM = "↕";
+const char u_nwse_arrow[] PROGMEM = "⤡";
+const char u_nesw_arrow[] PROGMEM = "⤢";
+
+const char u_b_w_arrow[] PROGMEM = "⬅";
+const char u_b_n_arrow[] PROGMEM = "⬆";
+const char u_b_e_arrow[] PROGMEM = "➡";
+const char u_b_s_arrow[] PROGMEM = "⬇";
+const char u_b_sw_arrow[] PROGMEM = "⬋";
+const char u_b_se_arrow[] PROGMEM = "⬊";
+const char u_b_nw_arrow[] PROGMEM = "⬉";
+const char u_b_ne_arrow[] PROGMEM = "⬈";
+const char u_b_ew_arrow[] PROGMEM = "⬌";
+const char u_b_ns_arrow[] PROGMEM = "⬍";
+
+const char u_w_w_arrow[] PROGMEM = "⇦";
+const char u_w_n_arrow[] PROGMEM = "⇧";
+const char u_w_e_arrow[] PROGMEM = "⇨";
+const char u_w_s_arrow[] PROGMEM = "⇩";
+const char u_w_sw_arrow[] PROGMEM = "⬃";
+const char u_w_se_arrow[] PROGMEM = "⬂";
+const char u_w_nw_arrow[] PROGMEM = "⬁";
+const char u_w_ne_arrow[] PROGMEM = "⬀";
+const char u_w_ew_arrow[] PROGMEM = "⬄";
+const char u_w_ns_arrow[] PROGMEM = "⇳";
+
+const char u_d_w_arrow[] PROGMEM = "⇐";
+const char u_d_n_arrow[] PROGMEM = "⇑";
+const char u_d_e_arrow[] PROGMEM = "⇒";
+const char u_d_s_arrow[] PROGMEM = "⇓";
+const char u_d_sw_arrow[] PROGMEM = "⇙";
+const char u_d_se_arrow[] PROGMEM = "⇘";
+const char u_d_nw_arrow[] PROGMEM = "⇖";
+const char u_d_ne_arrow[] PROGMEM = "⇗";
+const char u_d_ew_arrow[] PROGMEM = "⇔";
+const char u_d_ns_arrow[] PROGMEM = "⇕";
+
+const char u_bb3_w_arrow[] PROGMEM = "🡰";
+const char u_bb3_n_arrow[] PROGMEM = "🡱";
+const char u_bb3_e_arrow[] PROGMEM = "🡲";
+const char u_bb3_s_arrow[] PROGMEM = "🡳";
+const char u_bb3_sw_arrow[] PROGMEM = "🡷";
+const char u_bb3_se_arrow[] PROGMEM = "🡶";
+const char u_bb3_nw_arrow[] PROGMEM = "🡴";
+const char u_bb3_ne_arrow[] PROGMEM = "🡵";
+
+const char u_bb5_w_arrow[] PROGMEM = "🢀";
+const char u_bb5_n_arrow[] PROGMEM = "🢁";
+const char u_bb5_e_arrow[] PROGMEM = "🢂";
+const char u_bb5_s_arrow[] PROGMEM = "🢃";
+const char u_bb5_sw_arrow[] PROGMEM = "🢇";
+const char u_bb5_se_arrow[] PROGMEM = "🢆";
+const char u_bb5_nw_arrow[] PROGMEM = "🢄";
+const char u_bb5_ne_arrow[] PROGMEM = "🢅";
+
+const char u_box_empty[] PROGMEM = "☐";
+const char u_box_checked[] PROGMEM = "☑";
+const char u_box_crossed[] PROGMEM = "☒";
+const char u_black_star[] PROGMEM = "★";
+const char u_white_star[] PROGMEM = "☆";
+const char u_cpyrght[] PROGMEM = "©";
+const char u_rgstrd[] PROGMEM = "®";
+const char u_trdmrk[] PROGMEM = "™";
+const char u_smile[] PROGMEM = "😊";
+const char u_rofl[] PROGMEM = "🤣";
+const char u_mnd_blwn[] PROGMEM = "🤯";
+const char u_salute[] PROGMEM = "🫡";
+const char u_meltfc[] PROGMEM = "🫠";
+const char u_tears[] PROGMEM = "🥹";
+const char u_cry[] PROGMEM = "😭";
+const char u_skull[] PROGMEM = "💀";
+const char u_whtchk[] PROGMEM = "✅";
+const char u_cross[] PROGMEM = "❌";
+const char u_100[] PROGMEM = "💯";
+const char u_fire[] PROGMEM = "🔥";;
+const char u_hndsair[] PROGMEM = "🙌";
+const char u_party[] PROGMEM = "🎉";
+const char u_music_2[] PROGMEM = "🎵";
+const char u_music_3[] PROGMEM = "🎶";
+const char u_sparkles[] PROGMEM = "✨";
+const char u_eyes[] PROGMEM = "👀";
+const char u_ship[] PROGMEM = "🚢";
+const char u_delivery[] PROGMEM = "🚚";
+const char u_bug[] PROGMEM = "🐞";
+const char u_thmb_up[] PROGMEM = "👍";
+const char u_thmb_dn[] PROGMEM = "👎";
+const char u_link[] PROGMEM = "🔗";
+const char u_palmtr[] PROGMEM = "🌴";
+const char u_warning[] PROGMEM = "⚠️";
+const char u_heart[] PROGMEM = "❤️";
+
+const char u_div[] PROGMEM = "÷";
+const char u_h_div[] PROGMEM = "➗";
+const char u_plus_min[] PROGMEM = "±";
+const char u_h_plus[] PROGMEM = "➕";
+const char u_mult[] PROGMEM = "×";
+const char u_h_mult[] PROGMEM = "✖";
+const char u_minus[] PROGMEM = "−";
+const char u_h_minus[] PROGMEM = "➖";
+const char u_app_eq[] PROGMEM = "≈";
+const char u_h_eq[] PROGMEM = "🟰";
+const char u_ne[] PROGMEM = "≠";
+const char u_lte[] PROGMEM = "≤";
+const char u_gte[] PROGMEM = "≥";
+const char u_infinity[] PROGMEM = "∞";
+const char u_inc_infinity[] PROGMEM = "⧜";
+const char u_tie_ovr_infinity[] PROGMEM = "⧝";
+const char u_neg_infinity[] PROGMEM = "⧞";
 
 enum unicode_names {
     U_BULLET, U_EM_DASH, U_W_ARROW, U_N_ARROW, U_E_ARROW, U_S_ARROW, U_SW_ARROW, U_SE_ARROW, U_NW_ARROW, U_NE_ARROW, U_EW_ARROW, U_NS_ARROW, U_NWSE_ARROW,
@@ -59,127 +180,127 @@ enum unicode_names {
     U_TIE_OVR_INFINITY, U_NEG_INFINITY,
 };
 
-const char* unicode_macro_map[] = {
-    [U_BULLET] = "•",
-    [U_EM_DASH] = "—",
+const char* const unicode_macro_map[] PROGMEM = {
+    [U_BULLET] = u_bullet,
+    [U_EM_DASH] = u_em_dash,
 
-    [U_W_ARROW]= "←",
-    [U_N_ARROW]= "↑",
-    [U_E_ARROW]= "→",
-    [U_S_ARROW]= "↓",
-    [U_SW_ARROW]= "↙",
-    [U_SE_ARROW]= "↘",
-    [U_NW_ARROW]= "↖",
-    [U_NE_ARROW]= "↗",
-    [U_EW_ARROW]= "↔",
-    [U_NS_ARROW]= "↕",
-    [U_NWSE_ARROW]= "⤡",
-    [U_NESW_ARROW]= "⤢",
+    [U_W_ARROW] = u_w_arrow,
+    [U_N_ARROW] = u_n_arrow,
+    [U_E_ARROW] = u_e_arrow,
+    [U_S_ARROW] = u_s_arrow,
+    [U_SW_ARROW] = u_sw_arrow,
+    [U_SE_ARROW] = u_se_arrow,
+    [U_NW_ARROW] = u_nw_arrow,
+    [U_NE_ARROW] = u_ne_arrow,
+    [U_EW_ARROW] = u_ew_arrow,
+    [U_NS_ARROW] = u_ns_arrow,
+    [U_NWSE_ARROW] = u_nwse_arrow,
+    [U_NESW_ARROW] = u_nesw_arrow,
 
-    [U_B_W_ARROW]= "⬅",
-    [U_B_N_ARROW]= "⬆",
-    [U_B_E_ARROW]= "➡",
-    [U_B_S_ARROW]= "⬇",
-    [U_B_SW_ARROW]= "⬋",
-    [U_B_SE_ARROW]= "⬊",
-    [U_B_NW_ARROW]= "⬉",
-    [U_B_NE_ARROW]= "⬈",
-    [U_B_EW_ARROW]= "⬌",
-    [U_B_NS_ARROW]= "⬍",
+    [U_B_W_ARROW] = u_b_w_arrow,
+    [U_B_N_ARROW] = u_b_n_arrow,
+    [U_B_E_ARROW] = u_b_e_arrow,
+    [U_B_S_ARROW] = u_b_s_arrow,
+    [U_B_SW_ARROW] = u_b_sw_arrow,
+    [U_B_SE_ARROW] = u_b_se_arrow,
+    [U_B_NW_ARROW] = u_b_nw_arrow,
+    [U_B_NE_ARROW] = u_b_ne_arrow,
+    [U_B_EW_ARROW] = u_b_ew_arrow,
+    [U_B_NS_ARROW] = u_b_ns_arrow,
 
-    [U_W_W_ARROW]= "⇦",
-    [U_W_N_ARROW]= "⇧",
-    [U_W_E_ARROW]= "⇨",
-    [U_W_S_ARROW]= "⇩",
-    [U_W_SW_ARROW]= "⬃",
-    [U_W_SE_ARROW]= "⬂",
-    [U_W_NW_ARROW]= "⬁",
-    [U_W_NE_ARROW]= "⬀",
-    [U_W_EW_ARROW]= "⬄",
-    [U_W_NS_ARROW]= "⇳",
+    [U_W_W_ARROW] = u_w_w_arrow,
+    [U_W_N_ARROW] = u_w_n_arrow,
+    [U_W_E_ARROW] = u_w_e_arrow,
+    [U_W_S_ARROW] = u_w_s_arrow,
+    [U_W_SW_ARROW] = u_w_sw_arrow,
+    [U_W_SE_ARROW] = u_w_se_arrow,
+    [U_W_NW_ARROW] = u_w_nw_arrow,
+    [U_W_NE_ARROW] = u_w_ne_arrow,
+    [U_W_EW_ARROW] = u_w_ew_arrow,
+    [U_W_NS_ARROW] = u_w_ns_arrow,
 
-    [U_D_W_ARROW]= "⇐",
-    [U_D_N_ARROW]= "⇑",
-    [U_D_E_ARROW]= "⇒",
-    [U_D_S_ARROW]= "⇓",
-    [U_D_SW_ARROW]= "⇙",
-    [U_D_SE_ARROW]= "⇘",
-    [U_D_NW_ARROW]= "⇖",
-    [U_D_NE_ARROW]= "⇗",
-    [U_D_EW_ARROW]= "⇔",
-    [U_D_NS_ARROW]= "⇕",
+    [U_D_W_ARROW] = u_d_w_arrow,
+    [U_D_N_ARROW] = u_d_n_arrow,
+    [U_D_E_ARROW] = u_d_e_arrow,
+    [U_D_S_ARROW] = u_d_s_arrow,
+    [U_D_SW_ARROW] = u_d_sw_arrow,
+    [U_D_SE_ARROW] = u_d_se_arrow,
+    [U_D_NW_ARROW] = u_d_nw_arrow,
+    [U_D_NE_ARROW] = u_d_ne_arrow,
+    [U_D_EW_ARROW] = u_d_ew_arrow,
+    [U_D_NS_ARROW] = u_d_ns_arrow,
 
-    [U_BB3_W_ARROW]= "🡰",
-    [U_BB3_N_ARROW]= "🡱",
-    [U_BB3_E_ARROW]= "🡲",
-    [U_BB3_S_ARROW]= "🡳",
-    [U_BB3_SW_ARROW]= "🡷",
-    [U_BB3_SE_ARROW]= "🡶",
-    [U_BB3_NW_ARROW]= "🡴",
-    [U_BB3_NE_ARROW]= "🡵",
+    [U_BB3_W_ARROW] = u_bb3_w_arrow,
+    [U_BB3_N_ARROW] = u_bb3_n_arrow,
+    [U_BB3_E_ARROW] = u_bb3_e_arrow,
+    [U_BB3_S_ARROW] = u_bb3_s_arrow,
+    [U_BB3_SW_ARROW] = u_bb3_sw_arrow,
+    [U_BB3_SE_ARROW] = u_bb3_se_arrow,
+    [U_BB3_NW_ARROW] = u_bb3_nw_arrow,
+    [U_BB3_NE_ARROW] = u_bb3_ne_arrow,
 
-    [U_BB5_W_ARROW]= "🢀",
-    [U_BB5_N_ARROW]= "🢁",
-    [U_BB5_E_ARROW]= "🢂",
-    [U_BB5_S_ARROW]= "🢃",
-    [U_BB5_SW_ARROW]= "🢇",
-    [U_BB5_SE_ARROW]= "🢆",
-    [U_BB5_NW_ARROW]= "🢄",
-    [U_BB5_NE_ARROW]= "🢅",
+    [U_BB5_W_ARROW] = u_bb5_w_arrow,
+    [U_BB5_N_ARROW] = u_bb5_n_arrow,
+    [U_BB5_E_ARROW] = u_bb5_e_arrow,
+    [U_BB5_S_ARROW] = u_bb5_s_arrow,
+    [U_BB5_SW_ARROW] = u_bb5_sw_arrow,
+    [U_BB5_SE_ARROW] = u_bb5_se_arrow,
+    [U_BB5_NW_ARROW] = u_bb5_nw_arrow,
+    [U_BB5_NE_ARROW] = u_bb5_ne_arrow,
 
-    [U_BOX_EMPTY]= "☐",
-    [U_BOX_CHECKED]= "☑",
-    [U_BOX_CROSSED]= "☒",
-    [U_BLACK_STAR]= "★",
-    [U_WHITE_STAR]= "☆",
-    [U_CPYRGHT]= "©",
-    [U_RGSTRD]= "®",
-    [U_TRDMRK]= "™",
-    [U_SMILE]= "😊",
-    [U_ROFL]= "🤣",
-    [U_MND_BLWN]= "🤯",
-    [U_SALUTE]= "🫡",
-    [U_MELTFC]= "🫠",
-    [U_TEARS]= "🥹",
-    [U_CRY]= "😭",
-    [U_SKULL]= "💀",
-    [U_WHTCHK]= "✅",
-    [U_CROSS]= "❌",
-    [U_100]= "💯",
-    [U_FIRE]= "🔥",
-    [U_HNDSAIR]= "🙌",
-    [U_PARTY]= "🎉",
-    [U_MUSIC_2]= "🎵",
-    [U_MUSIC_3]= "🎶",
-    [U_SPARKLES]= "✨",
-    [U_EYES]= "👀",
-    [U_SHIP]= "🚢",
-    [U_DELIVERY]= "🚚",
-    [U_BUG]= "🐞",
-    [U_THMB_UP]= "👍",
-    [U_THMB_DN]= "👎",
-    [U_LINK]= "🔗",
-    [U_PALMTR]= "🌴",
-    [U_WARNING] = "⚠️",
-    [U_HEART] = "❤️",
+    [U_BOX_EMPTY] = u_box_empty,
+    [U_BOX_CHECKED] = u_box_checked,
+    [U_BOX_CROSSED] = u_box_crossed,
+    [U_BLACK_STAR] = u_black_star,
+    [U_WHITE_STAR] = u_white_star,
+    [U_CPYRGHT] = u_cpyrght,
+    [U_RGSTRD] = u_rgstrd,
+    [U_TRDMRK] = u_trdmrk,
+    [U_SMILE] = u_smile,
+    [U_ROFL] = u_rofl,
+    [U_MND_BLWN] = u_mnd_blwn,
+    [U_SALUTE] = u_salute,
+    [U_MELTFC] = u_meltfc,
+    [U_TEARS] = u_tears,
+    [U_CRY] = u_cry,
+    [U_SKULL] = u_skull,
+    [U_WHTCHK] = u_whtchk,
+    [U_CROSS] = u_cross,
+    [U_100] = u_100,
+    [U_FIRE] = u_fire,
+    [U_HNDSAIR] = u_hndsair,
+    [U_PARTY] = u_party,
+    [U_MUSIC_2] = u_music_2,
+    [U_MUSIC_3] = u_music_3,
+    [U_SPARKLES] = u_sparkles,
+    [U_EYES] = u_eyes,
+    [U_SHIP] = u_ship,
+    [U_DELIVERY] = u_delivery,
+    [U_BUG] = u_bug,
+    [U_THMB_UP] = u_thmb_up,
+    [U_THMB_DN] = u_thmb_dn,
+    [U_LINK] = u_link,
+    [U_PALMTR] = u_palmtr,
+    [U_WARNING] = u_warning,
+    [U_HEART] = u_heart,
 
-    [U_DIV] = "÷",
-    [U_H_DIV] = "➗",
-    [U_PLUS_MIN] = "±",
-    [U_H_PLUS] = "➕",
-    [U_MULT] = "×",
-    [U_H_MULT] = "✖",
-    [U_MINUS] = "−",
-    [U_H_MINUS] = "➖",
-    [U_APP_EQ] = "≈",
-    [U_H_EQ] = "🟰",
-    [U_NE] = "≠",
-    [U_LTE] = "≤",
-    [U_GTE] = "≥",
-    [U_INFINITY] = "∞",
-    [U_INC_INFINITY] = "⧜",
-    [U_TIE_OVR_INFINITY] = "⧝",
-    [U_NEG_INFINITY] = "⧞",
+    [U_DIV] = u_div,
+    [U_H_DIV] = u_h_div,
+    [U_PLUS_MIN] = u_plus_min,
+    [U_H_PLUS] = u_h_plus,
+    [U_MULT] = u_mult,
+    [U_H_MULT] = u_h_mult,
+    [U_MINUS] = u_minus,
+    [U_H_MINUS] = u_h_minus,
+    [U_APP_EQ] = u_app_eq,
+    [U_H_EQ] = u_h_eq,
+    [U_NE] = u_ne,
+    [U_LTE] = u_lte,
+    [U_GTE] = u_gte,
+    [U_INFINITY] = u_infinity,
+    [U_INC_INFINITY] = u_inc_infinity,
+    [U_TIE_OVR_INFINITY] = u_tie_ovr_infinity,
+    [U_NEG_INFINITY] = u_neg_infinity,
 };
 
 #define KC_FULL_SCREEN KC_F11
@@ -241,9 +362,6 @@ tap_dance_action_t tap_dance_actions[] = {
     [SUBTRACTS] = EZTD_TAP_HOLD_DTAP(KC_KP_MINUS, UM(U_MINUS), UM(U_H_MINUS)),
     [ADDS] = EZTD_TAP_HOLD_DTAP(KC_KP_PLUS, UM(U_PLUS_MIN), UM(U_H_PLUS)),
     [EQUALS] = EZTD_TAP_HOLD_DTAP_DHOLD(KC_KP_EQUAL, UM(U_NE), UM(U_H_EQ), UM(U_APP_EQ)),
-};
-
-tap_dance_action_t tap_dance_xtras[] = {
     [COPYRIGHT] = EZTD_TAP_HOLD_DTAP(UM(U_CPYRGHT), UM(U_RGSTRD), UM(U_TRDMRK)),
     [TD_INF] = EZTD_TAP_HOLD_DTAP_DHOLD(UM(U_INFINITY), UM(U_INC_INFINITY), UM(U_TIE_OVR_INFINITY), UM(U_NEG_INFINITY)),
 };
@@ -262,8 +380,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [LAY_NUM_FN] = LAYOUT_ergodox_pretty(
 /*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
-    UM(U_SMILE),   KC_F1,         KC_F2,         KC_F3,         KC_F4,         KC_F5,         UM(U_WHTCHK),      XXXXXXX/*TD(COPYRIGHT)*/, KC_F6,         KC_F7,         KC_F8,         KC_F9,         KC_F10,        KC_F11,
-    UM(U_ROFL),    UM(U_BUG),     TD(NS_ARROW),  TD(NW_ARROW),  TD(N_ARROW),   TD(NE_ARROW),  UM(U_CROSS),       TD(DIVIDES),   KC_KP_7,       KC_KP_8,       KC_KP_9,       TD(SUBTRACTS), XXXXXXX/*TD(TD_INF)*/,    KC_F12,
+    UM(U_SMILE),   KC_F1,         KC_F2,         KC_F3,         KC_F4,         KC_F5,         UM(U_WHTCHK),      TD(COPYRIGHT), KC_F6,         KC_F7,         KC_F8,         KC_F9,         KC_F10,        KC_F11,
+    UM(U_ROFL),    UM(U_BUG),     TD(NS_ARROW),  TD(NW_ARROW),  TD(N_ARROW),   TD(NE_ARROW),  UM(U_CROSS),       TD(DIVIDES),   KC_KP_7,       KC_KP_8,       KC_KP_9,       TD(SUBTRACTS), TD(TD_INF),    KC_F12,
     UM(U_MND_BLWN),UM(U_EYES),    TD(EW_ARROW),  TD(W_ARROW),   UM(U_HEART),   TD(E_ARROW),                                     KC_KP_4,       KC_KP_5,       KC_KP_6,       TD(ADDS),      XXXXXXX,       UM(U_PALMTR),
     UM(U_SALUTE),  UM(U_MUSIC_3), TD(DIAG_ARROW),TD(SW_ARROW),  TD(S_ARROW),   TD(SE_ARROW),  UM(U_WARNING),     TD(MULTIPLIES),KC_KP_1,       KC_KP_2,       KC_KP_3,       TD(EQUALS),    XXXXXXX,       KC_NUM_LOCK,
     UM(U_MELTFC),  TD(LAY_OUT),   KC_LEFT_CTRL,  KC_LEFT_GUI,   KC_LEFT_ALT,                                                                   KC_KP_0,       KC_KP_DOT,     KC_KP_ENTER,   XXXXXXX,       UM(U_LINK),

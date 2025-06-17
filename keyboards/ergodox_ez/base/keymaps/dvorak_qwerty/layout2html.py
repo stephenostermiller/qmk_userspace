@@ -164,8 +164,8 @@ with open('keymap.c', 'r') as file:
                     "thold":["" for i in range(76)],
                 }
                 mode="layout"
-            elif m:=re.search(r'unicode_macro_map',line):
-                mode="unicode"
+            elif m:=re.search(r'^const char (u_[a-z_0-9]+)\[\] PROGMEM = "(.*)";$',line):
+                unicode[m[1].upper()] = m[2]
             elif m:=re.search(r'tap_dance_actions',line):
                 mode="tapdances"
             elif m:=re.search(r'key_overrides',line):
@@ -175,11 +175,6 @@ with open('keymap.c', 'r') as file:
                 mode="none"
             elif not re.search(r'^\s*(\/\/)|(\/\*)',line):
                 layouts[context]['tap'].extend(parse_comma_codes(line))
-        elif (mode=="unicode"):
-            if re.search(r'^\s*\}',line):
-                mode="none"
-            elif m:=re.search(r'\[([A-Z0-9_]+)\]\s*=\s*"([^"]+)"',line):
-                unicode[m[1]] = m[2]
         elif (mode=="tapdances"):
             if re.search(r'^\s*\}',line):
                 mode="none"
