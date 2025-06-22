@@ -1283,4 +1283,6 @@ Easy access to media keys in the main layout
 - <a href="https://www.flaticon.com/free-icons/go-to-the-top" title="go to the top icons">Go to the top icons created by Cap Cool - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/capslock" title="capslock icons">Capslock icons created by Roundicons Premium - Flaticon</a>
 - <a href="https://www.flaticon.com/free-icons/insert" title="insert icons">Insert icons created by Rahul Kaklotar - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/automatic" title="automatic icons">Automatic icons created by Freepik - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/lock" title="lock icons">Lock icons created by Freepik - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/alt" title="alt icons">Alt icons created by Rahul Kaklotar - Flaticon</a>
+- <a href="https://www.flaticon.com/free-icons/command" title="command icons">Command icons created by Smashicons - Flaticon</a>

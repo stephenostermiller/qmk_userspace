@@ -1,4 +1,5 @@
 import re
+import sys
 
 keycodes={}
 
@@ -81,9 +82,13 @@ keycodes['C(S(KC_M))']={'tap':'<img src=icon/mute-mic.png>'}
 keycodes['C(S(KC_O))']={'tap':'<img src=icon/camera-off.png>'}
 keycodes['TG(LAY_NUM_FN)']={'tap':'<img src=icon/keypad.png>'}
 keycodes['MO_TG_NUMFN']={'tap':'<img src=icon/keypad.png>'}
-keycodes['LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL)']={'tap':'ctrl<br>qwerty'}
-keycodes['LM(LAY_QWERTY_META, MOD_MASK_GUI)']={'tap':'meta<br>qwerty'}
-keycodes['LM(LAY_QWERTY_ALT, MOD_MASK_ALT)']={'tap':'alt<br>qwerty'}
+keycodes['LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL)']={'tap':'<img src=icon/control-qwerty.png>'}
+keycodes['LM(LAY_QWERTY_META, MOD_MASK_GUI)']={'tap':'<img src=icon/meta-qwerty.png>'}
+keycodes['LM(LAY_QWERTY_ALT, MOD_MASK_ALT)']={'tap':'<img src=icon/alt-qwerty.png>'}
+keycodes['KC_LEFT_CTRL']={'tap':'<img src=icon/control.png>'}
+keycodes['KC_LEFT_GUI']={'tap':'<img src=icon/meta.png>'}
+keycodes['KC_LEFT_ALT']={'tap':'<img src=icon/alt.png>'}
+keycodes['KC_NUM_LOCK']={'tap':'<img src=icon/num-lock.png>'}
 keycodes['QK_AUTO_SHIFT_TOGGLE']={'tap':'<img src=icon/auto-shift.png>'}
 keycodes['KC_MEDIA_PLAY_PAUSE']={'tap':'<img src=icon/play-pause.png>'}
 keycodes['KC_MEDIA_NEXT_TRACK']={'tap':'<img src=icon/next-track.png>'}
@@ -117,6 +122,8 @@ keycodes['KC_FULL_SCREEN']={'tap':'<img src=icon/full-screen.png>'}
 keycodes['KC_CAPS']={'tap':'<img src=icon/caps-lock.png>'}
 keycodes['QK_CAPS_WORD_TOGGLE']={'tap':'<img src=icon/caps-word.png>'}
 keycodes['KC_INS']={'tap':'<img src=icon/insert.png>'}
+keycodes['UNICODE_FANCY_ALPHABET_CYCLE']={'tap':'<img src=icon/fancy-alphabet.png>'}
+keycodes['UNICODE_FANCY_ALPHABET_MOMENTARY']={'tap':'<img src=icon/fancy-alphabet.png>'}
 keycodes['TG(LAY_QWERTY)']={'tap':'qwerty'}
 keycodes['MO_TG_QWERTY']={'tap':'qwerty'}
 keycodes['KC_KP_PLUS']={'tap':'+'}
@@ -145,6 +152,7 @@ def parse_comma_codes(s):
 
 layouts={}
 unicode={}
+unicode_used={}
 shiftOverrides={}
 tapdances={}
 mode="none"
@@ -213,6 +221,7 @@ def processKey(layout,variant,i,initial):
                 layouts[layout]['hold'][i]=keycodes[keycode]['hold']
         elif m:=re.search(r'^UM\((.*)\)$',keycode):
             layouts[layout][variant][i]=unicode[m[1]]
+            unicode_used[m[1]] = 1
         elif m:=re.search(r'^KC_(.*)$',keycode):
             layouts[layout][variant][i]=m[1]
         elif m:=re.search(r'^TD\((.*)\)$',keycode):
@@ -220,8 +229,10 @@ def processKey(layout,variant,i,initial):
             for tdVariant in td:
                 layouts[layout][tdVariant][i]=td[tdVariant]
                 processKey(layout, tdVariant, i, False)
-        elif re.search('.+_.+',keycode):
+        elif re.search('[A-Z]_[A-Z0-9]',keycode):
             layouts[layout][variant][i]=re.sub('_','<br>',keycode.lower())
+        elif keycode == 'XXXXXXX':
+            layouts[layout][variant][i]=''
 
 
 for layout in layouts:
@@ -273,7 +284,7 @@ positions=[
     {"class":"key rhnd","top":"38.8","left":"89.6"},
     {"class":"key rhnd","top":"37.5","left":"96"},
 
-    {"class":"key lhnd","top":"51","left":"4"},
+    {"class":"key lhnd","top":"51.8","left":"4"},
     {"class":"key lhnd","top":"51","left":"10.5"},
     {"class":"key lhnd","top":"49","left":"15.6"},
     {"class":"key lhnd","top":"48","left":"20.7"},
@@ -286,18 +297,18 @@ positions=[
     {"class":"key rhnd","top":"48","left":"79.3"},
     {"class":"key rhnd","top":"49","left":"84.4"},
     {"class":"key rhnd","top":"51","left":"89.6"},
-    {"class":"key rhnd","top":"51","left":"96"},
+    {"class":"key rhnd","top":"51.8","left":"96"},
 
-    {"class":"key lhnd","top":"65","left":"5"},
-    {"class":"key lhnd","top":"65","left":"10.5"},
+    {"class":"key lhnd","top":"66","left":"5"},
+    {"class":"key lhnd","top":"66","left":"10.5"},
     {"class":"key lhnd","top":"63","left":"15.6"},
     {"class":"key lhnd","top":"62","left":"20.7"},
     {"class":"key lhnd","top":"63","left":"25.7"},
     {"class":"key rhnd","top":"63","left":"74"},
     {"class":"key rhnd","top":"62","left":"79.3"},
     {"class":"key rhnd","top":"63","left":"84.4"},
-    {"class":"key rhnd","top":"65","left":"89.6"},
-    {"class":"key rhnd","top":"65","left":"95"},
+    {"class":"key rhnd","top":"66","left":"89.6"},
+    {"class":"key rhnd","top":"66","left":"95"},
 
     {"class":"key lthb","top":"62","left":"41"},
     {"class":"key lthb","top":"68.6","left":"45.2"},
@@ -346,3 +357,8 @@ printStyle()
 for layout in layouts:
     for variant in layouts[layout]:
         printLayout(f"{layout} {variant}",layouts[layout][variant])
+
+
+for c in unicode:
+    if c not in unicode_used:
+        print(f"not used: {c} {unicode[c]}", file=sys.stderr)
