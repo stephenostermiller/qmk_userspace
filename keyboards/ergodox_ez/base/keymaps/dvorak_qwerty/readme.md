@@ -63,7 +63,7 @@ Easy access to media keys in the main layout
 <div class="key lhnd" style="top:7.8%;left:25.7%">4</div>
 <div class="key lhnd" style="top:8.5%;left:30.8%">5</div>
 <div class="key lhnd" style="top:8.5%;left:36%;font-size:30.0%"><img src=icon/play-pause.png></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%;font-size:30.0%"><img src=icon/calculator.png></div>
+<div class="key rhnd" style="top:8.5%;left:63.9%">—</div>
 <div class="key rhnd" style="top:8.5%;left:69.3%">6</div>
 <div class="key rhnd" style="top:7.8%;left:74%">7</div>
 <div class="key rhnd" style="top:6.5%;left:79.3%">8</div>
@@ -96,7 +96,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:36.4%;left:84.4%">n</div>
 <div class="key rhnd" style="top:38.8%;left:89.6%">s</div>
 <div class="key rhnd" style="top:37.5%;left:96%">-</div>
-<div class="key lhnd" style="top:51%;left:4%">(</div>
+<div class="key lhnd" style="top:51.8%;left:4%">(</div>
 <div class="key lhnd" style="top:51%;left:10.5%">;</div>
 <div class="key lhnd" style="top:49%;left:15.6%">q</div>
 <div class="key lhnd" style="top:48%;left:20.7%">j</div>
@@ -109,17 +109,17 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:48%;left:79.3%">w</div>
 <div class="key rhnd" style="top:49%;left:84.4%">v</div>
 <div class="key rhnd" style="top:51%;left:89.6%">z</div>
-<div class="key rhnd" style="top:51%;left:96%">)</div>
-<div class="key lhnd" style="top:65%;left:5%;font-size:30.0%"><img src=icon/screenshot.png></div>
-<div class="key lhnd" style="top:65%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
+<div class="key rhnd" style="top:51.8%;left:96%">)</div>
+<div class="key lhnd" style="top:66%;left:5%;font-size:30.0%"><img src=icon/fancy-alphabet.png></div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
 <div class="key lhnd" style="top:63%;left:15.6%"><</div>
 <div class="key lhnd" style="top:62%;left:20.7%">[</div>
 <div class="key lhnd" style="top:63%;left:25.7%">{</div>
 <div class="key rhnd" style="top:63%;left:74%">}</div>
 <div class="key rhnd" style="top:62%;left:79.3%">]</div>
 <div class="key rhnd" style="top:63%;left:84.4%">></div>
-<div class="key rhnd" style="top:65%;left:89.6%;font-size:30.0%"><img src=icon/page-up.png></div>
-<div class="key rhnd" style="top:65%;left:95%;font-size:30.0%"><img src=icon/page-down.png></div>
+<div class="key rhnd" style="top:66%;left:89.6%;font-size:30.0%"><img src=icon/page-up.png></div>
+<div class="key rhnd" style="top:66%;left:95%;font-size:30.0%"><img src=icon/page-down.png></div>
 <div class="key lthb" style="top:62%;left:41%;font-size:30.0%"><img src=icon/home.png></div>
 <div class="key lthb" style="top:68.6%;left:45.2%;font-size:30.0%"><img src=icon/end.png></div>
 <div class="key rthb" style="top:65%;left:54.8%;font-size:30.0%"><img src=icon/escape.png></div>
@@ -142,8 +142,8 @@ Easy access to media keys in the main layout
 <div class="key lhnd" style="top:6.5%;left:20.7%">#</div>
 <div class="key lhnd" style="top:7.8%;left:25.7%">$</div>
 <div class="key lhnd" style="top:8.5%;left:30.8%">%</div>
-<div class="key lhnd" style="top:8.5%;left:36%"></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
+<div class="key lhnd" style="top:8.5%;left:36%">•</div>
+<div class="key rhnd" style="top:8.5%;left:63.9%">…</div>
 <div class="key rhnd" style="top:8.5%;left:69.3%">^</div>
 <div class="key rhnd" style="top:7.8%;left:74%">&</div>
 <div class="key rhnd" style="top:6.5%;left:79.3%">*</div>
@@ -176,7 +176,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:36.4%;left:84.4%">N</div>
 <div class="key rhnd" style="top:38.8%;left:89.6%">S</div>
 <div class="key rhnd" style="top:37.5%;left:96%">_</div>
-<div class="key lhnd" style="top:51%;left:4%;font-size:30.0%"><img src=icon/shift.png></div>
+<div class="key lhnd" style="top:51.8%;left:4%;font-size:30.0%"><img src=icon/shift.png></div>
 <div class="key lhnd" style="top:51%;left:10.5%">:</div>
 <div class="key lhnd" style="top:49%;left:15.6%">Q</div>
 <div class="key lhnd" style="top:48%;left:20.7%">J</div>
@@ -189,17 +189,17 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:48%;left:79.3%">W</div>
 <div class="key rhnd" style="top:49%;left:84.4%">V</div>
 <div class="key rhnd" style="top:51%;left:89.6%">Z</div>
-<div class="key rhnd" style="top:51%;left:96%;font-size:30.0%"><img src=icon/shift.png></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
-<div class="key lhnd" style="top:63%;left:15.6%;font-size:30.0%">ctrl<br>qwerty</div>
-<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%">meta<br>qwerty</div>
-<div class="key lhnd" style="top:63%;left:25.7%;font-size:30.0%">alt<br>qwerty</div>
-<div class="key rhnd" style="top:63%;left:74%;font-size:30.0%">alt<br>qwerty</div>
-<div class="key rhnd" style="top:62%;left:79.3%;font-size:30.0%">meta<br>qwerty</div>
-<div class="key rhnd" style="top:63%;left:84.4%;font-size:30.0%">ctrl<br>qwerty</div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:51.8%;left:96%;font-size:30.0%"><img src=icon/shift.png></div>
+<div class="key lhnd" style="top:66%;left:5%;font-size:30.0%"><img src=icon/fancy-alphabet.png></div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
+<div class="key lhnd" style="top:63%;left:15.6%;font-size:30.0%"><img src=icon/control-qwerty.png></div>
+<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%"><img src=icon/meta-qwerty.png></div>
+<div class="key lhnd" style="top:63%;left:25.7%;font-size:30.0%"><img src=icon/alt-qwerty.png></div>
+<div class="key rhnd" style="top:63%;left:74%;font-size:30.0%"><img src=icon/alt-qwerty.png></div>
+<div class="key rhnd" style="top:62%;left:79.3%;font-size:30.0%"><img src=icon/meta-qwerty.png></div>
+<div class="key rhnd" style="top:63%;left:84.4%;font-size:30.0%"><img src=icon/control-qwerty.png></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
 <div class="key lthb" style="top:62%;left:41%"></div>
 <div class="key lthb" style="top:68.6%;left:45.2%"></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -216,13 +216,13 @@ Easy access to media keys in the main layout
 
 ### dvorak shift
 <div class=layout>
-<div class="key lhnd" style="top:10.5%;left:4%">☐</div>
+<div class="key lhnd" style="top:10.5%;left:4%"></div>
 <div class="key lhnd" style="top:9.9%;left:10.5%">!</div>
 <div class="key lhnd" style="top:7.5%;left:15.6%">@</div>
 <div class="key lhnd" style="top:6.5%;left:20.7%">#</div>
 <div class="key lhnd" style="top:7.8%;left:25.7%">$</div>
 <div class="key lhnd" style="top:8.5%;left:30.8%">%</div>
-<div class="key lhnd" style="top:8.5%;left:36%">—</div>
+<div class="key lhnd" style="top:8.5%;left:36%">•</div>
 <div class="key rhnd" style="top:8.5%;left:63.9%"></div>
 <div class="key rhnd" style="top:8.5%;left:69.3%">^</div>
 <div class="key rhnd" style="top:7.8%;left:74%">&</div>
@@ -230,13 +230,13 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:7.5%;left:84.4%">★</div>
 <div class="key rhnd" style="top:9.9%;left:89.6%">☆</div>
 <div class="key rhnd" style="top:10.5%;left:96%">|</div>
-<div class="key lhnd" style="top:24.4%;left:4%">☑</div>
+<div class="key lhnd" style="top:24.4%;left:4%"></div>
 <div class="key lhnd" style="top:23.8%;left:10.5%">'</div>
 <div class="key lhnd" style="top:21.4%;left:15.6%">≤</div>
 <div class="key lhnd" style="top:20.4%;left:20.7%">≥</div>
 <div class="key lhnd" style="top:20.8%;left:25.7%">P</div>
 <div class="key lhnd" style="top:21.5%;left:30.8%">Y</div>
-<div class="key lhnd" style="top:25.5%;left:36%">↑</div>
+<div class="key lhnd" style="top:25.5%;left:36%"></div>
 <div class="key rhnd" style="top:25.5%;left:63.9%">+</div>
 <div class="key rhnd" style="top:22.7%;left:69.3%">F</div>
 <div class="key rhnd" style="top:20.8%;left:74%">G</div>
@@ -244,7 +244,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:21.4%;left:84.4%">R</div>
 <div class="key rhnd" style="top:23.8%;left:89.6%">L</div>
 <div class="key rhnd" style="top:24.4%;left:96%">?</div>
-<div class="key lhnd" style="top:37.5%;left:4%">☒</div>
+<div class="key lhnd" style="top:37.5%;left:4%"></div>
 <div class="key lhnd" style="top:38.8%;left:10.5%">A</div>
 <div class="key lhnd" style="top:36.4%;left:15.6%">O</div>
 <div class="key lhnd" style="top:35.4%;left:20.7%">E</div>
@@ -256,30 +256,30 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:36.4%;left:84.4%">N</div>
 <div class="key rhnd" style="top:38.8%;left:89.6%">S</div>
 <div class="key rhnd" style="top:37.5%;left:96%">_</div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
+<div class="key lhnd" style="top:51.8%;left:4%"></div>
 <div class="key lhnd" style="top:51%;left:10.5%">:</div>
 <div class="key lhnd" style="top:49%;left:15.6%">Q</div>
 <div class="key lhnd" style="top:48%;left:20.7%">J</div>
 <div class="key lhnd" style="top:49%;left:25.7%">K</div>
 <div class="key lhnd" style="top:50%;left:30.8%">X</div>
-<div class="key lhnd" style="top:47%;left:36%">↓</div>
+<div class="key lhnd" style="top:47%;left:36%"></div>
 <div class="key rhnd" style="top:47%;left:63.9%">~</div>
 <div class="key rhnd" style="top:50%;left:69.3%">B</div>
 <div class="key rhnd" style="top:49%;left:74%">M</div>
 <div class="key rhnd" style="top:48%;left:79.3%">W</div>
 <div class="key rhnd" style="top:49%;left:84.4%">V</div>
 <div class="key rhnd" style="top:51%;left:89.6%">Z</div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%">👍</div>
-<div class="key lhnd" style="top:65%;left:10.5%">👎</div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%"></div>
+<div class="key lhnd" style="top:66%;left:10.5%"></div>
 <div class="key lhnd" style="top:63%;left:15.6%"></div>
 <div class="key lhnd" style="top:62%;left:20.7%"></div>
 <div class="key lhnd" style="top:63%;left:25.7%"></div>
 <div class="key rhnd" style="top:63%;left:74%"></div>
 <div class="key rhnd" style="top:62%;left:79.3%"></div>
 <div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
 <div class="key lthb" style="top:62%;left:41%"></div>
 <div class="key lthb" style="top:68.6%;left:45.2%"></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -303,7 +303,7 @@ Easy access to media keys in the main layout
 <div class="key lhnd" style="top:7.8%;left:25.7%"></div>
 <div class="key lhnd" style="top:8.5%;left:30.8%"></div>
 <div class="key lhnd" style="top:8.5%;left:36%;font-size:30.0%"><img src=icon/media-player.png></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%;font-size:30.0%"><img src=icon/mail.png></div>
+<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
 <div class="key rhnd" style="top:8.5%;left:69.3%"></div>
 <div class="key rhnd" style="top:7.8%;left:74%"></div>
 <div class="key rhnd" style="top:6.5%;left:79.3%"></div>
@@ -336,7 +336,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:36.4%;left:84.4%"></div>
 <div class="key rhnd" style="top:38.8%;left:89.6%"></div>
 <div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%;font-size:30.0%"><img src=icon/caps-word.png></div>
+<div class="key lhnd" style="top:51.8%;left:4%;font-size:30.0%"><img src=icon/caps-word.png></div>
 <div class="key lhnd" style="top:51%;left:10.5%"></div>
 <div class="key lhnd" style="top:49%;left:15.6%"></div>
 <div class="key lhnd" style="top:48%;left:20.7%"></div>
@@ -349,17 +349,17 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:48%;left:79.3%"></div>
 <div class="key rhnd" style="top:49%;left:84.4%"></div>
 <div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%;font-size:30.0%"><img src=icon/caps-lock.png></div>
-<div class="key lhnd" style="top:65%;left:5%;font-size:30.0%"><img src=icon/folder.png></div>
-<div class="key lhnd" style="top:65%;left:10.5%;font-size:30.0%">qwerty</div>
-<div class="key lhnd" style="top:63%;left:15.6%"></div>
+<div class="key rhnd" style="top:51.8%;left:96%;font-size:30.0%"><img src=icon/caps-lock.png></div>
+<div class="key lhnd" style="top:66%;left:5%;font-size:30.0%"><img src=icon/calculator.png></div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%">qwerty</div>
+<div class="key lhnd" style="top:63%;left:15.6%;font-size:30.0%"><img src=icon/screenshot.png></div>
 <div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%"><img src=icon/auto-shift.png></div>
 <div class="key lhnd" style="top:63%;left:25.7%;font-size:30.0%"><img src=icon/insert.png></div>
 <div class="key rhnd" style="top:63%;left:74%;font-size:30.0%"><img src=icon/lock-screen.png></div>
 <div class="key rhnd" style="top:62%;left:79.3%;font-size:30.0%"><img src=icon/full-screen.png></div>
 <div class="key rhnd" style="top:63%;left:84.4%;font-size:30.0%"><img src=icon/close-window.png></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
 <div class="key lthb" style="top:62%;left:41%;font-size:30.0%"><img src=icon/top.png></div>
 <div class="key lthb" style="top:68.6%;left:45.2%;font-size:30.0%"><img src=icon/bottom.png></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -416,7 +416,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:36.4%;left:84.4%"></div>
 <div class="key rhnd" style="top:38.8%;left:89.6%"></div>
 <div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
+<div class="key lhnd" style="top:51.8%;left:4%"></div>
 <div class="key lhnd" style="top:51%;left:10.5%"></div>
 <div class="key lhnd" style="top:49%;left:15.6%"></div>
 <div class="key lhnd" style="top:48%;left:20.7%"></div>
@@ -429,17 +429,17 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:48%;left:79.3%"></div>
 <div class="key rhnd" style="top:49%;left:84.4%"></div>
 <div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%;font-size:30.0%">qwerty</div>
-<div class="key lhnd" style="top:63%;left:15.6%"></div>
-<div class="key lhnd" style="top:62%;left:20.7%"></div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%"></div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%">qwerty</div>
+<div class="key lhnd" style="top:63%;left:15.6%;font-size:30.0%"><img src=icon/folder.png></div>
+<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%"><img src=icon/auto-shift.png></div>
 <div class="key lhnd" style="top:63%;left:25.7%"></div>
 <div class="key rhnd" style="top:63%;left:74%"></div>
 <div class="key rhnd" style="top:62%;left:79.3%"></div>
 <div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
 <div class="key lthb" style="top:62%;left:41%"></div>
 <div class="key lthb" style="top:68.6%;left:45.2%"></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -496,7 +496,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:36.4%;left:84.4%"></div>
 <div class="key rhnd" style="top:38.8%;left:89.6%"></div>
 <div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
+<div class="key lhnd" style="top:51.8%;left:4%"></div>
 <div class="key lhnd" style="top:51%;left:10.5%"></div>
 <div class="key lhnd" style="top:49%;left:15.6%"></div>
 <div class="key lhnd" style="top:48%;left:20.7%"></div>
@@ -509,97 +509,17 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:48%;left:79.3%"></div>
 <div class="key rhnd" style="top:49%;left:84.4%"></div>
 <div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%"></div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%"></div>
+<div class="key lhnd" style="top:66%;left:10.5%"></div>
 <div class="key lhnd" style="top:63%;left:15.6%"></div>
-<div class="key lhnd" style="top:62%;left:20.7%"></div>
+<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%"><img src=icon/mail.png></div>
 <div class="key lhnd" style="top:63%;left:25.7%"></div>
 <div class="key rhnd" style="top:63%;left:74%"></div>
 <div class="key rhnd" style="top:62%;left:79.3%"></div>
 <div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
-<div class="key lthb" style="top:62%;left:41%"></div>
-<div class="key lthb" style="top:68.6%;left:45.2%"></div>
-<div class="key rthb" style="top:65%;left:54.8%"></div>
-<div class="key rthb" style="top:58.2%;left:59%"></div>
-<div class="key lthb" style="top:80.2%;left:43.3%"></div>
-<div class="key rthb" style="top:77%;left:56.7%"></div>
-<div class="key lthb" style="top:73%;left:33.5%"></div>
-<div class="key lthb" style="top:79%;left:38%"></div>
-<div class="key lthb" style="top:92.6%;left:41.5%"></div>
-<div class="key rthb" style="top:89.4%;left:58.6%"></div>
-<div class="key rthb" style="top:77%;left:62%"></div>
-<div class="key rthb" style="top:71%;left:66.8%"></div>
-</div>
-
-### dvorak thold
-<div class=layout>
-<div class="key lhnd" style="top:10.5%;left:4%"></div>
-<div class="key lhnd" style="top:9.9%;left:10.5%"></div>
-<div class="key lhnd" style="top:7.5%;left:15.6%"></div>
-<div class="key lhnd" style="top:6.5%;left:20.7%"></div>
-<div class="key lhnd" style="top:7.8%;left:25.7%"></div>
-<div class="key lhnd" style="top:8.5%;left:30.8%"></div>
-<div class="key lhnd" style="top:8.5%;left:36%"></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
-<div class="key rhnd" style="top:8.5%;left:69.3%"></div>
-<div class="key rhnd" style="top:7.8%;left:74%"></div>
-<div class="key rhnd" style="top:6.5%;left:79.3%"></div>
-<div class="key rhnd" style="top:7.5%;left:84.4%"></div>
-<div class="key rhnd" style="top:9.9%;left:89.6%"></div>
-<div class="key rhnd" style="top:10.5%;left:96%"></div>
-<div class="key lhnd" style="top:24.4%;left:4%"></div>
-<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
-<div class="key lhnd" style="top:21.4%;left:15.6%"></div>
-<div class="key lhnd" style="top:20.4%;left:20.7%"></div>
-<div class="key lhnd" style="top:20.8%;left:25.7%"></div>
-<div class="key lhnd" style="top:21.5%;left:30.8%"></div>
-<div class="key lhnd" style="top:25.5%;left:36%"></div>
-<div class="key rhnd" style="top:25.5%;left:63.9%"></div>
-<div class="key rhnd" style="top:22.7%;left:69.3%"></div>
-<div class="key rhnd" style="top:20.8%;left:74%"></div>
-<div class="key rhnd" style="top:20.4%;left:79.3%"></div>
-<div class="key rhnd" style="top:21.4%;left:84.4%"></div>
-<div class="key rhnd" style="top:23.8%;left:89.6%"></div>
-<div class="key rhnd" style="top:24.4%;left:96%"></div>
-<div class="key lhnd" style="top:37.5%;left:4%"></div>
-<div class="key lhnd" style="top:38.8%;left:10.5%"></div>
-<div class="key lhnd" style="top:36.4%;left:15.6%"></div>
-<div class="key lhnd" style="top:35.4%;left:20.7%"></div>
-<div class="key lhnd" style="top:35.8%;left:25.7%"></div>
-<div class="key lhnd" style="top:36.5%;left:30.8%"></div>
-<div class="key rhnd" style="top:37.7%;left:69.3%"></div>
-<div class="key rhnd" style="top:35.8%;left:74%"></div>
-<div class="key rhnd" style="top:35.4%;left:79.3%"></div>
-<div class="key rhnd" style="top:36.4%;left:84.4%"></div>
-<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
-<div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
-<div class="key lhnd" style="top:51%;left:10.5%"></div>
-<div class="key lhnd" style="top:49%;left:15.6%"></div>
-<div class="key lhnd" style="top:48%;left:20.7%"></div>
-<div class="key lhnd" style="top:49%;left:25.7%"></div>
-<div class="key lhnd" style="top:50%;left:30.8%"></div>
-<div class="key lhnd" style="top:47%;left:36%"></div>
-<div class="key rhnd" style="top:47%;left:63.9%"></div>
-<div class="key rhnd" style="top:50%;left:69.3%"></div>
-<div class="key rhnd" style="top:49%;left:74%"></div>
-<div class="key rhnd" style="top:48%;left:79.3%"></div>
-<div class="key rhnd" style="top:49%;left:84.4%"></div>
-<div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%"></div>
-<div class="key lhnd" style="top:63%;left:15.6%"></div>
-<div class="key lhnd" style="top:62%;left:20.7%"></div>
-<div class="key lhnd" style="top:63%;left:25.7%"></div>
-<div class="key rhnd" style="top:63%;left:74%"></div>
-<div class="key rhnd" style="top:62%;left:79.3%"></div>
-<div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
 <div class="key lthb" style="top:62%;left:41%"></div>
 <div class="key lthb" style="top:68.6%;left:45.2%"></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -616,27 +536,27 @@ Easy access to media keys in the main layout
 
 ### num_fn tap
 <div class=layout>
-<div class="key lhnd" style="top:10.5%;left:4%">😊</div>
+<div class="key lhnd" style="top:10.5%;left:4%">🙂</div>
 <div class="key lhnd" style="top:9.9%;left:10.5%">F1</div>
 <div class="key lhnd" style="top:7.5%;left:15.6%">F2</div>
 <div class="key lhnd" style="top:6.5%;left:20.7%">F3</div>
 <div class="key lhnd" style="top:7.8%;left:25.7%">F4</div>
 <div class="key lhnd" style="top:8.5%;left:30.8%">F5</div>
-<div class="key lhnd" style="top:8.5%;left:36%">✅</div>
-<div class="key rhnd" style="top:8.5%;left:63.9%">©</div>
+<div class="key lhnd" style="top:8.5%;left:36%">©</div>
+<div class="key rhnd" style="top:8.5%;left:63.9%">𝜟</div>
 <div class="key rhnd" style="top:8.5%;left:69.3%">F6</div>
 <div class="key rhnd" style="top:7.8%;left:74%">F7</div>
 <div class="key rhnd" style="top:6.5%;left:79.3%">F8</div>
 <div class="key rhnd" style="top:7.5%;left:84.4%">F9</div>
 <div class="key rhnd" style="top:9.9%;left:89.6%;font-size:70.0%">F10</div>
 <div class="key rhnd" style="top:10.5%;left:96%;font-size:70.0%">F11</div>
-<div class="key lhnd" style="top:24.4%;left:4%">🤣</div>
-<div class="key lhnd" style="top:23.8%;left:10.5%">🐞</div>
+<div class="key lhnd" style="top:24.4%;left:4%">👍</div>
+<div class="key lhnd" style="top:23.8%;left:10.5%">👎</div>
 <div class="key lhnd" style="top:21.4%;left:15.6%">↕</div>
 <div class="key lhnd" style="top:20.4%;left:20.7%">↖</div>
 <div class="key lhnd" style="top:20.8%;left:25.7%">↑</div>
 <div class="key lhnd" style="top:21.5%;left:30.8%">↗</div>
-<div class="key lhnd" style="top:25.5%;left:36%">❌</div>
+<div class="key lhnd" style="top:25.5%;left:36%">✅</div>
 <div class="key rhnd" style="top:25.5%;left:63.9%">/</div>
 <div class="key rhnd" style="top:22.7%;left:69.3%">7</div>
 <div class="key rhnd" style="top:20.8%;left:74%">8</div>
@@ -644,42 +564,42 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:21.4%;left:84.4%">-</div>
 <div class="key rhnd" style="top:23.8%;left:89.6%">∞</div>
 <div class="key rhnd" style="top:24.4%;left:96%;font-size:70.0%">F12</div>
-<div class="key lhnd" style="top:37.5%;left:4%">🤯</div>
-<div class="key lhnd" style="top:38.8%;left:10.5%">👀</div>
+<div class="key lhnd" style="top:37.5%;left:4%">❤️</div>
+<div class="key lhnd" style="top:38.8%;left:10.5%"></div>
 <div class="key lhnd" style="top:36.4%;left:15.6%">↔</div>
 <div class="key lhnd" style="top:35.4%;left:20.7%">←</div>
-<div class="key lhnd" style="top:35.8%;left:25.7%">❤️</div>
+<div class="key lhnd" style="top:35.8%;left:25.7%"></div>
 <div class="key lhnd" style="top:36.5%;left:30.8%">→</div>
 <div class="key rhnd" style="top:37.7%;left:69.3%">4</div>
 <div class="key rhnd" style="top:35.8%;left:74%">5</div>
 <div class="key rhnd" style="top:35.4%;left:79.3%">6</div>
 <div class="key rhnd" style="top:36.4%;left:84.4%">+</div>
-<div class="key rhnd" style="top:38.8%;left:89.6%;font-size:30.0%">XXXXXXX</div>
-<div class="key rhnd" style="top:37.5%;left:96%">🌴</div>
-<div class="key lhnd" style="top:51%;left:4%">🫡</div>
-<div class="key lhnd" style="top:51%;left:10.5%">🎶</div>
+<div class="key rhnd" style="top:38.8%;left:89.6%">²</div>
+<div class="key rhnd" style="top:37.5%;left:96%">∈</div>
+<div class="key lhnd" style="top:51.8%;left:4%">😆</div>
+<div class="key lhnd" style="top:51%;left:10.5%"></div>
 <div class="key lhnd" style="top:49%;left:15.6%">⤢</div>
 <div class="key lhnd" style="top:48%;left:20.7%">↙</div>
 <div class="key lhnd" style="top:49%;left:25.7%">↓</div>
 <div class="key lhnd" style="top:50%;left:30.8%">↘</div>
-<div class="key lhnd" style="top:47%;left:36%">⚠️</div>
+<div class="key lhnd" style="top:47%;left:36%">ℹ️</div>
 <div class="key rhnd" style="top:47%;left:63.9%">*</div>
 <div class="key rhnd" style="top:50%;left:69.3%">1</div>
 <div class="key rhnd" style="top:49%;left:74%">2</div>
 <div class="key rhnd" style="top:48%;left:79.3%">3</div>
 <div class="key rhnd" style="top:49%;left:84.4%">=</div>
-<div class="key rhnd" style="top:51%;left:89.6%;font-size:30.0%">XXXXXXX</div>
-<div class="key rhnd" style="top:51%;left:96%;font-size:30.0%">NUM_LOCK</div>
-<div class="key lhnd" style="top:65%;left:5%">🫠</div>
-<div class="key lhnd" style="top:65%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
-<div class="key lhnd" style="top:63%;left:15.6%;font-size:30.0%">LEFT_CTRL</div>
-<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%">LEFT_GUI</div>
-<div class="key lhnd" style="top:63%;left:25.7%;font-size:30.0%">LEFT_ALT</div>
+<div class="key rhnd" style="top:51%;left:89.6%">√</div>
+<div class="key rhnd" style="top:51.8%;left:96%;font-size:30.0%"><img src=icon/num-lock.png></div>
+<div class="key lhnd" style="top:66%;left:5%">🎉</div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
+<div class="key lhnd" style="top:63%;left:15.6%;font-size:30.0%"><img src=icon/control.png></div>
+<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%"><img src=icon/meta.png></div>
+<div class="key lhnd" style="top:63%;left:25.7%;font-size:30.0%"><img src=icon/alt.png></div>
 <div class="key rhnd" style="top:63%;left:74%">0</div>
 <div class="key rhnd" style="top:62%;left:79.3%">.</div>
 <div class="key rhnd" style="top:63%;left:84.4%;font-size:30.0%"><img src=icon/enter.png></div>
-<div class="key rhnd" style="top:65%;left:89.6%;font-size:30.0%">XXXXXXX</div>
-<div class="key rhnd" style="top:65%;left:95%">🔗</div>
+<div class="key rhnd" style="top:66%;left:89.6%">(</div>
+<div class="key rhnd" style="top:66%;left:95%">π</div>
 <div class="key lthb" style="top:62%;left:41%;font-size:30.0%"><img src=icon/home.png></div>
 <div class="key lthb" style="top:68.6%;left:45.2%;font-size:30.0%"><img src=icon/end.png></div>
 <div class="key rthb" style="top:65%;left:54.8%;font-size:30.0%"><img src=icon/escape.png></div>
@@ -696,27 +616,27 @@ Easy access to media keys in the main layout
 
 ### num_fn hold
 <div class=layout>
-<div class="key lhnd" style="top:10.5%;left:4%"></div>
-<div class="key lhnd" style="top:9.9%;left:10.5%"></div>
-<div class="key lhnd" style="top:7.5%;left:15.6%"></div>
-<div class="key lhnd" style="top:6.5%;left:20.7%"></div>
-<div class="key lhnd" style="top:7.8%;left:25.7%"></div>
-<div class="key lhnd" style="top:8.5%;left:30.8%"></div>
-<div class="key lhnd" style="top:8.5%;left:36%"></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%">®</div>
-<div class="key rhnd" style="top:8.5%;left:69.3%"></div>
-<div class="key rhnd" style="top:7.8%;left:74%"></div>
-<div class="key rhnd" style="top:6.5%;left:79.3%"></div>
-<div class="key rhnd" style="top:7.5%;left:84.4%"></div>
-<div class="key rhnd" style="top:9.9%;left:89.6%"></div>
+<div class="key lhnd" style="top:10.5%;left:4%">😃</div>
+<div class="key lhnd" style="top:9.9%;left:10.5%">⅒</div>
+<div class="key lhnd" style="top:7.5%;left:15.6%">½</div>
+<div class="key lhnd" style="top:6.5%;left:20.7%">⅓</div>
+<div class="key lhnd" style="top:7.8%;left:25.7%">¼</div>
+<div class="key lhnd" style="top:8.5%;left:30.8%">⅔</div>
+<div class="key lhnd" style="top:8.5%;left:36%">®</div>
+<div class="key rhnd" style="top:8.5%;left:63.9%">∫</div>
+<div class="key rhnd" style="top:8.5%;left:69.3%">¾</div>
+<div class="key rhnd" style="top:7.8%;left:74%">⅛</div>
+<div class="key rhnd" style="top:6.5%;left:79.3%">⅜</div>
+<div class="key rhnd" style="top:7.5%;left:84.4%">⅝</div>
+<div class="key rhnd" style="top:9.9%;left:89.6%">⅞</div>
 <div class="key rhnd" style="top:10.5%;left:96%"></div>
-<div class="key lhnd" style="top:24.4%;left:4%"></div>
-<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:24.4%;left:4%">💯</div>
+<div class="key lhnd" style="top:23.8%;left:10.5%">🫠</div>
 <div class="key lhnd" style="top:21.4%;left:15.6%">⬍</div>
 <div class="key lhnd" style="top:20.4%;left:20.7%">⬉</div>
 <div class="key lhnd" style="top:20.8%;left:25.7%">⬆</div>
 <div class="key lhnd" style="top:21.5%;left:30.8%">⬈</div>
-<div class="key lhnd" style="top:25.5%;left:36%"></div>
+<div class="key lhnd" style="top:25.5%;left:36%">❌</div>
 <div class="key rhnd" style="top:25.5%;left:63.9%">÷</div>
 <div class="key rhnd" style="top:22.7%;left:69.3%"></div>
 <div class="key rhnd" style="top:20.8%;left:74%"></div>
@@ -724,7 +644,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:21.4%;left:84.4%">−</div>
 <div class="key rhnd" style="top:23.8%;left:89.6%">⧜</div>
 <div class="key rhnd" style="top:24.4%;left:96%"></div>
-<div class="key lhnd" style="top:37.5%;left:4%"></div>
+<div class="key lhnd" style="top:37.5%;left:4%">🫶</div>
 <div class="key lhnd" style="top:38.8%;left:10.5%"></div>
 <div class="key lhnd" style="top:36.4%;left:15.6%">⬌</div>
 <div class="key lhnd" style="top:35.4%;left:20.7%">⬅</div>
@@ -734,112 +654,32 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:35.8%;left:74%"></div>
 <div class="key rhnd" style="top:35.4%;left:79.3%"></div>
 <div class="key rhnd" style="top:36.4%;left:84.4%">±</div>
-<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
-<div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
+<div class="key rhnd" style="top:38.8%;left:89.6%">³</div>
+<div class="key rhnd" style="top:37.5%;left:96%">∉</div>
+<div class="key lhnd" style="top:51.8%;left:4%">🤭</div>
 <div class="key lhnd" style="top:51%;left:10.5%"></div>
 <div class="key lhnd" style="top:49%;left:15.6%">⤡</div>
 <div class="key lhnd" style="top:48%;left:20.7%">⬋</div>
 <div class="key lhnd" style="top:49%;left:25.7%">⬇</div>
 <div class="key lhnd" style="top:50%;left:30.8%">⬊</div>
-<div class="key lhnd" style="top:47%;left:36%"></div>
+<div class="key lhnd" style="top:47%;left:36%">💡</div>
 <div class="key rhnd" style="top:47%;left:63.9%">×</div>
 <div class="key rhnd" style="top:50%;left:69.3%"></div>
 <div class="key rhnd" style="top:49%;left:74%"></div>
 <div class="key rhnd" style="top:48%;left:79.3%"></div>
 <div class="key rhnd" style="top:49%;left:84.4%">≠</div>
-<div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
+<div class="key rhnd" style="top:51%;left:89.6%">∛</div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%">🥳</div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
 <div class="key lhnd" style="top:63%;left:15.6%"></div>
 <div class="key lhnd" style="top:62%;left:20.7%"></div>
 <div class="key lhnd" style="top:63%;left:25.7%"></div>
 <div class="key rhnd" style="top:63%;left:74%"></div>
 <div class="key rhnd" style="top:62%;left:79.3%"></div>
 <div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
-<div class="key lthb" style="top:62%;left:41%"></div>
-<div class="key lthb" style="top:68.6%;left:45.2%"></div>
-<div class="key rthb" style="top:65%;left:54.8%"></div>
-<div class="key rthb" style="top:58.2%;left:59%"></div>
-<div class="key lthb" style="top:80.2%;left:43.3%"></div>
-<div class="key rthb" style="top:77%;left:56.7%"></div>
-<div class="key lthb" style="top:73%;left:33.5%"></div>
-<div class="key lthb" style="top:79%;left:38%"></div>
-<div class="key lthb" style="top:92.6%;left:41.5%"></div>
-<div class="key rthb" style="top:89.4%;left:58.6%"></div>
-<div class="key rthb" style="top:77%;left:62%"></div>
-<div class="key rthb" style="top:71%;left:66.8%"></div>
-</div>
-
-### num_fn shift
-<div class=layout>
-<div class="key lhnd" style="top:10.5%;left:4%"></div>
-<div class="key lhnd" style="top:9.9%;left:10.5%"></div>
-<div class="key lhnd" style="top:7.5%;left:15.6%"></div>
-<div class="key lhnd" style="top:6.5%;left:20.7%"></div>
-<div class="key lhnd" style="top:7.8%;left:25.7%"></div>
-<div class="key lhnd" style="top:8.5%;left:30.8%"></div>
-<div class="key lhnd" style="top:8.5%;left:36%"></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
-<div class="key rhnd" style="top:8.5%;left:69.3%"></div>
-<div class="key rhnd" style="top:7.8%;left:74%"></div>
-<div class="key rhnd" style="top:6.5%;left:79.3%"></div>
-<div class="key rhnd" style="top:7.5%;left:84.4%"></div>
-<div class="key rhnd" style="top:9.9%;left:89.6%"></div>
-<div class="key rhnd" style="top:10.5%;left:96%"></div>
-<div class="key lhnd" style="top:24.4%;left:4%"></div>
-<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
-<div class="key lhnd" style="top:21.4%;left:15.6%"></div>
-<div class="key lhnd" style="top:20.4%;left:20.7%"></div>
-<div class="key lhnd" style="top:20.8%;left:25.7%"></div>
-<div class="key lhnd" style="top:21.5%;left:30.8%"></div>
-<div class="key lhnd" style="top:25.5%;left:36%"></div>
-<div class="key rhnd" style="top:25.5%;left:63.9%"></div>
-<div class="key rhnd" style="top:22.7%;left:69.3%"></div>
-<div class="key rhnd" style="top:20.8%;left:74%"></div>
-<div class="key rhnd" style="top:20.4%;left:79.3%"></div>
-<div class="key rhnd" style="top:21.4%;left:84.4%"></div>
-<div class="key rhnd" style="top:23.8%;left:89.6%"></div>
-<div class="key rhnd" style="top:24.4%;left:96%"></div>
-<div class="key lhnd" style="top:37.5%;left:4%"></div>
-<div class="key lhnd" style="top:38.8%;left:10.5%"></div>
-<div class="key lhnd" style="top:36.4%;left:15.6%"></div>
-<div class="key lhnd" style="top:35.4%;left:20.7%"></div>
-<div class="key lhnd" style="top:35.8%;left:25.7%"></div>
-<div class="key lhnd" style="top:36.5%;left:30.8%"></div>
-<div class="key rhnd" style="top:37.7%;left:69.3%"></div>
-<div class="key rhnd" style="top:35.8%;left:74%"></div>
-<div class="key rhnd" style="top:35.4%;left:79.3%"></div>
-<div class="key rhnd" style="top:36.4%;left:84.4%"></div>
-<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
-<div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
-<div class="key lhnd" style="top:51%;left:10.5%"></div>
-<div class="key lhnd" style="top:49%;left:15.6%"></div>
-<div class="key lhnd" style="top:48%;left:20.7%"></div>
-<div class="key lhnd" style="top:49%;left:25.7%"></div>
-<div class="key lhnd" style="top:50%;left:30.8%"></div>
-<div class="key lhnd" style="top:47%;left:36%"></div>
-<div class="key rhnd" style="top:47%;left:63.9%"></div>
-<div class="key rhnd" style="top:50%;left:69.3%"></div>
-<div class="key rhnd" style="top:49%;left:74%"></div>
-<div class="key rhnd" style="top:48%;left:79.3%"></div>
-<div class="key rhnd" style="top:49%;left:84.4%"></div>
-<div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%">👎</div>
-<div class="key lhnd" style="top:63%;left:15.6%"></div>
-<div class="key lhnd" style="top:62%;left:20.7%"></div>
-<div class="key lhnd" style="top:63%;left:25.7%"></div>
-<div class="key rhnd" style="top:63%;left:74%"></div>
-<div class="key rhnd" style="top:62%;left:79.3%"></div>
-<div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%">)</div>
+<div class="key rhnd" style="top:66%;left:95%">ⅈ</div>
 <div class="key lthb" style="top:62%;left:41%"></div>
 <div class="key lthb" style="top:68.6%;left:45.2%"></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -856,27 +696,27 @@ Easy access to media keys in the main layout
 
 ### num_fn dtap
 <div class=layout>
-<div class="key lhnd" style="top:10.5%;left:4%"></div>
-<div class="key lhnd" style="top:9.9%;left:10.5%"></div>
-<div class="key lhnd" style="top:7.5%;left:15.6%"></div>
-<div class="key lhnd" style="top:6.5%;left:20.7%"></div>
-<div class="key lhnd" style="top:7.8%;left:25.7%"></div>
-<div class="key lhnd" style="top:8.5%;left:30.8%"></div>
-<div class="key lhnd" style="top:8.5%;left:36%"></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%">™</div>
-<div class="key rhnd" style="top:8.5%;left:69.3%"></div>
-<div class="key rhnd" style="top:7.8%;left:74%"></div>
-<div class="key rhnd" style="top:6.5%;left:79.3%"></div>
-<div class="key rhnd" style="top:7.5%;left:84.4%"></div>
-<div class="key rhnd" style="top:9.9%;left:89.6%"></div>
+<div class="key lhnd" style="top:10.5%;left:4%">😊</div>
+<div class="key lhnd" style="top:9.9%;left:10.5%">⅒</div>
+<div class="key lhnd" style="top:7.5%;left:15.6%">½</div>
+<div class="key lhnd" style="top:6.5%;left:20.7%">⅓</div>
+<div class="key lhnd" style="top:7.8%;left:25.7%">¼</div>
+<div class="key lhnd" style="top:8.5%;left:30.8%">⅔</div>
+<div class="key lhnd" style="top:8.5%;left:36%">™</div>
+<div class="key rhnd" style="top:8.5%;left:63.9%">∑</div>
+<div class="key rhnd" style="top:8.5%;left:69.3%">¾</div>
+<div class="key rhnd" style="top:7.8%;left:74%">⅛</div>
+<div class="key rhnd" style="top:6.5%;left:79.3%">⅜</div>
+<div class="key rhnd" style="top:7.5%;left:84.4%">⅝</div>
+<div class="key rhnd" style="top:9.9%;left:89.6%">⅞</div>
 <div class="key rhnd" style="top:10.5%;left:96%"></div>
-<div class="key lhnd" style="top:24.4%;left:4%"></div>
-<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:24.4%;left:4%">🙌</div>
+<div class="key lhnd" style="top:23.8%;left:10.5%">🙁</div>
 <div class="key lhnd" style="top:21.4%;left:15.6%">⇳</div>
 <div class="key lhnd" style="top:20.4%;left:20.7%">⬁</div>
 <div class="key lhnd" style="top:20.8%;left:25.7%">⇧</div>
 <div class="key lhnd" style="top:21.5%;left:30.8%">⬀</div>
-<div class="key lhnd" style="top:25.5%;left:36%"></div>
+<div class="key lhnd" style="top:25.5%;left:36%">☑</div>
 <div class="key rhnd" style="top:25.5%;left:63.9%">➗</div>
 <div class="key rhnd" style="top:22.7%;left:69.3%"></div>
 <div class="key rhnd" style="top:20.8%;left:74%"></div>
@@ -884,7 +724,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:21.4%;left:84.4%">➖</div>
 <div class="key rhnd" style="top:23.8%;left:89.6%">⧝</div>
 <div class="key rhnd" style="top:24.4%;left:96%"></div>
-<div class="key lhnd" style="top:37.5%;left:4%"></div>
+<div class="key lhnd" style="top:37.5%;left:4%">😍</div>
 <div class="key lhnd" style="top:38.8%;left:10.5%"></div>
 <div class="key lhnd" style="top:36.4%;left:15.6%">⬄</div>
 <div class="key lhnd" style="top:35.4%;left:20.7%">⇦</div>
@@ -894,32 +734,32 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:35.8%;left:74%"></div>
 <div class="key rhnd" style="top:35.4%;left:79.3%"></div>
 <div class="key rhnd" style="top:36.4%;left:84.4%">➕</div>
-<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
-<div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
+<div class="key rhnd" style="top:38.8%;left:89.6%">⁴</div>
+<div class="key rhnd" style="top:37.5%;left:96%">⊂</div>
+<div class="key lhnd" style="top:51.8%;left:4%">🤣</div>
 <div class="key lhnd" style="top:51%;left:10.5%"></div>
 <div class="key lhnd" style="top:49%;left:15.6%"></div>
 <div class="key lhnd" style="top:48%;left:20.7%">⬃</div>
 <div class="key lhnd" style="top:49%;left:25.7%">⇩</div>
 <div class="key lhnd" style="top:50%;left:30.8%">⬂</div>
-<div class="key lhnd" style="top:47%;left:36%"></div>
+<div class="key lhnd" style="top:47%;left:36%">⚠️</div>
 <div class="key rhnd" style="top:47%;left:63.9%">✖</div>
 <div class="key rhnd" style="top:50%;left:69.3%"></div>
 <div class="key rhnd" style="top:49%;left:74%"></div>
 <div class="key rhnd" style="top:48%;left:79.3%"></div>
 <div class="key rhnd" style="top:49%;left:84.4%">🟰</div>
-<div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%;font-size:30.0%">qwerty</div>
+<div class="key rhnd" style="top:51%;left:89.6%">∜</div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%">🎊</div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%">qwerty</div>
 <div class="key lhnd" style="top:63%;left:15.6%"></div>
 <div class="key lhnd" style="top:62%;left:20.7%"></div>
 <div class="key lhnd" style="top:63%;left:25.7%"></div>
 <div class="key rhnd" style="top:63%;left:74%"></div>
 <div class="key rhnd" style="top:62%;left:79.3%"></div>
 <div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%">ℯ</div>
 <div class="key lthb" style="top:62%;left:41%;font-size:30.0%"><img src=icon/top.png></div>
 <div class="key lthb" style="top:68.6%;left:45.2%;font-size:30.0%"><img src=icon/bottom.png></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -943,20 +783,20 @@ Easy access to media keys in the main layout
 <div class="key lhnd" style="top:7.8%;left:25.7%"></div>
 <div class="key lhnd" style="top:8.5%;left:30.8%"></div>
 <div class="key lhnd" style="top:8.5%;left:36%"></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:8.5%;left:63.9%">∬</div>
 <div class="key rhnd" style="top:8.5%;left:69.3%"></div>
 <div class="key rhnd" style="top:7.8%;left:74%"></div>
 <div class="key rhnd" style="top:6.5%;left:79.3%"></div>
 <div class="key rhnd" style="top:7.5%;left:84.4%"></div>
 <div class="key rhnd" style="top:9.9%;left:89.6%"></div>
 <div class="key rhnd" style="top:10.5%;left:96%"></div>
-<div class="key lhnd" style="top:24.4%;left:4%"></div>
-<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:24.4%;left:4%">🎵</div>
+<div class="key lhnd" style="top:23.8%;left:10.5%">💀</div>
 <div class="key lhnd" style="top:21.4%;left:15.6%">⇕</div>
 <div class="key lhnd" style="top:20.4%;left:20.7%">⇖</div>
 <div class="key lhnd" style="top:20.8%;left:25.7%">⇑</div>
 <div class="key lhnd" style="top:21.5%;left:30.8%">⇗</div>
-<div class="key lhnd" style="top:25.5%;left:36%"></div>
+<div class="key lhnd" style="top:25.5%;left:36%">☒</div>
 <div class="key rhnd" style="top:25.5%;left:63.9%"></div>
 <div class="key rhnd" style="top:22.7%;left:69.3%"></div>
 <div class="key rhnd" style="top:20.8%;left:74%"></div>
@@ -964,7 +804,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:21.4%;left:84.4%"></div>
 <div class="key rhnd" style="top:23.8%;left:89.6%">⧞</div>
 <div class="key rhnd" style="top:24.4%;left:96%"></div>
-<div class="key lhnd" style="top:37.5%;left:4%"></div>
+<div class="key lhnd" style="top:37.5%;left:4%">🥰</div>
 <div class="key lhnd" style="top:38.8%;left:10.5%"></div>
 <div class="key lhnd" style="top:36.4%;left:15.6%">⇔</div>
 <div class="key lhnd" style="top:35.4%;left:20.7%">⇐</div>
@@ -974,32 +814,32 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:35.8%;left:74%"></div>
 <div class="key rhnd" style="top:35.4%;left:79.3%"></div>
 <div class="key rhnd" style="top:36.4%;left:84.4%"></div>
-<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
-<div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
+<div class="key rhnd" style="top:38.8%;left:89.6%">⁵</div>
+<div class="key rhnd" style="top:37.5%;left:96%">⊆</div>
+<div class="key lhnd" style="top:51.8%;left:4%"></div>
 <div class="key lhnd" style="top:51%;left:10.5%"></div>
 <div class="key lhnd" style="top:49%;left:15.6%"></div>
 <div class="key lhnd" style="top:48%;left:20.7%">⇙</div>
 <div class="key lhnd" style="top:49%;left:25.7%">⇓</div>
 <div class="key lhnd" style="top:50%;left:30.8%">⇘</div>
-<div class="key lhnd" style="top:47%;left:36%"></div>
+<div class="key lhnd" style="top:47%;left:36%">🚫</div>
 <div class="key rhnd" style="top:47%;left:63.9%"></div>
 <div class="key rhnd" style="top:50%;left:69.3%"></div>
 <div class="key rhnd" style="top:49%;left:74%"></div>
 <div class="key rhnd" style="top:48%;left:79.3%"></div>
 <div class="key rhnd" style="top:49%;left:84.4%">≈</div>
 <div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%;font-size:30.0%">qwerty</div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%">🪩</div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%">qwerty</div>
 <div class="key lhnd" style="top:63%;left:15.6%"></div>
 <div class="key lhnd" style="top:62%;left:20.7%"></div>
 <div class="key lhnd" style="top:63%;left:25.7%"></div>
 <div class="key rhnd" style="top:63%;left:74%"></div>
 <div class="key rhnd" style="top:62%;left:79.3%"></div>
 <div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%">ⅉ</div>
 <div class="key lthb" style="top:62%;left:41%"></div>
 <div class="key lthb" style="top:68.6%;left:45.2%"></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -1023,20 +863,20 @@ Easy access to media keys in the main layout
 <div class="key lhnd" style="top:7.8%;left:25.7%"></div>
 <div class="key lhnd" style="top:8.5%;left:30.8%"></div>
 <div class="key lhnd" style="top:8.5%;left:36%"></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:8.5%;left:63.9%">∂</div>
 <div class="key rhnd" style="top:8.5%;left:69.3%"></div>
 <div class="key rhnd" style="top:7.8%;left:74%"></div>
 <div class="key rhnd" style="top:6.5%;left:79.3%"></div>
 <div class="key rhnd" style="top:7.5%;left:84.4%"></div>
 <div class="key rhnd" style="top:9.9%;left:89.6%"></div>
 <div class="key rhnd" style="top:10.5%;left:96%"></div>
-<div class="key lhnd" style="top:24.4%;left:4%"></div>
-<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:24.4%;left:4%">🎶</div>
+<div class="key lhnd" style="top:23.8%;left:10.5%">😭</div>
 <div class="key lhnd" style="top:21.4%;left:15.6%"></div>
 <div class="key lhnd" style="top:20.4%;left:20.7%">🡴</div>
 <div class="key lhnd" style="top:20.8%;left:25.7%">🡱</div>
 <div class="key lhnd" style="top:21.5%;left:30.8%">🡵</div>
-<div class="key lhnd" style="top:25.5%;left:36%"></div>
+<div class="key lhnd" style="top:25.5%;left:36%">☐</div>
 <div class="key rhnd" style="top:25.5%;left:63.9%"></div>
 <div class="key rhnd" style="top:22.7%;left:69.3%"></div>
 <div class="key rhnd" style="top:20.8%;left:74%"></div>
@@ -1054,32 +894,32 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:35.8%;left:74%"></div>
 <div class="key rhnd" style="top:35.4%;left:79.3%"></div>
 <div class="key rhnd" style="top:36.4%;left:84.4%"></div>
-<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
-<div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
+<div class="key rhnd" style="top:38.8%;left:89.6%">⁶</div>
+<div class="key rhnd" style="top:37.5%;left:96%">∪</div>
+<div class="key lhnd" style="top:51.8%;left:4%"></div>
 <div class="key lhnd" style="top:51%;left:10.5%"></div>
 <div class="key lhnd" style="top:49%;left:15.6%"></div>
 <div class="key lhnd" style="top:48%;left:20.7%">🡷</div>
 <div class="key lhnd" style="top:49%;left:25.7%">🡳</div>
 <div class="key lhnd" style="top:50%;left:30.8%">🡶</div>
-<div class="key lhnd" style="top:47%;left:36%"></div>
+<div class="key lhnd" style="top:47%;left:36%">⛔</div>
 <div class="key rhnd" style="top:47%;left:63.9%"></div>
 <div class="key rhnd" style="top:50%;left:69.3%"></div>
 <div class="key rhnd" style="top:49%;left:74%"></div>
 <div class="key rhnd" style="top:48%;left:79.3%"></div>
 <div class="key rhnd" style="top:49%;left:84.4%"></div>
 <div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%"></div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%">🎇</div>
+<div class="key lhnd" style="top:66%;left:10.5%"></div>
 <div class="key lhnd" style="top:63%;left:15.6%"></div>
 <div class="key lhnd" style="top:62%;left:20.7%"></div>
 <div class="key lhnd" style="top:63%;left:25.7%"></div>
 <div class="key rhnd" style="top:63%;left:74%"></div>
 <div class="key rhnd" style="top:62%;left:79.3%"></div>
 <div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%">∅</div>
 <div class="key lthb" style="top:62%;left:41%"></div>
 <div class="key lthb" style="top:68.6%;left:45.2%"></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -1103,20 +943,20 @@ Easy access to media keys in the main layout
 <div class="key lhnd" style="top:7.8%;left:25.7%"></div>
 <div class="key lhnd" style="top:8.5%;left:30.8%"></div>
 <div class="key lhnd" style="top:8.5%;left:36%"></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:8.5%;left:63.9%">′</div>
 <div class="key rhnd" style="top:8.5%;left:69.3%"></div>
 <div class="key rhnd" style="top:7.8%;left:74%"></div>
 <div class="key rhnd" style="top:6.5%;left:79.3%"></div>
 <div class="key rhnd" style="top:7.5%;left:84.4%"></div>
 <div class="key rhnd" style="top:9.9%;left:89.6%"></div>
 <div class="key rhnd" style="top:10.5%;left:96%"></div>
-<div class="key lhnd" style="top:24.4%;left:4%"></div>
-<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:24.4%;left:4%">🔥</div>
+<div class="key lhnd" style="top:23.8%;left:10.5%">😭</div>
 <div class="key lhnd" style="top:21.4%;left:15.6%"></div>
 <div class="key lhnd" style="top:20.4%;left:20.7%">🢄</div>
 <div class="key lhnd" style="top:20.8%;left:25.7%">🢁</div>
 <div class="key lhnd" style="top:21.5%;left:30.8%">🢅</div>
-<div class="key lhnd" style="top:25.5%;left:36%"></div>
+<div class="key lhnd" style="top:25.5%;left:36%">☐</div>
 <div class="key rhnd" style="top:25.5%;left:63.9%"></div>
 <div class="key rhnd" style="top:22.7%;left:69.3%"></div>
 <div class="key rhnd" style="top:20.8%;left:74%"></div>
@@ -1134,32 +974,32 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:35.8%;left:74%"></div>
 <div class="key rhnd" style="top:35.4%;left:79.3%"></div>
 <div class="key rhnd" style="top:36.4%;left:84.4%"></div>
-<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
-<div class="key rhnd" style="top:37.5%;left:96%"></div>
-<div class="key lhnd" style="top:51%;left:4%"></div>
+<div class="key rhnd" style="top:38.8%;left:89.6%">⁷</div>
+<div class="key rhnd" style="top:37.5%;left:96%">∩</div>
+<div class="key lhnd" style="top:51.8%;left:4%"></div>
 <div class="key lhnd" style="top:51%;left:10.5%"></div>
 <div class="key lhnd" style="top:49%;left:15.6%"></div>
 <div class="key lhnd" style="top:48%;left:20.7%">🢇</div>
 <div class="key lhnd" style="top:49%;left:25.7%">🢃</div>
 <div class="key lhnd" style="top:50%;left:30.8%">🢆</div>
-<div class="key lhnd" style="top:47%;left:36%"></div>
+<div class="key lhnd" style="top:47%;left:36%">🚨</div>
 <div class="key rhnd" style="top:47%;left:63.9%"></div>
 <div class="key rhnd" style="top:50%;left:69.3%"></div>
 <div class="key rhnd" style="top:49%;left:74%"></div>
 <div class="key rhnd" style="top:48%;left:79.3%"></div>
 <div class="key rhnd" style="top:49%;left:84.4%"></div>
 <div class="key rhnd" style="top:51%;left:89.6%"></div>
-<div class="key rhnd" style="top:51%;left:96%"></div>
-<div class="key lhnd" style="top:65%;left:5%"></div>
-<div class="key lhnd" style="top:65%;left:10.5%"></div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%">🎆</div>
+<div class="key lhnd" style="top:66%;left:10.5%"></div>
 <div class="key lhnd" style="top:63%;left:15.6%"></div>
 <div class="key lhnd" style="top:62%;left:20.7%"></div>
 <div class="key lhnd" style="top:63%;left:25.7%"></div>
 <div class="key rhnd" style="top:63%;left:74%"></div>
 <div class="key rhnd" style="top:62%;left:79.3%"></div>
 <div class="key rhnd" style="top:63%;left:84.4%"></div>
-<div class="key rhnd" style="top:65%;left:89.6%"></div>
-<div class="key rhnd" style="top:65%;left:95%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%">″</div>
 <div class="key lthb" style="top:62%;left:41%"></div>
 <div class="key lthb" style="top:68.6%;left:45.2%"></div>
 <div class="key rthb" style="top:65%;left:54.8%"></div>
@@ -1183,7 +1023,7 @@ Easy access to media keys in the main layout
 <div class="key lhnd" style="top:7.8%;left:25.7%">4</div>
 <div class="key lhnd" style="top:8.5%;left:30.8%">5</div>
 <div class="key lhnd" style="top:8.5%;left:36%;font-size:30.0%"><img src=icon/play-pause.png></div>
-<div class="key rhnd" style="top:8.5%;left:63.9%;font-size:30.0%"><img src=icon/calculator.png></div>
+<div class="key rhnd" style="top:8.5%;left:63.9%">—</div>
 <div class="key rhnd" style="top:8.5%;left:69.3%">6</div>
 <div class="key rhnd" style="top:7.8%;left:74%">7</div>
 <div class="key rhnd" style="top:6.5%;left:79.3%">8</div>
@@ -1216,7 +1056,7 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:36.4%;left:84.4%">l</div>
 <div class="key rhnd" style="top:38.8%;left:89.6%">;</div>
 <div class="key rhnd" style="top:37.5%;left:96%">"</div>
-<div class="key lhnd" style="top:51%;left:4%">(</div>
+<div class="key lhnd" style="top:51.8%;left:4%">(</div>
 <div class="key lhnd" style="top:51%;left:10.5%">z</div>
 <div class="key lhnd" style="top:49%;left:15.6%">x</div>
 <div class="key lhnd" style="top:48%;left:20.7%">c</div>
@@ -1229,17 +1069,17 @@ Easy access to media keys in the main layout
 <div class="key rhnd" style="top:48%;left:79.3%">,</div>
 <div class="key rhnd" style="top:49%;left:84.4%">.</div>
 <div class="key rhnd" style="top:51%;left:89.6%">/</div>
-<div class="key rhnd" style="top:51%;left:96%">)</div>
-<div class="key lhnd" style="top:65%;left:5%;font-size:30.0%"><img src=icon/screenshot.png></div>
-<div class="key lhnd" style="top:65%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
+<div class="key rhnd" style="top:51.8%;left:96%">)</div>
+<div class="key lhnd" style="top:66%;left:5%;font-size:30.0%"><img src=icon/fancy-alphabet.png></div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
 <div class="key lhnd" style="top:63%;left:15.6%"><</div>
 <div class="key lhnd" style="top:62%;left:20.7%">[</div>
 <div class="key lhnd" style="top:63%;left:25.7%">{</div>
 <div class="key rhnd" style="top:63%;left:74%">}</div>
 <div class="key rhnd" style="top:62%;left:79.3%">]</div>
 <div class="key rhnd" style="top:63%;left:84.4%">></div>
-<div class="key rhnd" style="top:65%;left:89.6%;font-size:30.0%"><img src=icon/page-up.png></div>
-<div class="key rhnd" style="top:65%;left:95%;font-size:30.0%"><img src=icon/page-down.png></div>
+<div class="key rhnd" style="top:66%;left:89.6%;font-size:30.0%"><img src=icon/page-up.png></div>
+<div class="key rhnd" style="top:66%;left:95%;font-size:30.0%"><img src=icon/page-down.png></div>
 <div class="key lthb" style="top:62%;left:41%;font-size:30.0%"><img src=icon/home.png></div>
 <div class="key lthb" style="top:68.6%;left:45.2%;font-size:30.0%"><img src=icon/end.png></div>
 <div class="key rthb" style="top:65%;left:54.8%;font-size:30.0%"><img src=icon/escape.png></div>
@@ -1253,6 +1093,407 @@ Easy access to media keys in the main layout
 <div class="key rthb" style="top:77%;left:62%;font-size:30.0%"><img src=icon/backspace.png></div>
 <div class="key rthb" style="top:71%;left:66.8%;font-size:30.0%"><img src=icon/space.png></div>
 </div>
+
+### qwerty hold
+<div class=layout>
+<div class="key lhnd" style="top:10.5%;left:4%"></div>
+<div class="key lhnd" style="top:9.9%;left:10.5%">!</div>
+<div class="key lhnd" style="top:7.5%;left:15.6%">@</div>
+<div class="key lhnd" style="top:6.5%;left:20.7%">#</div>
+<div class="key lhnd" style="top:7.8%;left:25.7%">$</div>
+<div class="key lhnd" style="top:8.5%;left:30.8%">%</div>
+<div class="key lhnd" style="top:8.5%;left:36%">•</div>
+<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:8.5%;left:69.3%">^</div>
+<div class="key rhnd" style="top:7.8%;left:74%">&</div>
+<div class="key rhnd" style="top:6.5%;left:79.3%">*</div>
+<div class="key rhnd" style="top:7.5%;left:84.4%">★</div>
+<div class="key rhnd" style="top:9.9%;left:89.6%">☆</div>
+<div class="key rhnd" style="top:10.5%;left:96%;font-size:30.0%"><img src=icon/fast-forward.png></div>
+<div class="key lhnd" style="top:24.4%;left:4%"></div>
+<div class="key lhnd" style="top:23.8%;left:10.5%">Q</div>
+<div class="key lhnd" style="top:21.4%;left:15.6%">W</div>
+<div class="key lhnd" style="top:20.4%;left:20.7%">E</div>
+<div class="key lhnd" style="top:20.8%;left:25.7%">R</div>
+<div class="key lhnd" style="top:21.5%;left:30.8%">T</div>
+<div class="key lhnd" style="top:25.5%;left:36%">+</div>
+<div class="key rhnd" style="top:25.5%;left:63.9%">|</div>
+<div class="key rhnd" style="top:22.7%;left:69.3%">Y</div>
+<div class="key rhnd" style="top:20.8%;left:74%">U</div>
+<div class="key rhnd" style="top:20.4%;left:79.3%">I</div>
+<div class="key rhnd" style="top:21.4%;left:84.4%">O</div>
+<div class="key rhnd" style="top:23.8%;left:89.6%">P</div>
+<div class="key rhnd" style="top:24.4%;left:96%;font-size:30.0%"><img src=icon/rewind.png></div>
+<div class="key lhnd" style="top:37.5%;left:4%"></div>
+<div class="key lhnd" style="top:38.8%;left:10.5%">A</div>
+<div class="key lhnd" style="top:36.4%;left:15.6%">S</div>
+<div class="key lhnd" style="top:35.4%;left:20.7%">D</div>
+<div class="key lhnd" style="top:35.8%;left:25.7%">F</div>
+<div class="key lhnd" style="top:36.5%;left:30.8%">G</div>
+<div class="key rhnd" style="top:37.7%;left:69.3%">H</div>
+<div class="key rhnd" style="top:35.8%;left:74%">J</div>
+<div class="key rhnd" style="top:35.4%;left:79.3%">K</div>
+<div class="key rhnd" style="top:36.4%;left:84.4%">L</div>
+<div class="key rhnd" style="top:38.8%;left:89.6%">:</div>
+<div class="key rhnd" style="top:37.5%;left:96%">'</div>
+<div class="key lhnd" style="top:51.8%;left:4%;font-size:30.0%"><img src=icon/shift.png></div>
+<div class="key lhnd" style="top:51%;left:10.5%">Z</div>
+<div class="key lhnd" style="top:49%;left:15.6%">X</div>
+<div class="key lhnd" style="top:48%;left:20.7%">C</div>
+<div class="key lhnd" style="top:49%;left:25.7%">V</div>
+<div class="key lhnd" style="top:50%;left:30.8%">B</div>
+<div class="key lhnd" style="top:47%;left:36%">_</div>
+<div class="key rhnd" style="top:47%;left:63.9%">~</div>
+<div class="key rhnd" style="top:50%;left:69.3%">N</div>
+<div class="key rhnd" style="top:49%;left:74%">M</div>
+<div class="key rhnd" style="top:48%;left:79.3%">≤</div>
+<div class="key rhnd" style="top:49%;left:84.4%">≥</div>
+<div class="key rhnd" style="top:51%;left:89.6%">?</div>
+<div class="key rhnd" style="top:51.8%;left:96%;font-size:30.0%"><img src=icon/shift.png></div>
+<div class="key lhnd" style="top:66%;left:5%;font-size:30.0%"><img src=icon/fancy-alphabet.png></div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%"><img src=icon/keypad.png></div>
+<div class="key lhnd" style="top:63%;left:15.6%;font-size:30.0%"><img src=icon/control-qwerty.png></div>
+<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%"><img src=icon/meta-qwerty.png></div>
+<div class="key lhnd" style="top:63%;left:25.7%;font-size:30.0%"><img src=icon/alt-qwerty.png></div>
+<div class="key rhnd" style="top:63%;left:74%;font-size:30.0%"><img src=icon/alt-qwerty.png></div>
+<div class="key rhnd" style="top:62%;left:79.3%;font-size:30.0%"><img src=icon/meta-qwerty.png></div>
+<div class="key rhnd" style="top:63%;left:84.4%;font-size:30.0%"><img src=icon/control-qwerty.png></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
+<div class="key lthb" style="top:62%;left:41%"></div>
+<div class="key lthb" style="top:68.6%;left:45.2%"></div>
+<div class="key rthb" style="top:65%;left:54.8%"></div>
+<div class="key rthb" style="top:58.2%;left:59%"></div>
+<div class="key lthb" style="top:80.2%;left:43.3%"></div>
+<div class="key rthb" style="top:77%;left:56.7%"></div>
+<div class="key lthb" style="top:73%;left:33.5%"></div>
+<div class="key lthb" style="top:79%;left:38%"></div>
+<div class="key lthb" style="top:92.6%;left:41.5%"></div>
+<div class="key rthb" style="top:89.4%;left:58.6%"></div>
+<div class="key rthb" style="top:77%;left:62%"></div>
+<div class="key rthb" style="top:71%;left:66.8%"></div>
+</div>
+
+### qwerty shift
+<div class=layout>
+<div class="key lhnd" style="top:10.5%;left:4%"></div>
+<div class="key lhnd" style="top:9.9%;left:10.5%">!</div>
+<div class="key lhnd" style="top:7.5%;left:15.6%">@</div>
+<div class="key lhnd" style="top:6.5%;left:20.7%">#</div>
+<div class="key lhnd" style="top:7.8%;left:25.7%">$</div>
+<div class="key lhnd" style="top:8.5%;left:30.8%">%</div>
+<div class="key lhnd" style="top:8.5%;left:36%">•</div>
+<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:8.5%;left:69.3%">^</div>
+<div class="key rhnd" style="top:7.8%;left:74%">&</div>
+<div class="key rhnd" style="top:6.5%;left:79.3%">*</div>
+<div class="key rhnd" style="top:7.5%;left:84.4%">★</div>
+<div class="key rhnd" style="top:9.9%;left:89.6%">☆</div>
+<div class="key rhnd" style="top:10.5%;left:96%"></div>
+<div class="key lhnd" style="top:24.4%;left:4%"></div>
+<div class="key lhnd" style="top:23.8%;left:10.5%">Q</div>
+<div class="key lhnd" style="top:21.4%;left:15.6%">W</div>
+<div class="key lhnd" style="top:20.4%;left:20.7%">E</div>
+<div class="key lhnd" style="top:20.8%;left:25.7%">R</div>
+<div class="key lhnd" style="top:21.5%;left:30.8%">T</div>
+<div class="key lhnd" style="top:25.5%;left:36%">+</div>
+<div class="key rhnd" style="top:25.5%;left:63.9%">|</div>
+<div class="key rhnd" style="top:22.7%;left:69.3%">Y</div>
+<div class="key rhnd" style="top:20.8%;left:74%">U</div>
+<div class="key rhnd" style="top:20.4%;left:79.3%">I</div>
+<div class="key rhnd" style="top:21.4%;left:84.4%">O</div>
+<div class="key rhnd" style="top:23.8%;left:89.6%">P</div>
+<div class="key rhnd" style="top:24.4%;left:96%"></div>
+<div class="key lhnd" style="top:37.5%;left:4%"></div>
+<div class="key lhnd" style="top:38.8%;left:10.5%">A</div>
+<div class="key lhnd" style="top:36.4%;left:15.6%">S</div>
+<div class="key lhnd" style="top:35.4%;left:20.7%">D</div>
+<div class="key lhnd" style="top:35.8%;left:25.7%">F</div>
+<div class="key lhnd" style="top:36.5%;left:30.8%">G</div>
+<div class="key rhnd" style="top:37.7%;left:69.3%">H</div>
+<div class="key rhnd" style="top:35.8%;left:74%">J</div>
+<div class="key rhnd" style="top:35.4%;left:79.3%">K</div>
+<div class="key rhnd" style="top:36.4%;left:84.4%">L</div>
+<div class="key rhnd" style="top:38.8%;left:89.6%">:</div>
+<div class="key rhnd" style="top:37.5%;left:96%">'</div>
+<div class="key lhnd" style="top:51.8%;left:4%"></div>
+<div class="key lhnd" style="top:51%;left:10.5%">Z</div>
+<div class="key lhnd" style="top:49%;left:15.6%">X</div>
+<div class="key lhnd" style="top:48%;left:20.7%">C</div>
+<div class="key lhnd" style="top:49%;left:25.7%">V</div>
+<div class="key lhnd" style="top:50%;left:30.8%">B</div>
+<div class="key lhnd" style="top:47%;left:36%">_</div>
+<div class="key rhnd" style="top:47%;left:63.9%">~</div>
+<div class="key rhnd" style="top:50%;left:69.3%">N</div>
+<div class="key rhnd" style="top:49%;left:74%">M</div>
+<div class="key rhnd" style="top:48%;left:79.3%">≤</div>
+<div class="key rhnd" style="top:49%;left:84.4%">≥</div>
+<div class="key rhnd" style="top:51%;left:89.6%">?</div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%"></div>
+<div class="key lhnd" style="top:66%;left:10.5%"></div>
+<div class="key lhnd" style="top:63%;left:15.6%"></div>
+<div class="key lhnd" style="top:62%;left:20.7%"></div>
+<div class="key lhnd" style="top:63%;left:25.7%"></div>
+<div class="key rhnd" style="top:63%;left:74%"></div>
+<div class="key rhnd" style="top:62%;left:79.3%"></div>
+<div class="key rhnd" style="top:63%;left:84.4%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
+<div class="key lthb" style="top:62%;left:41%"></div>
+<div class="key lthb" style="top:68.6%;left:45.2%"></div>
+<div class="key rthb" style="top:65%;left:54.8%"></div>
+<div class="key rthb" style="top:58.2%;left:59%"></div>
+<div class="key lthb" style="top:80.2%;left:43.3%"></div>
+<div class="key rthb" style="top:77%;left:56.7%"></div>
+<div class="key lthb" style="top:73%;left:33.5%"></div>
+<div class="key lthb" style="top:79%;left:38%"></div>
+<div class="key lthb" style="top:92.6%;left:41.5%"></div>
+<div class="key rthb" style="top:89.4%;left:58.6%"></div>
+<div class="key rthb" style="top:77%;left:62%"></div>
+<div class="key rthb" style="top:71%;left:66.8%"></div>
+</div>
+
+### qwerty dtap
+<div class=layout>
+<div class="key lhnd" style="top:10.5%;left:4%;font-size:30.0%"><img src=icon/camera-off.png></div>
+<div class="key lhnd" style="top:9.9%;left:10.5%"></div>
+<div class="key lhnd" style="top:7.5%;left:15.6%"></div>
+<div class="key lhnd" style="top:6.5%;left:20.7%"></div>
+<div class="key lhnd" style="top:7.8%;left:25.7%"></div>
+<div class="key lhnd" style="top:8.5%;left:30.8%"></div>
+<div class="key lhnd" style="top:8.5%;left:36%;font-size:30.0%"><img src=icon/media-player.png></div>
+<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:8.5%;left:69.3%"></div>
+<div class="key rhnd" style="top:7.8%;left:74%"></div>
+<div class="key rhnd" style="top:6.5%;left:79.3%"></div>
+<div class="key rhnd" style="top:7.5%;left:84.4%"></div>
+<div class="key rhnd" style="top:9.9%;left:89.6%"></div>
+<div class="key rhnd" style="top:10.5%;left:96%"></div>
+<div class="key lhnd" style="top:24.4%;left:4%"></div>
+<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:21.4%;left:15.6%"></div>
+<div class="key lhnd" style="top:20.4%;left:20.7%"></div>
+<div class="key lhnd" style="top:20.8%;left:25.7%"></div>
+<div class="key lhnd" style="top:21.5%;left:30.8%"></div>
+<div class="key lhnd" style="top:25.5%;left:36%"></div>
+<div class="key rhnd" style="top:25.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:22.7%;left:69.3%"></div>
+<div class="key rhnd" style="top:20.8%;left:74%"></div>
+<div class="key rhnd" style="top:20.4%;left:79.3%"></div>
+<div class="key rhnd" style="top:21.4%;left:84.4%"></div>
+<div class="key rhnd" style="top:23.8%;left:89.6%"></div>
+<div class="key rhnd" style="top:24.4%;left:96%"></div>
+<div class="key lhnd" style="top:37.5%;left:4%"></div>
+<div class="key lhnd" style="top:38.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:36.4%;left:15.6%"></div>
+<div class="key lhnd" style="top:35.4%;left:20.7%"></div>
+<div class="key lhnd" style="top:35.8%;left:25.7%"></div>
+<div class="key lhnd" style="top:36.5%;left:30.8%"></div>
+<div class="key rhnd" style="top:37.7%;left:69.3%"></div>
+<div class="key rhnd" style="top:35.8%;left:74%"></div>
+<div class="key rhnd" style="top:35.4%;left:79.3%"></div>
+<div class="key rhnd" style="top:36.4%;left:84.4%"></div>
+<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
+<div class="key rhnd" style="top:37.5%;left:96%"></div>
+<div class="key lhnd" style="top:51.8%;left:4%;font-size:30.0%"><img src=icon/caps-word.png></div>
+<div class="key lhnd" style="top:51%;left:10.5%"></div>
+<div class="key lhnd" style="top:49%;left:15.6%"></div>
+<div class="key lhnd" style="top:48%;left:20.7%"></div>
+<div class="key lhnd" style="top:49%;left:25.7%"></div>
+<div class="key lhnd" style="top:50%;left:30.8%"></div>
+<div class="key lhnd" style="top:47%;left:36%"></div>
+<div class="key rhnd" style="top:47%;left:63.9%"></div>
+<div class="key rhnd" style="top:50%;left:69.3%"></div>
+<div class="key rhnd" style="top:49%;left:74%"></div>
+<div class="key rhnd" style="top:48%;left:79.3%"></div>
+<div class="key rhnd" style="top:49%;left:84.4%"></div>
+<div class="key rhnd" style="top:51%;left:89.6%"></div>
+<div class="key rhnd" style="top:51.8%;left:96%;font-size:30.0%"><img src=icon/caps-lock.png></div>
+<div class="key lhnd" style="top:66%;left:5%;font-size:30.0%"><img src=icon/calculator.png></div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%">qwerty</div>
+<div class="key lhnd" style="top:63%;left:15.6%;font-size:30.0%"><img src=icon/screenshot.png></div>
+<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%"><img src=icon/auto-shift.png></div>
+<div class="key lhnd" style="top:63%;left:25.7%;font-size:30.0%"><img src=icon/insert.png></div>
+<div class="key rhnd" style="top:63%;left:74%;font-size:30.0%"><img src=icon/lock-screen.png></div>
+<div class="key rhnd" style="top:62%;left:79.3%;font-size:30.0%"><img src=icon/full-screen.png></div>
+<div class="key rhnd" style="top:63%;left:84.4%;font-size:30.0%"><img src=icon/close-window.png></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
+<div class="key lthb" style="top:62%;left:41%;font-size:30.0%"><img src=icon/top.png></div>
+<div class="key lthb" style="top:68.6%;left:45.2%;font-size:30.0%"><img src=icon/bottom.png></div>
+<div class="key rthb" style="top:65%;left:54.8%"></div>
+<div class="key rthb" style="top:58.2%;left:59%"></div>
+<div class="key lthb" style="top:80.2%;left:43.3%"></div>
+<div class="key rthb" style="top:77%;left:56.7%"></div>
+<div class="key lthb" style="top:73%;left:33.5%"></div>
+<div class="key lthb" style="top:79%;left:38%"></div>
+<div class="key lthb" style="top:92.6%;left:41.5%"></div>
+<div class="key rthb" style="top:89.4%;left:58.6%"></div>
+<div class="key rthb" style="top:77%;left:62%"></div>
+<div class="key rthb" style="top:71%;left:66.8%"></div>
+</div>
+
+### qwerty dhold
+<div class=layout>
+<div class="key lhnd" style="top:10.5%;left:4%"></div>
+<div class="key lhnd" style="top:9.9%;left:10.5%"></div>
+<div class="key lhnd" style="top:7.5%;left:15.6%"></div>
+<div class="key lhnd" style="top:6.5%;left:20.7%"></div>
+<div class="key lhnd" style="top:7.8%;left:25.7%"></div>
+<div class="key lhnd" style="top:8.5%;left:30.8%"></div>
+<div class="key lhnd" style="top:8.5%;left:36%"></div>
+<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:8.5%;left:69.3%"></div>
+<div class="key rhnd" style="top:7.8%;left:74%"></div>
+<div class="key rhnd" style="top:6.5%;left:79.3%"></div>
+<div class="key rhnd" style="top:7.5%;left:84.4%"></div>
+<div class="key rhnd" style="top:9.9%;left:89.6%"></div>
+<div class="key rhnd" style="top:10.5%;left:96%"></div>
+<div class="key lhnd" style="top:24.4%;left:4%"></div>
+<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:21.4%;left:15.6%"></div>
+<div class="key lhnd" style="top:20.4%;left:20.7%"></div>
+<div class="key lhnd" style="top:20.8%;left:25.7%"></div>
+<div class="key lhnd" style="top:21.5%;left:30.8%"></div>
+<div class="key lhnd" style="top:25.5%;left:36%"></div>
+<div class="key rhnd" style="top:25.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:22.7%;left:69.3%"></div>
+<div class="key rhnd" style="top:20.8%;left:74%"></div>
+<div class="key rhnd" style="top:20.4%;left:79.3%"></div>
+<div class="key rhnd" style="top:21.4%;left:84.4%"></div>
+<div class="key rhnd" style="top:23.8%;left:89.6%"></div>
+<div class="key rhnd" style="top:24.4%;left:96%"></div>
+<div class="key lhnd" style="top:37.5%;left:4%"></div>
+<div class="key lhnd" style="top:38.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:36.4%;left:15.6%"></div>
+<div class="key lhnd" style="top:35.4%;left:20.7%"></div>
+<div class="key lhnd" style="top:35.8%;left:25.7%"></div>
+<div class="key lhnd" style="top:36.5%;left:30.8%"></div>
+<div class="key rhnd" style="top:37.7%;left:69.3%"></div>
+<div class="key rhnd" style="top:35.8%;left:74%"></div>
+<div class="key rhnd" style="top:35.4%;left:79.3%"></div>
+<div class="key rhnd" style="top:36.4%;left:84.4%"></div>
+<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
+<div class="key rhnd" style="top:37.5%;left:96%"></div>
+<div class="key lhnd" style="top:51.8%;left:4%"></div>
+<div class="key lhnd" style="top:51%;left:10.5%"></div>
+<div class="key lhnd" style="top:49%;left:15.6%"></div>
+<div class="key lhnd" style="top:48%;left:20.7%"></div>
+<div class="key lhnd" style="top:49%;left:25.7%"></div>
+<div class="key lhnd" style="top:50%;left:30.8%"></div>
+<div class="key lhnd" style="top:47%;left:36%"></div>
+<div class="key rhnd" style="top:47%;left:63.9%"></div>
+<div class="key rhnd" style="top:50%;left:69.3%"></div>
+<div class="key rhnd" style="top:49%;left:74%"></div>
+<div class="key rhnd" style="top:48%;left:79.3%"></div>
+<div class="key rhnd" style="top:49%;left:84.4%"></div>
+<div class="key rhnd" style="top:51%;left:89.6%"></div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%"></div>
+<div class="key lhnd" style="top:66%;left:10.5%;font-size:30.0%">qwerty</div>
+<div class="key lhnd" style="top:63%;left:15.6%;font-size:30.0%"><img src=icon/folder.png></div>
+<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%"><img src=icon/auto-shift.png></div>
+<div class="key lhnd" style="top:63%;left:25.7%"></div>
+<div class="key rhnd" style="top:63%;left:74%"></div>
+<div class="key rhnd" style="top:62%;left:79.3%"></div>
+<div class="key rhnd" style="top:63%;left:84.4%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
+<div class="key lthb" style="top:62%;left:41%"></div>
+<div class="key lthb" style="top:68.6%;left:45.2%"></div>
+<div class="key rthb" style="top:65%;left:54.8%"></div>
+<div class="key rthb" style="top:58.2%;left:59%"></div>
+<div class="key lthb" style="top:80.2%;left:43.3%"></div>
+<div class="key rthb" style="top:77%;left:56.7%"></div>
+<div class="key lthb" style="top:73%;left:33.5%"></div>
+<div class="key lthb" style="top:79%;left:38%"></div>
+<div class="key lthb" style="top:92.6%;left:41.5%"></div>
+<div class="key rthb" style="top:89.4%;left:58.6%"></div>
+<div class="key rthb" style="top:77%;left:62%"></div>
+<div class="key rthb" style="top:71%;left:66.8%"></div>
+</div>
+
+### qwerty ttap
+<div class=layout>
+<div class="key lhnd" style="top:10.5%;left:4%;font-size:30.0%">audio<br>mute</div>
+<div class="key lhnd" style="top:9.9%;left:10.5%"></div>
+<div class="key lhnd" style="top:7.5%;left:15.6%"></div>
+<div class="key lhnd" style="top:6.5%;left:20.7%"></div>
+<div class="key lhnd" style="top:7.8%;left:25.7%"></div>
+<div class="key lhnd" style="top:8.5%;left:30.8%"></div>
+<div class="key lhnd" style="top:8.5%;left:36%"></div>
+<div class="key rhnd" style="top:8.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:8.5%;left:69.3%"></div>
+<div class="key rhnd" style="top:7.8%;left:74%"></div>
+<div class="key rhnd" style="top:6.5%;left:79.3%"></div>
+<div class="key rhnd" style="top:7.5%;left:84.4%"></div>
+<div class="key rhnd" style="top:9.9%;left:89.6%"></div>
+<div class="key rhnd" style="top:10.5%;left:96%"></div>
+<div class="key lhnd" style="top:24.4%;left:4%"></div>
+<div class="key lhnd" style="top:23.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:21.4%;left:15.6%"></div>
+<div class="key lhnd" style="top:20.4%;left:20.7%"></div>
+<div class="key lhnd" style="top:20.8%;left:25.7%"></div>
+<div class="key lhnd" style="top:21.5%;left:30.8%"></div>
+<div class="key lhnd" style="top:25.5%;left:36%"></div>
+<div class="key rhnd" style="top:25.5%;left:63.9%"></div>
+<div class="key rhnd" style="top:22.7%;left:69.3%"></div>
+<div class="key rhnd" style="top:20.8%;left:74%"></div>
+<div class="key rhnd" style="top:20.4%;left:79.3%"></div>
+<div class="key rhnd" style="top:21.4%;left:84.4%"></div>
+<div class="key rhnd" style="top:23.8%;left:89.6%"></div>
+<div class="key rhnd" style="top:24.4%;left:96%"></div>
+<div class="key lhnd" style="top:37.5%;left:4%"></div>
+<div class="key lhnd" style="top:38.8%;left:10.5%"></div>
+<div class="key lhnd" style="top:36.4%;left:15.6%"></div>
+<div class="key lhnd" style="top:35.4%;left:20.7%"></div>
+<div class="key lhnd" style="top:35.8%;left:25.7%"></div>
+<div class="key lhnd" style="top:36.5%;left:30.8%"></div>
+<div class="key rhnd" style="top:37.7%;left:69.3%"></div>
+<div class="key rhnd" style="top:35.8%;left:74%"></div>
+<div class="key rhnd" style="top:35.4%;left:79.3%"></div>
+<div class="key rhnd" style="top:36.4%;left:84.4%"></div>
+<div class="key rhnd" style="top:38.8%;left:89.6%"></div>
+<div class="key rhnd" style="top:37.5%;left:96%"></div>
+<div class="key lhnd" style="top:51.8%;left:4%"></div>
+<div class="key lhnd" style="top:51%;left:10.5%"></div>
+<div class="key lhnd" style="top:49%;left:15.6%"></div>
+<div class="key lhnd" style="top:48%;left:20.7%"></div>
+<div class="key lhnd" style="top:49%;left:25.7%"></div>
+<div class="key lhnd" style="top:50%;left:30.8%"></div>
+<div class="key lhnd" style="top:47%;left:36%"></div>
+<div class="key rhnd" style="top:47%;left:63.9%"></div>
+<div class="key rhnd" style="top:50%;left:69.3%"></div>
+<div class="key rhnd" style="top:49%;left:74%"></div>
+<div class="key rhnd" style="top:48%;left:79.3%"></div>
+<div class="key rhnd" style="top:49%;left:84.4%"></div>
+<div class="key rhnd" style="top:51%;left:89.6%"></div>
+<div class="key rhnd" style="top:51.8%;left:96%"></div>
+<div class="key lhnd" style="top:66%;left:5%"></div>
+<div class="key lhnd" style="top:66%;left:10.5%"></div>
+<div class="key lhnd" style="top:63%;left:15.6%"></div>
+<div class="key lhnd" style="top:62%;left:20.7%;font-size:30.0%"><img src=icon/mail.png></div>
+<div class="key lhnd" style="top:63%;left:25.7%"></div>
+<div class="key rhnd" style="top:63%;left:74%"></div>
+<div class="key rhnd" style="top:62%;left:79.3%"></div>
+<div class="key rhnd" style="top:63%;left:84.4%"></div>
+<div class="key rhnd" style="top:66%;left:89.6%"></div>
+<div class="key rhnd" style="top:66%;left:95%"></div>
+<div class="key lthb" style="top:62%;left:41%"></div>
+<div class="key lthb" style="top:68.6%;left:45.2%"></div>
+<div class="key rthb" style="top:65%;left:54.8%"></div>
+<div class="key rthb" style="top:58.2%;left:59%"></div>
+<div class="key lthb" style="top:80.2%;left:43.3%"></div>
+<div class="key rthb" style="top:77%;left:56.7%"></div>
+<div class="key lthb" style="top:73%;left:33.5%"></div>
+<div class="key lthb" style="top:79%;left:38%"></div>
+<div class="key lthb" style="top:92.6%;left:41.5%"></div>
+<div class="key rthb" style="top:89.4%;left:58.6%"></div>
+<div class="key rthb" style="top:77%;left:62%"></div>
+<div class="key rthb" style="top:71%;left:66.8%"></div>
+</div>
+
 
 ## Icon credits
 
