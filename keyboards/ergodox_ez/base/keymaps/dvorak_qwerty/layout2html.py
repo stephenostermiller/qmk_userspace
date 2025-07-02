@@ -174,9 +174,9 @@ with open('keymap.c', 'r') as file:
                 mode="layout"
             elif m:=re.search(r'^const char (u_[a-z_0-9]+)\[\] PROGMEM = "(.*)";$',line):
                 unicode[m[1].upper()] = m[2]
-            elif m:=re.search(r'tap_dance_actions',line):
+            elif m:=re.search(r'eztd_data\[\]',line):
                 mode="tapdances"
-            elif m:=re.search(r'key_overrides',line):
+            elif m:=re.search(r'key_overrides\[\]',line):
                 mode="overrides"
         elif (mode=="layout"):
             if re.search(r'^\s*\)',line):
@@ -194,6 +194,8 @@ with open('keymap.c', 'r') as file:
                 func=func.lower().split("_")
                 out={}
                 for i in range(0,len(func)):
+                    if i >= len(args):
+                        raise Exception(f"Not enough arguments: {line}")
                     out[func[i]]=args[i]
                 tapdances[m[1]] = out
         elif (mode=="overrides"):
