@@ -24,11 +24,12 @@ enum layer_names {
     LAY_QWERTY_CONTROL, // qwerty overlay with ctrl key pressed
     LAY_QWERTY_META, // qwerty overlay with meta key pressed
     LAY_QWERTY_ALT, // qwerty overlay with alt key pressed
+    LAY_FANCY, // Fancy unicode letters
 };
 
 // used as portions of tap dances
 enum custom_keycodes {
-    MO_TG_QWERTY = SAFE_RANGE,  MO_TG_NUMFN,
+    MO_TG_QWERTY = SAFE_RANGE, MO_TG_NUMFN,
 };
 
 // handle custom keycodes
@@ -43,7 +44,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             layer_invert(LAY_NUM_FN);
             return false;
     }
-
     return true;
 }
 
@@ -55,6 +55,10 @@ const char u_sbullet[] PROGMEM = "▪";
 const char u_swbullet[] PROGMEM = "▫";
 const char u_em_dash[] PROGMEM = "—";
 const char u_ellipsis[] PROGMEM = "…";
+const char u_lsquot[] PROGMEM = "“";
+const char u_rsquot[] PROGMEM = "”";
+const char u_lsapos[] PROGMEM = "‘";
+const char u_rsapos[] PROGMEM = "’";
 
 const char u_w_arrow[] PROGMEM = "←";
 const char u_n_arrow[] PROGMEM = "↑";
@@ -245,7 +249,7 @@ enum unicode_names {
     U_SET_NOT_ELEMENT, U_SET_SUB, U_SET_SUB_EQUAL, U_SET_UNION, U_SET_INTERSECTION, U_PI, U_IMAGINARY_I, U_IMAGINARY_J, U_EULER, U_DELTA, U_EMPTY_SET,
     U_INTEGRAL_2, U_PARTIAL_DIFF, U_PRIME, U_PRIME_2, U_ELLIPSIS, U_FRAC_1_8, U_FRAC_1_4, U_FRAC_1_3, U_FRAC_3_8, U_FRAC_1_2, U_FRAC_5_8, U_FRAC_2_3,
     U_FRAC_3_4, U_FRAC_7_8, U_TIP, U_INFO, U_DO_NOT, U_NO_ENTRY, U_KLAXON, U_FROWN, U_FRAC_1_10, U_HAM_MEN, U_WBULLET, U_TBULLET, U_TWBULLET, U_SBULLET,
-    U_SWBULLET,
+    U_SWBULLET, U_LSQUOT, U_RSQUOT, U_LSAPOS, U_RSAPOS,
 };
 
 const char* const unicode_macro_map[] PROGMEM = {
@@ -258,6 +262,10 @@ const char* const unicode_macro_map[] PROGMEM = {
 
     [U_EM_DASH] = u_em_dash,
     [U_ELLIPSIS] = u_ellipsis,
+    [U_LSQUOT] = u_lsquot,
+    [U_RSQUOT] = u_rsquot,
+    [U_LSAPOS] = u_lsapos,
+    [U_RSAPOS] = u_rsapos,
 
     [U_W_ARROW] = u_w_arrow,
     [U_N_ARROW] = u_n_arrow,
@@ -440,25 +448,26 @@ enum tap_dance_keycodes {
     LCDT_SHFT, LCDT_CRTL, LCDT_META, LCDT_ALT, RCDT_ALT, RCDT_META, RCDT_CRTL, RCDT_SHFT, LAY_OUT, FANC_ALPH, MUTE_MVS, HOME_TOP, END_BTM, BULLETS, NEXT_FF, PREV_RW,
     PLAY_PLYR, W_ARROW, N_ARROW, E_ARROW, S_ARROW, SW_ARROW, SE_ARROW, NW_ARROW, NE_ARROW, EW_ARROW, NS_ARROW, DIAG_ARROW, DIVIDES, MULTIPLIES, SUBTRACTS, ADDS, EQUALS,
     COPYRIGHT, TD_INF, EM_SMILE, EM_LOL, EM_LOVE, EM_PARTY, MTH_ROOT, MTH_PWR, MTH_CLCLS, MTH_SET, MTH_PAREN, MTH_CONST, EM_LIKE, EM_CAUTN, EM_LGL_IP, EM_BALLOT,
-    EM_SAD, F1_FRAC, F2_FRAC, F3_FRAC, F4_FRAC, F5_FRAC, F6_FRAC, F7_FRAC, F8_FRAC, F9_FRAC, F10_FRAC, MSC_FACE, MSC_ICN, EM_CD_RVW,
+    EM_SAD, F1_FRAC, F2_FRAC, F3_FRAC, F4_FRAC, F5_FRAC, F6_FRAC, F7_FRAC, F8_FRAC, F9_FRAC, F10_FRAC, MSC_FACE, MSC_ICN, EM_CD_RVW, MINU_DASH, DOT_GTE, TD_QUOTES
 };
 
 const eztd_data_t eztd_data[] PROGMEM = {
     [LCDT_SHFT] = EZTD_TAP_HOLD_DTAP(KC_LEFT_PAREN, KC_LEFT_SHIFT, QK_CAPS_WORD_TOGGLE),
-    [LCDT_CRTL] = EZTD_TAP_HOLD_DTAP_DHOLD(KC_LEFT_ANGLE_BRACKET,  LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL), KC_PSCR, KC_MY_COMPUTER),
+    [LCDT_CRTL] = EZTD_TAP_HOLD_DTAP(KC_LEFT_ANGLE_BRACKET,  LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL), KC_MY_COMPUTER),
     [LCDT_META] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP_THOLD(KC_LEFT_BRACKET, LM(LAY_QWERTY_META, MOD_MASK_GUI), QK_AUTO_SHIFT_TOGGLE, QK_AUTO_SHIFT_TOGGLE, KC_MAIL, KC_MAIL),
     [LCDT_ALT] = EZTD_TAP_HOLD_DTAP(KC_LEFT_CURLY_BRACE, LM(LAY_QWERTY_ALT, MOD_MASK_ALT), KC_INS),
     [RCDT_ALT] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_CURLY_BRACE, LM(LAY_QWERTY_ALT, MOD_MASK_ALT), G(KC_L)),
     [RCDT_META] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_BRACKET, LM(LAY_QWERTY_META, MOD_MASK_GUI), KC_FULL_SCREEN),
     [RCDT_CRTL] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_ANGLE_BRACKET, LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL), A(KC_F4)),
     [RCDT_SHFT] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_PAREN, KC_RIGHT_SHIFT, KC_CAPS),
-    [LAY_OUT] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP(UM(U_ELLIPSIS), MO_TG_NUMFN, TG(LAY_NUM_FN), MO_TG_QWERTY, TG(LAY_QWERTY)),
-    [FANC_ALPH] = EZTD_TAP_HOLD_DTAP(UM(U_EM_DASH), UNICODE_FANCY_ALPHABET_MOMENTARY, UNICODE_FANCY_ALPHABET_CYCLE),
+    [LAY_OUT] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP(KC_PSCR, MO_TG_NUMFN, TG(LAY_NUM_FN), MO_TG_QWERTY, TG(LAY_QWERTY)),
+    [FANC_ALPH] = EZTD_TAP_HOLD_DTAP(KC_CALCULATOR, KC_UNICODE_FANCY_ALPHABET_MOMENTARY, KC_UNICODE_FANCY_ALPHABET_CYCLE),
     [MUTE_MVS] = EZTD_FLOWTAP_DTAP_TTAP(C(S(KC_M)), C(S(KC_O)), KC_AUDIO_MUTE),
     [HOME_TOP] =  EZTD_FLOWTAP_DTAP(KC_HOME, C(KC_HOME)),
     [END_BTM] = EZTD_FLOWTAP_DTAP(KC_END, C(KC_END)),
-    //[EM_ELL] = EZTD_FLOWTAP_HOLD(UM(U_EM_DASH), UM(U_ELLIPSIS)), KC_CALCULATOR
-
+    [MINU_DASH] = EZTD_FLOWTAP_HOLD_DTAP(KC_MINUS, KC_UNDERSCORE, UM(U_EM_DASH)),
+    [TD_QUOTES] = EZTD_FLOWTAP_HOLD_DTAP_DHOLD_TTAP_THOLD(KC_QUOTE, KC_DOUBLE_QUOTE, UM(U_LSAPOS), UM(U_LSQUOT), UM(U_RSAPOS), UM(U_RSQUOT)),
+    [DOT_GTE] = EZTD_FLOWTAP_HOLD_TTAP(KC_DOT, KC_COMMA, UM(U_ELLIPSIS)),
     [BULLETS] =  EZTD_FLOWTAP_HOLD_DTAP_DHOLD_TTAP_THOLD(UM(U_BULLET), UM(U_WBULLET), UM(U_TBULLET), UM(U_TWBULLET), UM(U_SBULLET), UM(U_SWBULLET)),
     [NEXT_FF] = EZTD_FLOWTAP_HOLD(KC_MEDIA_NEXT_TRACK, KC_MEDIA_FAST_FORWARD),
     [PREV_RW] = EZTD_FLOWTAP_HOLD(KC_MEDIA_PREV_TRACK, KC_MEDIA_REWIND),
@@ -575,14 +584,17 @@ const tap_dance_action_t tap_dance_actions[] PROGMEM = {
     [F8_FRAC] = EZTD_ACTION(eztd_data[F8_FRAC]),
     [F9_FRAC] = EZTD_ACTION(eztd_data[F9_FRAC]),
     [F10_FRAC] = EZTD_ACTION(eztd_data[F10_FRAC]),
+    [MINU_DASH] = EZTD_ACTION(eztd_data[MINU_DASH]),
+    [TD_QUOTES] = EZTD_ACTION(eztd_data[TD_QUOTES]),
+    [DOT_GTE] = EZTD_ACTION(eztd_data[DOT_GTE]),
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAY_DVORAK] = LAYOUT_ergodox_pretty(
 /*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
     TD(MUTE_MVS),  KC_1,          KC_2,          KC_3,          KC_4,          KC_5,          TD(PLAY_PLYR),     TD(BULLETS),   KC_6,          KC_7,          KC_8,          KC_9,          KC_0,          KC_BSLS,
-    KC_VOLU,       KC_QUOTE,      KC_COMMA,      KC_DOT,        KC_P,          KC_Y,          TD(NEXT_FF),       KC_EQUAL,      KC_F,          KC_G,          KC_C,          KC_R,          KC_L,          KC_SLASH,
-    KC_VOLD,       KC_A,          KC_O,          KC_E,          KC_U,          KC_I,                                            KC_D,          KC_H,          KC_T,          KC_N,          KC_S,          KC_MINUS,
+    KC_VOLU,       TD(TD_QUOTES), KC_COMMA,      TD(DOT_GTE),   KC_P,          KC_Y,          TD(NEXT_FF),       KC_EQUAL,      KC_F,          KC_G,          KC_C,          KC_R,          KC_L,          KC_SLASH,
+    KC_VOLD,       KC_A,          KC_O,          KC_E,          KC_U,          KC_I,                                            KC_D,          KC_H,          KC_T,          KC_N,          KC_S,          TD(MINU_DASH),
     TD(LCDT_SHFT), KC_SCLN,       KC_Q,          KC_J,          KC_K,          KC_X,          TD(PREV_RW),       KC_GRAVE,      KC_B,          KC_M,          KC_W,          KC_V,          KC_Z,          TD(RCDT_SHFT),
     TD(FANC_ALPH), TD(LAY_OUT),   TD(LCDT_CRTL), TD(LCDT_META), TD(LCDT_ALT),                                                                  TD(RCDT_ALT),  TD(RCDT_META), TD(RCDT_CRTL), KC_PAGE_UP,    KC_PGDN,
                                                                                TD(HOME_TOP),  TD(END_BTM),       KC_ESC,        KC_DELETE,
@@ -604,8 +616,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
     TD(MUTE_MVS),  KC_1,          KC_2,          KC_3,          KC_4,          KC_5,          TD(PLAY_PLYR),     TD(BULLETS),   KC_6,          KC_7,          KC_8,          KC_9,          KC_0,          TD(NEXT_FF),
     KC_VOLU,       KC_Q,          KC_W,          KC_E,          KC_R,          KC_T,          KC_EQUAL,          KC_BSLS,       KC_Y,          KC_U,          KC_I,          KC_O,          KC_P,          TD(PREV_RW),
-    KC_VOLD,       KC_A,          KC_S,          KC_D,          KC_F,          KC_G,                                            KC_H,          KC_J,          KC_K,          KC_L,          KC_SCLN,       KC_QUOTE,
-    TD(LCDT_SHFT), KC_Z,          KC_X,          KC_C,          KC_V,          KC_B,          KC_MINUS,          KC_GRAVE,      KC_N,          KC_M,          KC_COMMA,      KC_DOT,        KC_SLASH,      TD(RCDT_SHFT),
+    KC_VOLD,       KC_A,          KC_S,          KC_D,          KC_F,          KC_G,                                            KC_H,          KC_J,          KC_K,          KC_L,          KC_SCLN,       TD(TD_QUOTES),
+    TD(LCDT_SHFT), KC_Z,          KC_X,          KC_C,          KC_V,          KC_B,          TD(MINU_DASH),     KC_GRAVE,      KC_N,          KC_M,          KC_COMMA,      KC_DOT,        KC_SLASH,      TD(RCDT_SHFT),
     TD(FANC_ALPH), TD(LAY_OUT),   TD(LCDT_CRTL), TD(LCDT_META), TD(LCDT_ALT),                                                                  TD(RCDT_ALT),  TD(RCDT_META), TD(RCDT_CRTL), KC_PAGE_UP,    KC_PGDN,
                                                                                TD(HOME_TOP),  TD(END_BTM),       KC_ESC,        KC_DELETE,
                                                                                               KC_RIGHT,          KC_UP,
@@ -616,7 +628,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     XXXXXXX,       C(KC_1),       C(KC_2),       C(KC_3),       C(KC_4),       C(KC_5),       XXXXXXX,           XXXXXXX,       C(KC_6),       C(KC_7),       C(KC_8),       C(KC_9),       C(KC_0),       C(KC_RBRC),
     XXXXXXX,       C(KC_Q),       C(KC_W),       C(KC_E),       C(KC_R),       C(KC_T),       C(KC_EQUAL),       C(KC_BSLS),    C(KC_Y),       C(KC_U),       C(KC_I),       C(KC_O),       C(KC_P),       C(KC_LBRC),
     XXXXXXX,       C(KC_A),       C(KC_S),       C(KC_D),       C(KC_F),       C(KC_G),                                         C(KC_H),       C(KC_J),       C(KC_K),       C(KC_L),       C(KC_SCLN),    C(KC_QUOTE),
-    KC_LSFT,       C(KC_Z),       C(KC_X),       C(KC_C),       C(KC_V),       C(KC_B),       C(KC_MINUS),       C(KC_GRAVE),   C(KC_N),       C(KC_M),       C(KC_COMMA),   C(KC_DOT),     C(KC_SLASH),   KC_RSFT,
+    KC_LSFT,       C(KC_Z),       C(KC_X),       C(KC_C),       C(KC_V),       C(KC_B),       C(KC_MINUS),       C(KC_GRAVE),   C(KC_N),       C(KC_M),       C(KC_COMMA),   TD(DOT_GTE),     C(KC_SLASH),   KC_RSFT,
     XXXXXXX,       XXXXXXX,       KC_LEFT_CTRL,  KC_LEFT_GUI,   KC_LEFT_ALT,                                                                   KC_LEFT_ALT,   KC_LEFT_GUI,   KC_LEFT_CTRL,  C(KC_PAGE_UP), C(KC_PGDN),
                                                                                C(KC_HOME),    C(KC_END),         C(KC_ESC),     C(KC_DELETE),
                                                                                               C(KC_RIGHT),       C(KC_UP),
@@ -644,14 +656,27 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                                                               A(KC_RIGHT),       A(KC_UP),
                                                                 A(KC_ENTER),   A(KC_TAB),     A(KC_LEFT),        A(KC_DOWN),    A(KC_BSPC),    A(KC_SPACE)
   ),
+  [LAY_FANCY] = LAYOUT_ergodox_pretty(
+/*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
+    UFA_DS,        _______,       _______,       _______,       _______,       _______,       UFA_FRK,            UFA_MON,      _______,       _______,       _______,       _______,       _______,       XXXXXXX,
+    UFA_CIR,       _______,       _______,       _______,       _______,       _______,       UFA_FB,             UFA_ITC,      _______,       _______,       _______,       _______,       _______,       XXXXXXX,
+    UFA_NC,        _______,       _______,       _______,       _______,       _______,                                         _______,       _______,       _______,       _______,       _______,       XXXXXXX,
+    _______,       _______,       _______,       _______,       _______,       _______,       UFA_REG,            UFA_BI,       _______,       _______,       _______,       _______,       _______,       _______,
+    _______,       UFA_SQ,        UFA_NSQ,       UFA_SCR,       UFA_SB,                                                                        UFA_BLD,       UFA_WDE,       XXXXXXX,       _______,       _______,
+                                                                               _______,       _______,           _______,       _______,
+                                                                                              _______,           _______,
+                                                                _______,       _______,       _______,           _______,       _______,       _______
+  ),
 };
 
 const key_override_t *key_overrides[] = {
     &ezovrd_make_basic(MOD_MASK_SHIFT, KC_COMMA, UM(U_LTE)),
-    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_DOT, UM(U_GTE)),
-    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(PLAY_PLYR), UM(U_BULLET)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(DOT_GTE), UM(U_GTE)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(BULLETS), UM(U_WBULLET)),
     &ezovrd_make_basic(MOD_MASK_SHIFT, KC_9, UM(U_BLACK_STAR)),
     &ezovrd_make_basic(MOD_MASK_SHIFT, KC_0, UM(U_WHITE_STAR)),
+    &ezovrd_make_unsuppressed(MOD_MASK_SHIFT, TD(MINU_DASH), KC_UNDERSCORE),
+    &ezovrd_make_unsuppressed(MOD_MASK_SHIFT, TD(TD_QUOTES), KC_DOUBLE_QUOTE),
 };
 
 enum light_state_enum {
@@ -793,4 +818,33 @@ bool process_detected_host_os_user(os_variant_t detected_os) {
     ergodox_right_led_2_off();
 
     return true;
+}
+
+void unicode_fancy_alphabet_set_user(uint8_t alphabet) {
+    if (alphabet == UNICODE_FANCY_ALPHABET_NONE){
+        layer_off(LAY_FANCY);
+    } else {
+        layer_on(LAY_FANCY);
+    }
+}
+
+bool caps_word_press_user(uint16_t keycode) {
+    switch (keycode) {
+        // Keycodes that continue Caps Word, with shift applied.
+        case KC_A ... KC_Z:
+        case KC_MINS:
+        case TD(MINU_DASH):
+            add_weak_mods(MOD_BIT(KC_LSFT));  // Apply shift to next key.
+            return true;
+
+        // Keycodes that continue Caps Word, without shifting.
+        case KC_1 ... KC_0:
+        case KC_BSPC:
+        case KC_DEL:
+        case KC_UNDS:
+            return true;
+
+        default:
+            return false;  // Deactivate Caps Word.
+    }
 }
