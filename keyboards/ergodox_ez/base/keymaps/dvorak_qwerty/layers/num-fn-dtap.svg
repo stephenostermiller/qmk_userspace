@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="900mm" height="375mm" viewBox="0 0 18000 7500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<style>
+rect{fill:none;stroke:#000;stroke-width:10}
+text{font:bold 700px sans-serif;dominant-baseline:middle;text-anchor:middle}
+text.medium{font:bold 450px sans-serif;}
+text.small{font:bold 200px sans-serif;}
+</style>
+<rect class="keycap" width="1490" height="990" x="5" y="205" ry="100"/>
+<rect width="1290" height="790" x="105" y="305" ry="100"/>
+<text class="big" x="750" y="700">😊</text>
+<rect class="keycap" width="990" height="990" x="1505" y="205" ry="100"/>
+<rect width="790" height="790" x="1605" y="305" ry="100"/>
+<text class="big" x="2000" y="700">⅒</text>
+<rect class="keycap" width="990" height="990" x="2505" y="105" ry="100"/>
+<rect width="790" height="790" x="2605" y="205" ry="100"/>
+<text class="big" x="3000" y="600">½</text>
+<rect class="keycap" width="990" height="990" x="3505" y="5" ry="100"/>
+<rect width="790" height="790" x="3605" y="105" ry="100"/>
+<text class="big" x="4000" y="500">⅓</text>
+<rect class="keycap" width="990" height="990" x="4505" y="105" ry="100"/>
+<rect width="790" height="790" x="4605" y="205" ry="100"/>
+<text class="big" x="5000" y="600">¼</text>
+<rect class="keycap" width="990" height="990" x="5505" y="205" ry="100"/>
+<rect width="790" height="790" x="5605" y="305" ry="100"/>
+<text class="big" x="6000" y="700">⅔</text>
+<rect class="keycap" width="990" height="990" x="6505" y="205" ry="100"/>
+<rect width="790" height="790" x="6605" y="305" ry="100"/>
+<text class="big" x="7000" y="700">™</text>
+<rect class="keycap" width="990" height="990" x="10505" y="205" ry="100"/>
+<rect width="790" height="790" x="10605" y="305" ry="100"/>
+<text class="big" x="11000" y="700">∑</text>
+<rect class="keycap" width="990" height="990" x="11505" y="205" ry="100"/>
+<rect width="790" height="790" x="11605" y="305" ry="100"/>
+<text class="big" x="12000" y="700">¾</text>
+<rect class="keycap" width="990" height="990" x="12505" y="105" ry="100"/>
+<rect width="790" height="790" x="12605" y="205" ry="100"/>
+<text class="big" x="13000" y="600">⅛</text>
+<rect class="keycap" width="990" height="990" x="13505" y="5" ry="100"/>
+<rect width="790" height="790" x="13605" y="105" ry="100"/>
+<text class="big" x="14000" y="500">⅜</text>
+<rect class="keycap" width="990" height="990" x="14505" y="105" ry="100"/>
+<rect width="790" height="790" x="14605" y="205" ry="100"/>
+<text class="big" x="15000" y="600">⅝</text>
+<rect class="keycap" width="990" height="990" x="15505" y="205" ry="100"/>
+<rect width="790" height="790" x="15605" y="305" ry="100"/>
+<text class="big" x="16000" y="700">⅞</text>
+<rect class="keycap" width="1490" height="990" x="16505" y="205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="305" ry="100"/>
+<text class="big" x="17250" y="700"></text>
+<rect class="keycap" width="1490" height="990" x="5" y="1205" ry="100"/>
+<rect width="1290" height="790" x="105" y="1305" ry="100"/>
+<text class="big" x="750" y="1700">🙌</text>
+<rect class="keycap" width="990" height="990" x="1505" y="1205" ry="100"/>
+<rect width="790" height="790" x="1605" y="1305" ry="100"/>
+<text class="big" x="2000" y="1700">🙁</text>
+<rect class="keycap" width="990" height="990" x="2505" y="1105" ry="100"/>
+<rect width="790" height="790" x="2605" y="1205" ry="100"/>
+<text class="big" x="3000" y="1600">⇳</text>
+<rect class="keycap" width="990" height="990" x="3505" y="1005" ry="100"/>
+<rect width="790" height="790" x="3605" y="1105" ry="100"/>
+<text class="big" x="4000" y="1500">⬁</text>
+<rect class="keycap" width="990" height="990" x="4505" y="1105" ry="100"/>
+<rect width="790" height="790" x="4605" y="1205" ry="100"/>
+<text class="big" x="5000" y="1600">⇧</text>
+<rect class="keycap" width="990" height="990" x="5505" y="1205" ry="100"/>
+<rect width="790" height="790" x="5605" y="1305" ry="100"/>
+<text class="big" x="6000" y="1700">⬀</text>
+<rect class="keycap" width="990" height="1490" x="6505" y="1205" ry="100"/>
+<rect width="790" height="1290" x="6605" y="1305" ry="100"/>
+<text class="big" x="7000" y="1950">☑</text>
+<rect class="keycap" width="990" height="1490" x="10505" y="1205" ry="100"/>
+<rect width="790" height="1290" x="10605" y="1305" ry="100"/>
+<text class="big" x="11000" y="1950">➗</text>
+<rect class="keycap" width="990" height="990" x="11505" y="1205" ry="100"/>
+<rect width="790" height="790" x="11605" y="1305" ry="100"/>
+<text class="big" x="12000" y="1700"></text>
+<rect class="keycap" width="990" height="990" x="12505" y="1105" ry="100"/>
+<rect width="790" height="790" x="12605" y="1205" ry="100"/>
+<text class="big" x="13000" y="1600"></text>
+<rect class="keycap" width="990" height="990" x="13505" y="1005" ry="100"/>
+<rect width="790" height="790" x="13605" y="1105" ry="100"/>
+<text class="big" x="14000" y="1500"></text>
+<rect class="keycap" width="990" height="990" x="14505" y="1105" ry="100"/>
+<rect width="790" height="790" x="14605" y="1205" ry="100"/>
+<text class="big" x="15000" y="1600">➖</text>
+<rect class="keycap" width="990" height="990" x="15505" y="1205" ry="100"/>
+<rect width="790" height="790" x="15605" y="1305" ry="100"/>
+<text class="big" x="16000" y="1700">⧝</text>
+<rect class="keycap" width="1490" height="990" x="16505" y="1205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="1305" ry="100"/>
+<text class="big" x="17250" y="1700"></text>
+<rect class="keycap" width="1490" height="990" x="5" y="2205" ry="100"/>
+<rect width="1290" height="790" x="105" y="2305" ry="100"/>
+<text class="big" x="750" y="2700">😍</text>
+<rect class="keycap" width="990" height="990" x="1505" y="2205" ry="100"/>
+<rect width="790" height="790" x="1605" y="2305" ry="100"/>
+<text class="big" x="2000" y="2700">☰</text>
+<rect class="keycap" width="990" height="990" x="2505" y="2105" ry="100"/>
+<rect width="790" height="790" x="2605" y="2205" ry="100"/>
+<text class="big" x="3000" y="2600">⬄</text>
+<rect class="keycap" width="990" height="990" x="3505" y="2005" ry="100"/>
+<rect width="790" height="790" x="3605" y="2105" ry="100"/>
+<text class="big" x="4000" y="2500">⇦</text>
+<rect class="keycap" width="990" height="990" x="4505" y="2105" ry="100"/>
+<rect width="790" height="790" x="4605" y="2205" ry="100"/>
+<text class="big" x="5000" y="2600">✅</text>
+<rect class="keycap" width="990" height="990" x="5505" y="2205" ry="100"/>
+<rect width="790" height="790" x="5605" y="2305" ry="100"/>
+<text class="big" x="6000" y="2700">⇨</text>
+<rect class="keycap" width="990" height="990" x="11505" y="2205" ry="100"/>
+<rect width="790" height="790" x="11605" y="2305" ry="100"/>
+<text class="big" x="12000" y="2700"></text>
+<rect class="keycap" width="990" height="990" x="12505" y="2105" ry="100"/>
+<rect width="790" height="790" x="12605" y="2205" ry="100"/>
+<text class="big" x="13000" y="2600"></text>
+<rect class="keycap" width="990" height="990" x="13505" y="2005" ry="100"/>
+<rect width="790" height="790" x="13605" y="2105" ry="100"/>
+<text class="big" x="14000" y="2500"></text>
+<rect class="keycap" width="990" height="990" x="14505" y="2105" ry="100"/>
+<rect width="790" height="790" x="14605" y="2205" ry="100"/>
+<text class="big" x="15000" y="2600">➕</text>
+<rect class="keycap" width="990" height="990" x="15505" y="2205" ry="100"/>
+<rect width="790" height="790" x="15605" y="2305" ry="100"/>
+<text class="big" x="16000" y="2700">⁴</text>
+<rect class="keycap" width="1490" height="990" x="16505" y="2205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="2305" ry="100"/>
+<text class="big" x="17250" y="2700">⊂</text>
+<rect class="keycap" width="1490" height="990" x="5" y="3205" ry="100"/>
+<rect width="1290" height="790" x="105" y="3305" ry="100"/>
+<text class="big" x="750" y="3700">🤣</text>
+<rect class="keycap" width="990" height="990" x="1505" y="3205" ry="100"/>
+<rect width="790" height="790" x="1605" y="3305" ry="100"/>
+<text class="big" x="2000" y="3700">🥹</text>
+<rect class="keycap" width="990" height="990" x="2505" y="3105" ry="100"/>
+<rect width="790" height="790" x="2605" y="3205" ry="100"/>
+<text class="big" x="3000" y="3600"></text>
+<rect class="keycap" width="990" height="990" x="3505" y="3005" ry="100"/>
+<rect width="790" height="790" x="3605" y="3105" ry="100"/>
+<text class="big" x="4000" y="3500">⬃</text>
+<rect class="keycap" width="990" height="990" x="4505" y="3105" ry="100"/>
+<rect width="790" height="790" x="4605" y="3205" ry="100"/>
+<text class="big" x="5000" y="3600">⇩</text>
+<rect class="keycap" width="990" height="990" x="5505" y="3205" ry="100"/>
+<rect width="790" height="790" x="5605" y="3305" ry="100"/>
+<text class="big" x="6000" y="3700">⬂</text>
+<rect class="keycap" width="990" height="1490" x="6505" y="2705" ry="100"/>
+<rect width="790" height="1290" x="6605" y="2805" ry="100"/>
+<text class="big" x="7000" y="3450">⚠️</text>
+<rect class="keycap" width="990" height="1490" x="10505" y="2705" ry="100"/>
+<rect width="790" height="1290" x="10605" y="2805" ry="100"/>
+<text class="big" x="11000" y="3450">✖</text>
+<rect class="keycap" width="990" height="990" x="11505" y="3205" ry="100"/>
+<rect width="790" height="790" x="11605" y="3305" ry="100"/>
+<text class="big" x="12000" y="3700"></text>
+<rect class="keycap" width="990" height="990" x="12505" y="3105" ry="100"/>
+<rect width="790" height="790" x="12605" y="3205" ry="100"/>
+<text class="big" x="13000" y="3600"></text>
+<rect class="keycap" width="990" height="990" x="13505" y="3005" ry="100"/>
+<rect width="790" height="790" x="13605" y="3105" ry="100"/>
+<text class="big" x="14000" y="3500"></text>
+<rect class="keycap" width="990" height="990" x="14505" y="3105" ry="100"/>
+<rect width="790" height="790" x="14605" y="3205" ry="100"/>
+<text class="big" x="15000" y="3600">🟰</text>
+<rect class="keycap" width="990" height="990" x="15505" y="3205" ry="100"/>
+<rect width="790" height="790" x="15605" y="3305" ry="100"/>
+<text class="big" x="16000" y="3700">∜</text>
+<rect class="keycap" width="1490" height="990" x="16505" y="3205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="3305" ry="100"/>
+<text class="big" x="17250" y="3700"></text>
+<rect class="keycap" width="990" height="990" x="505" y="4205" ry="100"/>
+<rect width="790" height="790" x="605" y="4305" ry="100"/>
+<text class="big" x="1000" y="4700">🎊</text>
+<rect class="keycap" width="990" height="990" x="1505" y="4205" ry="100"/>
+<rect width="790" height="790" x="1605" y="4305" ry="100"/>
+<image x="1650" y="4350" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIGZpbGw9IiMwMDAwMDAiIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPmlvbmljb25zLXY1LWc8L3RpdGxlPjxwYXRoIGQ9Ik0yNTYsNDAwYTQ4LDQ4LDAsMSwwLDQ4LDQ4LDQ4LDQ4LDAsMCwwLTQ4LTQ4WiIvPjxwYXRoIGQ9Ik0yNTYsMjcyYTQ4LDQ4LDAsMSwwLDQ4LDQ4LDQ4LDQ4LDAsMCwwLTQ4LTQ4WiIvPjxwYXRoIGQ9Ik0yNTYsMTQ0YTQ4LDQ4LDAsMSwwLDQ4LDQ4LDQ4LDQ4LDAsMCwwLTQ4LTQ4WiIvPjxwYXRoIGQ9Ik0yNTYsMTZhNDgsNDgsMCwxLDAsNDgsNDgsNDgsNDgsMCwwLDAtNDgtNDhaIi8+PHBhdGggZD0iTTM4NCwyNzJhNDgsNDgsMCwxLDAsNDgsNDgsNDgsNDgsMCwwLDAtNDgtNDhaIi8+PHBhdGggZD0iTTM4NCwxNDRhNDgsNDgsMCwxLDAsNDgsNDgsNDgsNDgsMCwwLDAtNDgtNDhaIi8+PHBhdGggZD0iTTM4NCwxNmE0OCw0OCwwLDEsMCw0OCw0OCw0OCw0OCwwLDAsMC00OC00OFoiLz48cGF0aCBkPSJNMTI4LDI3MmE0OCw0OCwwLDEsMCw0OCw0OCw0OCw0OCwwLDAsMC00OC00OFoiLz48cGF0aCBkPSJNMTI4LDE0NGE0OCw0OCwwLDEsMCw0OCw0OCw0OCw0OCwwLDAsMC00OC00OFoiLz48cGF0aCBkPSJNMTI4LDE2YTQ4LDQ4LDAsMSwwLDQ4LDQ4LDQ4LDQ4LDAsMCwwLTQ4LTQ4WiIvPjwvc3ZnPg=="/>
+<rect class="keycap" width="990" height="990" x="2505" y="4105" ry="100"/>
+<rect width="790" height="790" x="2605" y="4205" ry="100"/>
+<text class="big" x="3000" y="4600"></text>
+<rect class="keycap" width="990" height="990" x="3505" y="4005" ry="100"/>
+<rect width="790" height="790" x="3605" y="4105" ry="100"/>
+<text class="big" x="4000" y="4500"></text>
+<rect class="keycap" width="990" height="990" x="4505" y="4105" ry="100"/>
+<rect width="790" height="790" x="4605" y="4205" ry="100"/>
+<text class="big" x="5000" y="4600"></text>
+<rect class="keycap" width="990" height="990" x="12505" y="4105" ry="100"/>
+<rect width="790" height="790" x="12605" y="4205" ry="100"/>
+<text class="big" x="13000" y="4600"></text>
+<rect class="keycap" width="990" height="990" x="13505" y="4005" ry="100"/>
+<rect width="790" height="790" x="13605" y="4105" ry="100"/>
+<text class="big" x="14000" y="4500"></text>
+<rect class="keycap" width="990" height="990" x="14505" y="4105" ry="100"/>
+<rect width="790" height="790" x="14605" y="4205" ry="100"/>
+<text class="big" x="15000" y="4600"></text>
+<rect class="keycap" width="990" height="990" x="15505" y="4205" ry="100"/>
+<rect width="790" height="790" x="15605" y="4305" ry="100"/>
+<text class="big" x="16000" y="4700"></text>
+<rect class="keycap" width="990" height="990" x="16505" y="4205" ry="100"/>
+<rect width="790" height="790" x="16605" y="4305" ry="100"/>
+<text class="big" x="17000" y="4700">ℯ</text>
+<rect class="keycap" width="990" height="990" x="6755" y="4505" ry="100"/>
+<rect width="790" height="790" x="6855" y="4605" ry="100"/>
+<image x="6900" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjYwMCIKICAgaGVpZ2h0PSI2MDAiCiAgIHZpZXdCb3g9IjAgMCAzNi4wMDAwMDEgMzYiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzY2Mjk0IgogICBzb2RpcG9kaTpkb2NuYW1lPSJ0b3Auc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjIuMiAoYjBhODQ4NjU0MSwgMjAyMi0xMi0wMSkiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM2NjI5OCIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgaWQ9Im5hbWVkdmlldzY2Mjk2IgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzExMTExMSIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIGlua3NjYXBlOnNob3dwYWdlc2hhZG93PSIwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjEiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp6b29tPSIwLjI5NSIKICAgICBpbmtzY2FwZTpjeD0iLTIzLjcyODgxNCIKICAgICBpbmtzY2FwZTpjeT0iMjk4LjMwNTA4IgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzY2Mjk0IiAvPgogIDwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+CiAgPHRpdGxlCiAgICAgaWQ9InRpdGxlNjYyODciPmljX2ZsdWVudF9hcnJvd19kb3dubG9hZF80OF9yZWd1bGFyPC90aXRsZT4KICA8ZGVzYwogICAgIGlkPSJkZXNjNjYyODkiPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogIDxnCiAgICAgaWQ9Imc2NjQzMSIKICAgICB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwtMSwwLDM2KSI+CiAgICA8ZwogICAgICAgaWQ9IvCflI0tU3lzdGVtLUljb25zIgogICAgICAgc3Ryb2tlPSJub25lIgogICAgICAgc3Ryb2tlLXdpZHRoPSIxIgogICAgICAgZmlsbD0ibm9uZSIKICAgICAgIGZpbGwtcnVsZT0iZXZlbm9kZCIKICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01Ljk2LC02KSI+CiAgICAgIDxnCiAgICAgICAgIGlkPSJpY19mbHVlbnRfYXJyb3dfZG93bmxvYWRfNDhfcmVndWxhciIKICAgICAgICAgZmlsbD0iIzIxMjEyMSIKICAgICAgICAgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICA8cGF0aAogICAgICAgICAgIGQ9Im0gMTIuMjUsMzkuNSBoIDIzLjUgYyAwLjY5MDM1NiwwIDEuMjUsMC41NTk2NDQgMS4yNSwxLjI1IDAsMC42NDcyMDkgLTAuNDkxODc1LDEuMTc5NTM0IC0xLjEyMjE5NSwxLjI0MzU0NiBMIDM1Ljc1LDQyIEggMTIuMjUgQyAxMS41NTk2NDQsNDIgMTEsNDEuNDQwMzU2IDExLDQwLjc1IGMgMCwtMC42NDcyMDkgMC40OTE4NzUsLTEuMTc5NTM0IDEuMTIyMTk1LC0xLjI0MzU0NiBMIDEyLjI1LDM5LjUgaCAyMy41IHogTSAyMy42MjIxOTUsNi4wMDY0NTM2IDIzLjc1LDYgYyAwLjY0NzIwOSwwIDEuMTc5NTM0LDAuNDkxODc0NyAxLjI0MzU0NiwxLjEyMjE5NDggTCAyNSw3LjI1IHYgMjQuMjkgbCA1LjY0NjY3OSwtNS42NDU3MDkgYyAwLjQ4ODE1NiwtMC40ODgxNTUgMS4yNzk2MTIsLTAuNDg4MTU1IDEuNzY3NzY3LDAgMC40ODgxNTYsMC40ODgxNTUgMC40ODgxNTYsMS4yNzk2MTIgMCwxLjc2Nzc2NyBsIC03Ljc3ODE3NCw3Ljc3ODE3NSBjIC0wLjQ4ODE1NiwwLjQ4ODE1NSAtMS4yNzk2MTIsMC40ODgxNTUgLTEuNzY3NzY3LDAgTCAxNS4wOTAzMywyNy42NjIwNTggYyAtMC40ODgxNTUsLTAuNDg4MTU1IC0wLjQ4ODE1NSwtMS4yNzk2MTIgMCwtMS43Njc3NjcgMC40ODgxNTUsLTAuNDg4MTU1IDEuMjc5NjEyLC0wLjQ4ODE1NSAxLjc2Nzc2NywwIEwgMjIuNSwzMS41MzYgViA3LjI1IGMgMCwtMC42NDcyMDg3IDAuNDkxODc1LC0xLjE3OTUzMzkgMS4xMjIxOTUsLTEuMjQzNTQ2NCBMIDIzLjc1LDYgWiIKICAgICAgICAgICBpZD0i8J+OqC1Db2xvciIgLz4KICAgICAgPC9nPgogICAgPC9nPgogIDwvZz4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE2NjQxNyI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzp0aXRsZT5pY19mbHVlbnRfYXJyb3dfZG93bmxvYWRfNDhfcmVndWxhcjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgo8L3N2Zz4K"/>
+<rect class="keycap" width="990" height="990" x="7755" y="4505" ry="100"/>
+<rect width="790" height="790" x="7855" y="4605" ry="100"/>
+<image x="7900" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjYwMCIKICAgaGVpZ2h0PSI2MDAiCiAgIHZpZXdCb3g9IjAgMCAzNi4wMDAwMDEgMzYiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzY2Mjk0IgogICBzb2RpcG9kaTpkb2NuYW1lPSJib3R0b20uc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjIuMiAoYjBhODQ4NjU0MSwgMjAyMi0xMi0wMSkiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM2NjI5OCIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgaWQ9Im5hbWVkdmlldzY2Mjk2IgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzExMTExMSIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIGlua3NjYXBlOnNob3dwYWdlc2hhZG93PSIwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjEiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp6b29tPSIwLjI5NSIKICAgICBpbmtzY2FwZTpjeD0iLTIzLjcyODgxNCIKICAgICBpbmtzY2FwZTpjeT0iMjk4LjMwNTA4IgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzY2Mjk0IiAvPgogIDwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+CiAgPHRpdGxlCiAgICAgaWQ9InRpdGxlNjYyODciPmljX2ZsdWVudF9hcnJvd19kb3dubG9hZF80OF9yZWd1bGFyPC90aXRsZT4KICA8ZGVzYwogICAgIGlkPSJkZXNjNjYyODkiPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogIDxnCiAgICAgaWQ9IvCflI0tU3lzdGVtLUljb25zIgogICAgIHN0cm9rZT0ibm9uZSIKICAgICBzdHJva2Utd2lkdGg9IjEiCiAgICAgZmlsbD0ibm9uZSIKICAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUuOTYsLTYpIj4KICAgIDxnCiAgICAgICBpZD0iaWNfZmx1ZW50X2Fycm93X2Rvd25sb2FkXzQ4X3JlZ3VsYXIiCiAgICAgICBmaWxsPSIjMjEyMTIxIgogICAgICAgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgPHBhdGgKICAgICAgICAgZD0ibSAxMi4yNSwzOS41IGggMjMuNSBjIDAuNjkwMzU2LDAgMS4yNSwwLjU1OTY0NCAxLjI1LDEuMjUgMCwwLjY0NzIwOSAtMC40OTE4NzUsMS4xNzk1MzQgLTEuMTIyMTk1LDEuMjQzNTQ2IEwgMzUuNzUsNDIgSCAxMi4yNSBDIDExLjU1OTY0NCw0MiAxMSw0MS40NDAzNTYgMTEsNDAuNzUgYyAwLC0wLjY0NzIwOSAwLjQ5MTg3NSwtMS4xNzk1MzQgMS4xMjIxOTUsLTEuMjQzNTQ2IEwgMTIuMjUsMzkuNSBoIDIzLjUgeiBNIDIzLjYyMjE5NSw2LjAwNjQ1MzYgMjMuNzUsNiBjIDAuNjQ3MjA5LDAgMS4xNzk1MzQsMC40OTE4NzQ3IDEuMjQzNTQ2LDEuMTIyMTk0OCBMIDI1LDcuMjUgdiAyNC4yOSBsIDUuNjQ2Njc5LC01LjY0NTcwOSBjIDAuNDg4MTU2LC0wLjQ4ODE1NSAxLjI3OTYxMiwtMC40ODgxNTUgMS43Njc3NjcsMCAwLjQ4ODE1NiwwLjQ4ODE1NSAwLjQ4ODE1NiwxLjI3OTYxMiAwLDEuNzY3NzY3IGwgLTcuNzc4MTc0LDcuNzc4MTc1IGMgLTAuNDg4MTU2LDAuNDg4MTU1IC0xLjI3OTYxMiwwLjQ4ODE1NSAtMS43Njc3NjcsMCBMIDE1LjA5MDMzLDI3LjY2MjA1OCBjIC0wLjQ4ODE1NSwtMC40ODgxNTUgLTAuNDg4MTU1LC0xLjI3OTYxMiAwLC0xLjc2Nzc2NyAwLjQ4ODE1NSwtMC40ODgxNTUgMS4yNzk2MTIsLTAuNDg4MTU1IDEuNzY3NzY3LDAgTCAyMi41LDMxLjUzNiBWIDcuMjUgYyAwLC0wLjY0NzIwODcgMC40OTE4NzUsLTEuMTc5NTMzOSAxLjEyMjE5NSwtMS4yNDM1NDY0IEwgMjMuNzUsNiBaIgogICAgICAgICBpZD0i8J+OqC1Db2xvciIgLz4KICAgIDwvZz4KICA8L2c+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhNjY0MTciPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6dGl0bGU+aWNfZmx1ZW50X2Fycm93X2Rvd25sb2FkXzQ4X3JlZ3VsYXI8L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="9255" y="4505" ry="100"/>
+<rect width="790" height="790" x="9355" y="4605" ry="100"/>
+<text class="big" x="9750" y="5000"></text>
+<rect class="keycap" width="990" height="990" x="10255" y="4505" ry="100"/>
+<rect width="790" height="790" x="10355" y="4605" ry="100"/>
+<text class="big" x="10750" y="5000"></text>
+<rect class="keycap" width="990" height="990" x="7755" y="5505" ry="100"/>
+<rect width="790" height="790" x="7855" y="5605" ry="100"/>
+<text class="big" x="8250" y="6000"></text>
+<rect class="keycap" width="990" height="990" x="9255" y="5505" ry="100"/>
+<rect width="790" height="790" x="9355" y="5605" ry="100"/>
+<text class="big" x="9750" y="6000"></text>
+<rect class="keycap" width="990" height="1990" x="5755" y="5505" ry="100"/>
+<rect width="790" height="1790" x="5855" y="5605" ry="100"/>
+<text class="big" x="6250" y="6500"></text>
+<rect class="keycap" width="990" height="1990" x="6755" y="5505" ry="100"/>
+<rect width="790" height="1790" x="6855" y="5605" ry="100"/>
+<text class="big" x="7250" y="6500"></text>
+<rect class="keycap" width="990" height="990" x="7755" y="6505" ry="100"/>
+<rect width="790" height="790" x="7855" y="6605" ry="100"/>
+<text class="big" x="8250" y="7000"></text>
+<rect class="keycap" width="990" height="990" x="9255" y="6505" ry="100"/>
+<rect width="790" height="790" x="9355" y="6605" ry="100"/>
+<text class="big" x="9750" y="7000"></text>
+<rect class="keycap" width="990" height="1990" x="10255" y="5505" ry="100"/>
+<rect width="790" height="1790" x="10355" y="5605" ry="100"/>
+<text class="big" x="10750" y="6500"></text>
+<rect class="keycap" width="990" height="1990" x="11255" y="5505" ry="100"/>
+<rect width="790" height="1790" x="11355" y="5605" ry="100"/>
+<text class="big" x="11750" y="6500"></text>
+</svg>

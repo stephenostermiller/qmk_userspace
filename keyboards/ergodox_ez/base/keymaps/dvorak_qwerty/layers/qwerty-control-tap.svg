@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="900mm" height="375mm" viewBox="0 0 18000 7500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<style>
+rect{fill:none;stroke:#000;stroke-width:10}
+text{font:bold 700px sans-serif;dominant-baseline:middle;text-anchor:middle}
+text.medium{font:bold 450px sans-serif;}
+text.small{font:bold 200px sans-serif;}
+</style>
+<rect class="keycap" width="1490" height="990" x="5" y="205" ry="100"/>
+<rect width="1290" height="790" x="105" y="305" ry="100"/>
+<text class="big" x="750" y="700"></text>
+<rect class="keycap" width="990" height="990" x="1505" y="205" ry="100"/>
+<rect width="790" height="790" x="1605" y="305" ry="100"/>
+<text class="small" x="2000" y="700">c(kc 1)</text>
+<rect class="keycap" width="990" height="990" x="2505" y="105" ry="100"/>
+<rect width="790" height="790" x="2605" y="205" ry="100"/>
+<text class="small" x="3000" y="600">c(kc 2)</text>
+<rect class="keycap" width="990" height="990" x="3505" y="5" ry="100"/>
+<rect width="790" height="790" x="3605" y="105" ry="100"/>
+<text class="small" x="4000" y="500">c(kc 3)</text>
+<rect class="keycap" width="990" height="990" x="4505" y="105" ry="100"/>
+<rect width="790" height="790" x="4605" y="205" ry="100"/>
+<text class="small" x="5000" y="600">c(kc 4)</text>
+<rect class="keycap" width="990" height="990" x="5505" y="205" ry="100"/>
+<rect width="790" height="790" x="5605" y="305" ry="100"/>
+<text class="small" x="6000" y="700">c(kc 5)</text>
+<rect class="keycap" width="990" height="990" x="6505" y="205" ry="100"/>
+<rect width="790" height="790" x="6605" y="305" ry="100"/>
+<text class="big" x="7000" y="700"></text>
+<rect class="keycap" width="990" height="990" x="10505" y="205" ry="100"/>
+<rect width="790" height="790" x="10605" y="305" ry="100"/>
+<text class="big" x="11000" y="700"></text>
+<rect class="keycap" width="990" height="990" x="11505" y="205" ry="100"/>
+<rect width="790" height="790" x="11605" y="305" ry="100"/>
+<text class="small" x="12000" y="700">c(kc 6)</text>
+<rect class="keycap" width="990" height="990" x="12505" y="105" ry="100"/>
+<rect width="790" height="790" x="12605" y="205" ry="100"/>
+<text class="small" x="13000" y="600">c(kc 7)</text>
+<rect class="keycap" width="990" height="990" x="13505" y="5" ry="100"/>
+<rect width="790" height="790" x="13605" y="105" ry="100"/>
+<text class="small" x="14000" y="500">c(kc 8)</text>
+<rect class="keycap" width="990" height="990" x="14505" y="105" ry="100"/>
+<rect width="790" height="790" x="14605" y="205" ry="100"/>
+<text class="small" x="15000" y="600">c(kc 9)</text>
+<rect class="keycap" width="990" height="990" x="15505" y="205" ry="100"/>
+<rect width="790" height="790" x="15605" y="305" ry="100"/>
+<text class="small" x="16000" y="700">c(kc 0)</text>
+<rect class="keycap" width="1490" height="990" x="16505" y="205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="305" ry="100"/>
+<text class="small" x="17250" y="700">c(kc rbrc)</text>
+<rect class="keycap" width="1490" height="990" x="5" y="1205" ry="100"/>
+<rect width="1290" height="790" x="105" y="1305" ry="100"/>
+<text class="big" x="750" y="1700"></text>
+<rect class="keycap" width="990" height="990" x="1505" y="1205" ry="100"/>
+<rect width="790" height="790" x="1605" y="1305" ry="100"/>
+<text class="small" x="2000" y="1700">c(kc q)</text>
+<rect class="keycap" width="990" height="990" x="2505" y="1105" ry="100"/>
+<rect width="790" height="790" x="2605" y="1205" ry="100"/>
+<text class="small" x="3000" y="1600">c(kc w)</text>
+<rect class="keycap" width="990" height="990" x="3505" y="1005" ry="100"/>
+<rect width="790" height="790" x="3605" y="1105" ry="100"/>
+<text class="small" x="4000" y="1500">c(kc e)</text>
+<rect class="keycap" width="990" height="990" x="4505" y="1105" ry="100"/>
+<rect width="790" height="790" x="4605" y="1205" ry="100"/>
+<text class="small" x="5000" y="1600">c(kc r)</text>
+<rect class="keycap" width="990" height="990" x="5505" y="1205" ry="100"/>
+<rect width="790" height="790" x="5605" y="1305" ry="100"/>
+<text class="small" x="6000" y="1700">c(kc t)</text>
+<rect class="keycap" width="990" height="1490" x="6505" y="1205" ry="100"/>
+<rect width="790" height="1290" x="6605" y="1305" ry="100"/>
+<text class="small" x="7000" y="1950">c(kc equal)</text>
+<rect class="keycap" width="990" height="1490" x="10505" y="1205" ry="100"/>
+<rect width="790" height="1290" x="10605" y="1305" ry="100"/>
+<text class="small" x="11000" y="1950">c(kc bsls)</text>
+<rect class="keycap" width="990" height="990" x="11505" y="1205" ry="100"/>
+<rect width="790" height="790" x="11605" y="1305" ry="100"/>
+<text class="small" x="12000" y="1700">c(kc y)</text>
+<rect class="keycap" width="990" height="990" x="12505" y="1105" ry="100"/>
+<rect width="790" height="790" x="12605" y="1205" ry="100"/>
+<text class="small" x="13000" y="1600">c(kc u)</text>
+<rect class="keycap" width="990" height="990" x="13505" y="1005" ry="100"/>
+<rect width="790" height="790" x="13605" y="1105" ry="100"/>
+<text class="small" x="14000" y="1500">c(kc i)</text>
+<rect class="keycap" width="990" height="990" x="14505" y="1105" ry="100"/>
+<rect width="790" height="790" x="14605" y="1205" ry="100"/>
+<text class="small" x="15000" y="1600">c(kc o)</text>
+<rect class="keycap" width="990" height="990" x="15505" y="1205" ry="100"/>
+<rect width="790" height="790" x="15605" y="1305" ry="100"/>
+<text class="small" x="16000" y="1700">c(kc p)</text>
+<rect class="keycap" width="1490" height="990" x="16505" y="1205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="1305" ry="100"/>
+<text class="small" x="17250" y="1700">c(kc lbrc)</text>
+<rect class="keycap" width="1490" height="990" x="5" y="2205" ry="100"/>
+<rect width="1290" height="790" x="105" y="2305" ry="100"/>
+<text class="big" x="750" y="2700"></text>
+<rect class="keycap" width="990" height="990" x="1505" y="2205" ry="100"/>
+<rect width="790" height="790" x="1605" y="2305" ry="100"/>
+<text class="small" x="2000" y="2700">c(kc a)</text>
+<rect class="keycap" width="990" height="990" x="2505" y="2105" ry="100"/>
+<rect width="790" height="790" x="2605" y="2205" ry="100"/>
+<text class="small" x="3000" y="2600">c(kc s)</text>
+<rect class="keycap" width="990" height="990" x="3505" y="2005" ry="100"/>
+<rect width="790" height="790" x="3605" y="2105" ry="100"/>
+<text class="small" x="4000" y="2500">c(kc d)</text>
+<rect class="keycap" width="990" height="990" x="4505" y="2105" ry="100"/>
+<rect width="790" height="790" x="4605" y="2205" ry="100"/>
+<text class="small" x="5000" y="2600">c(kc f)</text>
+<rect class="keycap" width="990" height="990" x="5505" y="2205" ry="100"/>
+<rect width="790" height="790" x="5605" y="2305" ry="100"/>
+<text class="small" x="6000" y="2700">c(kc g)</text>
+<rect class="keycap" width="990" height="990" x="11505" y="2205" ry="100"/>
+<rect width="790" height="790" x="11605" y="2305" ry="100"/>
+<text class="small" x="12000" y="2700">c(kc h)</text>
+<rect class="keycap" width="990" height="990" x="12505" y="2105" ry="100"/>
+<rect width="790" height="790" x="12605" y="2205" ry="100"/>
+<text class="small" x="13000" y="2600">c(kc j)</text>
+<rect class="keycap" width="990" height="990" x="13505" y="2005" ry="100"/>
+<rect width="790" height="790" x="13605" y="2105" ry="100"/>
+<text class="small" x="14000" y="2500">c(kc k)</text>
+<rect class="keycap" width="990" height="990" x="14505" y="2105" ry="100"/>
+<rect width="790" height="790" x="14605" y="2205" ry="100"/>
+<text class="small" x="15000" y="2600">c(kc l)</text>
+<rect class="keycap" width="990" height="990" x="15505" y="2205" ry="100"/>
+<rect width="790" height="790" x="15605" y="2305" ry="100"/>
+<text class="small" x="16000" y="2700">c(kc scln)</text>
+<rect class="keycap" width="1490" height="990" x="16505" y="2205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="2305" ry="100"/>
+<text class="small" x="17250" y="2700">c(kc quote)</text>
+<rect class="keycap" width="1490" height="990" x="5" y="3205" ry="100"/>
+<rect width="1290" height="790" x="105" y="3305" ry="100"/>
+<image x="400" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjY2NC41OTk5OCIKICAgaGVpZ2h0PSI2NjQuNTk5OTgiCiAgIHZpZXdCb3g9IjAgMCAxOS45MzggMTkuOTM3OTk5IgogICB2ZXJzaW9uPSIxLjEiCiAgIGlkPSJzdmc0NzI4MSIKICAgc29kaXBvZGk6ZG9jbmFtZT0ic2hpZnQuc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjIuMiAoYjBhODQ4NjU0MSwgMjAyMi0xMi0wMSkiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3NTEzNzIiCiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjMTExMTExIgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgaW5rc2NhcGU6c2hvd3BhZ2VzaGFkb3c9IjAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZWNoZWNrZXJib2FyZD0iMSIKICAgICBpbmtzY2FwZTpkZXNrY29sb3I9IiNkMWQxZDEiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjIuMDA4NzU0MiIKICAgICBpbmtzY2FwZTpjeD0iMzg5LjI5NjAyIgogICAgIGlua3NjYXBlOmN5PSIzNDkuOTY4MTYiCiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0ic3ZnNDcyODEiIC8+CiAgPGRlZnMKICAgICBpZD0iZGVmczQ3Mjg1IiAvPgogIDwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+CiAgPHRpdGxlCiAgICAgaWQ9InRpdGxlNDcyNzQiPmljX2ZsdWVudF9rZXlib2FyZF9zaGlmdF91cHBlcmNhc2VfMjRfcmVndWxhcjwvdGl0bGU+CiAgPGRlc2MKICAgICBpZD0iZGVzYzQ3Mjc2Ij5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICA8ZwogICAgIGlkPSLwn5SNLVN5c3RlbS1JY29ucyIKICAgICBzdHJva2U9Im5vbmUiCiAgICAgc3Ryb2tlLXdpZHRoPSIxIgogICAgIGZpbGw9Im5vbmUiCiAgICAgZmlsbC1ydWxlPSJldmVub2RkIgogICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yLjAyNDk5NzcsLTIuMDYyMDA2MSkiPgogICAgPGcKICAgICAgIGlkPSJpY19mbHVlbnRfa2V5Ym9hcmRfc2hpZnRfdXBwZXJjYXNlXzI0X3JlZ3VsYXIiCiAgICAgICBmaWxsPSIjMjEyMTIxIgogICAgICAgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgPHBhdGgKICAgICAgICAgZD0ibSAxNi4yNSwyMC41IGMgMC40MTQyMTQsMCAwLjc1LDAuMzM1Nzg2IDAuNzUsMC43NSAwLDAuMzc5Njk2IC0wLjI4MjE1NCwwLjY5MzQ5MSAtMC42NDgyMjksMC43NDMxNTMgTCAxNi4yNSwyMiBIIDcuNzUgQyA3LjMzNTc4NjQsMjIgNywyMS42NjQyMTQgNywyMS4yNSA3LDIwLjg3MDMwNCA3LjI4MjE1MzksMjAuNTU2NTA5IDcuNjQ4MjI5NCwyMC41MDY4NDcgTCA3Ljc1LDIwLjUgWiBNIDExLjAwNjYyMiwyLjM3MTE4NDYgYyAwLjY5MzMyMSwtMC40NzkxODE4IDEuNjM0NzU0LC0wLjM5MzU5NyAyLjIzMDI5OSwwLjIwMjc1NDQgbCAwLjEwNzQ2NiwwLjExNzc4ODIgNy44NjQ5NTksOS40Mzc5NDk4IGMgMC4yNjIwODQsMC4zMTQ1MDIgMC40MDU2MTIsMC43MTA5MzQgMC40MDU2MTIsMS4xMjAzMjMgMCwwLjkxODE3MyAtMC43MDcxMSwxLjY3MTE5MiAtMS42MDY0NzIsMS43NDQxOTkgTCAxOS44NjQ5NTgsMTUgSCAxNi45OTkgTCAxNywxNy4yNSBjIDAsMC44NjcxNjQgLTAuNjMwNzI1LDEuNTg3MDE0IC0xLjQ1ODQ0NywxLjcyNTgyMyBMIDE1LjM5MzUyNywxOC45OTQxOTkgMTUuMjUsMTkgSCA4Ljc1IEMgNy44MzE4MjY2LDE5IDcuMDc4ODA3NywxOC4yOTI4OSA3LjAwNTgwMTIsMTcuMzkzNTI3IEwgNywxNy4yNSA2Ljk5OSwxNSBIIDQuMTM1MDQxNiBDIDMuODQyNjIxLDE1IDMuNTU2ODEwNywxNC45MjY3NzEgMy4zMDI3NDc1LDE0Ljc4OTQxNCBMIDMuMTU0MzIwMywxNC42OTkzNzggMy4wMTQ3MTg5LDE0LjU5NDM4NyBDIDIuMzEzNDgzNSwxNC4wMTAwMjQgMi4xODUwNDU2LDEyLjk5MzI3NSAyLjY5NDE3NjIsMTIuMjU2NjIyIGwgMC4wOTY0NzgsLTAuMTI2OTQ1IDcuODY0OTU4OCwtOS40Mzc5NDk4IDAuMTA2OTUsLTAuMTE3MTE0MSB2IDAgbCAwLjExNzExNCwtMC4xMDY5NTA0IHogbSAxLjE4NTQzMywxLjI4MDgxOTIgYyAtMC4wNzM2NiwtMC4wODgzOTEgLTAuMTk1NDA4LC0wLjExMzA3NDkgLTAuMjk1MzI4LC0wLjA2NzY5NSBsIC0wLjA1Njc3LDAuMDM1Njg2IC0wLjAzMjAxLDAuMDMyMDA5IC03Ljg2NDk1ODcsOS40Mzc5NTAyIGMgLTAuMDg4MzkxLDAuMTA2MDY5IC0wLjA3NDA2LDAuMjYzNzEgMC4wMzIwMDksMC4zNTIxMDEgMC4wMjk5NTIsMC4wMjQ5NiAwLjA2NTEwNywwLjA0MjM5IDAuMTAyNTQzOSwwLjA1MTI0IGwgMC4wNTc1LDAuMDA2NyBIIDcuNzUgYyAwLjM3OTY5NTgsMCAwLjY5MzQ5MSwwLjI4MjE1NCAwLjc0MzE1MzQsMC42NDgyMjkgTCA4LjUsMTQuMjUgdiAzIGMgMCwwLjExODM0NyAwLjA4MjIzMywwLjIxNzQ4NyAwLjE5MjY3NzMsMC4yNDMzOTcgTCA4Ljc1LDE3LjUgaCA2LjUgYyAwLjExODM0NywwIDAuMjE3NDg3LC0wLjA4MjIzIDAuMjQzMzk3LC0wLjE5MjY3NyBMIDE1LjUsMTcuMjUgdiAtMyBjIDAsLTAuMzc5Njk2IDAuMjgyMTU0LC0wLjY5MzQ5MSAwLjY0ODIyOSwtMC43NDMxNTMgTCAxNi4yNSwxMy41IGggMy42MTQ5NTggYyAwLjEzODA3MiwwIDAuMjUsLTAuMTExOTI5IDAuMjUsLTAuMjUgMCwtMC4wMzg5OSAtMC4wMDkxLC0wLjA3NzE2IC0wLjAyNjI4LC0wLjExMTU4MSBsIC0wLjAzMTY2LC0wLjA0ODQ3IHoiCiAgICAgICAgIGlkPSLwn46oLUNvbG9yIiAvPgogICAgPC9nPgogIDwvZz4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE0NzQwNCI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzp0aXRsZT5pY19mbHVlbnRfa2V5Ym9hcmRfc2hpZnRfdXBwZXJjYXNlXzI0X3JlZ3VsYXI8L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="1505" y="3205" ry="100"/>
+<rect width="790" height="790" x="1605" y="3305" ry="100"/>
+<text class="small" x="2000" y="3700">c(kc z)</text>
+<rect class="keycap" width="990" height="990" x="2505" y="3105" ry="100"/>
+<rect width="790" height="790" x="2605" y="3205" ry="100"/>
+<text class="small" x="3000" y="3600">c(kc x)</text>
+<rect class="keycap" width="990" height="990" x="3505" y="3005" ry="100"/>
+<rect width="790" height="790" x="3605" y="3105" ry="100"/>
+<text class="small" x="4000" y="3500">c(kc c)</text>
+<rect class="keycap" width="990" height="990" x="4505" y="3105" ry="100"/>
+<rect width="790" height="790" x="4605" y="3205" ry="100"/>
+<text class="small" x="5000" y="3600">c(kc v)</text>
+<rect class="keycap" width="990" height="990" x="5505" y="3205" ry="100"/>
+<rect width="790" height="790" x="5605" y="3305" ry="100"/>
+<text class="small" x="6000" y="3700">c(kc b)</text>
+<rect class="keycap" width="990" height="1490" x="6505" y="2705" ry="100"/>
+<rect width="790" height="1290" x="6605" y="2805" ry="100"/>
+<text class="small" x="7000" y="3450">c(kc minus)</text>
+<rect class="keycap" width="990" height="1490" x="10505" y="2705" ry="100"/>
+<rect width="790" height="1290" x="10605" y="2805" ry="100"/>
+<text class="small" x="11000" y="3450">c(kc grave)</text>
+<rect class="keycap" width="990" height="990" x="11505" y="3205" ry="100"/>
+<rect width="790" height="790" x="11605" y="3305" ry="100"/>
+<text class="small" x="12000" y="3700">c(kc n)</text>
+<rect class="keycap" width="990" height="990" x="12505" y="3105" ry="100"/>
+<rect width="790" height="790" x="12605" y="3205" ry="100"/>
+<text class="small" x="13000" y="3600">c(kc m)</text>
+<rect class="keycap" width="990" height="990" x="13505" y="3005" ry="100"/>
+<rect width="790" height="790" x="13605" y="3105" ry="100"/>
+<text class="small" x="14000" y="3500">c(kc comma)</text>
+<rect class="keycap" width="990" height="990" x="14505" y="3105" ry="100"/>
+<rect width="790" height="790" x="14605" y="3205" ry="100"/>
+<text class="small" x="15000" y="3600">c(kc dot)</text>
+<rect class="keycap" width="990" height="990" x="15505" y="3205" ry="100"/>
+<rect width="790" height="790" x="15605" y="3305" ry="100"/>
+<text class="small" x="16000" y="3700">c(kc slash)</text>
+<rect class="keycap" width="1490" height="990" x="16505" y="3205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="3305" ry="100"/>
+<image x="16900" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjY2NC41OTk5OCIKICAgaGVpZ2h0PSI2NjQuNTk5OTgiCiAgIHZpZXdCb3g9IjAgMCAxOS45MzggMTkuOTM3OTk5IgogICB2ZXJzaW9uPSIxLjEiCiAgIGlkPSJzdmc0NzI4MSIKICAgc29kaXBvZGk6ZG9jbmFtZT0ic2hpZnQuc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjIuMiAoYjBhODQ4NjU0MSwgMjAyMi0xMi0wMSkiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3NTEzNzIiCiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjMTExMTExIgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgaW5rc2NhcGU6c2hvd3BhZ2VzaGFkb3c9IjAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZWNoZWNrZXJib2FyZD0iMSIKICAgICBpbmtzY2FwZTpkZXNrY29sb3I9IiNkMWQxZDEiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjIuMDA4NzU0MiIKICAgICBpbmtzY2FwZTpjeD0iMzg5LjI5NjAyIgogICAgIGlua3NjYXBlOmN5PSIzNDkuOTY4MTYiCiAgICAgaW5rc2NhcGU6Y3VycmVudC1sYXllcj0ic3ZnNDcyODEiIC8+CiAgPGRlZnMKICAgICBpZD0iZGVmczQ3Mjg1IiAvPgogIDwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+CiAgPHRpdGxlCiAgICAgaWQ9InRpdGxlNDcyNzQiPmljX2ZsdWVudF9rZXlib2FyZF9zaGlmdF91cHBlcmNhc2VfMjRfcmVndWxhcjwvdGl0bGU+CiAgPGRlc2MKICAgICBpZD0iZGVzYzQ3Mjc2Ij5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICA8ZwogICAgIGlkPSLwn5SNLVN5c3RlbS1JY29ucyIKICAgICBzdHJva2U9Im5vbmUiCiAgICAgc3Ryb2tlLXdpZHRoPSIxIgogICAgIGZpbGw9Im5vbmUiCiAgICAgZmlsbC1ydWxlPSJldmVub2RkIgogICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yLjAyNDk5NzcsLTIuMDYyMDA2MSkiPgogICAgPGcKICAgICAgIGlkPSJpY19mbHVlbnRfa2V5Ym9hcmRfc2hpZnRfdXBwZXJjYXNlXzI0X3JlZ3VsYXIiCiAgICAgICBmaWxsPSIjMjEyMTIxIgogICAgICAgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgPHBhdGgKICAgICAgICAgZD0ibSAxNi4yNSwyMC41IGMgMC40MTQyMTQsMCAwLjc1LDAuMzM1Nzg2IDAuNzUsMC43NSAwLDAuMzc5Njk2IC0wLjI4MjE1NCwwLjY5MzQ5MSAtMC42NDgyMjksMC43NDMxNTMgTCAxNi4yNSwyMiBIIDcuNzUgQyA3LjMzNTc4NjQsMjIgNywyMS42NjQyMTQgNywyMS4yNSA3LDIwLjg3MDMwNCA3LjI4MjE1MzksMjAuNTU2NTA5IDcuNjQ4MjI5NCwyMC41MDY4NDcgTCA3Ljc1LDIwLjUgWiBNIDExLjAwNjYyMiwyLjM3MTE4NDYgYyAwLjY5MzMyMSwtMC40NzkxODE4IDEuNjM0NzU0LC0wLjM5MzU5NyAyLjIzMDI5OSwwLjIwMjc1NDQgbCAwLjEwNzQ2NiwwLjExNzc4ODIgNy44NjQ5NTksOS40Mzc5NDk4IGMgMC4yNjIwODQsMC4zMTQ1MDIgMC40MDU2MTIsMC43MTA5MzQgMC40MDU2MTIsMS4xMjAzMjMgMCwwLjkxODE3MyAtMC43MDcxMSwxLjY3MTE5MiAtMS42MDY0NzIsMS43NDQxOTkgTCAxOS44NjQ5NTgsMTUgSCAxNi45OTkgTCAxNywxNy4yNSBjIDAsMC44NjcxNjQgLTAuNjMwNzI1LDEuNTg3MDE0IC0xLjQ1ODQ0NywxLjcyNTgyMyBMIDE1LjM5MzUyNywxOC45OTQxOTkgMTUuMjUsMTkgSCA4Ljc1IEMgNy44MzE4MjY2LDE5IDcuMDc4ODA3NywxOC4yOTI4OSA3LjAwNTgwMTIsMTcuMzkzNTI3IEwgNywxNy4yNSA2Ljk5OSwxNSBIIDQuMTM1MDQxNiBDIDMuODQyNjIxLDE1IDMuNTU2ODEwNywxNC45MjY3NzEgMy4zMDI3NDc1LDE0Ljc4OTQxNCBMIDMuMTU0MzIwMywxNC42OTkzNzggMy4wMTQ3MTg5LDE0LjU5NDM4NyBDIDIuMzEzNDgzNSwxNC4wMTAwMjQgMi4xODUwNDU2LDEyLjk5MzI3NSAyLjY5NDE3NjIsMTIuMjU2NjIyIGwgMC4wOTY0NzgsLTAuMTI2OTQ1IDcuODY0OTU4OCwtOS40Mzc5NDk4IDAuMTA2OTUsLTAuMTE3MTE0MSB2IDAgbCAwLjExNzExNCwtMC4xMDY5NTA0IHogbSAxLjE4NTQzMywxLjI4MDgxOTIgYyAtMC4wNzM2NiwtMC4wODgzOTEgLTAuMTk1NDA4LC0wLjExMzA3NDkgLTAuMjk1MzI4LC0wLjA2NzY5NSBsIC0wLjA1Njc3LDAuMDM1Njg2IC0wLjAzMjAxLDAuMDMyMDA5IC03Ljg2NDk1ODcsOS40Mzc5NTAyIGMgLTAuMDg4MzkxLDAuMTA2MDY5IC0wLjA3NDA2LDAuMjYzNzEgMC4wMzIwMDksMC4zNTIxMDEgMC4wMjk5NTIsMC4wMjQ5NiAwLjA2NTEwNywwLjA0MjM5IDAuMTAyNTQzOSwwLjA1MTI0IGwgMC4wNTc1LDAuMDA2NyBIIDcuNzUgYyAwLjM3OTY5NTgsMCAwLjY5MzQ5MSwwLjI4MjE1NCAwLjc0MzE1MzQsMC42NDgyMjkgTCA4LjUsMTQuMjUgdiAzIGMgMCwwLjExODM0NyAwLjA4MjIzMywwLjIxNzQ4NyAwLjE5MjY3NzMsMC4yNDMzOTcgTCA4Ljc1LDE3LjUgaCA2LjUgYyAwLjExODM0NywwIDAuMjE3NDg3LC0wLjA4MjIzIDAuMjQzMzk3LC0wLjE5MjY3NyBMIDE1LjUsMTcuMjUgdiAtMyBjIDAsLTAuMzc5Njk2IDAuMjgyMTU0LC0wLjY5MzQ5MSAwLjY0ODIyOSwtMC43NDMxNTMgTCAxNi4yNSwxMy41IGggMy42MTQ5NTggYyAwLjEzODA3MiwwIDAuMjUsLTAuMTExOTI5IDAuMjUsLTAuMjUgMCwtMC4wMzg5OSAtMC4wMDkxLC0wLjA3NzE2IC0wLjAyNjI4LC0wLjExMTU4MSBsIC0wLjAzMTY2LC0wLjA0ODQ3IHoiCiAgICAgICAgIGlkPSLwn46oLUNvbG9yIiAvPgogICAgPC9nPgogIDwvZz4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE0NzQwNCI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzp0aXRsZT5pY19mbHVlbnRfa2V5Ym9hcmRfc2hpZnRfdXBwZXJjYXNlXzI0X3JlZ3VsYXI8L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="505" y="4205" ry="100"/>
+<rect width="790" height="790" x="605" y="4305" ry="100"/>
+<text class="big" x="1000" y="4700"></text>
+<rect class="keycap" width="990" height="990" x="1505" y="4205" ry="100"/>
+<rect width="790" height="790" x="1605" y="4305" ry="100"/>
+<text class="big" x="2000" y="4700"></text>
+<rect class="keycap" width="990" height="990" x="2505" y="4105" ry="100"/>
+<rect width="790" height="790" x="2605" y="4205" ry="100"/>
+<image x="2650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjE1NC44NDU5OSIKICAgaGVpZ2h0PSIxNTQuODQ1OTkiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzgwMjIwIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM4MDIyNCIgLz4KICA8dGV4dAogICAgIHhtbDpzcGFjZT0icHJlc2VydmUiCiAgICAgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1zaXplOjI4MC4yMjRweDtsaW5lLWhlaWdodDoxLjI1O2ZvbnQtZmFtaWx5OnNhbnMtc2VyaWY7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpzYW5zLXNlcmlmO2ZvbnQtdmFyaWFudC1saWdhdHVyZXM6bm9uZTtzdHJva2Utd2lkdGg6MS40NTk1IgogICAgIHg9Ii0xMC42NDg1MTIiCiAgICAgeT0iMjIxLjUzNDM5IgogICAgIGlkPSJ0ZXh0ODY1NzYiCiAgICAgdHJhbnNmb3JtPSJzY2FsZSgxLjExNDA3MjgsMC44OTc2MDc0KSI+PHRzcGFuCiAgICAgICBpZD0idHNwYW44NjU3NCIKICAgICAgIHg9Ii0xMC42NDg1MTIiCiAgICAgICB5PSIyMjEuNTM0MzkiCiAgICAgICBzdHlsZT0iZm9udC1zdHlsZTpub3JtYWw7Zm9udC12YXJpYW50Om5vcm1hbDtmb250LXdlaWdodDpub3JtYWw7Zm9udC1zdHJldGNoOm5vcm1hbDtmb250LXNpemU6MjgwLjIyNHB4O2ZvbnQtZmFtaWx5OnNhbnMtc2VyaWY7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpzYW5zLXNlcmlmO3N0cm9rZS13aWR0aDoxLjQ1OTUiPl48L3RzcGFuPjwvdGV4dD4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="3505" y="4005" ry="100"/>
+<rect width="790" height="790" x="3605" y="4105" ry="100"/>
+<image x="3650" y="4150" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjEzNC40ODY3OSIKICAgaGVpZ2h0PSIxMzQuNDg2NTkiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzgwMjIwIgogICBzb2RpcG9kaTpkb2NuYW1lPSJjb21tYW5kLnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4yLjIgKGIwYTg0ODY1NDEsIDIwMjItMTItMDEpIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM4MDIyNCIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgaWQ9Im5hbWVkdmlldzgwMjIyIgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzExMTExMSIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIGlua3NjYXBlOnNob3dwYWdlc2hhZG93PSIwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjEiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp6b29tPSIxLjE4IgogICAgIGlua3NjYXBlOmN4PSIxMS4wMTY5NDkiCiAgICAgaW5rc2NhcGU6Y3k9IjcwLjMzODk4MyIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJzdmc4MDIyMCIgLz4KICA8cGF0aAogICAgIGQ9Im0gMzIuODY1NDk2LDQuOTc1Mjk5OSBjIC03Ljk3NzIsLTMuMzA0MyAtMTcuMTU5LC0xLjQ3NzggLTIzLjI2NSw0LjYyNzcgQyAzLjQ5NDk5NiwxNS43MDg1IDEuNjY4NTk1OSwyNC44OTEgNC45NzI3OTYsMzIuODY4IGMgMy4zMDQzLDcuOTc3MiAxMS4wODksMTMuMTc4IDE5LjcyMywxMy4xNzggaCA4NS4wOTI5OTQgYyAxMS43OSwwIDIxLjM0OCwtOS41NTc4IDIxLjM0OCwtMjEuMzQ4IDAsLTExLjc5MDIgLTkuNTU3OCwtMjEuMzQ4MDAwMSAtMjEuMzQ4LC0yMS4zNDgwMDAxIEMgOTcuOTk4Nzk0LDMuMzUwMDAwOSA4OC40NDA3OTQsMTIuOTA3OCA4OC40NDA3OTQsMjQuNjk4IHYgODUuMDkzIGMgMCw4LjYzNDUgNS4yMDEzLDE2LjQxODk5IDEzLjE3Nzk5NiwxOS43MjI5OSA3Ljk3NjcsMy4zMDQgMTcuMTU5LDEuNDc3OCAyMy4yNjUsLTQuNjI3NyA2LjEwNiwtNi4xMDU0OSA3LjkzMTksLTE1LjI4Nzk5IDQuNjI3NywtMjMuMjY0OTkgLTMuMzA0MiwtNy45NzY5OTUgLTExLjA4OSwtMTMuMTc3OTk1IC0xOS43MjMsLTEzLjE3Nzk5NSBIIDI0LjY5NTQ5NiBjIC04LjYzNDUsMCAtMTYuNDE5LDUuMjAxMyAtMTkuNzIzLDEzLjE3Nzk5NSAtMy4zMDQwMDAxLDcuOTc2NyAtMS40Nzc4LDE3LjE1OSA0LjYyNzcsMjMuMjY0OTkgNi4xMDU1LDYuMTA1NSAxNS4yODgsNy45MzE5IDIzLjI2NSw0LjYyNzcgNy45NzcyLC0zLjMwNDMgMTMuMTc4LC0xMS4wODg5OCAxMy4xNzgsLTE5LjcyMjk5IFYgMjQuNjk4IGMgMCwtOC42MzQ1IC01LjIwMTMsLTE2LjQxOTAwMDEgLTEzLjE3OCwtMTkuNzIzMDAwMSB6IgogICAgIGZpbGw9Im5vbmUiCiAgICAgc3Ryb2tlPSIjMDAwMDAwIgogICAgIHN0cm9rZS13aWR0aD0iNSIKICAgICBpZD0icGF0aDgwMjE4IgogICAgIHN0eWxlPSJzdHJva2Utd2lkdGg6Ni43O3N0cm9rZS1kYXNoYXJyYXk6bm9uZSIgLz4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="4505" y="4105" ry="100"/>
+<rect width="790" height="790" x="4605" y="4205" ry="100"/>
+<image x="4650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+Cgo8c3ZnCiAgIHdpZHRoPSI2MDAiCiAgIGhlaWdodD0iNjAwIgogICB2aWV3Qm94PSIwIDAgMTggMTgiCiAgIGZpbGw9Im5vbmUiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzkxMDExIgogICBzb2RpcG9kaTpkb2NuYW1lPSJhbHQuc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjIuMiAoYjBhODQ4NjU0MSwgMjAyMi0xMi0wMSkiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnMKICAgICBpZD0iZGVmczkxMDE1IiAvPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3OTEwMTMiCiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjMTExMTExIgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgaW5rc2NhcGU6c2hvd3BhZ2VzaGFkb3c9IjAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZWNoZWNrZXJib2FyZD0iMSIKICAgICBpbmtzY2FwZTpkZXNrY29sb3I9IiNkMWQxZDEiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjAuMjk1IgogICAgIGlua3NjYXBlOmN4PSI1Ny42MjcxMTkiCiAgICAgaW5rc2NhcGU6Y3k9IjIzMy44OTgzMSIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJzdmc5MTAxMSIgLz4KICA8cGF0aAogICAgIGQ9Ik0gMSwyLjggSCA0Ljc2MzkzIEMgNS41MjE0OCwyLjggNi4yMTQsMy4yMjggNi41NTI3OSwzLjkwNTU3IEwgMTEuNDQ3MiwxMy42OTQ0IEMgMTEuNzg2LDE0LjM3MiAxMi40Nzg1LDE0LjggMTMuMjM2MSwxNC44IEggMTcgbSAtNiwtMTIgaCA2IgogICAgIHN0cm9rZT0iIzAwMDAwMCIKICAgICBzdHJva2Utd2lkdGg9IjIiCiAgICAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogICAgIHN0cm9rZS1saW5lam9pbj0icm91bmQiCiAgICAgaWQ9InBhdGg5MTAwOSIgLz4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="12505" y="4105" ry="100"/>
+<rect width="790" height="790" x="12605" y="4205" ry="100"/>
+<image x="12650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+Cgo8c3ZnCiAgIHdpZHRoPSI2MDAiCiAgIGhlaWdodD0iNjAwIgogICB2aWV3Qm94PSIwIDAgMTggMTgiCiAgIGZpbGw9Im5vbmUiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzkxMDExIgogICBzb2RpcG9kaTpkb2NuYW1lPSJhbHQuc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjIuMiAoYjBhODQ4NjU0MSwgMjAyMi0xMi0wMSkiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPGRlZnMKICAgICBpZD0iZGVmczkxMDE1IiAvPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3OTEwMTMiCiAgICAgcGFnZWNvbG9yPSIjZmZmZmZmIgogICAgIGJvcmRlcmNvbG9yPSIjMTExMTExIgogICAgIGJvcmRlcm9wYWNpdHk9IjEiCiAgICAgaW5rc2NhcGU6c2hvd3BhZ2VzaGFkb3c9IjAiCiAgICAgaW5rc2NhcGU6cGFnZW9wYWNpdHk9IjAiCiAgICAgaW5rc2NhcGU6cGFnZWNoZWNrZXJib2FyZD0iMSIKICAgICBpbmtzY2FwZTpkZXNrY29sb3I9IiNkMWQxZDEiCiAgICAgc2hvd2dyaWQ9ImZhbHNlIgogICAgIGlua3NjYXBlOnpvb209IjAuMjk1IgogICAgIGlua3NjYXBlOmN4PSI1Ny42MjcxMTkiCiAgICAgaW5rc2NhcGU6Y3k9IjIzMy44OTgzMSIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJzdmc5MTAxMSIgLz4KICA8cGF0aAogICAgIGQ9Ik0gMSwyLjggSCA0Ljc2MzkzIEMgNS41MjE0OCwyLjggNi4yMTQsMy4yMjggNi41NTI3OSwzLjkwNTU3IEwgMTEuNDQ3MiwxMy42OTQ0IEMgMTEuNzg2LDE0LjM3MiAxMi40Nzg1LDE0LjggMTMuMjM2MSwxNC44IEggMTcgbSAtNiwtMTIgaCA2IgogICAgIHN0cm9rZT0iIzAwMDAwMCIKICAgICBzdHJva2Utd2lkdGg9IjIiCiAgICAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogICAgIHN0cm9rZS1saW5lam9pbj0icm91bmQiCiAgICAgaWQ9InBhdGg5MTAwOSIgLz4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="13505" y="4005" ry="100"/>
+<rect width="790" height="790" x="13605" y="4105" ry="100"/>
+<image x="13650" y="4150" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjEzNC40ODY3OSIKICAgaGVpZ2h0PSIxMzQuNDg2NTkiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzgwMjIwIgogICBzb2RpcG9kaTpkb2NuYW1lPSJjb21tYW5kLnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4yLjIgKGIwYTg0ODY1NDEsIDIwMjItMTItMDEpIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM4MDIyNCIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgaWQ9Im5hbWVkdmlldzgwMjIyIgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzExMTExMSIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIGlua3NjYXBlOnNob3dwYWdlc2hhZG93PSIwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjEiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp6b29tPSIxLjE4IgogICAgIGlua3NjYXBlOmN4PSIxMS4wMTY5NDkiCiAgICAgaW5rc2NhcGU6Y3k9IjcwLjMzODk4MyIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJzdmc4MDIyMCIgLz4KICA8cGF0aAogICAgIGQ9Im0gMzIuODY1NDk2LDQuOTc1Mjk5OSBjIC03Ljk3NzIsLTMuMzA0MyAtMTcuMTU5LC0xLjQ3NzggLTIzLjI2NSw0LjYyNzcgQyAzLjQ5NDk5NiwxNS43MDg1IDEuNjY4NTk1OSwyNC44OTEgNC45NzI3OTYsMzIuODY4IGMgMy4zMDQzLDcuOTc3MiAxMS4wODksMTMuMTc4IDE5LjcyMywxMy4xNzggaCA4NS4wOTI5OTQgYyAxMS43OSwwIDIxLjM0OCwtOS41NTc4IDIxLjM0OCwtMjEuMzQ4IDAsLTExLjc5MDIgLTkuNTU3OCwtMjEuMzQ4MDAwMSAtMjEuMzQ4LC0yMS4zNDgwMDAxIEMgOTcuOTk4Nzk0LDMuMzUwMDAwOSA4OC40NDA3OTQsMTIuOTA3OCA4OC40NDA3OTQsMjQuNjk4IHYgODUuMDkzIGMgMCw4LjYzNDUgNS4yMDEzLDE2LjQxODk5IDEzLjE3Nzk5NiwxOS43MjI5OSA3Ljk3NjcsMy4zMDQgMTcuMTU5LDEuNDc3OCAyMy4yNjUsLTQuNjI3NyA2LjEwNiwtNi4xMDU0OSA3LjkzMTksLTE1LjI4Nzk5IDQuNjI3NywtMjMuMjY0OTkgLTMuMzA0MiwtNy45NzY5OTUgLTExLjA4OSwtMTMuMTc3OTk1IC0xOS43MjMsLTEzLjE3Nzk5NSBIIDI0LjY5NTQ5NiBjIC04LjYzNDUsMCAtMTYuNDE5LDUuMjAxMyAtMTkuNzIzLDEzLjE3Nzk5NSAtMy4zMDQwMDAxLDcuOTc2NyAtMS40Nzc4LDE3LjE1OSA0LjYyNzcsMjMuMjY0OTkgNi4xMDU1LDYuMTA1NSAxNS4yODgsNy45MzE5IDIzLjI2NSw0LjYyNzcgNy45NzcyLC0zLjMwNDMgMTMuMTc4LC0xMS4wODg5OCAxMy4xNzgsLTE5LjcyMjk5IFYgMjQuNjk4IGMgMCwtOC42MzQ1IC01LjIwMTMsLTE2LjQxOTAwMDEgLTEzLjE3OCwtMTkuNzIzMDAwMSB6IgogICAgIGZpbGw9Im5vbmUiCiAgICAgc3Ryb2tlPSIjMDAwMDAwIgogICAgIHN0cm9rZS13aWR0aD0iNSIKICAgICBpZD0icGF0aDgwMjE4IgogICAgIHN0eWxlPSJzdHJva2Utd2lkdGg6Ni43O3N0cm9rZS1kYXNoYXJyYXk6bm9uZSIgLz4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="14505" y="4105" ry="100"/>
+<rect width="790" height="790" x="14605" y="4205" ry="100"/>
+<image x="14650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjE1NC44NDU5OSIKICAgaGVpZ2h0PSIxNTQuODQ1OTkiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzgwMjIwIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM4MDIyNCIgLz4KICA8dGV4dAogICAgIHhtbDpzcGFjZT0icHJlc2VydmUiCiAgICAgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6bm9ybWFsO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1zaXplOjI4MC4yMjRweDtsaW5lLWhlaWdodDoxLjI1O2ZvbnQtZmFtaWx5OnNhbnMtc2VyaWY7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpzYW5zLXNlcmlmO2ZvbnQtdmFyaWFudC1saWdhdHVyZXM6bm9uZTtzdHJva2Utd2lkdGg6MS40NTk1IgogICAgIHg9Ii0xMC42NDg1MTIiCiAgICAgeT0iMjIxLjUzNDM5IgogICAgIGlkPSJ0ZXh0ODY1NzYiCiAgICAgdHJhbnNmb3JtPSJzY2FsZSgxLjExNDA3MjgsMC44OTc2MDc0KSI+PHRzcGFuCiAgICAgICBpZD0idHNwYW44NjU3NCIKICAgICAgIHg9Ii0xMC42NDg1MTIiCiAgICAgICB5PSIyMjEuNTM0MzkiCiAgICAgICBzdHlsZT0iZm9udC1zdHlsZTpub3JtYWw7Zm9udC12YXJpYW50Om5vcm1hbDtmb250LXdlaWdodDpub3JtYWw7Zm9udC1zdHJldGNoOm5vcm1hbDtmb250LXNpemU6MjgwLjIyNHB4O2ZvbnQtZmFtaWx5OnNhbnMtc2VyaWY7LWlua3NjYXBlLWZvbnQtc3BlY2lmaWNhdGlvbjpzYW5zLXNlcmlmO3N0cm9rZS13aWR0aDoxLjQ1OTUiPl48L3RzcGFuPjwvdGV4dD4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="15505" y="4205" ry="100"/>
+<rect width="790" height="790" x="15605" y="4305" ry="100"/>
+<text class="small" x="16000" y="4700">c(kc page up)</text>
+<rect class="keycap" width="990" height="990" x="16505" y="4205" ry="100"/>
+<rect width="790" height="790" x="16605" y="4305" ry="100"/>
+<text class="small" x="17000" y="4700">c(kc pgdn)</text>
+<rect class="keycap" width="990" height="990" x="6755" y="4505" ry="100"/>
+<rect width="790" height="790" x="6855" y="4605" ry="100"/>
+<image x="6900" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjYwMCIKICAgaGVpZ2h0PSI2MDAiCiAgIHZpZXdCb3g9IjAgMCAzNi4wMDAwMDEgMzYiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzY2Mjk0IgogICBzb2RpcG9kaTpkb2NuYW1lPSJ0b3Auc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjIuMiAoYjBhODQ4NjU0MSwgMjAyMi0xMi0wMSkiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM2NjI5OCIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgaWQ9Im5hbWVkdmlldzY2Mjk2IgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzExMTExMSIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIGlua3NjYXBlOnNob3dwYWdlc2hhZG93PSIwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjEiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp6b29tPSIwLjI5NSIKICAgICBpbmtzY2FwZTpjeD0iLTIzLjcyODgxNCIKICAgICBpbmtzY2FwZTpjeT0iMjk4LjMwNTA4IgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzY2Mjk0IiAvPgogIDwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+CiAgPHRpdGxlCiAgICAgaWQ9InRpdGxlNjYyODciPmljX2ZsdWVudF9hcnJvd19kb3dubG9hZF80OF9yZWd1bGFyPC90aXRsZT4KICA8ZGVzYwogICAgIGlkPSJkZXNjNjYyODkiPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogIDxnCiAgICAgaWQ9Imc2NjQzMSIKICAgICB0cmFuc2Zvcm09Im1hdHJpeCgxLDAsMCwtMSwwLDM2KSI+CiAgICA8ZwogICAgICAgaWQ9IvCflI0tU3lzdGVtLUljb25zIgogICAgICAgc3Ryb2tlPSJub25lIgogICAgICAgc3Ryb2tlLXdpZHRoPSIxIgogICAgICAgZmlsbD0ibm9uZSIKICAgICAgIGZpbGwtcnVsZT0iZXZlbm9kZCIKICAgICAgIHRyYW5zZm9ybT0idHJhbnNsYXRlKC01Ljk2LC02KSI+CiAgICAgIDxnCiAgICAgICAgIGlkPSJpY19mbHVlbnRfYXJyb3dfZG93bmxvYWRfNDhfcmVndWxhciIKICAgICAgICAgZmlsbD0iIzIxMjEyMSIKICAgICAgICAgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICA8cGF0aAogICAgICAgICAgIGQ9Im0gMTIuMjUsMzkuNSBoIDIzLjUgYyAwLjY5MDM1NiwwIDEuMjUsMC41NTk2NDQgMS4yNSwxLjI1IDAsMC42NDcyMDkgLTAuNDkxODc1LDEuMTc5NTM0IC0xLjEyMjE5NSwxLjI0MzU0NiBMIDM1Ljc1LDQyIEggMTIuMjUgQyAxMS41NTk2NDQsNDIgMTEsNDEuNDQwMzU2IDExLDQwLjc1IGMgMCwtMC42NDcyMDkgMC40OTE4NzUsLTEuMTc5NTM0IDEuMTIyMTk1LC0xLjI0MzU0NiBMIDEyLjI1LDM5LjUgaCAyMy41IHogTSAyMy42MjIxOTUsNi4wMDY0NTM2IDIzLjc1LDYgYyAwLjY0NzIwOSwwIDEuMTc5NTM0LDAuNDkxODc0NyAxLjI0MzU0NiwxLjEyMjE5NDggTCAyNSw3LjI1IHYgMjQuMjkgbCA1LjY0NjY3OSwtNS42NDU3MDkgYyAwLjQ4ODE1NiwtMC40ODgxNTUgMS4yNzk2MTIsLTAuNDg4MTU1IDEuNzY3NzY3LDAgMC40ODgxNTYsMC40ODgxNTUgMC40ODgxNTYsMS4yNzk2MTIgMCwxLjc2Nzc2NyBsIC03Ljc3ODE3NCw3Ljc3ODE3NSBjIC0wLjQ4ODE1NiwwLjQ4ODE1NSAtMS4yNzk2MTIsMC40ODgxNTUgLTEuNzY3NzY3LDAgTCAxNS4wOTAzMywyNy42NjIwNTggYyAtMC40ODgxNTUsLTAuNDg4MTU1IC0wLjQ4ODE1NSwtMS4yNzk2MTIgMCwtMS43Njc3NjcgMC40ODgxNTUsLTAuNDg4MTU1IDEuMjc5NjEyLC0wLjQ4ODE1NSAxLjc2Nzc2NywwIEwgMjIuNSwzMS41MzYgViA3LjI1IGMgMCwtMC42NDcyMDg3IDAuNDkxODc1LC0xLjE3OTUzMzkgMS4xMjIxOTUsLTEuMjQzNTQ2NCBMIDIzLjc1LDYgWiIKICAgICAgICAgICBpZD0i8J+OqC1Db2xvciIgLz4KICAgICAgPC9nPgogICAgPC9nPgogIDwvZz4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE2NjQxNyI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzp0aXRsZT5pY19mbHVlbnRfYXJyb3dfZG93bmxvYWRfNDhfcmVndWxhcjwvZGM6dGl0bGU+CiAgICAgIDwvY2M6V29yaz4KICAgIDwvcmRmOlJERj4KICA8L21ldGFkYXRhPgo8L3N2Zz4K"/>
+<rect class="keycap" width="990" height="990" x="7755" y="4505" ry="100"/>
+<rect width="790" height="790" x="7855" y="4605" ry="100"/>
+<image x="7900" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjYwMCIKICAgaGVpZ2h0PSI2MDAiCiAgIHZpZXdCb3g9IjAgMCAzNi4wMDAwMDEgMzYiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzY2Mjk0IgogICBzb2RpcG9kaTpkb2NuYW1lPSJib3R0b20uc3ZnIgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjIuMiAoYjBhODQ4NjU0MSwgMjAyMi0xMi0wMSkiCiAgIHhtbG5zOmlua3NjYXBlPSJodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy9uYW1lc3BhY2VzL2lua3NjYXBlIgogICB4bWxuczpzb2RpcG9kaT0iaHR0cDovL3NvZGlwb2RpLnNvdXJjZWZvcmdlLm5ldC9EVEQvc29kaXBvZGktMC5kdGQiCiAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6c3ZnPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIgogICB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIgogICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iPgogIDxkZWZzCiAgICAgaWQ9ImRlZnM2NjI5OCIgLz4KICA8c29kaXBvZGk6bmFtZWR2aWV3CiAgICAgaWQ9Im5hbWVkdmlldzY2Mjk2IgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzExMTExMSIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIGlua3NjYXBlOnNob3dwYWdlc2hhZG93PSIwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjEiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp6b29tPSIwLjI5NSIKICAgICBpbmtzY2FwZTpjeD0iLTIzLjcyODgxNCIKICAgICBpbmtzY2FwZTpjeT0iMjk4LjMwNTA4IgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzY2Mjk0IiAvPgogIDwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+CiAgPHRpdGxlCiAgICAgaWQ9InRpdGxlNjYyODciPmljX2ZsdWVudF9hcnJvd19kb3dubG9hZF80OF9yZWd1bGFyPC90aXRsZT4KICA8ZGVzYwogICAgIGlkPSJkZXNjNjYyODkiPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogIDxnCiAgICAgaWQ9IvCflI0tU3lzdGVtLUljb25zIgogICAgIHN0cm9rZT0ibm9uZSIKICAgICBzdHJva2Utd2lkdGg9IjEiCiAgICAgZmlsbD0ibm9uZSIKICAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUuOTYsLTYpIj4KICAgIDxnCiAgICAgICBpZD0iaWNfZmx1ZW50X2Fycm93X2Rvd25sb2FkXzQ4X3JlZ3VsYXIiCiAgICAgICBmaWxsPSIjMjEyMTIxIgogICAgICAgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgPHBhdGgKICAgICAgICAgZD0ibSAxMi4yNSwzOS41IGggMjMuNSBjIDAuNjkwMzU2LDAgMS4yNSwwLjU1OTY0NCAxLjI1LDEuMjUgMCwwLjY0NzIwOSAtMC40OTE4NzUsMS4xNzk1MzQgLTEuMTIyMTk1LDEuMjQzNTQ2IEwgMzUuNzUsNDIgSCAxMi4yNSBDIDExLjU1OTY0NCw0MiAxMSw0MS40NDAzNTYgMTEsNDAuNzUgYyAwLC0wLjY0NzIwOSAwLjQ5MTg3NSwtMS4xNzk1MzQgMS4xMjIxOTUsLTEuMjQzNTQ2IEwgMTIuMjUsMzkuNSBoIDIzLjUgeiBNIDIzLjYyMjE5NSw2LjAwNjQ1MzYgMjMuNzUsNiBjIDAuNjQ3MjA5LDAgMS4xNzk1MzQsMC40OTE4NzQ3IDEuMjQzNTQ2LDEuMTIyMTk0OCBMIDI1LDcuMjUgdiAyNC4yOSBsIDUuNjQ2Njc5LC01LjY0NTcwOSBjIDAuNDg4MTU2LC0wLjQ4ODE1NSAxLjI3OTYxMiwtMC40ODgxNTUgMS43Njc3NjcsMCAwLjQ4ODE1NiwwLjQ4ODE1NSAwLjQ4ODE1NiwxLjI3OTYxMiAwLDEuNzY3NzY3IGwgLTcuNzc4MTc0LDcuNzc4MTc1IGMgLTAuNDg4MTU2LDAuNDg4MTU1IC0xLjI3OTYxMiwwLjQ4ODE1NSAtMS43Njc3NjcsMCBMIDE1LjA5MDMzLDI3LjY2MjA1OCBjIC0wLjQ4ODE1NSwtMC40ODgxNTUgLTAuNDg4MTU1LC0xLjI3OTYxMiAwLC0xLjc2Nzc2NyAwLjQ4ODE1NSwtMC40ODgxNTUgMS4yNzk2MTIsLTAuNDg4MTU1IDEuNzY3NzY3LDAgTCAyMi41LDMxLjUzNiBWIDcuMjUgYyAwLC0wLjY0NzIwODcgMC40OTE4NzUsLTEuMTc5NTMzOSAxLjEyMjE5NSwtMS4yNDM1NDY0IEwgMjMuNzUsNiBaIgogICAgICAgICBpZD0i8J+OqC1Db2xvciIgLz4KICAgIDwvZz4KICA8L2c+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhNjY0MTciPgogICAgPHJkZjpSREY+CiAgICAgIDxjYzpXb3JrCiAgICAgICAgIHJkZjphYm91dD0iIj4KICAgICAgICA8ZGM6dGl0bGU+aWNfZmx1ZW50X2Fycm93X2Rvd25sb2FkXzQ4X3JlZ3VsYXI8L2RjOnRpdGxlPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KPC9zdmc+Cg=="/>
+<rect class="keycap" width="990" height="990" x="9255" y="4505" ry="100"/>
+<rect width="790" height="790" x="9355" y="4605" ry="100"/>
+<text class="small" x="9750" y="5000">c(kc esc)</text>
+<rect class="keycap" width="990" height="990" x="10255" y="4505" ry="100"/>
+<rect width="790" height="790" x="10355" y="4605" ry="100"/>
+<text class="small" x="10750" y="5000">c(kc delete)</text>
+<rect class="keycap" width="990" height="990" x="7755" y="5505" ry="100"/>
+<rect width="790" height="790" x="7855" y="5605" ry="100"/>
+<text class="small" x="8250" y="6000">c(kc right)</text>
+<rect class="keycap" width="990" height="990" x="9255" y="5505" ry="100"/>
+<rect width="790" height="790" x="9355" y="5605" ry="100"/>
+<text class="small" x="9750" y="6000">c(kc up)</text>
+<rect class="keycap" width="990" height="1990" x="5755" y="5505" ry="100"/>
+<rect width="790" height="1790" x="5855" y="5605" ry="100"/>
+<text class="small" x="6250" y="6500">c(kc enter)</text>
+<rect class="keycap" width="990" height="1990" x="6755" y="5505" ry="100"/>
+<rect width="790" height="1790" x="6855" y="5605" ry="100"/>
+<text class="small" x="7250" y="6500">c(kc tab)</text>
+<rect class="keycap" width="990" height="990" x="7755" y="6505" ry="100"/>
+<rect width="790" height="790" x="7855" y="6605" ry="100"/>
+<text class="small" x="8250" y="7000">c(kc left)</text>
+<rect class="keycap" width="990" height="990" x="9255" y="6505" ry="100"/>
+<rect width="790" height="790" x="9355" y="6605" ry="100"/>
+<text class="small" x="9750" y="7000">c(kc down)</text>
+<rect class="keycap" width="990" height="1990" x="10255" y="5505" ry="100"/>
+<rect width="790" height="1790" x="10355" y="5605" ry="100"/>
+<text class="small" x="10750" y="6500">c(kc bspc)</text>
+<rect class="keycap" width="990" height="1990" x="11255" y="5505" ry="100"/>
+<rect width="790" height="1790" x="11355" y="5605" ry="100"/>
+<text class="small" x="11750" y="6500">c(kc space)</text>
+</svg>

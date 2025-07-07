@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="900mm" height="375mm" viewBox="0 0 18000 7500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<style>
+rect{fill:none;stroke:#000;stroke-width:10}
+text{font:bold 700px sans-serif;dominant-baseline:middle;text-anchor:middle}
+text.medium{font:bold 450px sans-serif;}
+text.small{font:bold 200px sans-serif;}
+</style>
+<rect class="keycap" width="1490" height="990" x="5" y="205" ry="100"/>
+<rect width="1290" height="790" x="105" y="305" ry="100"/>
+<text class="big" x="750" y="700"></text>
+<rect class="keycap" width="990" height="990" x="1505" y="205" ry="100"/>
+<rect width="790" height="790" x="1605" y="305" ry="100"/>
+<text class="big" x="2000" y="700"></text>
+<rect class="keycap" width="990" height="990" x="2505" y="105" ry="100"/>
+<rect width="790" height="790" x="2605" y="205" ry="100"/>
+<text class="big" x="3000" y="600"></text>
+<rect class="keycap" width="990" height="990" x="3505" y="5" ry="100"/>
+<rect width="790" height="790" x="3605" y="105" ry="100"/>
+<text class="big" x="4000" y="500"></text>
+<rect class="keycap" width="990" height="990" x="4505" y="105" ry="100"/>
+<rect width="790" height="790" x="4605" y="205" ry="100"/>
+<text class="big" x="5000" y="600"></text>
+<rect class="keycap" width="990" height="990" x="5505" y="205" ry="100"/>
+<rect width="790" height="790" x="5605" y="305" ry="100"/>
+<text class="big" x="6000" y="700"></text>
+<rect class="keycap" width="990" height="990" x="6505" y="205" ry="100"/>
+<rect width="790" height="790" x="6605" y="305" ry="100"/>
+<text class="big" x="7000" y="700"></text>
+<rect class="keycap" width="990" height="990" x="10505" y="205" ry="100"/>
+<rect width="790" height="790" x="10605" y="305" ry="100"/>
+<text class="big" x="11000" y="700">▫</text>
+<rect class="keycap" width="990" height="990" x="11505" y="205" ry="100"/>
+<rect width="790" height="790" x="11605" y="305" ry="100"/>
+<text class="big" x="12000" y="700"></text>
+<rect class="keycap" width="990" height="990" x="12505" y="105" ry="100"/>
+<rect width="790" height="790" x="12605" y="205" ry="100"/>
+<text class="big" x="13000" y="600"></text>
+<rect class="keycap" width="990" height="990" x="13505" y="5" ry="100"/>
+<rect width="790" height="790" x="13605" y="105" ry="100"/>
+<text class="big" x="14000" y="500"></text>
+<rect class="keycap" width="990" height="990" x="14505" y="105" ry="100"/>
+<rect width="790" height="790" x="14605" y="205" ry="100"/>
+<text class="big" x="15000" y="600"></text>
+<rect class="keycap" width="990" height="990" x="15505" y="205" ry="100"/>
+<rect width="790" height="790" x="15605" y="305" ry="100"/>
+<text class="big" x="16000" y="700"></text>
+<rect class="keycap" width="1490" height="990" x="16505" y="205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="305" ry="100"/>
+<text class="big" x="17250" y="700"></text>
+<rect class="keycap" width="1490" height="990" x="5" y="1205" ry="100"/>
+<rect width="1290" height="790" x="105" y="1305" ry="100"/>
+<text class="big" x="750" y="1700"></text>
+<rect class="keycap" width="990" height="990" x="1505" y="1205" ry="100"/>
+<rect width="790" height="790" x="1605" y="1305" ry="100"/>
+<text class="big" x="2000" y="1700">”</text>
+<rect class="keycap" width="990" height="990" x="2505" y="1105" ry="100"/>
+<rect width="790" height="790" x="2605" y="1205" ry="100"/>
+<text class="big" x="3000" y="1600"></text>
+<rect class="keycap" width="990" height="990" x="3505" y="1005" ry="100"/>
+<rect width="790" height="790" x="3605" y="1105" ry="100"/>
+<text class="big" x="4000" y="1500"></text>
+<rect class="keycap" width="990" height="990" x="4505" y="1105" ry="100"/>
+<rect width="790" height="790" x="4605" y="1205" ry="100"/>
+<text class="big" x="5000" y="1600"></text>
+<rect class="keycap" width="990" height="990" x="5505" y="1205" ry="100"/>
+<rect width="790" height="790" x="5605" y="1305" ry="100"/>
+<text class="big" x="6000" y="1700"></text>
+<rect class="keycap" width="990" height="1490" x="6505" y="1205" ry="100"/>
+<rect width="790" height="1290" x="6605" y="1305" ry="100"/>
+<text class="big" x="7000" y="1950"></text>
+<rect class="keycap" width="990" height="1490" x="10505" y="1205" ry="100"/>
+<rect width="790" height="1290" x="10605" y="1305" ry="100"/>
+<text class="big" x="11000" y="1950"></text>
+<rect class="keycap" width="990" height="990" x="11505" y="1205" ry="100"/>
+<rect width="790" height="790" x="11605" y="1305" ry="100"/>
+<text class="big" x="12000" y="1700"></text>
+<rect class="keycap" width="990" height="990" x="12505" y="1105" ry="100"/>
+<rect width="790" height="790" x="12605" y="1205" ry="100"/>
+<text class="big" x="13000" y="1600"></text>
+<rect class="keycap" width="990" height="990" x="13505" y="1005" ry="100"/>
+<rect width="790" height="790" x="13605" y="1105" ry="100"/>
+<text class="big" x="14000" y="1500"></text>
+<rect class="keycap" width="990" height="990" x="14505" y="1105" ry="100"/>
+<rect width="790" height="790" x="14605" y="1205" ry="100"/>
+<text class="big" x="15000" y="1600"></text>
+<rect class="keycap" width="990" height="990" x="15505" y="1205" ry="100"/>
+<rect width="790" height="790" x="15605" y="1305" ry="100"/>
+<text class="big" x="16000" y="1700"></text>
+<rect class="keycap" width="1490" height="990" x="16505" y="1205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="1305" ry="100"/>
+<text class="big" x="17250" y="1700"></text>
+<rect class="keycap" width="1490" height="990" x="5" y="2205" ry="100"/>
+<rect width="1290" height="790" x="105" y="2305" ry="100"/>
+<text class="big" x="750" y="2700"></text>
+<rect class="keycap" width="990" height="990" x="1505" y="2205" ry="100"/>
+<rect width="790" height="790" x="1605" y="2305" ry="100"/>
+<text class="big" x="2000" y="2700"></text>
+<rect class="keycap" width="990" height="990" x="2505" y="2105" ry="100"/>
+<rect width="790" height="790" x="2605" y="2205" ry="100"/>
+<text class="big" x="3000" y="2600"></text>
+<rect class="keycap" width="990" height="990" x="3505" y="2005" ry="100"/>
+<rect width="790" height="790" x="3605" y="2105" ry="100"/>
+<text class="big" x="4000" y="2500"></text>
+<rect class="keycap" width="990" height="990" x="4505" y="2105" ry="100"/>
+<rect width="790" height="790" x="4605" y="2205" ry="100"/>
+<text class="big" x="5000" y="2600"></text>
+<rect class="keycap" width="990" height="990" x="5505" y="2205" ry="100"/>
+<rect width="790" height="790" x="5605" y="2305" ry="100"/>
+<text class="big" x="6000" y="2700"></text>
+<rect class="keycap" width="990" height="990" x="11505" y="2205" ry="100"/>
+<rect width="790" height="790" x="11605" y="2305" ry="100"/>
+<text class="big" x="12000" y="2700"></text>
+<rect class="keycap" width="990" height="990" x="12505" y="2105" ry="100"/>
+<rect width="790" height="790" x="12605" y="2205" ry="100"/>
+<text class="big" x="13000" y="2600"></text>
+<rect class="keycap" width="990" height="990" x="13505" y="2005" ry="100"/>
+<rect width="790" height="790" x="13605" y="2105" ry="100"/>
+<text class="big" x="14000" y="2500"></text>
+<rect class="keycap" width="990" height="990" x="14505" y="2105" ry="100"/>
+<rect width="790" height="790" x="14605" y="2205" ry="100"/>
+<text class="big" x="15000" y="2600"></text>
+<rect class="keycap" width="990" height="990" x="15505" y="2205" ry="100"/>
+<rect width="790" height="790" x="15605" y="2305" ry="100"/>
+<text class="big" x="16000" y="2700"></text>
+<rect class="keycap" width="1490" height="990" x="16505" y="2205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="2305" ry="100"/>
+<text class="big" x="17250" y="2700"></text>
+<rect class="keycap" width="1490" height="990" x="5" y="3205" ry="100"/>
+<rect width="1290" height="790" x="105" y="3305" ry="100"/>
+<text class="big" x="750" y="3700"></text>
+<rect class="keycap" width="990" height="990" x="1505" y="3205" ry="100"/>
+<rect width="790" height="790" x="1605" y="3305" ry="100"/>
+<text class="big" x="2000" y="3700"></text>
+<rect class="keycap" width="990" height="990" x="2505" y="3105" ry="100"/>
+<rect width="790" height="790" x="2605" y="3205" ry="100"/>
+<text class="big" x="3000" y="3600"></text>
+<rect class="keycap" width="990" height="990" x="3505" y="3005" ry="100"/>
+<rect width="790" height="790" x="3605" y="3105" ry="100"/>
+<text class="big" x="4000" y="3500"></text>
+<rect class="keycap" width="990" height="990" x="4505" y="3105" ry="100"/>
+<rect width="790" height="790" x="4605" y="3205" ry="100"/>
+<text class="big" x="5000" y="3600"></text>
+<rect class="keycap" width="990" height="990" x="5505" y="3205" ry="100"/>
+<rect width="790" height="790" x="5605" y="3305" ry="100"/>
+<text class="big" x="6000" y="3700"></text>
+<rect class="keycap" width="990" height="1490" x="6505" y="2705" ry="100"/>
+<rect width="790" height="1290" x="6605" y="2805" ry="100"/>
+<text class="big" x="7000" y="3450"></text>
+<rect class="keycap" width="990" height="1490" x="10505" y="2705" ry="100"/>
+<rect width="790" height="1290" x="10605" y="2805" ry="100"/>
+<text class="big" x="11000" y="3450"></text>
+<rect class="keycap" width="990" height="990" x="11505" y="3205" ry="100"/>
+<rect width="790" height="790" x="11605" y="3305" ry="100"/>
+<text class="big" x="12000" y="3700"></text>
+<rect class="keycap" width="990" height="990" x="12505" y="3105" ry="100"/>
+<rect width="790" height="790" x="12605" y="3205" ry="100"/>
+<text class="big" x="13000" y="3600"></text>
+<rect class="keycap" width="990" height="990" x="13505" y="3005" ry="100"/>
+<rect width="790" height="790" x="13605" y="3105" ry="100"/>
+<text class="big" x="14000" y="3500"></text>
+<rect class="keycap" width="990" height="990" x="14505" y="3105" ry="100"/>
+<rect width="790" height="790" x="14605" y="3205" ry="100"/>
+<text class="big" x="15000" y="3600"></text>
+<rect class="keycap" width="990" height="990" x="15505" y="3205" ry="100"/>
+<rect width="790" height="790" x="15605" y="3305" ry="100"/>
+<text class="big" x="16000" y="3700"></text>
+<rect class="keycap" width="1490" height="990" x="16505" y="3205" ry="100"/>
+<rect width="1290" height="790" x="16605" y="3305" ry="100"/>
+<text class="big" x="17250" y="3700"></text>
+<rect class="keycap" width="990" height="990" x="505" y="4205" ry="100"/>
+<rect width="790" height="790" x="605" y="4305" ry="100"/>
+<text class="big" x="1000" y="4700"></text>
+<rect class="keycap" width="990" height="990" x="1505" y="4205" ry="100"/>
+<rect width="790" height="790" x="1605" y="4305" ry="100"/>
+<text class="big" x="2000" y="4700"></text>
+<rect class="keycap" width="990" height="990" x="2505" y="4105" ry="100"/>
+<rect width="790" height="790" x="2605" y="4205" ry="100"/>
+<text class="big" x="3000" y="4600"></text>
+<rect class="keycap" width="990" height="990" x="3505" y="4005" ry="100"/>
+<rect width="790" height="790" x="3605" y="4105" ry="100"/>
+<image x="3650" y="4150" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcKICAgd2lkdGg9IjYzMy4zMzMwMSIKICAgaGVpZ2h0PSI2MzMuMzMzMDEiCiAgIHZpZXdCb3g9IjAgMCAzNy45OTk5ODEgMzcuOTk5OTgiCiAgIHZlcnNpb249IjEuMSIKICAgaWQ9InN2ZzUyNjY5IgogICBzb2RpcG9kaTpkb2NuYW1lPSJtYWlsLnN2ZyIKICAgaW5rc2NhcGU6dmVyc2lvbj0iMS4yLjIgKGIwYTg0ODY1NDEsIDIwMjItMTItMDEpIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyIKICAgeG1sbnM6Y2M9Imh0dHA6Ly9jcmVhdGl2ZWNvbW1vbnMub3JnL25zIyIKICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIj4KICA8ZGVmcwogICAgIGlkPSJkZWZzNTI2NzMiIC8+CiAgPHNvZGlwb2RpOm5hbWVkdmlldwogICAgIGlkPSJuYW1lZHZpZXc1MjY3MSIKICAgICBwYWdlY29sb3I9IiNmZmZmZmYiCiAgICAgYm9yZGVyY29sb3I9IiMxMTExMTEiCiAgICAgYm9yZGVyb3BhY2l0eT0iMSIKICAgICBpbmtzY2FwZTpzaG93cGFnZXNoYWRvdz0iMCIKICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMCIKICAgICBpbmtzY2FwZTpwYWdlY2hlY2tlcmJvYXJkPSIxIgogICAgIGlua3NjYXBlOmRlc2tjb2xvcj0iI2QxZDFkMSIKICAgICBzaG93Z3JpZD0iZmFsc2UiCiAgICAgaW5rc2NhcGU6em9vbT0iMS42Njg3NzIiCiAgICAgaW5rc2NhcGU6Y3g9IjMzNC45NzY4NiIKICAgICBpbmtzY2FwZTpjeT0iMzE4Ljc5NzI5IgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9InN2ZzUyNjY5IiAvPgogIDwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+CiAgPHRpdGxlCiAgICAgaWQ9InRpdGxlNTI2NjIiPmljX2ZsdWVudF9tYWlsXzQ4X3JlZ3VsYXI8L3RpdGxlPgogIDxkZXNjCiAgICAgaWQ9ImRlc2M1MjY2NCI+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgPGcKICAgICBpZD0i8J+UjS1Qcm9kdWN0LUljb25zIgogICAgIHN0cm9rZT0ibm9uZSIKICAgICBzdHJva2Utd2lkdGg9IjEiCiAgICAgZmlsbD0ibm9uZSIKICAgICBmaWxsLXJ1bGU9ImV2ZW5vZGQiCiAgICAgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUsLTUuMDQpIj4KICAgIDxnCiAgICAgICBpZD0iaWNfZmx1ZW50X21haWxfNDhfcmVndWxhciIKICAgICAgIGZpbGw9IiMyMTIxMjEiCiAgICAgICBmaWxsLXJ1bGU9Im5vbnplcm8iPgogICAgICA8cGF0aAogICAgICAgICBkPSJNIDM3Ljc1LDkgQyA0MC42NDk0OTUsOSA0MywxMS4zNTA1MDUgNDMsMTQuMjUgdiAxOS41IEMgNDMsMzYuNjQ5NDk1IDQwLjY0OTQ5NSwzOSAzNy43NSwzOSBIIDEwLjI1IEMgNy4zNTA1MDUxLDM5IDUsMzYuNjQ5NDk1IDUsMzMuNzUgViAxNC4yNSBDIDUsMTEuMzUwNTA1IDcuMzUwNTA1MSw5IDEwLjI1LDkgWiBtIDIuNzUsOS4zNTEgLTE1Ljg5NzYwMiw4Ljc0NDI3IGMgLTAuMzMzNDI1LDAuMTgzMzg0IC0wLjcyOTY1NCwwLjIwMzc2IC0xLjA3NzAzNiwwLjA2MTEzIEwgMjMuMzk3NjAyLDI3LjA5NTI3IDcuNSwxOC4zNTEgViAzMy43NSBjIDAsMS41MTg3ODMgMS4yMzEyMTY5LDIuNzUgMi43NSwyLjc1IGggMjcuNSBjIDEuNTE4NzgzLDAgMi43NSwtMS4yMzEyMTcgMi43NSwtMi43NSB6IE0gMzcuNzUsMTEuNSBoIC0yNy41IGMgLTEuNTE4NzgzMSwwIC0yLjc1LDEuMjMxMjE3IC0yLjc1LDIuNzUgdiAxLjI0OSBMIDI0LDI0LjU3MzQxMSA0MC41LDE1LjQ5OCBWIDE0LjI1IGMgMCwtMS41MTg3ODMgLTEuMjMxMjE3LC0yLjc1IC0yLjc1LC0yLjc1IHoiCiAgICAgICAgIGlkPSLwn46oLUNvbG9yIiAvPgogICAgPC9nPgogIDwvZz4KICA8bWV0YWRhdGEKICAgICBpZD0ibWV0YWRhdGE1Mjc5MiI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsKICAgICAgICAgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzp0aXRsZT5pY19mbHVlbnRfbWFpbF80OF9yZWd1bGFyPC9kYzp0aXRsZT4KICAgICAgPC9jYzpXb3JrPgogICAgPC9yZGY6UkRGPgogIDwvbWV0YWRhdGE+Cjwvc3ZnPgo="/>
+<rect class="keycap" width="990" height="990" x="4505" y="4105" ry="100"/>
+<rect width="790" height="790" x="4605" y="4205" ry="100"/>
+<text class="big" x="5000" y="4600"></text>
+<rect class="keycap" width="990" height="990" x="12505" y="4105" ry="100"/>
+<rect width="790" height="790" x="12605" y="4205" ry="100"/>
+<text class="big" x="13000" y="4600"></text>
+<rect class="keycap" width="990" height="990" x="13505" y="4005" ry="100"/>
+<rect width="790" height="790" x="13605" y="4105" ry="100"/>
+<text class="big" x="14000" y="4500"></text>
+<rect class="keycap" width="990" height="990" x="14505" y="4105" ry="100"/>
+<rect width="790" height="790" x="14605" y="4205" ry="100"/>
+<text class="big" x="15000" y="4600"></text>
+<rect class="keycap" width="990" height="990" x="15505" y="4205" ry="100"/>
+<rect width="790" height="790" x="15605" y="4305" ry="100"/>
+<text class="big" x="16000" y="4700"></text>
+<rect class="keycap" width="990" height="990" x="16505" y="4205" ry="100"/>
+<rect width="790" height="790" x="16605" y="4305" ry="100"/>
+<text class="big" x="17000" y="4700"></text>
+<rect class="keycap" width="990" height="990" x="6755" y="4505" ry="100"/>
+<rect width="790" height="790" x="6855" y="4605" ry="100"/>
+<text class="big" x="7250" y="5000"></text>
+<rect class="keycap" width="990" height="990" x="7755" y="4505" ry="100"/>
+<rect width="790" height="790" x="7855" y="4605" ry="100"/>
+<text class="big" x="8250" y="5000"></text>
+<rect class="keycap" width="990" height="990" x="9255" y="4505" ry="100"/>
+<rect width="790" height="790" x="9355" y="4605" ry="100"/>
+<text class="big" x="9750" y="5000"></text>
+<rect class="keycap" width="990" height="990" x="10255" y="4505" ry="100"/>
+<rect width="790" height="790" x="10355" y="4605" ry="100"/>
+<text class="big" x="10750" y="5000"></text>
+<rect class="keycap" width="990" height="990" x="7755" y="5505" ry="100"/>
+<rect width="790" height="790" x="7855" y="5605" ry="100"/>
+<text class="big" x="8250" y="6000"></text>
+<rect class="keycap" width="990" height="990" x="9255" y="5505" ry="100"/>
+<rect width="790" height="790" x="9355" y="5605" ry="100"/>
+<text class="big" x="9750" y="6000"></text>
+<rect class="keycap" width="990" height="1990" x="5755" y="5505" ry="100"/>
+<rect width="790" height="1790" x="5855" y="5605" ry="100"/>
+<text class="big" x="6250" y="6500"></text>
+<rect class="keycap" width="990" height="1990" x="6755" y="5505" ry="100"/>
+<rect width="790" height="1790" x="6855" y="5605" ry="100"/>
+<text class="big" x="7250" y="6500"></text>
+<rect class="keycap" width="990" height="990" x="7755" y="6505" ry="100"/>
+<rect width="790" height="790" x="7855" y="6605" ry="100"/>
+<text class="big" x="8250" y="7000"></text>
+<rect class="keycap" width="990" height="990" x="9255" y="6505" ry="100"/>
+<rect width="790" height="790" x="9355" y="6605" ry="100"/>
+<text class="big" x="9750" y="7000"></text>
+<rect class="keycap" width="990" height="1990" x="10255" y="5505" ry="100"/>
+<rect width="790" height="1790" x="10355" y="5605" ry="100"/>
+<text class="big" x="10750" y="6500"></text>
+<rect class="keycap" width="990" height="1990" x="11255" y="5505" ry="100"/>
+<rect width="790" height="1790" x="11355" y="5605" ry="100"/>
+<text class="big" x="11750" y="6500"></text>
+</svg>

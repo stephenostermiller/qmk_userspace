@@ -1,5 +1,8 @@
 # Dvorak-Qwerty Layout for the ErgoDox EZ Keyboard
 
+
+![](ergodox-ez.svg)
+
 ### [Download the firmware](https://github.com/stephenostermiller/qmk_userspace/releases/download/latest/ergodox_ez_base_dvorak_qwerty.hex)
 
 ## Features
@@ -45,94 +48,192 @@ At other times the lights indicate the layout:
 
 Easy access to media keys in the main layout
 
-## Layouts
+## Layers
 
 ### Dvorak
-
-![](dvorak-tap.png)
-
-### Dvorak (Hold Key)
-
-![](dvorak-hold.png)
-
+![](layers/dvorak-tap.svg)
+### Dvorak (Hold)
+![](layers/dvorak-hold.svg)
 ### Dvorak (Shift)
-
-![](dvorak-shift.png)
-
-### Dvorak (Double Tap Key)
-
-![](dvorak-double-tap.png)
-
-### Dvorak (Double Hold Key)
-
-![](dvorak-double-hold.png)
-
-### Dvorak (Triple Tap Key)
-
-![](dvorak-triple-tap.png)
-
-### Dvorak (Triple Hold Key)
-
-![](dvorak-triple-hold.png)
-
-### Number Keypad
-
-![](num-fn-tap.png)
-
-### Number Keypad (Hold Key)
-
-![](num-fn-hold.png)
-
-### Number Keypad (Double Tap Key)
-
-![](num-fn-double-tap.png)
-
-### Number Keypad (Double Hold Key)
-
-![](num-fn-double-hold.png)
-
-### Number Keypad (Triple Tap Key)
-
-![](num-fn-triple-tap.png)
-
-### Number Keypad (Triple Hold Key)
-
-![](num-fn-triple-hold.png)
-
+![](layers/dvorak-shift.svg)
+### Dvorak (Double Tap)
+![](layers/dvorak-dtap.svg)
+### Dvorak (Double Hold)
+![](layers/dvorak-dhold.svg)
+### Dvorak (Triple Tap)
+![](layers/dvorak-ttap.svg)
+### Dvorak (Triple Hold)
+![](layers/dvorak-thold.svg)
+### Num Fn
+![](layers/num-fn-tap.svg)
+### Num Fn (Hold)
+![](layers/num-fn-hold.svg)
+### Num Fn (Double Tap)
+![](layers/num-fn-dtap.svg)
+### Num Fn (Double Hold)
+![](layers/num-fn-dhold.svg)
+### Num Fn (Triple Tap)
+![](layers/num-fn-ttap.svg)
+### Num Fn (Triple Hold)
+![](layers/num-fn-thold.svg)
 ### Qwerty
+![](layers/qwerty-tap.svg)
+### Qwerty (Hold)
+![](layers/qwerty-hold.svg)
+### Qwerty (Shift)
+![](layers/qwerty-shift.svg)
+### Qwerty (Double Tap)
+![](layers/qwerty-dtap.svg)
+### Qwerty (Double Hold)
+![](layers/qwerty-dhold.svg)
+### Qwerty (Triple Tap)
+![](layers/qwerty-ttap.svg)
+### Qwerty (Triple Hold)
+![](layers/qwerty-thold.svg)
+### Qwerty Control
+![](layers/qwerty-control-tap.svg)
+### Qwerty Meta
+![](layers/qwerty-meta-tap.svg)
+### Qwerty Alt
+![](layers/qwerty-alt-tap.svg)
+### Fancy
+![](layers/fancy-tap.svg)
 
-![](qwerty-tap.png)
 
+## Icons
 
-## Icon credits
+### <img width=30px src=icon/shift.svg> Shift
+License: MIT License, Author: Microsoft
 
-- <a href="https://www.flaticon.com/free-icons/video" title="video icons">Video icons created by Freepik - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Freepik - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/folder" title="folder icons">Folder icons created by Gajah Mada - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/pause-play" title="pause play icons">Pause play icons created by Shahid-Mehmood - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/backspace" title="backspace icons">Backspace icons created by Bharat Icons - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/calculator" title="calculator icons">Calculator icons created by Pixel perfect - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/cam" title="cam icons">Cam icons created by Icon Mela - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/enter" title="enter icons">Enter icons created by Lizel Arina - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/fast-forward" title="fast forward icons">Fast forward icons created by nawicon - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/rewind" title="rewind icons">Rewind icons created by nawicon - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/previous" title="previous icons">Previous icons created by Ralf Schmitzer - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/keypad" title="keypad icons">Keypad icons created by Google - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/mute-button" title="mute button icons">Mute button icons created by ZAK - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/volume-up" title="volume up icons">Volume up icons created by Mayor Icons - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/volume-down" title="volume down icons">Volume down icons created by Mayor Icons - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/up" title="up icons">Up icons created by Roundicons Premium - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/screenshot" title="screenshot icons">Screenshot icons created by Freepik - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/shift" title="shift icons">Shift icons created by Graphics Plazza - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by Bharat Icons - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Radhe Icon - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/intranet" title="intranet icons">Intranet icons created by Freepik - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/close" title="close icons">Close icons created by Bharat Icons - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/full-screen" title="full screen icons">Full screen icons created by itim2101 - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/ui" title="ui icons">Ui icons created by Mike Zuidgeest - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/go-to-the-top" title="go to the top icons">Go to the top icons created by Cap Cool - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/capslock" title="capslock icons">Capslock icons created by Roundicons Premium - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/insert" title="insert icons">Insert icons created by Rahul Kaklotar - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/lock" title="lock icons">Lock icons created by Freepik - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/alt" title="alt icons">Alt icons created by Rahul Kaklotar - Flaticon</a>
-- <a href="https://www.flaticon.com/free-icons/command" title="command icons">Command icons created by Smashicons - Flaticon</a>
+### <img width=30px src=icon/auto-shift.svg> Auto Shift
+License: MIT License, Authors: Stephen Ostermiller, Microsoft
+
+### <img width=30px src=icon/caps-lock.svg> Caps Lock
+License: MIT License, Authors: Stephen Ostermiller, Microsoft
+
+### <img width=30px src=icon/caps-word.svg> Caps Word
+License: MIT License, Authors: Stephen Ostermiller, Microsoft
+
+### <img width=30px src=icon/enter.svg> Enter
+License: MIT License, Author: Elusiveicons
+
+### <img width=30px src=icon/space.svg> Space
+License: MIT License, Author: Microsoft
+
+### <img width=30px src=icon/tab.svg> Tab
+License: MIT License, Authors: Stephen Ostermiller, Microsoft
+
+### <img width=30px src=icon/backspace.svg> Backspace
+License: MIT License, Author: Ionicons
+
+### <img width=30px src=icon/delete.svg> Delete
+License: MIT License, Authors: Stephen Ostermiller, Ionicons
+
+### <img width=30px src=icon/control.svg> Control
+License: Public domain
+
+### <img width=30px src=icon/control-qwerty.svg> Control Qwerty
+License: Public domain
+
+### <img width=30px src=icon/meta.svg> Meta
+License: Public domain
+
+### <img width=30px src=icon/meta-qwerty.svg> Meta Qwerty
+License: Public domain
+
+### <img width=30px src=icon/alt.svg> Alt
+License: Public domain
+
+### <img width=30px src=icon/alt-qwerty.svg> Alt Qwerty
+License: Public domain
+
+### <img width=30px src=icon/escape.svg> Escape
+License: CC Attribution License, Author: Solar Icons
+
+### <img width=30px src=icon/end.svg> End
+License: MIT License, Author: Microsoft
+
+### <img width=30px src=icon/home.svg> Home
+License: MIT License, Authors: Stephen Ostermiller, Microsoft
+
+### <img width=30px src=icon/bottom.svg> Bottom
+License: MIT License, Author: Microsoft
+
+### <img width=30px src=icon/top.svg> Top
+License: MIT License, Authors: Stephen Ostermiller, Microsoft
+
+### <img width=30px src=icon/page-up.svg> Page Up
+License: CC Attribution License, Author: Dazzle UI
+
+### <img width=30px src=icon/page-down.svg> Page Down
+License: CC Attribution License, Author: Dazzle UI
+
+### <img width=30px src=icon/insert.svg> Insert
+License: Public domain
+
+### <img width=30px src=icon/calculator.svg> Calculator
+License: CC Attribution License, Author: Solar Icons
+
+### <img width=30px src=icon/folder.svg> File Manager
+License: MIT License, Author: Microsoft
+
+### <img width=30px src=icon/mail.svg> Mail
+License: MIT License, Author: Microsoft
+
+### <img width=30px src=icon/full-screen.svg> Full Screen
+License: Apache License, Author: Richard9394
+
+### <img width=30px src=icon/screenshot.svg> Screenshot
+License: CC Attribution License, Author: Boxicons
+
+### <img width=30px src=icon/close-window.svg> Close Window
+License: MIT License, Authors: Stephen Ostermiller, Microsoft
+
+### <img width=30px src=icon/lock-screen.svg> Lock Screen
+License: MIT License, Authors: Stephen Ostermiller, Orchid
+
+### <img width=30px src=icon/num-lock.svg> Num Lock
+License: Public Domain
+
+### <img width=30px src=icon/media-player.svg> Media Player
+License: MIT License, Authors: Stephen Ostermiller, Orchid, Vmware
+
+### <img width=30px src=icon/keypad.svg> Keypad
+License: MIT License, Author: Ionicons
+
+### <img width=30px src=icon/fancy-alphabet.svg> Fancy Alphabet
+License: Public domain
+
+### <img width=30px src=icon/camera-off.svg> Camera Off
+License: CC Attribution License, Author: Dazzle UI
+
+### <img width=30px src=icon/mute-mic.svg> Mute Mic
+License: MIT License, Author: Microsoft
+
+### <img width=30px src=icon/mute-speaker.svg> Mute Speaker
+License: MIT License, Author: Microsoft
+
+### <img width=30px src=icon/volume-up.svg> Volume Up
+License: MIT License, Authors: Stephen Ostermiller, Microsoft
+
+### <img width=30px src=icon/volume-down.svg> Volume Down
+License: MIT License, Authors: Stephen Ostermiller, Microsoft
+
+### <img width=30px src=icon/play-pause.svg> Play Pause
+License: MIT License, Authors: Stephen Ostermiller, Vmware
+
+### <img width=30px src=icon/fast-forward.svg> Fast Forward
+License: MIT License, Authors: Stephen Ostermiller, Vmware
+
+### <img width=30px src=icon/rewind.svg> Rewind
+License: MIT License, Authors: Stephen Ostermiller, Vmware
+
+### <img width=30px src=icon/next-track.svg> Next Track
+License: MIT License, Authors: Stephen Ostermiller, Vmware
+
+### <img width=30px src=icon/previous-track.svg> Previous Track
+License: MIT License, Authors: Stephen Ostermiller, Vmware
+
+### <img width=200px src=ergodox-ez.svg> Keyboard illustration
+© 2019 ZSA Technology Labs, Inc.
+
