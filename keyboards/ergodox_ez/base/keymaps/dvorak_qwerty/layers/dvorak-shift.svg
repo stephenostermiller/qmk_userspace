@@ -6,232 +6,232 @@ text{font:bold 700px sans-serif;dominant-baseline:middle;text-anchor:middle}
 text.medium{font:bold 450px sans-serif;}
 text.small{font:bold 200px sans-serif;}
 </style>
-<rect class="keycap" width="1490" height="990" x="5" y="205" ry="100"/>
+<rect width="1490" height="990" x="5" y="205" ry="100"/>
 <rect width="1290" height="790" x="105" y="305" ry="100"/>
 <text class="big" x="750" y="700"></text>
-<rect class="keycap" width="990" height="990" x="1505" y="205" ry="100"/>
+<rect width="990" height="990" x="1505" y="205" ry="100"/>
 <rect width="790" height="790" x="1605" y="305" ry="100"/>
 <text class="big" x="2000" y="700">!</text>
-<rect class="keycap" width="990" height="990" x="2505" y="105" ry="100"/>
+<rect width="990" height="990" x="2505" y="105" ry="100"/>
 <rect width="790" height="790" x="2605" y="205" ry="100"/>
 <text class="big" x="3000" y="600">@</text>
-<rect class="keycap" width="990" height="990" x="3505" y="5" ry="100"/>
+<rect width="990" height="990" x="3505" y="5" ry="100"/>
 <rect width="790" height="790" x="3605" y="105" ry="100"/>
 <text class="big" x="4000" y="500">#</text>
-<rect class="keycap" width="990" height="990" x="4505" y="105" ry="100"/>
+<rect width="990" height="990" x="4505" y="105" ry="100"/>
 <rect width="790" height="790" x="4605" y="205" ry="100"/>
 <text class="big" x="5000" y="600">$</text>
-<rect class="keycap" width="990" height="990" x="5505" y="205" ry="100"/>
+<rect width="990" height="990" x="5505" y="205" ry="100"/>
 <rect width="790" height="790" x="5605" y="305" ry="100"/>
 <text class="big" x="6000" y="700">%</text>
-<rect class="keycap" width="990" height="990" x="6505" y="205" ry="100"/>
+<rect width="990" height="990" x="6505" y="205" ry="100"/>
 <rect width="790" height="790" x="6605" y="305" ry="100"/>
 <text class="big" x="7000" y="700"></text>
-<rect class="keycap" width="990" height="990" x="10505" y="205" ry="100"/>
+<rect width="990" height="990" x="10505" y="205" ry="100"/>
 <rect width="790" height="790" x="10605" y="305" ry="100"/>
 <text class="big" x="11000" y="700">◦</text>
-<rect class="keycap" width="990" height="990" x="11505" y="205" ry="100"/>
+<rect width="990" height="990" x="11505" y="205" ry="100"/>
 <rect width="790" height="790" x="11605" y="305" ry="100"/>
 <text class="big" x="12000" y="700">^</text>
-<rect class="keycap" width="990" height="990" x="12505" y="105" ry="100"/>
+<rect width="990" height="990" x="12505" y="105" ry="100"/>
 <rect width="790" height="790" x="12605" y="205" ry="100"/>
 <text class="big" x="13000" y="600">&amp;</text>
-<rect class="keycap" width="990" height="990" x="13505" y="5" ry="100"/>
+<rect width="990" height="990" x="13505" y="5" ry="100"/>
 <rect width="790" height="790" x="13605" y="105" ry="100"/>
 <text class="big" x="14000" y="500">*</text>
-<rect class="keycap" width="990" height="990" x="14505" y="105" ry="100"/>
+<rect width="990" height="990" x="14505" y="105" ry="100"/>
 <rect width="790" height="790" x="14605" y="205" ry="100"/>
 <text class="big" x="15000" y="600">★</text>
-<rect class="keycap" width="990" height="990" x="15505" y="205" ry="100"/>
+<rect width="990" height="990" x="15505" y="205" ry="100"/>
 <rect width="790" height="790" x="15605" y="305" ry="100"/>
 <text class="big" x="16000" y="700">☆</text>
-<rect class="keycap" width="1490" height="990" x="16505" y="205" ry="100"/>
+<rect width="1490" height="990" x="16505" y="205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="305" ry="100"/>
 <text class="big" x="17250" y="700">|</text>
-<rect class="keycap" width="1490" height="990" x="5" y="1205" ry="100"/>
+<rect width="1490" height="990" x="5" y="1205" ry="100"/>
 <rect width="1290" height="790" x="105" y="1305" ry="100"/>
 <text class="big" x="750" y="1700"></text>
-<rect class="keycap" width="990" height="990" x="1505" y="1205" ry="100"/>
+<rect width="990" height="990" x="1505" y="1205" ry="100"/>
 <rect width="790" height="790" x="1605" y="1305" ry="100"/>
 <text class="big" x="2000" y="1700">&#x27;</text>
-<rect class="keycap" width="990" height="990" x="2505" y="1105" ry="100"/>
+<rect width="990" height="990" x="2505" y="1105" ry="100"/>
 <rect width="790" height="790" x="2605" y="1205" ry="100"/>
 <text class="big" x="3000" y="1600">≤</text>
-<rect class="keycap" width="990" height="990" x="3505" y="1005" ry="100"/>
+<rect width="990" height="990" x="3505" y="1005" ry="100"/>
 <rect width="790" height="790" x="3605" y="1105" ry="100"/>
 <text class="big" x="4000" y="1500">≥</text>
-<rect class="keycap" width="990" height="990" x="4505" y="1105" ry="100"/>
+<rect width="990" height="990" x="4505" y="1105" ry="100"/>
 <rect width="790" height="790" x="4605" y="1205" ry="100"/>
 <text class="big" x="5000" y="1600">P</text>
-<rect class="keycap" width="990" height="990" x="5505" y="1205" ry="100"/>
+<rect width="990" height="990" x="5505" y="1205" ry="100"/>
 <rect width="790" height="790" x="5605" y="1305" ry="100"/>
 <text class="big" x="6000" y="1700">Y</text>
-<rect class="keycap" width="990" height="1490" x="6505" y="1205" ry="100"/>
+<rect width="990" height="1490" x="6505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="6605" y="1305" ry="100"/>
 <text class="big" x="7000" y="1950"></text>
-<rect class="keycap" width="990" height="1490" x="10505" y="1205" ry="100"/>
+<rect width="990" height="1490" x="10505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="10605" y="1305" ry="100"/>
 <text class="big" x="11000" y="1950">+</text>
-<rect class="keycap" width="990" height="990" x="11505" y="1205" ry="100"/>
+<rect width="990" height="990" x="11505" y="1205" ry="100"/>
 <rect width="790" height="790" x="11605" y="1305" ry="100"/>
 <text class="big" x="12000" y="1700">F</text>
-<rect class="keycap" width="990" height="990" x="12505" y="1105" ry="100"/>
+<rect width="990" height="990" x="12505" y="1105" ry="100"/>
 <rect width="790" height="790" x="12605" y="1205" ry="100"/>
 <text class="big" x="13000" y="1600">G</text>
-<rect class="keycap" width="990" height="990" x="13505" y="1005" ry="100"/>
+<rect width="990" height="990" x="13505" y="1005" ry="100"/>
 <rect width="790" height="790" x="13605" y="1105" ry="100"/>
 <text class="big" x="14000" y="1500">C</text>
-<rect class="keycap" width="990" height="990" x="14505" y="1105" ry="100"/>
+<rect width="990" height="990" x="14505" y="1105" ry="100"/>
 <rect width="790" height="790" x="14605" y="1205" ry="100"/>
 <text class="big" x="15000" y="1600">R</text>
-<rect class="keycap" width="990" height="990" x="15505" y="1205" ry="100"/>
+<rect width="990" height="990" x="15505" y="1205" ry="100"/>
 <rect width="790" height="790" x="15605" y="1305" ry="100"/>
 <text class="big" x="16000" y="1700">L</text>
-<rect class="keycap" width="1490" height="990" x="16505" y="1205" ry="100"/>
+<rect width="1490" height="990" x="16505" y="1205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="1305" ry="100"/>
 <text class="big" x="17250" y="1700">?</text>
-<rect class="keycap" width="1490" height="990" x="5" y="2205" ry="100"/>
+<rect width="1490" height="990" x="5" y="2205" ry="100"/>
 <rect width="1290" height="790" x="105" y="2305" ry="100"/>
 <text class="big" x="750" y="2700"></text>
-<rect class="keycap" width="990" height="990" x="1505" y="2205" ry="100"/>
+<rect width="990" height="990" x="1505" y="2205" ry="100"/>
 <rect width="790" height="790" x="1605" y="2305" ry="100"/>
 <text class="big" x="2000" y="2700">A</text>
-<rect class="keycap" width="990" height="990" x="2505" y="2105" ry="100"/>
+<rect width="990" height="990" x="2505" y="2105" ry="100"/>
 <rect width="790" height="790" x="2605" y="2205" ry="100"/>
 <text class="big" x="3000" y="2600">O</text>
-<rect class="keycap" width="990" height="990" x="3505" y="2005" ry="100"/>
+<rect width="990" height="990" x="3505" y="2005" ry="100"/>
 <rect width="790" height="790" x="3605" y="2105" ry="100"/>
 <text class="big" x="4000" y="2500">E</text>
-<rect class="keycap" width="990" height="990" x="4505" y="2105" ry="100"/>
+<rect width="990" height="990" x="4505" y="2105" ry="100"/>
 <rect width="790" height="790" x="4605" y="2205" ry="100"/>
 <text class="big" x="5000" y="2600">U</text>
-<rect class="keycap" width="990" height="990" x="5505" y="2205" ry="100"/>
+<rect width="990" height="990" x="5505" y="2205" ry="100"/>
 <rect width="790" height="790" x="5605" y="2305" ry="100"/>
 <text class="big" x="6000" y="2700">I</text>
-<rect class="keycap" width="990" height="990" x="11505" y="2205" ry="100"/>
+<rect width="990" height="990" x="11505" y="2205" ry="100"/>
 <rect width="790" height="790" x="11605" y="2305" ry="100"/>
 <text class="big" x="12000" y="2700">D</text>
-<rect class="keycap" width="990" height="990" x="12505" y="2105" ry="100"/>
+<rect width="990" height="990" x="12505" y="2105" ry="100"/>
 <rect width="790" height="790" x="12605" y="2205" ry="100"/>
 <text class="big" x="13000" y="2600">H</text>
-<rect class="keycap" width="990" height="990" x="13505" y="2005" ry="100"/>
+<rect width="990" height="990" x="13505" y="2005" ry="100"/>
 <rect width="790" height="790" x="13605" y="2105" ry="100"/>
 <text class="big" x="14000" y="2500">T</text>
-<rect class="keycap" width="990" height="990" x="14505" y="2105" ry="100"/>
+<rect width="990" height="990" x="14505" y="2105" ry="100"/>
 <rect width="790" height="790" x="14605" y="2205" ry="100"/>
 <text class="big" x="15000" y="2600">N</text>
-<rect class="keycap" width="990" height="990" x="15505" y="2205" ry="100"/>
+<rect width="990" height="990" x="15505" y="2205" ry="100"/>
 <rect width="790" height="790" x="15605" y="2305" ry="100"/>
 <text class="big" x="16000" y="2700">S</text>
-<rect class="keycap" width="1490" height="990" x="16505" y="2205" ry="100"/>
+<rect width="1490" height="990" x="16505" y="2205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="2305" ry="100"/>
 <text class="big" x="17250" y="2700">_</text>
-<rect class="keycap" width="1490" height="990" x="5" y="3205" ry="100"/>
+<rect width="1490" height="990" x="5" y="3205" ry="100"/>
 <rect width="1290" height="790" x="105" y="3305" ry="100"/>
 <text class="big" x="750" y="3700"></text>
-<rect class="keycap" width="990" height="990" x="1505" y="3205" ry="100"/>
+<rect width="990" height="990" x="1505" y="3205" ry="100"/>
 <rect width="790" height="790" x="1605" y="3305" ry="100"/>
 <text class="big" x="2000" y="3700">:</text>
-<rect class="keycap" width="990" height="990" x="2505" y="3105" ry="100"/>
+<rect width="990" height="990" x="2505" y="3105" ry="100"/>
 <rect width="790" height="790" x="2605" y="3205" ry="100"/>
 <text class="big" x="3000" y="3600">Q</text>
-<rect class="keycap" width="990" height="990" x="3505" y="3005" ry="100"/>
+<rect width="990" height="990" x="3505" y="3005" ry="100"/>
 <rect width="790" height="790" x="3605" y="3105" ry="100"/>
 <text class="big" x="4000" y="3500">J</text>
-<rect class="keycap" width="990" height="990" x="4505" y="3105" ry="100"/>
+<rect width="990" height="990" x="4505" y="3105" ry="100"/>
 <rect width="790" height="790" x="4605" y="3205" ry="100"/>
 <text class="big" x="5000" y="3600">K</text>
-<rect class="keycap" width="990" height="990" x="5505" y="3205" ry="100"/>
+<rect width="990" height="990" x="5505" y="3205" ry="100"/>
 <rect width="790" height="790" x="5605" y="3305" ry="100"/>
 <text class="big" x="6000" y="3700">X</text>
-<rect class="keycap" width="990" height="1490" x="6505" y="2705" ry="100"/>
+<rect width="990" height="1490" x="6505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="6605" y="2805" ry="100"/>
 <text class="big" x="7000" y="3450"></text>
-<rect class="keycap" width="990" height="1490" x="10505" y="2705" ry="100"/>
+<rect width="990" height="1490" x="10505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="10605" y="2805" ry="100"/>
 <text class="big" x="11000" y="3450">~</text>
-<rect class="keycap" width="990" height="990" x="11505" y="3205" ry="100"/>
+<rect width="990" height="990" x="11505" y="3205" ry="100"/>
 <rect width="790" height="790" x="11605" y="3305" ry="100"/>
 <text class="big" x="12000" y="3700">B</text>
-<rect class="keycap" width="990" height="990" x="12505" y="3105" ry="100"/>
+<rect width="990" height="990" x="12505" y="3105" ry="100"/>
 <rect width="790" height="790" x="12605" y="3205" ry="100"/>
 <text class="big" x="13000" y="3600">M</text>
-<rect class="keycap" width="990" height="990" x="13505" y="3005" ry="100"/>
+<rect width="990" height="990" x="13505" y="3005" ry="100"/>
 <rect width="790" height="790" x="13605" y="3105" ry="100"/>
 <text class="big" x="14000" y="3500">W</text>
-<rect class="keycap" width="990" height="990" x="14505" y="3105" ry="100"/>
+<rect width="990" height="990" x="14505" y="3105" ry="100"/>
 <rect width="790" height="790" x="14605" y="3205" ry="100"/>
 <text class="big" x="15000" y="3600">V</text>
-<rect class="keycap" width="990" height="990" x="15505" y="3205" ry="100"/>
+<rect width="990" height="990" x="15505" y="3205" ry="100"/>
 <rect width="790" height="790" x="15605" y="3305" ry="100"/>
 <text class="big" x="16000" y="3700">Z</text>
-<rect class="keycap" width="1490" height="990" x="16505" y="3205" ry="100"/>
+<rect width="1490" height="990" x="16505" y="3205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="3305" ry="100"/>
 <text class="big" x="17250" y="3700"></text>
-<rect class="keycap" width="990" height="990" x="505" y="4205" ry="100"/>
+<rect width="990" height="990" x="505" y="4205" ry="100"/>
 <rect width="790" height="790" x="605" y="4305" ry="100"/>
 <text class="big" x="1000" y="4700"></text>
-<rect class="keycap" width="990" height="990" x="1505" y="4205" ry="100"/>
+<rect width="990" height="990" x="1505" y="4205" ry="100"/>
 <rect width="790" height="790" x="1605" y="4305" ry="100"/>
 <text class="big" x="2000" y="4700"></text>
-<rect class="keycap" width="990" height="990" x="2505" y="4105" ry="100"/>
+<rect width="990" height="990" x="2505" y="4105" ry="100"/>
 <rect width="790" height="790" x="2605" y="4205" ry="100"/>
 <text class="big" x="3000" y="4600"></text>
-<rect class="keycap" width="990" height="990" x="3505" y="4005" ry="100"/>
+<rect width="990" height="990" x="3505" y="4005" ry="100"/>
 <rect width="790" height="790" x="3605" y="4105" ry="100"/>
 <text class="big" x="4000" y="4500"></text>
-<rect class="keycap" width="990" height="990" x="4505" y="4105" ry="100"/>
+<rect width="990" height="990" x="4505" y="4105" ry="100"/>
 <rect width="790" height="790" x="4605" y="4205" ry="100"/>
 <text class="big" x="5000" y="4600"></text>
-<rect class="keycap" width="990" height="990" x="12505" y="4105" ry="100"/>
+<rect width="990" height="990" x="12505" y="4105" ry="100"/>
 <rect width="790" height="790" x="12605" y="4205" ry="100"/>
 <text class="big" x="13000" y="4600"></text>
-<rect class="keycap" width="990" height="990" x="13505" y="4005" ry="100"/>
+<rect width="990" height="990" x="13505" y="4005" ry="100"/>
 <rect width="790" height="790" x="13605" y="4105" ry="100"/>
 <text class="big" x="14000" y="4500"></text>
-<rect class="keycap" width="990" height="990" x="14505" y="4105" ry="100"/>
+<rect width="990" height="990" x="14505" y="4105" ry="100"/>
 <rect width="790" height="790" x="14605" y="4205" ry="100"/>
 <text class="big" x="15000" y="4600"></text>
-<rect class="keycap" width="990" height="990" x="15505" y="4205" ry="100"/>
+<rect width="990" height="990" x="15505" y="4205" ry="100"/>
 <rect width="790" height="790" x="15605" y="4305" ry="100"/>
 <text class="big" x="16000" y="4700"></text>
-<rect class="keycap" width="990" height="990" x="16505" y="4205" ry="100"/>
+<rect width="990" height="990" x="16505" y="4205" ry="100"/>
 <rect width="790" height="790" x="16605" y="4305" ry="100"/>
 <text class="big" x="17000" y="4700"></text>
-<rect class="keycap" width="990" height="990" x="6755" y="4505" ry="100"/>
+<rect width="990" height="990" x="6755" y="4505" ry="100"/>
 <rect width="790" height="790" x="6855" y="4605" ry="100"/>
 <text class="big" x="7250" y="5000"></text>
-<rect class="keycap" width="990" height="990" x="7755" y="4505" ry="100"/>
+<rect width="990" height="990" x="7755" y="4505" ry="100"/>
 <rect width="790" height="790" x="7855" y="4605" ry="100"/>
 <text class="big" x="8250" y="5000"></text>
-<rect class="keycap" width="990" height="990" x="9255" y="4505" ry="100"/>
+<rect width="990" height="990" x="9255" y="4505" ry="100"/>
 <rect width="790" height="790" x="9355" y="4605" ry="100"/>
 <text class="big" x="9750" y="5000"></text>
-<rect class="keycap" width="990" height="990" x="10255" y="4505" ry="100"/>
+<rect width="990" height="990" x="10255" y="4505" ry="100"/>
 <rect width="790" height="790" x="10355" y="4605" ry="100"/>
 <text class="big" x="10750" y="5000"></text>
-<rect class="keycap" width="990" height="990" x="7755" y="5505" ry="100"/>
+<rect width="990" height="990" x="7755" y="5505" ry="100"/>
 <rect width="790" height="790" x="7855" y="5605" ry="100"/>
 <text class="big" x="8250" y="6000"></text>
-<rect class="keycap" width="990" height="990" x="9255" y="5505" ry="100"/>
+<rect width="990" height="990" x="9255" y="5505" ry="100"/>
 <rect width="790" height="790" x="9355" y="5605" ry="100"/>
 <text class="big" x="9750" y="6000"></text>
-<rect class="keycap" width="990" height="1990" x="5755" y="5505" ry="100"/>
+<rect width="990" height="1990" x="5755" y="5505" ry="100"/>
 <rect width="790" height="1790" x="5855" y="5605" ry="100"/>
 <text class="big" x="6250" y="6500"></text>
-<rect class="keycap" width="990" height="1990" x="6755" y="5505" ry="100"/>
+<rect width="990" height="1990" x="6755" y="5505" ry="100"/>
 <rect width="790" height="1790" x="6855" y="5605" ry="100"/>
 <text class="big" x="7250" y="6500"></text>
-<rect class="keycap" width="990" height="990" x="7755" y="6505" ry="100"/>
+<rect width="990" height="990" x="7755" y="6505" ry="100"/>
 <rect width="790" height="790" x="7855" y="6605" ry="100"/>
 <text class="big" x="8250" y="7000"></text>
-<rect class="keycap" width="990" height="990" x="9255" y="6505" ry="100"/>
+<rect width="990" height="990" x="9255" y="6505" ry="100"/>
 <rect width="790" height="790" x="9355" y="6605" ry="100"/>
 <text class="big" x="9750" y="7000"></text>
-<rect class="keycap" width="990" height="1990" x="10255" y="5505" ry="100"/>
+<rect width="990" height="1990" x="10255" y="5505" ry="100"/>
 <rect width="790" height="1790" x="10355" y="5605" ry="100"/>
 <text class="big" x="10750" y="6500"></text>
-<rect class="keycap" width="990" height="1990" x="11255" y="5505" ry="100"/>
+<rect width="990" height="1990" x="11255" y="5505" ry="100"/>
 <rect width="790" height="1790" x="11355" y="5605" ry="100"/>
 <text class="big" x="11750" y="6500"></text>
 </svg>

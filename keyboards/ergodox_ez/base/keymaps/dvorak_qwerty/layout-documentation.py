@@ -4,7 +4,7 @@ import html
 import base64
 import os
 
-os.makedirs('layers')
+os.makedirs('layers', exist_ok=True)
 
 keycodes={}
 
@@ -372,7 +372,7 @@ def toSvg(layout, variant):
             if len(text) > 5:
                 textClass='small'
             content = f'<text class="{textClass}" x="{k['x']+round(k['width']/2)}" y="{k['y']+round(k['height']/2)}">{html.escape(text)}</text>'
-        fh.write(f'<rect class="keycap" width="{k['width']-10}" height="{k['height']-10}" x="{k['x']+5}" y="{k['y']+5}" ry="100"/>\n')
+        fh.write(f'<rect width="{k['width']-10}" height="{k['height']-10}" x="{k['x']+5}" y="{k['y']+5}" ry="100"/>\n')
         fh.write(f'<rect width="{k['width']-210}" height="{k['height']-210}" x="{k['x']+105}" y="{k['y']+105}" ry="100"/>\n')
         fh.write(content+'\n')
     fh.write('</svg>')
@@ -401,6 +401,107 @@ for layout in layouts:
             print(f"### {layoutName} {variantName}")
             print(f"![]({svgName})")
 
+keycap_priority = [
+    {"layout": "dvorak", "variant": "tap", "color": "#fff"},
+    {"layout": "qwerty", "variant": "tap", "color": "#aaa"},
+    {"layout": "dvorak", "variant": "hold", "color": "#0ff"},
+    {"layout": "dvorak", "variant": "dtap", "color": "#8f8"},
+    {"layout": "num_fn", "variant": "tap", "color": "#ff0"},
+    {"layout": "dvorak", "variant": "dhold", "color": "#88f"},
+    {"layout": "dvorak", "variant": "ttap", "color": "#f0f"},
+    {"layout": "num_fn", "variant": "hold", "color": "#f88"},
+]
+
+def getKeycapLabels(i):
+    labels = []
+    seen = {}
+    for p in keycap_priority:
+        text = layouts[p["layout"]][p["variant"]][i]
+        if re.search(r'^[a-z]$', text):
+            text = text.upper()
+        text = re.sub("-qwerty","",text)
+        if text and len(labels) < 4 and text not in seen:
+            labels.append({"text":text, "color": p["color"]})
+            seen[text] = 1
+    return labels
+
+def labelsToSvg(fh, labels, dim):
+    for i, label in enumerate(labels):
+        text = label['text']
+        color = label['color']
+        textClass='big'
+        x = dim['x']
+        y = dim['y']
+        w = dim['w']
+        h = dim['h']
+        x+=0.05
+        y+=0.05
+        w-=0.1
+        h-=0.1
+
+        if w > h:
+            x += round((w-h) / 2, 3)
+            w = h
+        elif w < h:
+            y += round((h-w) / 2, 3)
+            h = w
+
+        if text.startswith("icon/"):
+            if len(labels) > 1:
+                w =  round(w/2-0.025, 3)
+                h =  round(h/2-0.025, 3)
+            if i%2 == 1:
+                x += w + 0.05
+            if i > 1:
+                y += h + 0.05
+            with open(text, "r") as image_file:
+                imgType = re.sub('svg','svg+xml',re.sub(r'.*\.','',text))
+                content = ''.join(image_file.readlines())
+                content = re.sub(r'#010101', color, content)
+                imgB64 = base64.b64encode(content.encode('utf-8')).decode('utf-8')
+                fh.write(f'<image x="{x}in" y="{y}in" width="{w}in" height="{h}in" href="data:image/{imgType};base64,{imgB64}"/>\n');
+        else:
+            if len(labels) == 1:
+                if len(text) > 2:
+                    textClass='medium'
+                if len(text) > 5:
+                    textClass='small'
+                x = round(x + w/2, 3)
+                y = round(y + h/2, 3)
+            else:
+                textClass='medium'
+                if len(text) > 2:
+                    textClass='small'
+                if i%2 == 0:
+                    x = round(x + w/4, 3)
+                else:
+                    x = round(x + 3*w/4, 3)
+                if i < 2:
+                    y = round(y + h/4, 3)
+                else:
+                    y = round(y + 3*h/4, 3)
+            fh.write(f'<text fill="{color}" class="{textClass}" x="{x}in" y="{y}in">{html.escape(text)}</text>\n');
+
+fh = open("keycaps.svg", 'w')
+fh.write('<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n')
+fh.write('<svg width="11in" height="8.5in" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">\n')
+fh.write('<style>\n')
+fh.write('rect{fill:#000;stroke:none}\n')
+fh.write('text{font:bold .4in sans-serif;dominant-baseline:middle;text-anchor:middle}\n')
+fh.write('text.medium{font:bold .16in sans-serif;}\n')
+fh.write('text.small{font:bold .08in sans-serif;}\n')
+fh.write('</style>\n')
+for i, k in enumerate(svgp):
+    dim = {
+        "w": round(k['width'] * .000452, 3),
+        "h": round(k['height'] * .000452, 3),
+        "x": round(1 + k['x'] * .0005, 3),
+        "y": round(2.5 + k['y'] * .0005, 3),
+    }
+    fh.write(f'<rect width="{dim["w"]}in" height="{dim["h"]}in" x="{dim["x"]}in" y="{dim["y"]}in"/>\n')
+    labelsToSvg(fh, getKeycapLabels(i), dim);
+fh.write('</svg>')
+fh.close()
 
 for c in unicode:
     if c not in unicode_used:

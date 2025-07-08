@@ -100,6 +100,9 @@ Easy access to media keys in the main layout
 ![](layers/fancy-tap.svg)
 
 
+## Key Cap Labels
+![](keycaps.svg)
+
 ## Icons
 
 ### <img width=30px src=icon/shift.svg> Shift
