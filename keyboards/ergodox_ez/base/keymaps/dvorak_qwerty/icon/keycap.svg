@@ -29,7 +29,7 @@
      inkscape:cy="40.78014"
      inkscape:current-layer="svg30949" />
   <rect
-     style="fill:none;stroke:#000000;stroke-width:1"
+     style="fill:none;stroke:#010101;stroke-width:1"
      width="99"
      height="99"
      x=".5"
@@ -37,7 +37,7 @@
      ry="10"
      id="rect30937" />
   <rect
-     style="fill:none;stroke:#000000;stroke-width:1"
+     style="fill:none;stroke:#010101;stroke-width:1"
      width="79"
      height="79"
      x="10.5"
@@ -45,22 +45,22 @@
      ry="10"
      id="rect30939" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:1"
+     style="fill:none;stroke:#010101;stroke-width:1"
      d="m 3.4225,3.4225 10,10"
      id="path30941"
      sodipodi:nodetypes="cc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:1"
+     style="fill:none;stroke:#010101;stroke-width:1"
      d="m 86.5775,86.5775 10,10"
      id="path30943"
      sodipodi:nodetypes="cc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:1"
+     style="fill:none;stroke:#010101;stroke-width:1"
      d="M 3.7988524,96.934823 13.576202,86.727934"
      id="path30945"
      sodipodi:nodetypes="cc" />
   <path
-     style="fill:none;stroke:#000000;stroke-width:1"
+     style="fill:none;stroke:#010101;stroke-width:1"
      d="M 86.854274,13.71055 97.225417,4.1360619 v 0"
      id="path30947"
      sodipodi:nodetypes="ccc" />

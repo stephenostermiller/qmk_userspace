@@ -41,12 +41,12 @@
      id="g92064">
     <path
        d="m 49.064458,8.6816163 h 34.59909 c 6.96361,0 13.32945,3.1881787 16.443702,8.2354077 l 10.67496,17.301042 34.31581,55.61609 c 3.11435,5.047445 9.48,8.235625 16.44407,8.235625 H 196.1409 M 140.98724,8.6816163 h 55.15366"
-       stroke="#000000"
+       stroke="#010101"
        stroke-width="16.5497"
        stroke-linecap="round"
        stroke-linejoin="round"
        id="path91009"
        sodipodi:nodetypes="cscccsccc"
-       style="fill:none;stroke:#000000;stroke-width:16.55;stroke-dasharray:none;stroke-opacity:1" />
+       style="fill:none;stroke:#010101;stroke-width:16.55;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
