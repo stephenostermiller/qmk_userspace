@@ -12,8 +12,6 @@ shift_map={
     '1':'!',
     '2':'@',
     '3':'#',
-    '4':'$',
-    '5':'%',
     '6':'^',
     '7':'&',
     '8':'*',
@@ -48,16 +46,6 @@ basic_codes={
     'KC_COMMA':',',
     'KC_DOT':'.',
     'KC_SLASH':'/',
-    'KC_UP':'⇧',
-    'KC_LEFT':'⇦',
-    'KC_RIGHT':'⇨',
-    'KC_DOWN':'⇩',
-    'KC_LEFT_PAREN':'(',
-    'KC_RIGHT_PAREN':')',
-    'KC_LEFT_ANGLE_BRACKET':'<',
-    'KC_RIGHT_ANGLE_BRACKET':'>',
-    'KC_LEFT_CURLY_BRACE':'{',
-    'KC_RIGHT_CURLY_BRACE':'}',
 }
 
 for letter in 'abcdefghijklmnopqrstuvwxyz0123456789':
@@ -99,6 +87,7 @@ keycodes['KC_NUM_LOCK']={'tap':'icon/num-lock.svg'}
 keycodes['QK_AUTO_SHIFT_TOGGLE']={'tap':'icon/auto-shift.svg'}
 keycodes['KC_MEDIA_PLAY_PAUSE']={'tap':'icon/play-pause.svg'}
 keycodes['KC_MEDIA_NEXT_TRACK']={'tap':'icon/next-track.svg'}
+keycodes['KC_MNXT']={'tap':'icon/next-track.svg'}
 keycodes['KC_MEDIA_FAST_FORWARD']={'tap':'icon/fast-forward.svg'}
 keycodes['KC_MEDIA_PREV_TRACK']={'tap':'icon/previous-track.svg'}
 keycodes['KC_MEDIA_REWIND']={'tap':'icon/rewind.svg'}
@@ -106,6 +95,7 @@ keycodes['KC_CALCULATOR']={'tap':'icon/calculator.svg'}
 keycodes['KC_VOLU']={'tap':'icon/volume-up.svg'}
 keycodes['KC_AUDIO_MUTE']={'tap':'icon/mute-speaker.svg'}
 keycodes['KC_VOLD']={'tap':'icon/volume-down.svg'}
+keycodes['KC_PRINT_SCREEN']={'tap':'icon/screenshot.svg'}
 keycodes['KC_PSCR']={'tap':'icon/screenshot.svg'}
 keycodes['KC_DELETE']={'tap':'icon/delete.svg'}
 keycodes['KC_BSPC']={'tap':'icon/backspace.svg'}
@@ -143,6 +133,22 @@ keycodes['KC_KP_DOT']={'tap':'.'}
 keycodes['KC_KP_ENTER']={'tap':'icon/enter.svg'}
 keycodes['KC_KP_ASTERISK']={'tap':'*'}
 keycodes['KC_KP_SLASH']={'tap':'/'}
+keycodes['KC_DOLLAR']={'tap':'$'}
+keycodes['KC_PERCENT']={'tap':'%'}
+keycodes['KC_UP']={'tap':'icon/up.svg'}
+keycodes['KC_LEFT']={'tap':'icon/left.svg'}
+keycodes['KC_RIGHT']={'tap':'icon/right.svg'}
+keycodes['KC_DOWN']={'tap':'icon/down.svg'}
+keycodes['KC_LEFT_PAREN']={'tap':'('}
+keycodes['KC_RIGHT_PAREN']={'tap':')'}
+keycodes['KC_LEFT_ANGLE_BRACKET']={'tap':'<'}
+keycodes['KC_RIGHT_ANGLE_BRACKET']={'tap':'>'}
+keycodes['KC_LEFT_CURLY_BRACE']={'tap':'{'}
+keycodes['KC_RIGHT_CURLY_BRACE']={'tap':'}'}
+keycodes['KC_ASTERISK']={'tap':'*'}
+keycodes['KC_TILDE']={'tap':'~'}
+keycodes['KC_PLUS']={'tap':'+'}
+keycodes['KC_AMPERSAND']={'tap':'&'}
 
 def parse_comma_codes(s):
     s=re.sub(',$','',s)
