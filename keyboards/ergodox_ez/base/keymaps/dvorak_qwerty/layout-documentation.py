@@ -12,12 +12,14 @@ shift_map={
     '1':'!',
     '2':'@',
     '3':'#',
+    '4':'$',
+    '5':'%',
     '6':'^',
     '7':'&',
     '8':'*',
     '9':'(',
     '0':')',
-    '"':"'",
+    "'":'"',
     ',':'<',
     '.':'>',
     ';':':',
@@ -39,8 +41,7 @@ basic_codes={
     'KC_BSLS':'\\',
     'KC_SEMICOLON':';',
     'KC_SCLN':';',
-    'KC_QUOTE':'"',
-    'KC_DOUBLE_QUOTE':'"',
+    'KC_QUOTE':"'",
     'KC_UNDERSCORE':'_',
     'KC_GRAVE':'`',
     'KC_COMMA':',',
@@ -135,6 +136,7 @@ keycodes['KC_KP_ASTERISK']={'tap':'*'}
 keycodes['KC_KP_SLASH']={'tap':'/'}
 keycodes['KC_DOLLAR']={'tap':'$'}
 keycodes['KC_PERCENT']={'tap':'%'}
+keycodes['KC_PERC']={'tap':'%'}
 keycodes['KC_UP']={'tap':'icon/up.svg'}
 keycodes['KC_LEFT']={'tap':'icon/left.svg'}
 keycodes['KC_RIGHT']={'tap':'icon/right.svg'}
@@ -149,6 +151,14 @@ keycodes['KC_ASTERISK']={'tap':'*'}
 keycodes['KC_TILDE']={'tap':'~'}
 keycodes['KC_PLUS']={'tap':'+'}
 keycodes['KC_AMPERSAND']={'tap':'&'}
+keycodes['KC_PIPE']={'tap':'|'}
+keycodes['KC_QUES']={'tap':'?'}
+keycodes['KC_QUESTION']={'tap':'?'}
+keycodes['KC_DQT']={'tap':'"'}
+keycodes['KC_HASH']={'tap':'#'}
+keycodes['KC_DOUBLE_QUOTE']={'tap':'"'}
+keycodes['KC_COLN']={'tap':':'}
+keycodes['KC_COLON']={'tap':':'}
 
 def parse_comma_codes(s):
     s=re.sub(',$','',s)
@@ -169,6 +179,8 @@ def parse_comma_codes(s):
 layouts={}
 unicode={}
 unicode_used={}
+unicode={}
+tap_dance_used={}
 shiftOverrides={}
 tapdances={}
 mode="none"
@@ -206,7 +218,7 @@ with open('keymap.c', 'r') as file:
                 func=m[2]
                 args=parse_comma_codes(m[3])
                 func=re.sub('^EZTD_',"",func)
-                func=re.sub('FLOW',"",func)
+                func=re.sub('FLOW|SUP',"",func)
                 func=func.lower().split("_")
                 out={}
                 for i in range(0,len(func)):
@@ -217,7 +229,7 @@ with open('keymap.c', 'r') as file:
         elif (mode=="overrides"):
             if re.search(r'^\s*\}',line):
                 mode="none"
-            elif m:=re.search(r'MOD_MASK_SHIFT,\s*([^,]+),\s*(.+)\),$',line):
+            elif m:=re.search(r'S\(([^,]+)\),\s*(.+)\),$',line):
                 shiftOverrides[m[1]] = m[2]
 
 def processKey(layout,variant,i,initial):
@@ -244,6 +256,7 @@ def processKey(layout,variant,i,initial):
             layouts[layout][variant][i]=m[1]
         elif m:=re.search(r'^TD\((.*)\)$',keycode):
             td=tapdances[m[1]]
+            tap_dance_used[m[1]] = 1
             for tdVariant in td:
                 layouts[layout][tdVariant][i]=td[tdVariant]
                 processKey(layout, tdVariant, i, False)
@@ -490,7 +503,7 @@ def labelsToSvg(fh, labels, dim):
 
 fh = open("keycaps.svg", 'w')
 fh.write('<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n')
-fh.write('<svg width="11in" height="8.5in" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">\n')
+fh.write('<svg width="9.428in" height="4.202in" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">\n')
 fh.write('<style>\n')
 fh.write('rect{fill:#000;stroke:none}\n')
 fh.write('text{font:bold .4in sans-serif;dominant-baseline:middle;text-anchor:middle}\n')
@@ -501,8 +514,8 @@ for i, k in enumerate(svgp):
     dim = {
         "w": round(k['width'] * .000452, 3),
         "h": round(k['height'] * .000452, 3),
-        "x": round(1 + k['x'] * .0005, 3),
-        "y": round(2.5 + k['y'] * .0005, 3),
+        "x": round(0.25 + k['x'] * .0005, 3),
+        "y": round(0.25 + k['y'] * .0005, 3),
     }
     fh.write(f'<rect width="{dim["w"]}in" height="{dim["h"]}in" x="{dim["x"]}in" y="{dim["y"]}in"/>\n')
     labelsToSvg(fh, getKeycapLabels(i), dim);
@@ -512,3 +525,7 @@ fh.close()
 for c in unicode:
     if c not in unicode_used:
         print(f"not used: {c} {unicode[c]}", file=sys.stderr)
+
+for c in tapdances:
+    if c not in tap_dance_used:
+        print(f"not used: {c} {tapdances[c]}", file=sys.stderr)

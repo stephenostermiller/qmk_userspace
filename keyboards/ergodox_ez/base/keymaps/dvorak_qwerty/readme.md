@@ -5,15 +5,19 @@
 
 ### [Download the firmware](https://github.com/stephenostermiller/qmk_userspace/releases/download/latest/ergodox_ez_base_dvorak_qwerty.hex)
 
-## Features
+## Layout Features
 
 ### Dvorak-Qwerty
 
 Dvorak layout for faster and more accurate typing. Switches to Qwerty layout when ctrl, meta, or alt are pressed so that cut, copy, and paste are easier to use.
 
+### Symbol Promotion
+
+Most symbols that would normally require the shift key have been moved to standalone keys. On this layout, shift produces less common symbols that are not available on standard keyboards.
+
 ### Space Cadet
 
-Extended space cadet functionality where tapping the shift, ctrl, meta, and alt keys type paired symbols on the lift and right hands. Holding the key causes it to work as a modifier like usual.
+Modifier keys produce symbols when tapped. The symbols are mirrored between the right and left hands.
 
 ### Auto shift
 
@@ -21,32 +25,35 @@ Holding keys types the shifted version of that key.
 
 ### Tap Dance
 
-Many key have dual functions and produce different results when tapped, held, double tapped, or even triple tapped.
+Dual function keys that produce different results when tapped, held, double tapped, or even triple tapped.
+
+### Media keys
+
+Easy access to media keys in the main layout
 
 ### Unicode and Emojis
 
-Several keys type unicode symbols. How unicode characters are sent is auto-configured based on the OS of the computer into which the keyboard is plugged.
+Many unusual symbols and emoji can be typed. They keyboard automatically configures itself to type unicode characters in a way that is compatible with the operating system of the computer into which it is plugged.
 
 ### Indicator Lights
 
 During keyboard boot, the lights flash blue, green and red in turn.
 
-When the keyboard detects it is connected to a new computer, the lights flash to indicate the detected computer OS:
+Just after boot and other times when the keyboard detects it is connected to a new computer, the lights flash to indicate the detected computer OS:
 
 - Green: Linux
 - Red: Mac
 - Red and Green: Windows
 
-At other times the lights indicate the layout:
+Otherwise the lights indicate the layout:
 
 - No lights: Dvorak
-- Green light: Qwerty
-- Red light: Number keypad
-- Blue light: CAPS lock, CAPS word, or arrow lock
-
-### Media keys
-
-Easy access to media keys in the main layout
+- Solid green light: Qwerty
+- Solid red light: Number keypad
+- Flashing green and red lights alternately: Fancy alphabet
+- Solid blue light: Arrow lock
+- Quickly flashing blue light: CAPS word
+- Slowly flashing blue light: CAPS lock
 
 ## Layers
 
@@ -101,6 +108,9 @@ Easy access to media keys in the main layout
 
 
 ## Key Cap Labels
+
+Print this image on regular white paper at 100% scale and cut out keycap labels that can be used with [Relegendable DSA-Style Keycaps](https://www.amazon.com/dp/B0DH8M71D6)
+
 ![](keycaps.svg)
 
 ## Icons
@@ -131,6 +141,18 @@ License: MIT License, Author: Ionicons
 
 ### <img width=30px src=icon/delete.svg> Delete
 License: MIT License, Authors: Stephen Ostermiller, Ionicons
+
+### <img width=30px src=icon/up.svg> Up
+License: CC Attribution License, Author: Solar Icons
+
+### <img width=30px src=icon/down.svg> Down
+License: CC Attribution License, Author: Solar Icons
+
+### <img width=30px src=icon/left.svg> Left
+License: CC Attribution License, Author: Solar Icons
+
+### <img width=30px src=icon/right.svg> Right
+License: CC Attribution License, Author: Solar Icons
 
 ### <img width=30px src=icon/control.svg> Control
 License: Public domain

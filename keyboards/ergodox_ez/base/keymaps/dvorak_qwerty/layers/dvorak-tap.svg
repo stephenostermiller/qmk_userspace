@@ -8,7 +8,7 @@ text.small{font:bold 200px sans-serif;}
 </style>
 <rect width="1490" height="990" x="5" y="205" ry="100"/>
 <rect width="1290" height="790" x="105" y="305" ry="100"/>
-<image x="400" y="350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2ODUuNzIyIiBoZWlnaHQ9IjY4NS43MjIiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzAxMDEwMSIgZD0iTTcuNSA4LjU2LjIyIDEuMjhBLjc1Ljc1IDAgMSAxIDEuMjguMjJsMjIuNSAyMi41YS43NS43NSAwIDAgMS0xLjA2IDEuMDZsLTUuMzUtNS4zNWE3Ljk3IDcuOTcgMCAwIDEtNC42MiAyLjAzNXYyLjc4NWEuNzUuNzUgMCAwIDEtMS41IDB2LTIuNzg1QTggOCAwIDAgMSA0IDEyLjV2LS43NWEuNzUuNzUgMCAwIDEgMS41IDB2Ljc1YTYuNSA2LjUgMCAwIDAgMTAuODA3IDQuODY4TDE0Ljg5IDE1Ljk1QTQuNSA0LjUgMCAwIDEgNy41IDEyLjVabTYuMzIyIDYuMzIzTDkgMTAuMDYxVjEyLjVhMyAzIDAgMCAwIDQuODIyIDIuMzgzTTcuNTAzIDQuMzIyIDkgNS44MThWNC41YTMgMyAwIDEgMSA2IDB2Ny4zMThsMS40MzcgMS40MzdxLjA2Mi0uMzY4LjA2My0uNzU1di04YTQuNSA0LjUgMCAwIDAtOC45OTctLjE3OG0xMC41NTEgMTAuNTUgMS4xMzcgMS4xMzhBOCA4IDAgMCAwIDIwIDEyLjV2LS43NWEuNzUuNzUgMCAxIDAtMS41IDB2Ljc1YzAgLjgzNy0uMTU4IDEuNjM3LS40NDYgMi4zNzIiLz48L3N2Zz4="/>
+<text class="big" x="750" y="700">`</text>
 <rect width="990" height="990" x="1505" y="205" ry="100"/>
 <rect width="790" height="790" x="1605" y="305" ry="100"/>
 <text class="big" x="2000" y="700">1</text>
@@ -26,10 +26,10 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="6000" y="700">5</text>
 <rect width="990" height="990" x="6505" y="205" ry="100"/>
 <rect width="790" height="790" x="6605" y="305" ry="100"/>
-<image x="6650" y="350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzkwLjIyMiIgaGVpZ2h0PSIxMzkwLjIyMiIgZmlsbD0iIzAxMDEwMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiIHZpZXdCb3g9IjAgMCA2Mi41NiA2Mi41NiI+PHRpdGxlPnBhdXNlLWxpbmU8L3RpdGxlPjxwYXRoIGQ9Ik00My40OSA0My44NGgtNi44NmEyLjA3IDIuMDcgMCAwIDEtMi4wNy0yLjA3VjE3LjkxYTIuMDcgMi4wNyAwIDAgMSAyLjA3LTIuMDdoNi44N2EyLjA3IDIuMDcgMCAwIDEgMi4wNiAyLjA3djIzLjg2YTIuMDcgMi4wNyAwIDAgMS0yLjA3IDIuMDdtLjA3LTI2aC03djI0aDd6IiBjbGFzcz0iY2xyLWktb3V0bGluZSBjbHItaS1vdXRsaW5lLXBhdGgtMSIvPjxwYXRoIGQ9Ik02MC40OSA0My44NGgtNi44NmEyLjA3IDIuMDcgMCAwIDEtMi4wNy0yLjA3VjE3LjkxYTIuMDcgMi4wNyAwIDAgMSAyLjA3LTIuMDdoNi44N2EyLjA3IDIuMDcgMCAwIDEgMi4wNiAyLjA3djIzLjg2YTIuMDcgMi4wNyAwIDAgMS0yLjA3IDIuMDdtLjA3LTI2aC03djI0aDd6IiBjbGFzcz0iY2xyLWktb3V0bGluZSBjbHItaS1vdXRsaW5lLXBhdGgtMiIvPjxwYXRoIGQ9Ik0yLjA3IDQzLjQ0QTIuMDcgMi4wNyAwIDAgMSAwIDQxLjM3VjE4LjE2YTIuMDcgMi4wNyAwIDAgMSAzLTEuODVsMjMuMjEgMTEuNjFhMi4wNyAyLjA3IDAgMCAxIDAgMy43TDMgNDMuMjJhMi4wNiAyLjA2IDAgMCAxLS45My4yMm0wLTI1LjM0LS4wNy4wNnYyMy4yMWwuMS4wNiAyMy4yMS0xMS41OWEuMDYuMDYgMCAwIDAgMC0uMDZ6IiBjbGFzcz0iY2xyLWktb3V0bGluZSBjbHItaS1vdXRsaW5lLXBhdGgtMSIvPjwvc3ZnPg=="/>
+<text class="big" x="7000" y="700">$</text>
 <rect width="990" height="990" x="10505" y="205" ry="100"/>
 <rect width="790" height="790" x="10605" y="305" ry="100"/>
-<text class="big" x="11000" y="700">•</text>
+<text class="big" x="11000" y="700">*</text>
 <rect width="990" height="990" x="11505" y="205" ry="100"/>
 <rect width="790" height="790" x="11605" y="305" ry="100"/>
 <text class="big" x="12000" y="700">6</text>
@@ -50,10 +50,10 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="17250" y="700">\</text>
 <rect width="1490" height="990" x="5" y="1205" ry="100"/>
 <rect width="1290" height="790" x="105" y="1305" ry="100"/>
-<image x="400" y="1350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MTkuOTc2IiBoZWlnaHQ9IjcxOS45NzYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNS4xOTkgMjUuMTk5Ij48cGF0aCBmaWxsPSIjMDEwMTAxIiBkPSJNMTIuMzk1IDEuMzljLjc5OC0uNzQ4IDIuMTA1LS4xODIgMi4xMDUuOTEydjE4LjM3YzAgMS4wOTUtMS4zMDYgMS42Ni0yLjEwNS45MTNsLTQuOTM3LTQuNjI2YTEuNzUgMS43NSAwIDAgMC0xLjE5Ni0uNDczSDMuMjVBMy4yNSAzLjI1IDAgMCAxIDAgMTMuMjM2VjkuNzQ0YTMuMjUgMy4yNSAwIDAgMSAzLjI1LTMuMjVoMy4wMTFjLjQ0NSAwIC44NzMtLjE3IDEuMTk3LS40NzR6TTEzIDIuODggOC40ODQgNy4xMTRhMy4yNSAzLjI1IDAgMCAxLTIuMjIzLjg4SDMuMjVhMS43NSAxLjc1IDAgMCAwLTEuNzUgMS43NXYzLjQ5MmMwIC45NjYuNzg0IDEuNzUgMS43NSAxLjc1aDMuMDEyYy44MjUgMCAxLjYyLjMxNCAyLjIyMi44NzhMMTMgMjAuMDk2Wm02LjgxIDEyLjQ5NWEuNzUuNzUgMCAwIDAgMS41LjAwNWwuMDEyLTMuMTQ4IDMuMTI2LjAwNmEuNzUuNzUgMCAwIDAgLjAwMy0xLjVsLTMuMTMtLjAwNi0uMDEtMy4xMzZhLjc1Ljc1IDAgMCAwLTEuNS4wMDZsLjAxIDMuMTMtMy4xNTIuMDA2YS43NS43NSAwIDEgMCAuMDA0IDEuNWwzLjE0OS0uMDA2eiIvPjwvc3ZnPg=="/>
+<text class="big" x="750" y="1700">&quot;</text>
 <rect width="990" height="990" x="1505" y="1205" ry="100"/>
 <rect width="790" height="790" x="1605" y="1305" ry="100"/>
-<text class="big" x="2000" y="1700">&quot;</text>
+<text class="big" x="2000" y="1700">&#x27;</text>
 <rect width="990" height="990" x="2505" y="1105" ry="100"/>
 <rect width="790" height="790" x="2605" y="1205" ry="100"/>
 <text class="big" x="3000" y="1600">,</text>
@@ -68,10 +68,10 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="6000" y="1700">y</text>
 <rect width="990" height="1490" x="6505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="6605" y="1305" ry="100"/>
-<image x="6650" y="1600" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzkwLjIyMiIgaGVpZ2h0PSIxMzkwLjIyMiIgZmlsbD0iIzAxMDEwMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiIHZpZXdCb3g9IjAgMCA2Mi41NiA2Mi41NiI+PHRpdGxlPnBhdXNlLWxpbmU8L3RpdGxlPjxwYXRoIGQ9Ik0yOC44NzIgNDQuMWEyIDIgMCAwIDEtLjg2LS4yIDEuODEgMS44MSAwIDAgMS0uOTEtMS43OXYtNi43bC0xMC43NiA4LjI3YTEuOTQgMS45NCAwIDAgMS0yLjA2LjIyIDIgMiAwIDAgMS0xLjExLTEuNzl2LTI0YTIgMiAwIDAgMSAxLjExLTEuODEgMS45MyAxLjkzIDAgMCAxIDIuMDYuMjJsMTAuNzYgOC4yN3YtNi43YTEuODEgMS44MSAwIDAgMSAuOTEtMS43OSAxLjkzIDEuOTMgMCAwIDEgMi4wOS4yMmwxNS4zMiAxMmEyIDIgMCAwIDEgMCAzLjE1bC0xNS4zMiAxMi4wMWEyIDIgMCAwIDEtMS4yMy40Mm0wLTEyLjh2MTAuODFsMTUuMjYtMTItMTUuMzItMTIgLjA2IDEwLjgxLTEzLjc3LTEwLjgzdjI0eiIgY2xhc3M9ImNsci1pLW91dGxpbmUgY2xyLWktb3V0bGluZS1wYXRoLTEiLz48cGF0aCBkPSJNNDcuMzc1IDQ0LjA5aC0uMDJhMi4wNyAyLjA3IDAgMCAxLTIuMDctMi4wN1YxOC4xNmEyLjA3IDIuMDcgMCAwIDEgMi4wNy0yLjA3aC4wM2EyLjA3IDIuMDcgMCAwIDEgMi4wNiAyLjA3djIzLjg2YTIuMDcgMi4wNyAwIDAgMS0yLjA3IDIuMDdtLjA3LTI2aC0uMTZ2MjRoLjE2eiIgY2xhc3M9ImNsci1pLW91dGxpbmUgY2xyLWktb3V0bGluZS1wYXRoLTIiLz48L3N2Zz4="/>
+<text class="big" x="7000" y="1950">%</text>
 <rect width="990" height="1490" x="10505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="10605" y="1305" ry="100"/>
-<text class="big" x="11000" y="1950">=</text>
+<text class="big" x="11000" y="1950">+</text>
 <rect width="990" height="990" x="11505" y="1205" ry="100"/>
 <rect width="790" height="790" x="11605" y="1305" ry="100"/>
 <text class="big" x="12000" y="1700">f</text>
@@ -92,7 +92,7 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="17250" y="1700">/</text>
 <rect width="1490" height="990" x="5" y="2205" ry="100"/>
 <rect width="1290" height="790" x="105" y="2305" ry="100"/>
-<image x="400" y="2350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MTkuOTc2IiBoZWlnaHQ9IjcxOS45NzYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyNS4xOTkgMjUuMTk5Ij48cGF0aCBmaWxsPSIjMDEwMTAxIiBkPSJNMTIuMzk1IDEuMzljLjc5OC0uNzQ4IDIuMTA1LS4xODIgMi4xMDUuOTEydjE4LjM3YzAgMS4wOTUtMS4zMDYgMS42Ni0yLjEwNS45MTNsLTQuOTM3LTQuNjI2YTEuNzUgMS43NSAwIDAgMC0xLjE5Ni0uNDczSDMuMjVBMy4yNSAzLjI1IDAgMCAxIDAgMTMuMjM2VjkuNzQ0YTMuMjUgMy4yNSAwIDAgMSAzLjI1LTMuMjVoMy4wMTFjLjQ0NSAwIC44NzMtLjE3IDEuMTk3LS40NzR6TTEzIDIuODggOC40ODQgNy4xMTRhMy4yNSAzLjI1IDAgMCAxLTIuMjIzLjg4SDMuMjVhMS43NSAxLjc1IDAgMCAwLTEuNzUgMS43NXYzLjQ5MmMwIC45NjYuNzg0IDEuNzUgMS43NSAxLjc1aDMuMDEyYy44MjUgMCAxLjYyLjMxNCAyLjIyMi44NzhMMTMgMjAuMDk2Wm0xMS40NDggOS4zNThhLjc1Ljc1IDAgMCAwIC4wMDMtMS41aC03Ljc4MmEuNzUuNzUgMCAxIDAgLjAwNCAxLjV6Ii8+PC9zdmc+"/>
+<text class="big" x="750" y="2700">|</text>
 <rect width="990" height="990" x="1505" y="2205" ry="100"/>
 <rect width="790" height="790" x="1605" y="2305" ry="100"/>
 <text class="big" x="2000" y="2700">a</text>
@@ -146,10 +146,10 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="6000" y="3700">x</text>
 <rect width="990" height="1490" x="6505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="6605" y="2805" ry="100"/>
-<image x="6650" y="3100" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzkwLjIyMiIgaGVpZ2h0PSIxMzkwLjIyMiIgZmlsbD0iIzAxMDEwMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQiIHZpZXdCb3g9IjAgMCA2Mi41NiA2Mi41NiI+PHRpdGxlPnBhdXNlLWxpbmU8L3RpdGxlPjxwYXRoIGQ9Ik0zMy43NDUgNDQuMWEyIDIgMCAwIDAgLjg2LS4yIDEuODEgMS44MSAwIDAgMCAuOTEtMS43OXYtNi43bDEwLjc2IDguMjdhMS45NCAxLjk0IDAgMCAwIDIuMDYuMjIgMiAyIDAgMCAwIDEuMTEtMS43OXYtMjRhMiAyIDAgMCAwLTEuMTEtMS44MSAxLjkzIDEuOTMgMCAwIDAtMi4wNi4yMmwtMTAuNzYgOC4yN3YtNi43YTEuODEgMS44MSAwIDAgMC0uOTEtMS43OSAxLjkzIDEuOTMgMCAwIDAtMi4wOS4yMmwtMTUuMzIgMTJhMiAyIDAgMCAwIDAgMy4xNWwxNS4zMiAxMi4wMWEyIDIgMCAwIDAgMS4yMy40Mm0wLTEyLjh2MTAuODFsLTE1LjI2LTEyIDE1LjMyLTEyLS4wNiAxMC44MSAxMy43Ny0xMC44M3YyNHoiIGNsYXNzPSJjbHItaS1vdXRsaW5lIGNsci1pLW91dGxpbmUtcGF0aC0xIi8+PHBhdGggZD0iTTE1LjI0MiA0NC4wOWguMDJhMi4wNyAyLjA3IDAgMCAwIDIuMDctMi4wN1YxOC4xNmEyLjA3IDIuMDcgMCAwIDAtMi4wNy0yLjA3aC0uMDNhMi4wNyAyLjA3IDAgMCAwLTIuMDYgMi4wN3YyMy44NmEyLjA3IDIuMDcgMCAwIDAgMi4wNyAyLjA3bS0uMDctMjZoLjE2djI0aC0uMTZ6IiBjbGFzcz0iY2xyLWktb3V0bGluZSBjbHItaS1vdXRsaW5lLXBhdGgtMiIvPjwvc3ZnPg=="/>
+<text class="big" x="7000" y="3450">&amp;</text>
 <rect width="990" height="1490" x="10505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="10605" y="2805" ry="100"/>
-<text class="big" x="11000" y="3450">`</text>
+<text class="big" x="11000" y="3450">=</text>
 <rect width="990" height="990" x="11505" y="3205" ry="100"/>
 <rect width="790" height="790" x="11605" y="3305" ry="100"/>
 <text class="big" x="12000" y="3700">b</text>
@@ -170,10 +170,10 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="17250" y="3700">)</text>
 <rect width="990" height="990" x="505" y="4205" ry="100"/>
 <rect width="790" height="790" x="605" y="4305" ry="100"/>
-<image x="650" y="4350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MTYuNjY3IiBoZWlnaHQ9IjcxNi42NjciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMS41IDIxLjUiPjxwYXRoIHN0cm9rZT0iIzAxMDEwMSIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Ik0yLjIxNCAxOS4yODZDMy42OCAyMC43NSA2LjAzNiAyMC43NSAxMC43NSAyMC43NXM3LjA3MSAwIDguNTM2LTEuNDY0YzEuNDY0LTEuNDY1IDEuNDY0LTMuODIyIDEuNDY0LTguNTM2czAtNy4wNzEtMS40NjQtOC41MzZDMTcuODIuNzUgMTUuNDY0Ljc1IDEwLjc1Ljc1cy03LjA3MSAwLTguNTM2IDEuNDY0Qy43NSAzLjY4Ljc1IDYuMDM2Ljc1IDEwLjc1czAgNy4wNzEgMS40NjQgOC41MzZ6Ii8+PHBhdGggc3Ryb2tlPSIjMDEwMTAxIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNMTYuNzUgNy4yNWgtNG00IDZoLTRtNCAzaC00bS00LTloLTJtMCAwaC0ybTIgMHYtMm0wIDJ2Mm0xLjUgNC0xLjUgMS41bTAgMC0xLjUgMS41bTEuNS0xLjUtMS41LTEuNW0xLjUgMS41IDEuNSAxLjUiLz48L3N2Zz4="/>
+<text class="big" x="1000" y="4700">?</text>
 <rect width="990" height="990" x="1505" y="4205" ry="100"/>
 <rect width="790" height="790" x="1605" y="4305" ry="100"/>
-<image x="1650" y="4350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MzMuMzMzIiBoZWlnaHQ9IjYzMy4zMzMiIGZpbGw9IiMwMTAxMDEiIHZpZXdCb3g9IjAgMCAxOSAxOSI+PHBhdGggZD0iTTE2IDExaC0ydjNoLTN2MmgzdjNoMnYtM2gzdi0yaC0zWk0xIDE2aDN2LTJIMnYtMkgwdjNhMSAxIDAgMCAwIDEgMU0xNiAxYTEgMSAwIDAgMC0xLTFoLTN2MmgydjJoMnpNMiAyaDJWMEgxYTEgMSAwIDAgMC0xIDF2M2gyWk0wIDZoMnY0SDBabTE0IDBoMnYzaC0yWk02IDBoNHYySDZabTAgMTRoM3YySDZaIi8+PC9zdmc+"/>
+<text class="big" x="2000" y="4700">:</text>
 <rect width="990" height="990" x="2505" y="4105" ry="100"/>
 <rect width="790" height="790" x="2605" y="4205" ry="100"/>
 <text class="big" x="3000" y="4600">&lt;</text>
@@ -206,16 +206,16 @@ text.small{font:bold 200px sans-serif;}
 <image x="7900" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjYuNjYiIGhlaWdodD0iNjY2LjY2IiB2aWV3Qm94PSIwIDAgMjAgMjAiPjx0aXRsZT5pY19mbHVlbnRfYXJyb3dfaW1wb3J0XzI0X3JlZ3VsYXI8L3RpdGxlPjxwYXRoIGZpbGw9IiMwMTAxMDEiIGQ9Ik0xOS4yNSAyLjU4YS43NS43NSAwIDAgMSAuNzQzLjY0OEwyMCAzLjMzdjEzLjAwNGEuNzUuNzUgMCAwIDEtMS40OTMuMTAybC0uMDA3LS4xMDJWMy4zM2EuNzUuNzUgMCAwIDEgLjc1LS43NW0tOC42MDMgMS44MDQuMDczLS4wODRhLjc1Ljc1IDAgMCAxIC45NzYtLjA3M2wuMDg0LjA3MyA0Ljk5NyA0Ljk5N2EuNzUuNzUgMCAwIDEgLjA3My45NzZsLS4wNzMuMDg1LTQuOTk3IDUuMDAzYS43NS43NSAwIDAgMS0xLjEzMy0uOTc2bC4wNzItLjA4NCAzLjcxMS0zLjcxN0guNzVhLjc1Ljc1IDAgMCAxLS43NDMtLjY0N0wwIDkuODM1YS43NS43NSAwIDAgMSAuNjQ4LS43NDNsLjEwMi0uMDA3IDEzLjY5My0uMDAxLTMuNzI0LTMuNzI0YS43NS43NSAwIDAgMS0uMDcyLS45NzZsLjA3My0uMDg0eiIvPjwvc3ZnPg=="/>
 <rect width="990" height="990" x="9255" y="4505" ry="100"/>
 <rect width="790" height="790" x="9355" y="4605" ry="100"/>
-<image x="9400" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MTYuNjY3IiBoZWlnaHQ9IjcxNi42NjciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMS41IDIxLjUiPjxwYXRoIHN0cm9rZT0iIzAxMDEwMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0ibTExLjc1IDkuNzUgOS05bTAgMGgtNS4zNDRtNS4zNDQgMHY1LjM0NCIvPjxwYXRoIHN0cm9rZT0iIzAxMDEwMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuNSIgZD0iTTEwLjc1Ljc1Yy01LjUyMyAwLTEwIDQuNDc3LTEwIDEwczQuNDc3IDEwIDEwIDEwIDEwLTQuNDc3IDEwLTEwIi8+PC9zdmc+"/>
+<image x="9400" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MTYuNjY3IiBoZWlnaHQ9IjcxNi42NjciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMS41IDIxLjUiPjxnIHN0cm9rZT0iIzAxMDEwMSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjEuNSI+PHBhdGggc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0ibTExLjc1IDkuNzUgOS05bTAgMGgtNS4zNDRtNS4zNDQgMHY1LjM0NCIgdHJhbnNmb3JtPSJtYXRyaXgoMCAtLjkyMiAuOTAzNzYgMCAxLjAxNiAyMC44MTIpIi8+PHBhdGggZD0iTTEwLjc1Ljc1Yy01LjUyMyAwLTEwIDQuNDc3LTEwIDEwczQuNDc3IDEwIDEwIDEwIDEwLTQuNDc3IDEwLTEwIiB0cmFuc2Zvcm09Im1hdHJpeCgwIC0uOTIyIC45MDM3NiAwIDEuMDE2IDIwLjgxMikiLz48L2c+PC9zdmc+"/>
 <rect width="990" height="990" x="10255" y="4505" ry="100"/>
 <rect width="790" height="790" x="10355" y="4605" ry="100"/>
 <image x="10400" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NTIuNjA5IiBoZWlnaHQ9IjY1Mi42MDkiIHZpZXdCb3g9IjAgMCA0MTcuNjcgNDE3LjY3Ij48dGl0bGU+aW9uaWNvbnMtdjUtZDwvdGl0bGU+PHBhdGggZD0iTTEwNC44NiAzNDAuMjJhMjguOCAyOC44IDAgMCAwIDIxLjY4IDkuODZIMzcyLjhhMjkgMjkgMCAwIDAgMjguODctMjguODdWOTAuOTVhMjkgMjkgMCAwIDAtMjguODctMjguODdIMTI2LjU0YTI4Ljg0IDI4Ljg0IDAgMCAwLTIxLjY3IDkuODRMMTYgMjA2LjA4bDg4Ljg2IDEzNC4xMVoiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMTAxMDE7c3Ryb2tlLXdpZHRoOjMycHg7c3Ryb2tlLWxpbmVqb2luOnJvdW5kIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSA0MTcuNjcgMCkiLz48cGF0aCBkPSJNMzA2LjM0IDE0Mi40MSAxNzYuMzMgMjcyLjQybTEzMC4wMSAwTDE3Ni4zMyAxNDIuNDFtMTMwLjAxIDBMMTc2LjMzIDI3Mi40Mm0xMzAuMDEgMEwxNzYuMzMgMTQyLjQxIiBzdHlsZT0iZmlsbDpub25lO3N0cm9rZTojMDEwMTAxO3N0cm9rZS13aWR0aDozMnB4O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZCIgdHJhbnNmb3JtPSJtYXRyaXgoLTEgMCAwIDEgNDE3LjY3IDApIi8+PC9zdmc+"/>
 <rect width="990" height="990" x="7755" y="5505" ry="100"/>
 <rect width="790" height="790" x="7855" y="5605" ry="100"/>
-<text class="big" x="8250" y="6000">⇨</text>
+<image x="7900" y="5650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1ODMuMzMzIiBoZWlnaHQ9IjU4My4zMzMiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxNy41IDE3LjUiPjxwYXRoIGZpbGw9IiMxYzI3NGMiIGQ9Ik0uNzQgOS40NjZhLjc1Ljc1IDAgMCAxIDAtMS41aDkuMjV2LTUuMjVhLjc1Ljc1IDAgMCAxIDEuMjgtLjUzbDYgNmEuNzUuNzUgMCAwIDEgMCAxLjA2bC02IDZhLjc1Ljc1IDAgMCAxLTEuMjgtLjUzdi01LjI1WiIgc3R5bGU9ImZpbGw6IzAxMDEwMTtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6Ljk5OTk5O3N0cm9rZS1kYXNoYXJyYXk6bm9uZSIvPjwvc3ZnPg=="/>
 <rect width="990" height="990" x="9255" y="5505" ry="100"/>
 <rect width="790" height="790" x="9355" y="5605" ry="100"/>
-<text class="big" x="9750" y="6000">⇧</text>
+<image x="9400" y="5650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1ODMuMzMzIiBoZWlnaHQ9IjU4My4zMzMiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxNy41IDE3LjUiPjxwYXRoIGZpbGw9IiMxYzI3NGMiIGQ9Ik05LjQyIDE2Ljc1YS43NS43NSAwIDAgMS0xLjUgMFY3LjVIMi42N2EuNzUuNzUgMCAwIDEtLjUzLTEuMjhsNi02YS43NS43NSAwIDAgMSAxLjA2IDBsNiA2YS43NS43NSAwIDAgMS0uNTMgMS4yOEg5LjQyWiIgc3R5bGU9ImZpbGw6IzAxMDEwMTtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6Ljk5OTk5O3N0cm9rZS1kYXNoYXJyYXk6bm9uZSIvPjwvc3ZnPg=="/>
 <rect width="990" height="1990" x="5755" y="5505" ry="100"/>
 <rect width="790" height="1790" x="5855" y="5605" ry="100"/>
 <image x="5900" y="6150" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI4MDAiIGhlaWdodD0iODAwIiB2aWV3Qm94PSIwIDAgMTIwMCAxMjAwIj48cGF0aCBkPSJNODA4Ljk2OSAxMzMuOTI5djEzMi44MTRoMjM5LjM4OXY0NDkuNTM0SDQxNy45ODJsLS4wMDEtMjA3LjUxNEwwIDc4Ny40MTdsNDE3Ljk4MiAyNzguNjU0Vjg2Ni4yNTNIMTIwMFYxMzMuOTI4SDgwOC45Njl6IiBzdHlsZT0iZmlsbDojMDEwMTAxO2ZpbGwtb3BhY2l0eToxIi8+PC9zdmc+"/>
@@ -224,10 +224,10 @@ text.small{font:bold 200px sans-serif;}
 <image x="6900" y="6150" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjYuNjYiIGhlaWdodD0iNjY2LjY2IiB2aWV3Qm94PSIwIDAgMjAgMjAiPjx0aXRsZT5pY19mbHVlbnRfYXJyb3dfaW1wb3J0XzI0X3JlZ3VsYXI8L3RpdGxlPjxwYXRoIGZpbGw9IiMwMTAxMDEiIGQ9Ik0xOS4yNSA2LjA2YS43NS43NSAwIDAgMSAuNzQzLjY0OEwyMCA2LjgxdjYuMTY0YS43NS43NSAwIDAgMS0xLjQ5My4xMDJsLS4wMDctLjEwMlY2LjgxYS43NS43NSAwIDAgMSAuNzUtLjc1bS04LjYwMy0xLjY3Ni4wNzMtLjA4NGEuNzUuNzUgMCAwIDEgLjk3Ni0uMDczbC4wODQuMDczIDQuOTk3IDQuOTk3YS43NS43NSAwIDAgMSAuMDczLjk3NmwtLjA3My4wODUtNC45OTcgNS4wMDNhLjc1Ljc1IDAgMCAxLTEuMTMzLS45NzZsLjA3Mi0uMDg0IDMuNzExLTMuNzE3SC43NWEuNzUuNzUgMCAwIDEtLjc0My0uNjQ3TDAgOS44MzVhLjc1Ljc1IDAgMCAxIC42NDgtLjc0M2wuMTAyLS4wMDcgMTMuNjkzLS4wMDEtMy43MjQtMy43MjRhLjc1Ljc1IDAgMCAxLS4wNzItLjk3NmwuMDczLS4wODR6Ii8+PC9zdmc+"/>
 <rect width="990" height="990" x="7755" y="6505" ry="100"/>
 <rect width="790" height="790" x="7855" y="6605" ry="100"/>
-<text class="big" x="8250" y="7000">⇦</text>
+<image x="7900" y="6650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1ODMuMzMzIiBoZWlnaHQ9IjU4My4zMzMiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxNy41IDE3LjUiPjxwYXRoIGZpbGw9IiMxYzI3NGMiIGQ9Ik0xNi43NCA5LjQ2NmEuNzUuNzUgMCAwIDAgMC0xLjVINy40OXYtNS4yNWEuNzUuNzUgMCAwIDAtMS4yOC0uNTNsLTYgNmEuNzUuNzUgMCAwIDAgMCAxLjA2bDYgNmEuNzUuNzUgMCAwIDAgMS4yOC0uNTN2LTUuMjVaIiBzdHlsZT0iZmlsbDojMDEwMTAxO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDouOTk5OTk7c3Ryb2tlLWRhc2hhcnJheTpub25lIi8+PC9zdmc+"/>
 <rect width="990" height="990" x="9255" y="6505" ry="100"/>
 <rect width="790" height="790" x="9355" y="6605" ry="100"/>
-<text class="big" x="9750" y="7000">⇩</text>
+<image x="9400" y="6650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1ODMuMzMzIiBoZWlnaHQ9IjU4My4zMzMiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxNy41IDE3LjUiPjxwYXRoIGZpbGw9IiMxYzI3NGMiIGQ9Ik05LjU1Ljc3YS43NS43NSAwIDAgMC0xLjUgMHY5LjI1SDIuOGEuNzUuNzUgMCAwIDAtLjUzIDEuMjhsNiA2YS43NS43NSAwIDAgMCAxLjA2IDBsNi02YS43NS43NSAwIDAgMC0uNTMtMS4yOEg5LjU1WiIgc3R5bGU9ImZpbGw6IzAxMDEwMTtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6Ljk5OTk5O3N0cm9rZS1kYXNoYXJyYXk6bm9uZSIvPjwvc3ZnPg=="/>
 <rect width="990" height="1990" x="10255" y="5505" ry="100"/>
 <rect width="790" height="1790" x="10355" y="5605" ry="100"/>
 <image x="10400" y="6150" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NTIuNjA5IiBoZWlnaHQ9IjY1Mi42MDkiIHZpZXdCb3g9IjAgMCA0MTcuNjcgNDE3LjY3Ij48dGl0bGU+aW9uaWNvbnMtdjUtZDwvdGl0bGU+PHBhdGggZD0iTTEwNC44NiAzNDAuMjJhMjguOCAyOC44IDAgMCAwIDIxLjY4IDkuODZIMzcyLjhhMjkgMjkgMCAwIDAgMjguODctMjguODdWOTAuOTVhMjkgMjkgMCAwIDAtMjguODctMjguODdIMTI2LjU0YTI4Ljg0IDI4Ljg0IDAgMCAwLTIxLjY3IDkuODRMMTYgMjA2LjA4bDg4Ljg2IDEzNC4xMVoiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMTAxMDE7c3Ryb2tlLXdpZHRoOjMycHg7c3Ryb2tlLWxpbmVqb2luOnJvdW5kIi8+PHBhdGggZD0iTTMwNi4zNCAxNDIuNDEgMTc2LjMzIDI3Mi40Mm0xMzAuMDEgMEwxNzYuMzMgMTQyLjQxbTEzMC4wMSAwTDE3Ni4zMyAyNzIuNDJtMTMwLjAxIDBMMTc2LjMzIDE0Mi40MSIgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6IzAxMDEwMTtzdHJva2Utd2lkdGg6MzJweDtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46cm91bmQiLz48L3N2Zz4="/>

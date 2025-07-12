@@ -55,10 +55,13 @@ const char u_sbullet[] PROGMEM = "▪";
 const char u_swbullet[] PROGMEM = "▫";
 const char u_em_dash[] PROGMEM = "—";
 const char u_ellipsis[] PROGMEM = "…";
+const char u_degree[] PROGMEM = "°";
+const char u_cent[] PROGMEM = "¢";
 const char u_lsquot[] PROGMEM = "“";
 const char u_rsquot[] PROGMEM = "”";
 const char u_lsapos[] PROGMEM = "‘";
 const char u_rsapos[] PROGMEM = "’";
+const char u_brkpip[] PROGMEM = "¦";
 
 const char u_w_arrow[] PROGMEM = "←";
 const char u_n_arrow[] PROGMEM = "↑";
@@ -249,7 +252,8 @@ enum unicode_names {
     U_SET_NOT_ELEMENT, U_SET_SUB, U_SET_SUB_EQUAL, U_SET_UNION, U_SET_INTERSECTION, U_PI, U_IMAGINARY_I, U_IMAGINARY_J, U_EULER, U_DELTA, U_EMPTY_SET,
     U_INTEGRAL_2, U_PARTIAL_DIFF, U_PRIME, U_PRIME_2, U_ELLIPSIS, U_FRAC_1_8, U_FRAC_1_4, U_FRAC_1_3, U_FRAC_3_8, U_FRAC_1_2, U_FRAC_5_8, U_FRAC_2_3,
     U_FRAC_3_4, U_FRAC_7_8, U_TIP, U_INFO, U_DO_NOT, U_NO_ENTRY, U_KLAXON, U_FROWN, U_FRAC_1_10, U_HAM_MEN, U_WBULLET, U_TBULLET, U_TWBULLET, U_SBULLET,
-    U_SWBULLET, U_LSQUOT, U_RSQUOT, U_LSAPOS, U_RSAPOS,
+    U_SWBULLET, U_LSQUOT, U_RSQUOT, U_LSAPOS, U_RSAPOS, U_DEGREE, U_CENT, U_BRKPIP,
+
 };
 
 const char* const unicode_macro_map[] PROGMEM = {
@@ -262,10 +266,13 @@ const char* const unicode_macro_map[] PROGMEM = {
 
     [U_EM_DASH] = u_em_dash,
     [U_ELLIPSIS] = u_ellipsis,
+    [U_DEGREE] = u_degree,
+    [U_CENT] = u_cent,
     [U_LSQUOT] = u_lsquot,
     [U_RSQUOT] = u_rsquot,
     [U_LSAPOS] = u_lsapos,
     [U_RSAPOS] = u_rsapos,
+    [U_BRKPIP] = u_brkpip,
 
     [U_W_ARROW] = u_w_arrow,
     [U_N_ARROW] = u_n_arrow,
@@ -445,33 +452,35 @@ const char* const unicode_macro_map[] PROGMEM = {
 #define KC_FULL_SCREEN KC_F11
 
 enum tap_dance_keycodes {
-    LCDT_SHFT, LCDT_CRTL, LCDT_META, LCDT_ALT, RCDT_ALT, RCDT_META, RCDT_CRTL, RCDT_SHFT, LAY_OUT, FANC_ALPH, MUTE_MVS, HOME_TOP, END_BTM, BULLETS, NEXT_FF, PREV_RW,
-    PLAY_PLYR, W_ARROW, N_ARROW, E_ARROW, S_ARROW, SW_ARROW, SE_ARROW, NW_ARROW, NE_ARROW, EW_ARROW, NS_ARROW, DIAG_ARROW, DIVIDES, MULTIPLIES, SUBTRACTS, ADDS, EQUALS,
-    COPYRIGHT, TD_INF, EM_SMILE, EM_LOL, EM_LOVE, EM_PARTY, MTH_ROOT, MTH_PWR, MTH_CLCLS, MTH_SET, MTH_PAREN, MTH_CONST, EM_LIKE, EM_CAUTN, EM_LGL_IP, EM_BALLOT,
-    EM_SAD, F1_FRAC, F2_FRAC, F3_FRAC, F4_FRAC, F5_FRAC, F6_FRAC, F7_FRAC, F8_FRAC, F9_FRAC, F10_FRAC, MSC_FACE, MSC_ICN, EM_CD_RVW, MINU_DASH, DOT_GTE, TD_QUOTES
+    LCDT_SHFT, LCDT_CRTL, LCDT_META, LCDT_ALT, RCDT_ALT, RCDT_META, RCDT_CRTL, RCDT_SHFT, LAY_OUT, FANC_ALPH, TD_PERC, HOME_TOP, END_BTM, W_ARROW,
+    N_ARROW, E_ARROW, S_ARROW, SW_ARROW, SE_ARROW, NW_ARROW, NE_ARROW, EW_ARROW, NS_ARROW, DIAG_ARROW, DIVIDES, MULTIPLIES, SUBTRACTS, ADDS, EQUALS,
+    TD_INF, EM_SMILE, EM_LOL, EM_LOVE, EM_PARTY, MTH_ROOT, MTH_PWR, MTH_CLCLS, MTH_SET, MTH_PAREN, MTH_CONST, EM_LIKE, EM_CAUTN, EM_LGL_IP, EM_BALLOT, EM_SAD,
+    F1_FRAC, F2_FRAC, F3_FRAC, F4_FRAC, F5_FRAC, F6_FRAC, F7_FRAC, F8_FRAC, F9_FRAC, F10_FRAC, MSC_FACE, MSC_ICN, EM_CD_RVW, MINU_DASH, DOT_GTE, TD_AMP, TD_7,
+    TD_8, TD_BSLS, TD_SLASH, TD_APOS, TD_DQT, TD_DOL, TD_ASRK, TD_PLUS, TD_PIPE,
 };
 
 const eztd_data_t eztd_data[] PROGMEM = {
     [LCDT_SHFT] = EZTD_TAP_HOLD_DTAP(KC_LEFT_PAREN, KC_LEFT_SHIFT, QK_CAPS_WORD_TOGGLE),
-    [LCDT_CRTL] = EZTD_TAP_HOLD_DTAP(KC_LEFT_ANGLE_BRACKET,  LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL), KC_MY_COMPUTER),
-    [LCDT_META] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP_THOLD(KC_LEFT_BRACKET, LM(LAY_QWERTY_META, MOD_MASK_GUI), QK_AUTO_SHIFT_TOGGLE, QK_AUTO_SHIFT_TOGGLE, KC_MAIL, KC_MAIL),
-    [LCDT_ALT] = EZTD_TAP_HOLD_DTAP(KC_LEFT_CURLY_BRACE, LM(LAY_QWERTY_ALT, MOD_MASK_ALT), KC_INS),
+    [LCDT_CRTL] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP_THOLD(KC_LEFT_ANGLE_BRACKET,  LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL), KC_CALCULATOR, KC_CALCULATOR, KC_MY_COMPUTER, KC_MY_COMPUTER),
+    [LCDT_META] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP_THOLD(KC_LEFT_BRACKET, LM(LAY_QWERTY_META, MOD_MASK_GUI), KC_PRINT_SCREEN, KC_PRINT_SCREEN, KC_MAIL, KC_MAIL),
+    [LCDT_ALT] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP_THOLD(KC_LEFT_CURLY_BRACE, LM(LAY_QWERTY_ALT, MOD_MASK_ALT), KC_INS, KC_INS, QK_AUTO_SHIFT_TOGGLE, QK_AUTO_SHIFT_TOGGLE),
     [RCDT_ALT] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_CURLY_BRACE, LM(LAY_QWERTY_ALT, MOD_MASK_ALT), G(KC_L)),
     [RCDT_META] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_BRACKET, LM(LAY_QWERTY_META, MOD_MASK_GUI), KC_FULL_SCREEN),
     [RCDT_CRTL] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_ANGLE_BRACKET, LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL), A(KC_F4)),
     [RCDT_SHFT] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_PAREN, KC_RIGHT_SHIFT, KC_CAPS),
-    [LAY_OUT] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP(KC_PSCR, MO_TG_NUMFN, TG(LAY_NUM_FN), MO_TG_QWERTY, TG(LAY_QWERTY)),
-    [FANC_ALPH] = EZTD_TAP_HOLD_DTAP(KC_CALCULATOR, KC_UNICODE_FANCY_ALPHABET_MOMENTARY, KC_UNICODE_FANCY_ALPHABET_CYCLE),
-    [MUTE_MVS] = EZTD_FLOWTAP_DTAP_TTAP(C(S(KC_M)), C(S(KC_O)), KC_AUDIO_MUTE),
+    [LAY_OUT] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP(KC_COLON, MO_TG_NUMFN, TG(LAY_NUM_FN), MO_TG_QWERTY, TG(LAY_QWERTY)),
+    [FANC_ALPH] = EZTD_TAP_HOLD_DTAP(KC_QUESTION, KC_UNICODE_FANCY_ALPHABET_MOMENTARY, KC_UNICODE_FANCY_ALPHABET_CYCLE),
+    [TD_PERC] = EZTD_FLOWTAP_HOLD(KC_PERCENT, C(S(KC_O))),
+    [TD_AMP] = EZTD_FLOWTAP_HOLD_DHOLD(KC_AMPERSAND, C(S(KC_M)), KC_AUDIO_MUTE),
+    [TD_PIPE] = EZTD_FLOWTAP_HOLD(KC_PIPE, UM(U_BRKPIP)),
     [HOME_TOP] =  EZTD_FLOWTAP_DTAP(KC_HOME, C(KC_HOME)),
     [END_BTM] = EZTD_FLOWTAP_DTAP(KC_END, C(KC_END)),
-    [MINU_DASH] = EZTD_FLOWTAP_HOLD_DTAP(KC_MINUS, KC_UNDERSCORE, UM(U_EM_DASH)),
-    [TD_QUOTES] = EZTD_FLOWTAP_HOLD_DTAP_DHOLD_TTAP_THOLD(KC_QUOTE, KC_DOUBLE_QUOTE, UM(U_LSAPOS), UM(U_LSQUOT), UM(U_RSAPOS), UM(U_RSQUOT)),
+    [MINU_DASH] = EZTD_FLOWTAP_HOLD_DHOLD(KC_MINUS, KC_UNDERSCORE, UM(U_EM_DASH)),
+    [TD_APOS] = EZTD_FLOWTAP_HOLD_DHOLD(KC_QUOTE, UM(U_LSAPOS), UM(U_RSAPOS)),
+    [TD_DQT] = EZTD_FLOWTAP_HOLD_DHOLD(KC_DQT, UM(U_LSQUOT), UM(U_RSQUOT)),
     [DOT_GTE] = EZTD_FLOWTAP_HOLD_TTAP(KC_DOT, UM(U_GTE), UM(U_ELLIPSIS)),
-    [BULLETS] =  EZTD_FLOWTAP_HOLD_DTAP_DHOLD_TTAP_THOLD(UM(U_BULLET), UM(U_WBULLET), UM(U_TBULLET), UM(U_TWBULLET), UM(U_SBULLET), UM(U_SWBULLET)),
-    [NEXT_FF] = EZTD_FLOWTAP_HOLD(KC_MEDIA_NEXT_TRACK, KC_MEDIA_FAST_FORWARD),
-    [PREV_RW] = EZTD_FLOWTAP_HOLD(KC_MEDIA_PREV_TRACK, KC_MEDIA_REWIND),
-    [PLAY_PLYR] = EZTD_FLOWTAP_DTAP(KC_MEDIA_PLAY_PAUSE, KC_MEDIA_SELECT),
+    [TD_7] =  EZTD_FLOWTAP_HOLD_DHOLD_THOLD(KC_7, UM(U_WBULLET), UM(U_TWBULLET), UM(U_SWBULLET)),
+    [TD_8] =  EZTD_FLOWTAP_HOLD_DHOLD_THOLD(KC_8, UM(U_BULLET), UM(U_TBULLET), UM(U_SBULLET)),
     [W_ARROW] =  EZTD_FLOWTAP_HOLD_DTAP_DHOLD_TTAP_THOLD(UM(U_W_ARROW), UM(U_B_W_ARROW), UM(U_W_W_ARROW), UM(U_D_W_ARROW), UM(U_BB3_W_ARROW), UM(U_BB5_W_ARROW)),
     [N_ARROW] =  EZTD_FLOWTAP_HOLD_DTAP_DHOLD_TTAP_THOLD(UM(U_N_ARROW), UM(U_B_N_ARROW), UM(U_W_N_ARROW), UM(U_D_N_ARROW), UM(U_BB3_N_ARROW), UM(U_BB5_N_ARROW)),
     [E_ARROW] =  EZTD_FLOWTAP_HOLD_DTAP_DHOLD_TTAP_THOLD(UM(U_E_ARROW), UM(U_B_E_ARROW), UM(U_W_E_ARROW), UM(U_D_E_ARROW), UM(U_BB3_E_ARROW), UM(U_BB5_E_ARROW)),
@@ -488,7 +497,6 @@ const eztd_data_t eztd_data[] PROGMEM = {
     [SUBTRACTS] = EZTD_FLOWTAP_HOLD_DTAP(KC_KP_MINUS, UM(U_MINUS), UM(U_H_MINUS)),
     [ADDS] = EZTD_FLOWTAP_HOLD_DTAP(KC_KP_PLUS, UM(U_PLUS_MIN), UM(U_H_PLUS)),
     [EQUALS] = EZTD_FLOWTAP_HOLD_DTAP_DHOLD(KC_KP_EQUAL, UM(U_NE), UM(U_H_EQ), UM(U_APP_EQ)),
-    [COPYRIGHT] = EZTD_FLOWTAP_HOLD_DTAP(UM(U_CPYRGHT), UM(U_RGSTRD), UM(U_TRDMRK)),
     [TD_INF] = EZTD_FLOWTAP_HOLD_DTAP_DHOLD(UM(U_INFINITY), UM(U_INC_INFINITY), UM(U_TIE_OVR_INFINITY), UM(U_NEG_INFINITY)),
     [EM_SMILE] = EZTD_FLOWTAP_HOLD_DTAP(UM(U_SMILE0), UM(U_SMILE1), UM(U_SMILE2)),
     [EM_LOL] = EZTD_FLOWTAP_HOLD_DTAP(UM(U_LAUGH), UM(U_SNICKER), UM(U_ROFL)),
@@ -518,6 +526,11 @@ const eztd_data_t eztd_data[] PROGMEM = {
     [F8_FRAC] = EZTD_FLOWTAP_HOLD_DTAP(KC_F8, UM(U_FRAC_3_8), UM(U_FRAC_3_8)),
     [F9_FRAC] = EZTD_FLOWTAP_HOLD_DTAP(KC_F9, UM(U_FRAC_5_8), UM(U_FRAC_5_8)),
     [F10_FRAC] = EZTD_FLOWTAP_HOLD_DTAP(KC_F10, UM(U_FRAC_7_8), UM(U_FRAC_7_8)),
+    [TD_BSLS] = EZTD_FLOWTAP_HOLD_DHOLD_THOLD(KC_BSLS, KC_VOLU, KC_MEDIA_NEXT_TRACK, KC_MEDIA_FAST_FORWARD),
+    [TD_SLASH] = EZTD_FLOWTAP_HOLD_DHOLD_THOLD(KC_SLASH, KC_VOLD, KC_MEDIA_PREV_TRACK, KC_MEDIA_REWIND),
+    [TD_DOL] = EZTD_FLOWTAP_HOLD(KC_DOLLAR, UM(U_CENT)),
+    [TD_ASRK] = EZTD_FLOWTAP_HOLD(KC_ASTERISK, UM(U_DEGREE)),
+    [TD_PLUS] = EZTD_FLOWTAP_HOLD(KC_PLUS, UM(U_PLUS_MIN)),
 };
 
 const tap_dance_action_t tap_dance_actions[] PROGMEM = {
@@ -531,13 +544,12 @@ const tap_dance_action_t tap_dance_actions[] PROGMEM = {
     [RCDT_SHFT] = EZTD_ACTION(eztd_data[RCDT_SHFT]),
     [LAY_OUT] = EZTD_ACTION(eztd_data[LAY_OUT]),
     [FANC_ALPH] = EZTD_ACTION(eztd_data[FANC_ALPH]),
-    [MUTE_MVS] = EZTD_ACTION(eztd_data[MUTE_MVS]),
+    [TD_PERC] = EZTD_ACTION(eztd_data[TD_PERC]),
+    [TD_AMP] = EZTD_ACTION(eztd_data[TD_AMP]),
     [HOME_TOP] = EZTD_ACTION(eztd_data[HOME_TOP]),
     [END_BTM] = EZTD_ACTION(eztd_data[END_BTM]),
-    [BULLETS] = EZTD_ACTION(eztd_data[BULLETS]),
-    [NEXT_FF] = EZTD_ACTION(eztd_data[NEXT_FF]),
-    [PREV_RW] = EZTD_ACTION(eztd_data[PREV_RW]),
-    [PLAY_PLYR] = EZTD_ACTION(eztd_data[PLAY_PLYR]),
+    [TD_7] = EZTD_ACTION(eztd_data[TD_7]),
+    [TD_8] = EZTD_ACTION(eztd_data[TD_8]),
     [W_ARROW] = EZTD_ACTION(eztd_data[W_ARROW]),
     [N_ARROW] = EZTD_ACTION(eztd_data[N_ARROW]),
     [E_ARROW] = EZTD_ACTION(eztd_data[E_ARROW]),
@@ -554,7 +566,6 @@ const tap_dance_action_t tap_dance_actions[] PROGMEM = {
     [SUBTRACTS] = EZTD_ACTION(eztd_data[SUBTRACTS]),
     [ADDS] = EZTD_ACTION(eztd_data[ADDS]),
     [EQUALS] = EZTD_ACTION(eztd_data[EQUALS]),
-    [COPYRIGHT] = EZTD_ACTION(eztd_data[COPYRIGHT]),
     [TD_INF] = EZTD_ACTION(eztd_data[TD_INF]),
     [EM_SMILE] = EZTD_ACTION(eztd_data[EM_SMILE]),
     [EM_LOL] = EZTD_ACTION(eztd_data[EM_LOL]),
@@ -585,17 +596,24 @@ const tap_dance_action_t tap_dance_actions[] PROGMEM = {
     [F9_FRAC] = EZTD_ACTION(eztd_data[F9_FRAC]),
     [F10_FRAC] = EZTD_ACTION(eztd_data[F10_FRAC]),
     [MINU_DASH] = EZTD_ACTION(eztd_data[MINU_DASH]),
-    [TD_QUOTES] = EZTD_ACTION(eztd_data[TD_QUOTES]),
+    [TD_APOS] = EZTD_ACTION(eztd_data[TD_APOS]),
+    [TD_DQT] = EZTD_ACTION(eztd_data[TD_DQT]),
     [DOT_GTE] = EZTD_ACTION(eztd_data[DOT_GTE]),
+    [TD_BSLS] = EZTD_ACTION(eztd_data[TD_BSLS]),
+    [TD_SLASH] = EZTD_ACTION(eztd_data[TD_SLASH]),
+    [TD_DOL] = EZTD_ACTION(eztd_data[TD_DOL]),
+    [TD_ASRK] = EZTD_ACTION(eztd_data[TD_ASRK]),
+    [TD_PLUS] = EZTD_ACTION(eztd_data[TD_PLUS]),
+    [TD_PIPE] = EZTD_ACTION(eztd_data[TD_PIPE]),
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [LAY_DVORAK] = LAYOUT_ergodox_pretty(
 /*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
-    TD(MUTE_MVS),  KC_1,          KC_2,          KC_3,          KC_4,          KC_5,          TD(PLAY_PLYR),     TD(BULLETS),   KC_6,          KC_7,          KC_8,          KC_9,          KC_0,          KC_BSLS,
-    KC_VOLU,       TD(TD_QUOTES), KC_COMMA,      TD(DOT_GTE),   KC_P,          KC_Y,          TD(NEXT_FF),       KC_EQUAL,      KC_F,          KC_G,          KC_C,          KC_R,          KC_L,          KC_SLASH,
-    KC_VOLD,       KC_A,          KC_O,          KC_E,          KC_U,          KC_I,                                            KC_D,          KC_H,          KC_T,          KC_N,          KC_S,          TD(MINU_DASH),
-    TD(LCDT_SHFT), KC_SCLN,       KC_Q,          KC_J,          KC_K,          KC_X,          TD(PREV_RW),       KC_GRAVE,      KC_B,          KC_M,          KC_W,          KC_V,          KC_Z,          TD(RCDT_SHFT),
+    KC_GRAVE,      KC_1,          KC_2,          KC_3,          KC_4,          KC_5,          TD(TD_DOL),        TD(TD_ASRK),   KC_6,          TD(TD_7),      TD(TD_8),      KC_9,          KC_0,          TD(TD_BSLS),
+    TD(TD_DQT),    TD(TD_APOS),   KC_COMMA,      TD(DOT_GTE),   KC_P,          KC_Y,          TD(TD_PERC),       TD(TD_PLUS),   KC_F,          KC_G,          KC_C,          KC_R,          KC_L,          TD(TD_SLASH),
+    TD(TD_PIPE),   KC_A,          KC_O,          KC_E,          KC_U,          KC_I,                                            KC_D,          KC_H,          KC_T,          KC_N,          KC_S,          TD(MINU_DASH),
+    TD(LCDT_SHFT), KC_SCLN,       KC_Q,          KC_J,          KC_K,          KC_X,          TD(TD_AMP),        KC_EQUAL,      KC_B,          KC_M,          KC_W,          KC_V,          KC_Z,          TD(RCDT_SHFT),
     TD(FANC_ALPH), TD(LAY_OUT),   TD(LCDT_CRTL), TD(LCDT_META), TD(LCDT_ALT),                                                                  TD(RCDT_ALT),  TD(RCDT_META), TD(RCDT_CRTL), KC_PAGE_UP,    KC_PGDN,
                                                                                TD(HOME_TOP),  TD(END_BTM),       KC_ESC,        KC_DELETE,
                                                                                               KC_RIGHT,          KC_UP,
@@ -614,10 +632,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [LAY_QWERTY] = LAYOUT_ergodox_pretty(
 /*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
-    TD(MUTE_MVS),  KC_1,          KC_2,          KC_3,          KC_4,          KC_5,          TD(PLAY_PLYR),     TD(BULLETS),   KC_6,          KC_7,          KC_8,          KC_9,          KC_0,          TD(NEXT_FF),
-    KC_VOLU,       KC_Q,          KC_W,          KC_E,          KC_R,          KC_T,          KC_EQUAL,          KC_BSLS,       KC_Y,          KC_U,          KC_I,          KC_O,          KC_P,          TD(PREV_RW),
-    KC_VOLD,       KC_A,          KC_S,          KC_D,          KC_F,          KC_G,                                            KC_H,          KC_J,          KC_K,          KC_L,          KC_SCLN,       TD(TD_QUOTES),
-    TD(LCDT_SHFT), KC_Z,          KC_X,          KC_C,          KC_V,          KC_B,          TD(MINU_DASH),     KC_GRAVE,      KC_N,          KC_M,          KC_COMMA,      TD(DOT_GTE),   KC_SLASH,      TD(RCDT_SHFT),
+    KC_GRAVE,      KC_1,          KC_2,          KC_3,          KC_4,          KC_5,          TD(TD_PLUS),       TD(TD_ASRK),   KC_6,          TD(TD_7),      TD(TD_8),      KC_9,          KC_0,          TD(TD_AMP),
+    TD(TD_DOL),    KC_Q,          KC_W,          KC_E,          KC_R,          KC_T,          KC_EQUAL,          TD(TD_BSLS),   KC_Y,          KC_U,          KC_I,          KC_O,          KC_P,          TD(TD_DQT),
+    TD(TD_PIPE),   KC_A,          KC_S,          KC_D,          KC_F,          KC_G,                                            KC_H,          KC_J,          KC_K,          KC_L,          KC_SCLN,       TD(TD_APOS),
+    TD(LCDT_SHFT), KC_Z,          KC_X,          KC_C,          KC_V,          KC_B,          TD(MINU_DASH),     TD(TD_PERC),   KC_N,          KC_M,          KC_COMMA,      TD(DOT_GTE),   TD(TD_SLASH),  TD(RCDT_SHFT),
     TD(FANC_ALPH), TD(LAY_OUT),   TD(LCDT_CRTL), TD(LCDT_META), TD(LCDT_ALT),                                                                  TD(RCDT_ALT),  TD(RCDT_META), TD(RCDT_CRTL), KC_PAGE_UP,    KC_PGDN,
                                                                                TD(HOME_TOP),  TD(END_BTM),       KC_ESC,        KC_DELETE,
                                                                                               KC_RIGHT,          KC_UP,
@@ -670,14 +688,29 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 const key_override_t *key_overrides[] = {
-    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_COMMA, UM(U_LTE)),
-    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(DOT_GTE), UM(U_GTE)),
-    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(BULLETS), UM(U_WBULLET)),
-    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_9, UM(U_BLACK_STAR)),
-    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_0, UM(U_WHITE_STAR)),
-    &ezovrd_make_unsuppressed(MOD_MASK_SHIFT, TD(MINU_DASH), KC_UNDERSCORE),
-    &ezovrd_make_unsuppressed(MOD_MASK_SHIFT, TD(TD_QUOTES), KC_DOUBLE_QUOTE),
+    &ezovrd_make_basic(S(KC_COMMA), UM(U_LTE)),
+    &ezovrd_make_basic(S(TD(DOT_GTE)), UM(U_GTE)),
+    &ezovrd_make_basic(S(TD(TD_7)), UM(U_WBULLET)),
+    &ezovrd_make_basic(S(TD(TD_8)), UM(U_BULLET)),
+    &ezovrd_make_basic(S(KC_EQUAL), UM(U_NE)),
+    &ezovrd_make_pre_modified(S(TD(TD_DOL)), UM(U_CENT)),
+    &ezovrd_make_pre_modified(S(TD(TD_ASRK)), UM(U_DEGREE)),
+    &ezovrd_make_pre_modified(S(TD(TD_PLUS)), UM(U_PLUS_MIN)),
+    &ezovrd_make_pre_modified(S(TD(TD_PERC)), C(S(KC_O))),
+    &ezovrd_make_pre_modified(S(TD(TD_AMP)), C(S(KC_M))),
+    &ezovrd_make_basic(S(KC_4), UM(U_BLACK_STAR)),
+    &ezovrd_make_basic(S(KC_5), UM(U_WHITE_STAR)),
+    &ezovrd_make_basic(S(KC_9), KC_MEDIA_SELECT),
+    &ezovrd_make_basic(S(KC_0), KC_MEDIA_PLAY_PAUSE),
+    &ezovrd_make_basic(S(KC_MEDIA_PREV_TRACK), KC_MEDIA_PREV_TRACK),
+    &ezovrd_make_basic(S(TD(MINU_DASH)), KC_UNDERSCORE),
+    &ezovrd_make_basic(S(TD(TD_APOS)), UM(U_LSAPOS)),
+    &ezovrd_make_basic(S(TD(TD_DQT)), UM(U_LSQUOT)),
+    &ezovrd_make_basic(S(TD(TD_BSLS)), KC_VOLU),
+    &ezovrd_make_basic(S(TD(TD_SLASH)), KC_VOLD),
+    &ezovrd_make_basic(S(TD(TD_PIPE)), UM(U_BRKPIP)),
 };
+
 
 enum light_state_enum {
     LIGHT_OFF,
