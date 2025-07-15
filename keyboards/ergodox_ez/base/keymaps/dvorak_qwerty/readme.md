@@ -109,9 +109,16 @@ Otherwise the lights indicate the layout:
 
 ## Key Cap Labels
 
-Print this image on regular white paper at 100% scale and cut out keycap labels that can be used with [Relegendable DSA-Style Keycaps](https://www.amazon.com/dp/B0DH8M71D6)
+These images are sized appropriately to print at 100% scale.
 
-![](keycaps.svg)
+- Use with [Relegendable DSA-Style Keycaps](https://www.amazon.com/dp/B0DH8M71D6).
+- Print on sticker paper and attach to the front side of your keycaps.
+
+### For black key caps
+![](keycaps-black.svg)
+
+### For white key caps
+![](keycaps-white.svg)
 
 ## Icons
 

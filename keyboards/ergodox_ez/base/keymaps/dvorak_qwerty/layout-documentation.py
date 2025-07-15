@@ -218,7 +218,7 @@ with open('keymap.c', 'r') as file:
                 func=m[2]
                 args=parse_comma_codes(m[3])
                 func=re.sub('^EZTD_',"",func)
-                func=re.sub('FLOW|SUP',"",func)
+                func=re.sub('FLOW|ALL',"",func)
                 func=func.lower().split("_")
                 out={}
                 for i in range(0,len(func)):
@@ -421,17 +421,17 @@ for layout in layouts:
             print(f"![]({svgName})")
 
 keycap_priority = [
-    {"layout": "dvorak", "variant": "tap", "color": "#fff"},
-    {"layout": "qwerty", "variant": "tap", "color": "#aaa"},
-    {"layout": "dvorak", "variant": "hold", "color": "#0ff"},
-    {"layout": "dvorak", "variant": "dtap", "color": "#8f8"},
-    {"layout": "num_fn", "variant": "tap", "color": "#ff0"},
-    {"layout": "dvorak", "variant": "dhold", "color": "#88f"},
-    {"layout": "dvorak", "variant": "ttap", "color": "#f0f"},
-    {"layout": "num_fn", "variant": "hold", "color": "#f88"},
+    {"layout": "dvorak", "variant": "tap", "dark-mode": "#fff", "light-mode": "#000"},
+    {"layout": "qwerty", "variant": "tap", "dark-mode": "#aaa", "light-mode": "#888"},
+    {"layout": "dvorak", "variant": "hold", "dark-mode": "#0ff", "light-mode": "#00c"},
+    {"layout": "dvorak", "variant": "dtap", "dark-mode": "#8f8", "light-mode": "#090"},
+    {"layout": "num_fn", "variant": "tap", "dark-mode": "#ff0", "light-mode": "#088"},
+    {"layout": "dvorak", "variant": "dhold", "dark-mode": "#88f", "light-mode": "#880"},
+    {"layout": "dvorak", "variant": "ttap", "dark-mode": "#f0f", "light-mode": "#808"},
+    {"layout": "num_fn", "variant": "hold", "dark-mode": "#f88", "light-mode": "#a00"},
 ]
 
-def getKeycapLabels(i):
+def getKeycapLabels(i, colorMode):
     labels = []
     seen = {}
     for p in keycap_priority:
@@ -440,7 +440,7 @@ def getKeycapLabels(i):
             text = text.upper()
         text = re.sub("-qwerty","",text)
         if text and len(labels) < 4 and text not in seen:
-            labels.append({"text":text, "color": p["color"]})
+            labels.append({"text":text, "color": p[colorMode]})
             seen[text] = 1
     return labels
 
@@ -501,26 +501,33 @@ def labelsToSvg(fh, labels, dim):
                     y = round(y + 3*h/4, 3)
             fh.write(f'<text fill="{color}" class="{textClass}" x="{x}in" y="{y}in">{html.escape(text)}</text>\n');
 
-fh = open("keycaps.svg", 'w')
-fh.write('<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n')
-fh.write('<svg width="9.428in" height="4.202in" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">\n')
-fh.write('<style>\n')
-fh.write('rect{fill:#000;stroke:none}\n')
-fh.write('text{font:bold .4in sans-serif;dominant-baseline:middle;text-anchor:middle}\n')
-fh.write('text.medium{font:bold .16in sans-serif;}\n')
-fh.write('text.small{font:bold .08in sans-serif;}\n')
-fh.write('</style>\n')
-for i, k in enumerate(svgp):
-    dim = {
-        "w": round(k['width'] * .000452, 3),
-        "h": round(k['height'] * .000452, 3),
-        "x": round(0.25 + k['x'] * .0005, 3),
-        "y": round(0.25 + k['y'] * .0005, 3),
-    }
-    fh.write(f'<rect width="{dim["w"]}in" height="{dim["h"]}in" x="{dim["x"]}in" y="{dim["y"]}in"/>\n')
-    labelsToSvg(fh, getKeycapLabels(i), dim);
-fh.write('</svg>')
-fh.close()
+def writeKeycapsSvg(fileName, colorMode):
+    fh = open(fileName, 'w')
+    fh.write('<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n')
+    fh.write('<svg width="9.428in" height="4.202in" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">\n')
+    fh.write('<style>\n')
+    if colorMode == "dark-mode":
+        fh.write('rect{fill:#000;stroke:none}\n')
+    else:
+        fh.write('rect{fill:none;stroke:#666;stroke-width:0.01in;stroke-dasharray:1,4}\n')
+    fh.write('text{font:bold .4in sans-serif;dominant-baseline:middle;text-anchor:middle}\n')
+    fh.write('text.medium{font:bold .16in sans-serif;}\n')
+    fh.write('text.small{font:bold .08in sans-serif;}\n')
+    fh.write('</style>\n')
+    for i, k in enumerate(svgp):
+        dim = {
+            "w": round(k['width'] * .000452, 3),
+            "h": round(k['height'] * .000452, 3),
+            "x": round(0.25 + k['x'] * .0005, 3),
+            "y": round(0.25 + k['y'] * .0005, 3),
+        }
+        fh.write(f'<rect width="{dim["w"]}in" height="{dim["h"]}in" x="{dim["x"]}in" y="{dim["y"]}in"/>\n')
+        labelsToSvg(fh, getKeycapLabels(i, colorMode), dim);
+    fh.write('</svg>')
+    fh.close()
+
+writeKeycapsSvg('keycaps-black.svg', 'dark-mode')
+writeKeycapsSvg('keycaps-white.svg', 'light-mode')
 
 for c in unicode:
     if c not in unicode_used:
