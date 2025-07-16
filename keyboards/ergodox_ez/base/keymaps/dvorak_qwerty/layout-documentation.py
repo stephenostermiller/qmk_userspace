@@ -229,7 +229,7 @@ with open('keymap.c', 'r') as file:
         elif (mode=="overrides"):
             if re.search(r'^\s*\}',line):
                 mode="none"
-            elif m:=re.search(r'S\(([^,]+)\),\s*(.+)\),$',line):
+            elif m:=re.search(r'MOD_MASK_SHIFT, ([^,]+),\s*(.+)\),$',line):
                 shiftOverrides[m[1]] = m[2]
 
 def processKey(layout,variant,i,initial):

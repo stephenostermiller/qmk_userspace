@@ -122,7 +122,7 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="15000" y="2600"></text>
 <rect width="990" height="990" x="15505" y="2205" ry="100"/>
 <rect width="790" height="790" x="15605" y="2305" ry="100"/>
-<text class="big" x="16000" y="2700"></text>
+<text class="big" x="16000" y="2700">¶</text>
 <rect width="1490" height="990" x="16505" y="2205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="2305" ry="100"/>
 <text class="big" x="17250" y="2700"></text>

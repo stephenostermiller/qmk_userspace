@@ -207,8 +207,8 @@ text.small{font:bold .08in sans-serif;}
 <rect width="0.452in" height="0.452in" x="1.0in" y="1.85in"/>
 <text fill="#fff" class="medium" x="1.138in" y="1.988in">;</text>
 <text fill="#aaa" class="medium" x="1.314in" y="1.988in">Z</text>
-<text fill="#0ff" class="medium" x="1.138in" y="2.164in">:</text>
-<text fill="#ff0" class="medium" x="1.314in" y="2.164in">🤯</text>
+<text fill="#0ff" class="medium" x="1.138in" y="2.164in">§</text>
+<text fill="#8f8" class="medium" x="1.314in" y="2.164in">¶</text>
 <rect width="0.452in" height="0.452in" x="1.5in" y="1.8in"/>
 <text fill="#fff" class="medium" x="1.638in" y="1.938in">Q</text>
 <text fill="#aaa" class="medium" x="1.814in" y="1.938in">X</text>

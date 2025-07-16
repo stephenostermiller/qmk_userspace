@@ -131,7 +131,7 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="750" y="3700"></text>
 <rect width="990" height="990" x="1505" y="3205" ry="100"/>
 <rect width="790" height="790" x="1605" y="3305" ry="100"/>
-<text class="big" x="2000" y="3700">:</text>
+<text class="big" x="2000" y="3700">§</text>
 <rect width="990" height="990" x="2505" y="3105" ry="100"/>
 <rect width="790" height="790" x="2605" y="3205" ry="100"/>
 <text class="big" x="3000" y="3600">Q</text>

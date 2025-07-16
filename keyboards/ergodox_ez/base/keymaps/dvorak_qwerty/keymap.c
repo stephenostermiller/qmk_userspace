@@ -62,6 +62,8 @@ const char u_rsquot[] PROGMEM = "”";
 const char u_lsapos[] PROGMEM = "‘";
 const char u_rsapos[] PROGMEM = "’";
 const char u_brkpip[] PROGMEM = "¦";
+const char u_section[] PROGMEM = "§";
+const char u_pilcrow[] PROGMEM = "¶";
 
 const char u_w_arrow[] PROGMEM = "←";
 const char u_n_arrow[] PROGMEM = "↑";
@@ -252,7 +254,7 @@ enum unicode_names {
     U_SET_NOT_ELEMENT, U_SET_SUB, U_SET_SUB_EQUAL, U_SET_UNION, U_SET_INTERSECTION, U_PI, U_IMAGINARY_I, U_IMAGINARY_J, U_EULER, U_DELTA, U_EMPTY_SET,
     U_INTEGRAL_2, U_PARTIAL_DIFF, U_PRIME, U_PRIME_2, U_ELLIPSIS, U_FRAC_1_8, U_FRAC_1_4, U_FRAC_1_3, U_FRAC_3_8, U_FRAC_1_2, U_FRAC_5_8, U_FRAC_2_3,
     U_FRAC_3_4, U_FRAC_7_8, U_TIP, U_INFO, U_DO_NOT, U_NO_ENTRY, U_KLAXON, U_FROWN, U_FRAC_1_10, U_HAM_MEN, U_WBULLET, U_TBULLET, U_TWBULLET, U_SBULLET,
-    U_SWBULLET, U_LSQUOT, U_RSQUOT, U_LSAPOS, U_RSAPOS, U_DEGREE, U_CENT, U_BRKPIP,
+    U_SWBULLET, U_LSQUOT, U_RSQUOT, U_LSAPOS, U_RSAPOS, U_DEGREE, U_CENT, U_BRKPIP, U_SECTION, U_PILCROW,
 
 };
 
@@ -273,6 +275,8 @@ const char* const unicode_macro_map[] PROGMEM = {
     [U_LSAPOS] = u_lsapos,
     [U_RSAPOS] = u_rsapos,
     [U_BRKPIP] = u_brkpip,
+    [U_SECTION] = u_section,
+    [U_PILCROW] = u_pilcrow,
 
     [U_W_ARROW] = u_w_arrow,
     [U_N_ARROW] = u_n_arrow,
@@ -456,7 +460,7 @@ enum tap_dance_keycodes {
     N_ARROW, E_ARROW, S_ARROW, SW_ARROW, SE_ARROW, NW_ARROW, NE_ARROW, EW_ARROW, NS_ARROW, DIAG_ARROW, DIVIDES, MULTIPLIES, SUBTRACTS, ADDS, EQUALS,
     TD_INF, EM_SMILE, EM_LOL, EM_LOVE, EM_PARTY, MTH_ROOT, MTH_PWR, MTH_CLCLS, MTH_SET, MTH_PAREN, MTH_CONST, EM_LIKE, EM_CAUTN, EM_LGL_IP, EM_BALLOT, EM_SAD,
     F1_FRAC, F2_FRAC, F3_FRAC, F4_FRAC, F5_FRAC, F6_FRAC, F7_FRAC, F8_FRAC, F9_FRAC, F10_FRAC, MSC_FACE, MSC_ICN, EM_CD_RVW, MINU_DASH, DOT_GTE, TD_AMP, TD_7,
-    TD_8, TD_BSLS, TD_SLASH, TD_APOS, TD_DQT, TD_DOL, TD_ASRK, TD_PLUS, TD_PIPE,
+    TD_8, TD_BSLS, TD_SLASH, TD_APOS, TD_DQT, TD_DOL, TD_ASRK, TD_PLUS, TD_PIPE, TD_SCLN
 };
 
 const eztd_data_t eztd_data[] PROGMEM = {
@@ -473,6 +477,7 @@ const eztd_data_t eztd_data[] PROGMEM = {
     [TD_PERC] = EZTD_ALLTAP_HOLD(KC_PERCENT, C(S(KC_O))),
     [TD_AMP] = EZTD_ALLTAP_HOLD_DHOLD(KC_AMPERSAND, C(S(KC_M)), KC_AUDIO_MUTE),
     [TD_PIPE] = EZTD_FLOWTAP_HOLD(KC_PIPE, UM(U_BRKPIP)),
+    [TD_SCLN] = EZTD_FLOWTAP_HOLD_DTAP(KC_SCLN, UM(U_SECTION), UM(U_PILCROW)),
     [HOME_TOP] =  EZTD_FLOWTAP_DTAP(KC_HOME, C(KC_HOME)),
     [END_BTM] = EZTD_FLOWTAP_DTAP(KC_END, C(KC_END)),
     [MINU_DASH] = EZTD_ALLTAP_HOLD_DHOLD(KC_MINUS, KC_UNDERSCORE, UM(U_EM_DASH)),
@@ -605,6 +610,7 @@ const tap_dance_action_t tap_dance_actions[] PROGMEM = {
     [TD_ASRK] = EZTD_ACTION(eztd_data[TD_ASRK]),
     [TD_PLUS] = EZTD_ACTION(eztd_data[TD_PLUS]),
     [TD_PIPE] = EZTD_ACTION(eztd_data[TD_PIPE]),
+    [TD_SCLN] = EZTD_ACTION(eztd_data[TD_SCLN]),
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -613,7 +619,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_GRAVE,      KC_1,          KC_2,          KC_3,          KC_4,          KC_5,          TD(TD_DOL),        TD(TD_ASRK),   KC_6,          TD(TD_7),      TD(TD_8),      KC_9,          KC_0,          TD(TD_BSLS),
     TD(TD_DQT),    TD(TD_APOS),   KC_COMMA,      TD(DOT_GTE),   KC_P,          KC_Y,          TD(TD_PERC),       TD(TD_PLUS),   KC_F,          KC_G,          KC_C,          KC_R,          KC_L,          TD(TD_SLASH),
     TD(TD_PIPE),   KC_A,          KC_O,          KC_E,          KC_U,          KC_I,                                            KC_D,          KC_H,          KC_T,          KC_N,          KC_S,          TD(MINU_DASH),
-    TD(LCDT_SHFT), KC_SCLN,       KC_Q,          KC_J,          KC_K,          KC_X,          TD(TD_AMP),        KC_EQUAL,      KC_B,          KC_M,          KC_W,          KC_V,          KC_Z,          TD(RCDT_SHFT),
+    TD(LCDT_SHFT), TD(TD_SCLN),   KC_Q,          KC_J,          KC_K,          KC_X,          TD(TD_AMP),        KC_EQUAL,      KC_B,          KC_M,          KC_W,          KC_V,          KC_Z,          TD(RCDT_SHFT),
     TD(FANC_ALPH), TD(LAY_OUT),   TD(LCDT_CRTL), TD(LCDT_META), TD(LCDT_ALT),                                                                  TD(RCDT_ALT),  TD(RCDT_META), TD(RCDT_CRTL), KC_PAGE_UP,    KC_PGDN,
                                                                                TD(HOME_TOP),  TD(END_BTM),       KC_ESC,        KC_DELETE,
                                                                                               KC_RIGHT,          KC_UP,
@@ -634,7 +640,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
     KC_GRAVE,      KC_1,          KC_2,          KC_3,          KC_4,          KC_5,          TD(TD_PLUS),       TD(TD_ASRK),   KC_6,          TD(TD_7),      TD(TD_8),      KC_9,          KC_0,          TD(TD_AMP),
     TD(TD_DOL),    KC_Q,          KC_W,          KC_E,          KC_R,          KC_T,          KC_EQUAL,          TD(TD_BSLS),   KC_Y,          KC_U,          KC_I,          KC_O,          KC_P,          TD(TD_DQT),
-    TD(TD_PIPE),   KC_A,          KC_S,          KC_D,          KC_F,          KC_G,                                            KC_H,          KC_J,          KC_K,          KC_L,          KC_SCLN,       TD(TD_APOS),
+    TD(TD_PIPE),   KC_A,          KC_S,          KC_D,          KC_F,          KC_G,                                            KC_H,          KC_J,          KC_K,          KC_L,          TD(TD_SCLN),   TD(TD_APOS),
     TD(LCDT_SHFT), KC_Z,          KC_X,          KC_C,          KC_V,          KC_B,          TD(MINU_DASH),     TD(TD_PERC),   KC_N,          KC_M,          KC_COMMA,      TD(DOT_GTE),   TD(TD_SLASH),  TD(RCDT_SHFT),
     TD(FANC_ALPH), TD(LAY_OUT),   TD(LCDT_CRTL), TD(LCDT_META), TD(LCDT_ALT),                                                                  TD(RCDT_ALT),  TD(RCDT_META), TD(RCDT_CRTL), KC_PAGE_UP,    KC_PGDN,
                                                                                TD(HOME_TOP),  TD(END_BTM),       KC_ESC,        KC_DELETE,
@@ -688,27 +694,27 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 const key_override_t *key_overrides[] = {
-    &ezovrd_make_basic(S(KC_COMMA), UM(U_LTE)),
-    &ezovrd_make_basic(S(TD(DOT_GTE)), UM(U_GTE)),
-    &ezovrd_make_basic(S(TD(TD_7)), UM(U_WBULLET)),
-    &ezovrd_make_basic(S(TD(TD_8)), UM(U_BULLET)),
-    &ezovrd_make_basic(S(KC_EQUAL), UM(U_NE)),
-    &ezovrd_make_pre_modified(S(TD(TD_DOL)), UM(U_CENT)),
-    &ezovrd_make_pre_modified(S(TD(TD_ASRK)), UM(U_DEGREE)),
-    &ezovrd_make_pre_modified(S(TD(TD_PLUS)), UM(U_PLUS_MIN)),
-    &ezovrd_make_pre_modified(S(TD(TD_PERC)), C(S(KC_O))),
-    &ezovrd_make_pre_modified(S(TD(TD_AMP)), C(S(KC_M))),
-    &ezovrd_make_basic(S(KC_4), UM(U_BLACK_STAR)),
-    &ezovrd_make_basic(S(KC_5), UM(U_WHITE_STAR)),
-    &ezovrd_make_basic(S(KC_9), KC_MEDIA_SELECT),
-    &ezovrd_make_basic(S(KC_0), KC_MEDIA_PLAY_PAUSE),
-    &ezovrd_make_basic(S(KC_MEDIA_PREV_TRACK), KC_MEDIA_PREV_TRACK),
-    &ezovrd_make_basic(S(TD(MINU_DASH)), KC_UNDERSCORE),
-    &ezovrd_make_basic(S(TD(TD_APOS)), UM(U_LSAPOS)),
-    &ezovrd_make_basic(S(TD(TD_DQT)), UM(U_LSQUOT)),
-    &ezovrd_make_basic(S(TD(TD_BSLS)), KC_VOLU),
-    &ezovrd_make_basic(S(TD(TD_SLASH)), KC_VOLD),
-    &ezovrd_make_basic(S(TD(TD_PIPE)), UM(U_BRKPIP)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_COMMA, UM(U_LTE)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(DOT_GTE), UM(U_GTE)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_7), UM(U_WBULLET)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_8), UM(U_BULLET)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_EQUAL, UM(U_NE)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_DOL), UM(U_CENT)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_ASRK), UM(U_DEGREE)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_PLUS), UM(U_PLUS_MIN)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_PERC), C(S(KC_O))),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_AMP), C(S(KC_M))),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_4, UM(U_BLACK_STAR)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_5, UM(U_WHITE_STAR)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_9, KC_MEDIA_SELECT),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, KC_0, KC_MEDIA_PLAY_PAUSE),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(MINU_DASH), KC_UNDERSCORE),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_APOS), UM(U_LSAPOS)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_DQT), UM(U_LSQUOT)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_BSLS), KC_VOLU),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_SLASH), KC_VOLD),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_PIPE), UM(U_BRKPIP)),
+    &ezovrd_make_basic(MOD_MASK_SHIFT, TD(TD_SCLN), UM(U_SECTION)),
 };
 
 
