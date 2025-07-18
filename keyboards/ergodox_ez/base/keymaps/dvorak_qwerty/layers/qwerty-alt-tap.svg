@@ -47,7 +47,7 @@ text.small{font:bold 200px sans-serif;}
 <text class="small" x="16000" y="700">a(kc 0)</text>
 <rect width="1490" height="990" x="16505" y="205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="305" ry="100"/>
-<text class="small" x="17250" y="700">a(kc rbrc)</text>
+<text class="small" x="17250" y="700">a(kc r…</text>
 <rect width="1490" height="990" x="5" y="1205" ry="100"/>
 <rect width="1290" height="790" x="105" y="1305" ry="100"/>
 <text class="big" x="750" y="1700"></text>
@@ -68,10 +68,10 @@ text.small{font:bold 200px sans-serif;}
 <text class="small" x="6000" y="1700">a(kc t)</text>
 <rect width="990" height="1490" x="6505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="6605" y="1305" ry="100"/>
-<text class="small" x="7000" y="1950">a(kc equal)</text>
+<text class="small" x="7000" y="1950">a(kc e…</text>
 <rect width="990" height="1490" x="10505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="10605" y="1305" ry="100"/>
-<text class="small" x="11000" y="1950">a(kc bsls)</text>
+<text class="small" x="11000" y="1950">a(kc b…</text>
 <rect width="990" height="990" x="11505" y="1205" ry="100"/>
 <rect width="790" height="790" x="11605" y="1305" ry="100"/>
 <text class="small" x="12000" y="1700">a(kc y)</text>
@@ -89,7 +89,7 @@ text.small{font:bold 200px sans-serif;}
 <text class="small" x="16000" y="1700">a(kc p)</text>
 <rect width="1490" height="990" x="16505" y="1205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="1305" ry="100"/>
-<text class="small" x="17250" y="1700">a(kc lbrc)</text>
+<text class="small" x="17250" y="1700">a(kc l…</text>
 <rect width="1490" height="990" x="5" y="2205" ry="100"/>
 <rect width="1290" height="790" x="105" y="2305" ry="100"/>
 <text class="big" x="750" y="2700"></text>
@@ -122,10 +122,10 @@ text.small{font:bold 200px sans-serif;}
 <text class="small" x="15000" y="2600">a(kc l)</text>
 <rect width="990" height="990" x="15505" y="2205" ry="100"/>
 <rect width="790" height="790" x="15605" y="2305" ry="100"/>
-<text class="small" x="16000" y="2700">a(kc scln)</text>
+<text class="small" x="16000" y="2700">a(kc s…</text>
 <rect width="1490" height="990" x="16505" y="2205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="2305" ry="100"/>
-<text class="small" x="17250" y="2700">a(kc quote)</text>
+<text class="small" x="17250" y="2700">a(kc q…</text>
 <rect width="1490" height="990" x="5" y="3205" ry="100"/>
 <rect width="1290" height="790" x="105" y="3305" ry="100"/>
 <image x="400" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjQuNiIgaGVpZ2h0PSI2NjQuNiIgdmlld0JveD0iMCAwIDE5LjkzOCAxOS45MzgiPjx0aXRsZT5pY19mbHVlbnRfa2V5Ym9hcmRfc2hpZnRfdXBwZXJjYXNlXzI0X3JlZ3VsYXI8L3RpdGxlPjxwYXRoIGZpbGw9IiMwMTAxMDEiIGQ9Ik0xNC4yMjUgMTguNDM4YS43NS43NSAwIDAgMSAuMTAyIDEuNDkzbC0uMTAyLjAwN2gtOC41YS43NS43NSAwIDAgMS0uMTAyLTEuNDkzbC4xMDItLjAwN1pNOC45ODIuMzA5YTEuNzUgMS43NSAwIDAgMSAyLjIzLjIwM2wuMTA3LjExOCA3Ljg2NSA5LjQzOGExLjc1IDEuNzUgMCAwIDEtMS4yIDIuODY0bC0uMTQ0LjAwNmgtMi44NjZsLjAwMSAyLjI1YTEuNzUgMS43NSAwIDAgMS0xLjQ1OCAxLjcyNmwtLjE0OC4wMTgtLjE0NC4wMDZoLTYuNWExLjc1IDEuNzUgMCAwIDEtMS43NDQtMS42MDZsLS4wMDYtLjE0NC0uMDAxLTIuMjVIMi4xMWExLjc1IDEuNzUgMCAwIDEtLjgzMi0uMjFsLS4xNDktLjA5LS4xNC0uMTA2YTEuNzUgMS43NSAwIDAgMS0uMzItMi4zMzdsLjA5Ny0uMTI3TDguNjMuNjNsLjEwNy0uMTE3LjExNy0uMTA3em0xLjE4NSAxLjI4MWEuMjUuMjUgMCAwIDAtLjI5NS0uMDY4bC0uMDU3LjAzNi0uMDMyLjAzMi03Ljg2NSA5LjQzOGEuMjUuMjUgMCAwIDAgLjEzNS40MDNsLjA1Ny4wMDdoMy42MTVhLjc1Ljc1IDAgMCAxIC43NDMuNjQ4bC4wMDcuMTAydjNhLjI1LjI1IDAgMCAwIC4xOTMuMjQzbC4wNTcuMDA3aDYuNWEuMjUuMjUgMCAwIDAgLjI0My0uMTkzbC4wMDctLjA1N3YtM2EuNzUuNzUgMCAwIDEgLjY0OC0uNzQzbC4xMDItLjAwN2gzLjYxNWEuMjUuMjUgMCAwIDAgLjIyNC0uMzYybC0uMDMyLS4wNDh6Ii8+PC9zdmc+"/>
@@ -146,10 +146,10 @@ text.small{font:bold 200px sans-serif;}
 <text class="small" x="6000" y="3700">a(kc b)</text>
 <rect width="990" height="1490" x="6505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="6605" y="2805" ry="100"/>
-<text class="small" x="7000" y="3450">a(kc minus)</text>
+<text class="small" x="7000" y="3450">a(kc m…</text>
 <rect width="990" height="1490" x="10505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="10605" y="2805" ry="100"/>
-<text class="small" x="11000" y="3450">a(kc grave)</text>
+<text class="small" x="11000" y="3450">a(kc g…</text>
 <rect width="990" height="990" x="11505" y="3205" ry="100"/>
 <rect width="790" height="790" x="11605" y="3305" ry="100"/>
 <text class="small" x="12000" y="3700">a(kc n)</text>
@@ -158,13 +158,13 @@ text.small{font:bold 200px sans-serif;}
 <text class="small" x="13000" y="3600">a(kc m)</text>
 <rect width="990" height="990" x="13505" y="3005" ry="100"/>
 <rect width="790" height="790" x="13605" y="3105" ry="100"/>
-<text class="small" x="14000" y="3500">a(kc comma)</text>
+<text class="small" x="14000" y="3500">a(kc c…</text>
 <rect width="990" height="990" x="14505" y="3105" ry="100"/>
 <rect width="790" height="790" x="14605" y="3205" ry="100"/>
-<text class="small" x="15000" y="3600">a(kc dot)</text>
+<text class="small" x="15000" y="3600">a(kc d…</text>
 <rect width="990" height="990" x="15505" y="3205" ry="100"/>
 <rect width="790" height="790" x="15605" y="3305" ry="100"/>
-<text class="small" x="16000" y="3700">a(kc slash)</text>
+<text class="small" x="16000" y="3700">a(kc s…</text>
 <rect width="1490" height="990" x="16505" y="3205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="3305" ry="100"/>
 <image x="16900" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjQuNiIgaGVpZ2h0PSI2NjQuNiIgdmlld0JveD0iMCAwIDE5LjkzOCAxOS45MzgiPjx0aXRsZT5pY19mbHVlbnRfa2V5Ym9hcmRfc2hpZnRfdXBwZXJjYXNlXzI0X3JlZ3VsYXI8L3RpdGxlPjxwYXRoIGZpbGw9IiMwMTAxMDEiIGQ9Ik0xNC4yMjUgMTguNDM4YS43NS43NSAwIDAgMSAuMTAyIDEuNDkzbC0uMTAyLjAwN2gtOC41YS43NS43NSAwIDAgMS0uMTAyLTEuNDkzbC4xMDItLjAwN1pNOC45ODIuMzA5YTEuNzUgMS43NSAwIDAgMSAyLjIzLjIwM2wuMTA3LjExOCA3Ljg2NSA5LjQzOGExLjc1IDEuNzUgMCAwIDEtMS4yIDIuODY0bC0uMTQ0LjAwNmgtMi44NjZsLjAwMSAyLjI1YTEuNzUgMS43NSAwIDAgMS0xLjQ1OCAxLjcyNmwtLjE0OC4wMTgtLjE0NC4wMDZoLTYuNWExLjc1IDEuNzUgMCAwIDEtMS43NDQtMS42MDZsLS4wMDYtLjE0NC0uMDAxLTIuMjVIMi4xMWExLjc1IDEuNzUgMCAwIDEtLjgzMi0uMjFsLS4xNDktLjA5LS4xNC0uMTA2YTEuNzUgMS43NSAwIDAgMS0uMzItMi4zMzdsLjA5Ny0uMTI3TDguNjMuNjNsLjEwNy0uMTE3LjExNy0uMTA3em0xLjE4NSAxLjI4MWEuMjUuMjUgMCAwIDAtLjI5NS0uMDY4bC0uMDU3LjAzNi0uMDMyLjAzMi03Ljg2NSA5LjQzOGEuMjUuMjUgMCAwIDAgLjEzNS40MDNsLjA1Ny4wMDdoMy42MTVhLjc1Ljc1IDAgMCAxIC43NDMuNjQ4bC4wMDcuMTAydjNhLjI1LjI1IDAgMCAwIC4xOTMuMjQzbC4wNTcuMDA3aDYuNWEuMjUuMjUgMCAwIDAgLjI0My0uMTkzbC4wMDctLjA1N3YtM2EuNzUuNzUgMCAwIDEgLjY0OC0uNzQzbC4xMDItLjAwN2gzLjYxNWEuMjUuMjUgMCAwIDAgLjIyNC0uMzYybC0uMDMyLS4wNDh6Ii8+PC9zdmc+"/>
@@ -176,7 +176,7 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="2000" y="4700"></text>
 <rect width="990" height="990" x="2505" y="4105" ry="100"/>
 <rect width="790" height="790" x="2605" y="4205" ry="100"/>
-<image x="2650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTQuODQ2IiBoZWlnaHQ9IjE1NC44NDYiPjx0ZXh0IHhtbDpzcGFjZT0icHJlc2VydmUiIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIGZpbGw9IiMwMTAxMDEiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7bGluZS1oZWlnaHQ6MS4yNTtmb250LWZhbWlseTpzYW5zLXNlcmlmOy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246c2Fucy1zZXJpZjtmb250LXZhcmlhbnQtbGlnYXR1cmVzOm5vbmU7c3Ryb2tlLXdpZHRoOjEuNDU5NSIgdHJhbnNmb3JtPSJzY2FsZSgxLjExNDA3IC44OTc2KSI+PHRzcGFuIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7Zm9udC1mYW1pbHk6c2Fucy1zZXJpZjstaW5rc2NhcGUtZm9udC1zcGVjaWZpY2F0aW9uOnNhbnMtc2VyaWY7c3Ryb2tlLXdpZHRoOjEuNDU5NSI+XjwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg=="/>
+<image x="2650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTQuODQ2IiBoZWlnaHQ9IjE1NC44NDYiPjx0ZXh0IHhtbDpzcGFjZT0icHJlc2VydmUiIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIGZpbGw9IiMwMTAxMDEiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7bGluZS1oZWlnaHQ6MS4yNTtmb250LWZhbWlseTpzYW5zLXNlcmlmO2ZvbnQtdmFyaWFudC1saWdhdHVyZXM6bm9uZTtzdHJva2Utd2lkdGg6MS40NTk1IiB0cmFuc2Zvcm09InNjYWxlKDEuMTE0MDcgLjg5NzYpIj48dHNwYW4geD0iLTEwLjY0OSIgeT0iMjIxLjUzNCIgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6NDAwO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1zaXplOjI4MC4yMjRweDtmb250LWZhbWlseTpzYW5zLXNlcmlmO3N0cm9rZS13aWR0aDoxLjQ1OTUiPl48L3RzcGFuPjwvdGV4dD48L3N2Zz4="/>
 <rect width="990" height="990" x="3505" y="4005" ry="100"/>
 <rect width="790" height="790" x="3605" y="4105" ry="100"/>
 <image x="3650" y="4150" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzQuNDg3IiBoZWlnaHQ9IjEzNC40ODciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAxMDEwMSIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNMzIuODY1IDQuOTc1YTIxLjM0OCAyMS4zNDggMCAxIDAtOC4xNyA0MS4wNzFoODUuMDk0YzExLjc5IDAgMjEuMzQ4LTkuNTU4IDIxLjM0OC0yMS4zNDhTMTIxLjU3OSAzLjM1IDEwOS43ODkgMy4zNSA4OC40NCAxMi45MDggODguNDQgMjQuNjk4djg1LjA5M2EyMS4zNDggMjEuMzQ4IDAgMSAwIDIxLjM0Ny0yMS4zNDhIMjQuNjk1YTIxLjM0OCAyMS4zNDggMCAxIDAgMjEuMzQ4IDIxLjM0OFYyNC42OThBMjEuMzUgMjEuMzUgMCAwIDAgMzIuODY1IDQuOTc1eiIgc3R5bGU9InN0cm9rZS13aWR0aDo2Ljc7c3Ryb2tlLWRhc2hhcnJheTpub25lIi8+PC9zdmc+"/>
@@ -191,47 +191,47 @@ text.small{font:bold 200px sans-serif;}
 <image x="13650" y="4150" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzQuNDg3IiBoZWlnaHQ9IjEzNC40ODciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAxMDEwMSIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNMzIuODY1IDQuOTc1YTIxLjM0OCAyMS4zNDggMCAxIDAtOC4xNyA0MS4wNzFoODUuMDk0YzExLjc5IDAgMjEuMzQ4LTkuNTU4IDIxLjM0OC0yMS4zNDhTMTIxLjU3OSAzLjM1IDEwOS43ODkgMy4zNSA4OC40NCAxMi45MDggODguNDQgMjQuNjk4djg1LjA5M2EyMS4zNDggMjEuMzQ4IDAgMSAwIDIxLjM0Ny0yMS4zNDhIMjQuNjk1YTIxLjM0OCAyMS4zNDggMCAxIDAgMjEuMzQ4IDIxLjM0OFYyNC42OThBMjEuMzUgMjEuMzUgMCAwIDAgMzIuODY1IDQuOTc1eiIgc3R5bGU9InN0cm9rZS13aWR0aDo2Ljc7c3Ryb2tlLWRhc2hhcnJheTpub25lIi8+PC9zdmc+"/>
 <rect width="990" height="990" x="14505" y="4105" ry="100"/>
 <rect width="790" height="790" x="14605" y="4205" ry="100"/>
-<image x="14650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTQuODQ2IiBoZWlnaHQ9IjE1NC44NDYiPjx0ZXh0IHhtbDpzcGFjZT0icHJlc2VydmUiIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIGZpbGw9IiMwMTAxMDEiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7bGluZS1oZWlnaHQ6MS4yNTtmb250LWZhbWlseTpzYW5zLXNlcmlmOy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246c2Fucy1zZXJpZjtmb250LXZhcmlhbnQtbGlnYXR1cmVzOm5vbmU7c3Ryb2tlLXdpZHRoOjEuNDU5NSIgdHJhbnNmb3JtPSJzY2FsZSgxLjExNDA3IC44OTc2KSI+PHRzcGFuIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7Zm9udC1mYW1pbHk6c2Fucy1zZXJpZjstaW5rc2NhcGUtZm9udC1zcGVjaWZpY2F0aW9uOnNhbnMtc2VyaWY7c3Ryb2tlLXdpZHRoOjEuNDU5NSI+XjwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg=="/>
+<image x="14650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTQuODQ2IiBoZWlnaHQ9IjE1NC44NDYiPjx0ZXh0IHhtbDpzcGFjZT0icHJlc2VydmUiIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIGZpbGw9IiMwMTAxMDEiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7bGluZS1oZWlnaHQ6MS4yNTtmb250LWZhbWlseTpzYW5zLXNlcmlmO2ZvbnQtdmFyaWFudC1saWdhdHVyZXM6bm9uZTtzdHJva2Utd2lkdGg6MS40NTk1IiB0cmFuc2Zvcm09InNjYWxlKDEuMTE0MDcgLjg5NzYpIj48dHNwYW4geD0iLTEwLjY0OSIgeT0iMjIxLjUzNCIgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6NDAwO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1zaXplOjI4MC4yMjRweDtmb250LWZhbWlseTpzYW5zLXNlcmlmO3N0cm9rZS13aWR0aDoxLjQ1OTUiPl48L3RzcGFuPjwvdGV4dD48L3N2Zz4="/>
 <rect width="990" height="990" x="15505" y="4205" ry="100"/>
 <rect width="790" height="790" x="15605" y="4305" ry="100"/>
-<text class="small" x="16000" y="4700">a(kc page up)</text>
+<text class="small" x="16000" y="4700">a(kc p…</text>
 <rect width="990" height="990" x="16505" y="4205" ry="100"/>
 <rect width="790" height="790" x="16605" y="4305" ry="100"/>
-<text class="small" x="17000" y="4700">a(kc pgdn)</text>
+<text class="small" x="17000" y="4700">a(kc p…</text>
 <rect width="990" height="990" x="6755" y="4505" ry="100"/>
 <rect width="790" height="790" x="6855" y="4605" ry="100"/>
-<text class="small" x="7250" y="5000">a(kc home)</text>
+<text class="small" x="7250" y="5000">a(kc h…</text>
 <rect width="990" height="990" x="7755" y="4505" ry="100"/>
 <rect width="790" height="790" x="7855" y="4605" ry="100"/>
-<text class="small" x="8250" y="5000">a(kc end)</text>
+<text class="small" x="8250" y="5000">a(kc e…</text>
 <rect width="990" height="990" x="9255" y="4505" ry="100"/>
 <rect width="790" height="790" x="9355" y="4605" ry="100"/>
-<text class="small" x="9750" y="5000">a(kc esc)</text>
+<text class="small" x="9750" y="5000">a(kc e…</text>
 <rect width="990" height="990" x="10255" y="4505" ry="100"/>
 <rect width="790" height="790" x="10355" y="4605" ry="100"/>
-<text class="small" x="10750" y="5000">a(kc delete)</text>
+<text class="small" x="10750" y="5000">a(kc d…</text>
 <rect width="990" height="990" x="7755" y="5505" ry="100"/>
 <rect width="790" height="790" x="7855" y="5605" ry="100"/>
-<text class="small" x="8250" y="6000">a(kc right)</text>
+<text class="small" x="8250" y="6000">a(kc r…</text>
 <rect width="990" height="990" x="9255" y="5505" ry="100"/>
 <rect width="790" height="790" x="9355" y="5605" ry="100"/>
-<text class="small" x="9750" y="6000">a(kc up)</text>
+<text class="small" x="9750" y="6000">a(kc u…</text>
 <rect width="990" height="1990" x="5755" y="5505" ry="100"/>
 <rect width="790" height="1790" x="5855" y="5605" ry="100"/>
-<text class="small" x="6250" y="6500">a(kc enter)</text>
+<text class="small" x="6250" y="6500">a(kc e…</text>
 <rect width="990" height="1990" x="6755" y="5505" ry="100"/>
 <rect width="790" height="1790" x="6855" y="5605" ry="100"/>
-<text class="small" x="7250" y="6500">a(kc tab)</text>
+<text class="small" x="7250" y="6500">a(kc t…</text>
 <rect width="990" height="990" x="7755" y="6505" ry="100"/>
 <rect width="790" height="790" x="7855" y="6605" ry="100"/>
-<text class="small" x="8250" y="7000">a(kc left)</text>
+<text class="small" x="8250" y="7000">a(kc l…</text>
 <rect width="990" height="990" x="9255" y="6505" ry="100"/>
 <rect width="790" height="790" x="9355" y="6605" ry="100"/>
-<text class="small" x="9750" y="7000">a(kc down)</text>
+<text class="small" x="9750" y="7000">a(kc d…</text>
 <rect width="990" height="1990" x="10255" y="5505" ry="100"/>
 <rect width="790" height="1790" x="10355" y="5605" ry="100"/>
-<text class="small" x="10750" y="6500">a(kc bspc)</text>
+<text class="small" x="10750" y="6500">a(kc b…</text>
 <rect width="990" height="1990" x="11255" y="5505" ry="100"/>
 <rect width="790" height="1790" x="11355" y="5605" ry="100"/>
-<text class="small" x="11750" y="6500">a(kc space)</text>
+<text class="small" x="11750" y="6500">a(kc s…</text>
 </svg>

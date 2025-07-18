@@ -125,6 +125,23 @@ keycodes['QK_CAPS_WORD_TOGGLE']={'tap':'icon/caps-word.svg'}
 keycodes['KC_INS']={'tap':'icon/insert.svg'}
 keycodes['UNICODE_FANCY_ALPHABET_CYCLE']={'tap':'icon/fancy-alphabet.svg'}
 keycodes['UNICODE_FANCY_ALPHABET_MOMENTARY']={'tap':'icon/fancy-alphabet.svg'}
+keycodes['UFA_DS']={'tap':'icon/fancy-double-struck.svg'}
+keycodes['UFA_CIR']={'tap':'icon/fancy-circled.svg'}
+keycodes['C(KC_C)']={'tap':'icon/copy.svg'}
+keycodes['C(KC_X)']={'tap':'icon/cut.svg'}
+keycodes['C(KC_V)']={'tap':'icon/paste.svg'}
+keycodes['C(KC_N)']={'tap':'icon/new.svg'}
+keycodes['C(KC_O)']={'tap':'icon/open.svg'}
+keycodes['C(KC_A)']={'tap':'icon/select-all.svg'}
+keycodes['C(KC_S)']={'tap':'icon/save.svg'}
+keycodes['C(KC_Z)']={'tap':'icon/undo.svg'}
+keycodes['C(KC_Q)']={'tap':'icon/quit.svg'}
+keycodes['C(KC_F)']={'tap':'icon/find.svg'}
+keycodes['C(KC_P)']={'tap':'icon/print.svg'}
+keycodes['C(KC_G)']={'tap':'icon/find-again.svg'}
+keycodes['C(KC_T)']={'tap':'icon/new-tab.svg'}
+keycodes['C(KC_EQUAL)']={'tap':'icon/zoom-in.svg'}
+keycodes['C(KC_MINUS)']={'tap':'icon/zoom-out.svg'}
 keycodes['TG(LAY_QWERTY)']={'tap':'qwerty'}
 keycodes['MO_TG_QWERTY']={'tap':'qwerty'}
 keycodes['KC_KP_PLUS']={'tap':'+'}
@@ -260,6 +277,10 @@ def processKey(layout,variant,i,initial):
             for tdVariant in td:
                 layouts[layout][tdVariant][i]=td[tdVariant]
                 processKey(layout, tdVariant, i, False)
+        elif m:=re.search('C\((.*)\)',keycode):
+            layouts[layout][variant][i]=m[1]
+            processKey(layout,variant,i,initial)
+            layouts[layout][variant][i]='icon/control.svg'+layouts[layout][variant][i]
         elif re.search('[A-Z]_[A-Z0-9]',keycode):
             layouts[layout][variant][i]=re.sub('_',' ',keycode.lower())
         elif keycode == 'XXXXXXX' or keycode == '_______':
@@ -379,7 +400,7 @@ def toSvg(layout, variant):
         content=''
         text = l[i]
         k = svgp[i]
-        if text.startswith("icon/"):
+        if re.search(r"^icon/[^/]+\.svg$", text):
             with open(text, "rb") as image_file:
                 imgType = re.sub('svg','svg+xml',re.sub(r'.*\.','',text))
                 imgB64 = base64.b64encode(image_file.read()).decode('utf-8')
@@ -390,6 +411,8 @@ def toSvg(layout, variant):
                 textClass='medium'
             if len(text) > 5:
                 textClass='small'
+            if len(text) > 7:
+                text = text[:6]+"…"
             content = f'<text class="{textClass}" x="{k['x']+round(k['width']/2)}" y="{k['y']+round(k['height']/2)}">{html.escape(text)}</text>'
         fh.write(f'<rect width="{k['width']-10}" height="{k['height']-10}" x="{k['x']+5}" y="{k['y']+5}" ry="100"/>\n')
         fh.write(f'<rect width="{k['width']-210}" height="{k['height']-210}" x="{k['x']+105}" y="{k['y']+105}" ry="100"/>\n')

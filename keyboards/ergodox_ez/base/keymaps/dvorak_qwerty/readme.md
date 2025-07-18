@@ -266,6 +266,67 @@ License: MIT License, Authors: Stephen Ostermiller, Vmware
 ### <img width=30px src=icon/previous-track.svg> Previous Track
 License: MIT License, Authors: Stephen Ostermiller, Vmware
 
+### <img width=30px src=icon/cut.svg> Cut
+License: CC Attribution License, Author: Software Mansion
+
+### <img width=30px src=icon/copy.svg> Copy
+License: CC Attribution License, Author: Software Mansion
+
+### <img width=30px src=icon/paste.svg> Paste
+License: CC Attribution License, Author: Konstantin Filatov
+
+### <img width=30px src=icon/new.svg> New
+License: MIT License, Author: Will Kelly
+
+### <img width=30px src=icon/open.svg> Open
+License: MIT License, Author: Zest
+
+### <img width=30px src=icon/select-all.svg> Select All
+License: BSD License, Author: Nuiverse Design
+
+### <img width=30px src=icon/save.svg> Save
+License: CC Attribution License, Author: Konstantin Filatov
+
+### <img width=30px src=icon/undo.svg> Undo
+License: CC Attribution License, Author: Solar Icons
+
+### <img width=30px src=icon/zoom-in.svg> Zoom In
+License: Public domain
+
+### <img width=30px src=icon/zoom-out.svg> Zoom Out
+License: Public domain
+
+### <img width=30px src=icon/find.svg> Find
+License: Public domain
+
+### <img width=30px src=icon/find-again.svg> Find Again
+License: Public domain
+
+### <img width=30px src=icon/quit.svg> Quit
+License: CC Attribution License, Author: Just Nick
+
+### <img width=30px src=icon/new-tab.svg> New Tab
+License: Apache License, Author: Carbon Design
+
+### <img width=30px src=icon/print.svg> Print
+License: CC Attribution License, Author: Catalin Fertu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### <img width=200px src=ergodox-ez.svg> Keyboard illustration
 © 2019 ZSA Technology Labs, Inc.
 

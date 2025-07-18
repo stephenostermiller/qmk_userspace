@@ -11,19 +11,19 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="750" y="700"></text>
 <rect width="990" height="990" x="1505" y="205" ry="100"/>
 <rect width="790" height="790" x="1605" y="305" ry="100"/>
-<text class="small" x="2000" y="700">c(kc 1)</text>
+<text class="small" x="2000" y="700">icon/c…</text>
 <rect width="990" height="990" x="2505" y="105" ry="100"/>
 <rect width="790" height="790" x="2605" y="205" ry="100"/>
-<text class="small" x="3000" y="600">c(kc 2)</text>
+<text class="small" x="3000" y="600">icon/c…</text>
 <rect width="990" height="990" x="3505" y="5" ry="100"/>
 <rect width="790" height="790" x="3605" y="105" ry="100"/>
-<text class="small" x="4000" y="500">c(kc 3)</text>
+<text class="small" x="4000" y="500">icon/c…</text>
 <rect width="990" height="990" x="4505" y="105" ry="100"/>
 <rect width="790" height="790" x="4605" y="205" ry="100"/>
-<text class="small" x="5000" y="600">c(kc 4)</text>
+<text class="small" x="5000" y="600">icon/c…</text>
 <rect width="990" height="990" x="5505" y="205" ry="100"/>
 <rect width="790" height="790" x="5605" y="305" ry="100"/>
-<text class="small" x="6000" y="700">c(kc 5)</text>
+<text class="small" x="6000" y="700">icon/c…</text>
 <rect width="990" height="990" x="6505" y="205" ry="100"/>
 <rect width="790" height="790" x="6605" y="305" ry="100"/>
 <text class="big" x="7000" y="700"></text>
@@ -32,139 +32,139 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="11000" y="700"></text>
 <rect width="990" height="990" x="11505" y="205" ry="100"/>
 <rect width="790" height="790" x="11605" y="305" ry="100"/>
-<text class="small" x="12000" y="700">c(kc 6)</text>
+<text class="small" x="12000" y="700">icon/c…</text>
 <rect width="990" height="990" x="12505" y="105" ry="100"/>
 <rect width="790" height="790" x="12605" y="205" ry="100"/>
-<text class="small" x="13000" y="600">c(kc 7)</text>
+<text class="small" x="13000" y="600">icon/c…</text>
 <rect width="990" height="990" x="13505" y="5" ry="100"/>
 <rect width="790" height="790" x="13605" y="105" ry="100"/>
-<text class="small" x="14000" y="500">c(kc 8)</text>
+<text class="small" x="14000" y="500">icon/c…</text>
 <rect width="990" height="990" x="14505" y="105" ry="100"/>
 <rect width="790" height="790" x="14605" y="205" ry="100"/>
-<text class="small" x="15000" y="600">c(kc 9)</text>
+<text class="small" x="15000" y="600">icon/c…</text>
 <rect width="990" height="990" x="15505" y="205" ry="100"/>
 <rect width="790" height="790" x="15605" y="305" ry="100"/>
-<text class="small" x="16000" y="700">c(kc 0)</text>
+<text class="small" x="16000" y="700">icon/c…</text>
 <rect width="1490" height="990" x="16505" y="205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="305" ry="100"/>
-<text class="small" x="17250" y="700">c(kc rbrc)</text>
+<text class="small" x="17250" y="700">icon/c…</text>
 <rect width="1490" height="990" x="5" y="1205" ry="100"/>
 <rect width="1290" height="790" x="105" y="1305" ry="100"/>
 <text class="big" x="750" y="1700"></text>
 <rect width="990" height="990" x="1505" y="1205" ry="100"/>
 <rect width="790" height="790" x="1605" y="1305" ry="100"/>
-<text class="small" x="2000" y="1700">c(kc q)</text>
+<image x="1650" y="1350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NTAuMjc2IiBoZWlnaHQ9Ijc1MC4yNzYiIGNsYXNzPSJpY29uIiB2aWV3Qm94PSIwIDAgOTYwLjM1MyA5NjAuMzUzIj48cGF0aCBmaWxsPSIjMjMxODE1IiBkPSJNNzA0LjE4NiA4OTZoLTY0MFY2MDhhMzIgMzIgMCAxIDAtNjQgMHYzMjBhMzIgMzIgMCAwIDAgMzIgMzJoNjcyYTMyIDMyIDAgMCAwIDAtNjRtLTY3Mi0zODRhMzIgMzIgMCAwIDAgMzItMzJWMzUyYTMyIDMyIDAgMSAwLTY0IDB2MTI4YTMyIDMyIDAgMCAwIDMyIDMybS0xMi4xNi0yNTguNTZhMzIgMzIgMCAwIDAgMTIuMTYgMi41NiAzMiAzMiAwIDAgMCAxMi4xNi0yLjU2IDI5LjggMjkuOCAwIDAgMCAxMC41Ni02LjcyIDMyIDMyIDAgMCAwIDYuNzItMzQuODggMjkuOCAyOS44IDAgMCAwLTYuNzItMTAuNTYgMzIgMzIgMCAwIDAtMTAuNTYtNi43MiAzMiAzMiAwIDAgMC0xMi4xNi0yLjU2IDMyIDMyIDAgMCAwLTIyLjcyIDU0LjcyIDM3LjEgMzcuMSAwIDAgMCAxMC41NiA2LjcyTTMyLjE4NiAxMjhhMzIgMzIgMCAwIDAgMzItMzJWNjRoNjQwYTMyIDMyIDAgMCAwIDAtNjRoLTY3MmEzMiAzMiAwIDAgMC0zMiAzMnY2NGEzMiAzMiAwIDAgMCAzMiAzMm05MjUuNzYgMzY0LjE2YTMyIDMyIDAgMCAwLTcuMDQtMzQuODhsLTIyNC0yMjRhMzIgMzIgMCAwIDAtNDUuMTIgNDUuMTJMODUxLjA2NiA0NDhoLTU2Mi44OGEzMiAzMiAwIDEgMCAwIDY0aDU2Mi44OGwtMTY5LjI4IDE2OS4yOGEzMiAzMiAwIDEgMCA0NS4xMiA0NS4xMmwyMjQtMjI0YTMyIDMyIDAgMCAwIDcuMDQtMTAuMjQiIHN0eWxlPSJmaWxsOiMwMTAxMDE7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlLXdpZHRoOi45OTk2ODtzdHJva2UtZGFzaGFycmF5Om5vbmUiLz48L3N2Zz4="/>
 <rect width="990" height="990" x="2505" y="1105" ry="100"/>
 <rect width="790" height="790" x="2605" y="1205" ry="100"/>
-<text class="small" x="3000" y="1600">c(kc w)</text>
+<text class="small" x="3000" y="1600">icon/c…</text>
 <rect width="990" height="990" x="3505" y="1005" ry="100"/>
 <rect width="790" height="790" x="3605" y="1105" ry="100"/>
-<text class="small" x="4000" y="1500">c(kc e)</text>
+<text class="small" x="4000" y="1500">icon/c…</text>
 <rect width="990" height="990" x="4505" y="1105" ry="100"/>
 <rect width="790" height="790" x="4605" y="1205" ry="100"/>
-<text class="small" x="5000" y="1600">c(kc r)</text>
+<text class="small" x="5000" y="1600">icon/c…</text>
 <rect width="990" height="990" x="5505" y="1205" ry="100"/>
 <rect width="790" height="790" x="5605" y="1305" ry="100"/>
-<text class="small" x="6000" y="1700">c(kc t)</text>
+<image x="5650" y="1350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NTAiIGhlaWdodD0iNjUwIiB2aWV3Qm94PSIwIDAgMjYgMjYiPjxwYXRoIGQ9Ik0yNiAyNkg2VjZoMTBWNEg2YTIgMiAwIDAgMC0yIDJ2MjBhMiAyIDAgMCAwIDIgMmgyMGEyIDIgMCAwIDAgMi0yVjE2aC0yeiIgc3R5bGU9ImZpbGw6IzAxMDEwMTtmaWxsLW9wYWNpdHk6MSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQgLTIpIi8+PHBhdGggZD0iTTI2IDZWMmgtMnY0aC00djJoNHY0aDJWOGg0VjZ6IiBzdHlsZT0iZmlsbDojMDEwMTAxO2ZpbGwtb3BhY2l0eToxIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNCAtMikiLz48L3N2Zz4="/>
 <rect width="990" height="1490" x="6505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="6605" y="1305" ry="100"/>
-<text class="small" x="7000" y="1950">c(kc equal)</text>
+<image x="6650" y="1600" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjYuNjY2IiBoZWlnaHQ9IjY2Ni42NjYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiA5YTcgNyAwIDEgMSAxNCAwQTcgNyAwIDAgMSAyIDltNy05YTkgOSAwIDEgMCA1LjYxOCAxNi4wMzJsMy42NzUgMy42NzVhMSAxIDAgMCAwIDEuNDE0LTEuNDE0bC0zLjY3NS0zLjY3NUE5IDkgMCAwIDAgOSAwIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSJmaWxsOiMwMTAxMDE7ZmlsbC1vcGFjaXR5OjEiLz48cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IDEyYTEgMSAwIDEgMCAyIDB2LTJoMmExIDEgMCAxIDAgMC0yaC0yVjZhMSAxIDAgMSAwLTIgMHYySDZhMSAxIDAgMSAwIDAgMmgyeiIgY2xpcC1ydWxlPSJldmVub2RkIiBzdHlsZT0iZmlsbDojMDEwMTAxO2ZpbGwtb3BhY2l0eToxIi8+PC9zdmc+"/>
 <rect width="990" height="1490" x="10505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="10605" y="1305" ry="100"/>
-<text class="small" x="11000" y="1950">c(kc bsls)</text>
+<text class="small" x="11000" y="1950">icon/c…</text>
 <rect width="990" height="990" x="11505" y="1205" ry="100"/>
 <rect width="790" height="790" x="11605" y="1305" ry="100"/>
-<text class="small" x="12000" y="1700">c(kc y)</text>
+<text class="small" x="12000" y="1700">icon/c…</text>
 <rect width="990" height="990" x="12505" y="1105" ry="100"/>
 <rect width="790" height="790" x="12605" y="1205" ry="100"/>
-<text class="small" x="13000" y="1600">c(kc u)</text>
+<text class="small" x="13000" y="1600">icon/c…</text>
 <rect width="990" height="990" x="13505" y="1005" ry="100"/>
 <rect width="790" height="790" x="13605" y="1105" ry="100"/>
-<text class="small" x="14000" y="1500">c(kc i)</text>
+<text class="small" x="14000" y="1500">icon/c…</text>
 <rect width="990" height="990" x="14505" y="1105" ry="100"/>
 <rect width="790" height="790" x="14605" y="1205" ry="100"/>
-<text class="small" x="15000" y="1600">c(kc o)</text>
+<image x="14650" y="1250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjAuMDc4IiBoZWlnaHQ9Ijc2MC4wNzgiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMi44MDIgMjIuODAyIj48cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDQuMzJhMyAzIDAgMCAxIDMtM2g0LjU1OGEzIDMgMCAwIDEgMi44NDcgMi4wNTFsLjMxNi45NDlIMTlhMiAyIDAgMCAxIDIgMnYyLjAxYTIgMiAwIDAgMSAxLjc3IDIuMzQ4bC0xLjYzNyA5YTIgMiAwIDAgMS0xLjk2OCAxLjY0MkgyYTIgMiAwIDAgMS0yLTJ6bTE5IDR2LTJoLTguMjhhMiAyIDAgMCAxLTEuODk3LTEuMzY4bC0uMzE2LS45NDhhMSAxIDAgMCAwLS45NDktLjY4NEgzYTEgMSAwIDAgMC0xIDF2Ny4yN2wuMzU0LTEuNjgyQTIgMiAwIDAgMSA0LjMxMSA4LjMyWm0tMTYuNjM0IDExYTEgMSAwIDAgMCAuMTEzLS4yOTRMNC4zMSAxMC4zMmgxNi40OTFsLTEuNjM3IDl6IiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSJmaWxsOiMwMTAxMDE7ZmlsbC1vcGFjaXR5OjEiLz48L3N2Zz4="/>
 <rect width="990" height="990" x="15505" y="1205" ry="100"/>
 <rect width="790" height="790" x="15605" y="1305" ry="100"/>
-<text class="small" x="16000" y="1700">c(kc p)</text>
+<image x="15650" y="1350" width="700" height="700" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gVXBsb2FkZWQgdG86IFNWRyBSZXBvLCB3d3cuc3ZncmVwby5jb20sIEdlbmVyYXRvcjogU1ZHIFJlcG8gTWl4ZXIgVG9vbHMgLS0+Cgo8c3ZnCiAgIHdpZHRoPSI4MDBweCIKICAgaGVpZ2h0PSI4MDBweCIKICAgdmlld0JveD0iMCAtMiAzMiAzMiIKICAgdmVyc2lvbj0iMS4xIgogICBpZD0ic3ZnMTk0IgogICBzb2RpcG9kaTpkb2NuYW1lPSJwcmludC5zdmciCiAgIGlua3NjYXBlOnZlcnNpb249IjEuMi4yIChiMGE4NDg2NTQxLCAyMDIyLTEyLTAxKSIKICAgeG1sbnM6aW5rc2NhcGU9Imh0dHA6Ly93d3cuaW5rc2NhcGUub3JnL25hbWVzcGFjZXMvaW5rc2NhcGUiCiAgIHhtbG5zOnNvZGlwb2RpPSJodHRwOi8vc29kaXBvZGkuc291cmNlZm9yZ2UubmV0L0RURC9zb2RpcG9kaS0wLmR0ZCIKICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxuczpzdmc9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiCiAgIHhtbG5zOmNjPSJodHRwOi8vY3JlYXRpdmVjb21tb25zLm9yZy9ucyMiCiAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgeG1sbnM6c2tldGNoPSJodHRwOi8vd3d3LmJvaGVtaWFuY29kaW5nLmNvbS9za2V0Y2gvbnMiPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3MTk2IgogICAgIHBhZ2Vjb2xvcj0iI2ZmZmZmZiIKICAgICBib3JkZXJjb2xvcj0iIzExMTExMSIKICAgICBib3JkZXJvcGFjaXR5PSIxIgogICAgIGlua3NjYXBlOnNob3dwYWdlc2hhZG93PSIwIgogICAgIGlua3NjYXBlOnBhZ2VvcGFjaXR5PSIwIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjEiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIHNob3dncmlkPSJmYWxzZSIKICAgICBpbmtzY2FwZTp6b29tPSIxLjc2IgogICAgIGlua3NjYXBlOmN4PSIzOTcuNzI3MjciCiAgICAgaW5rc2NhcGU6Y3k9IjQwMCIKICAgICBpbmtzY2FwZTpjdXJyZW50LWxheWVyPSJQYWdlLTEiIC8+CiAgPHRpdGxlCiAgICAgaWQ9InRpdGxlMTg1Ij5wcmludDwvdGl0bGU+CiAgPGRlc2MKICAgICBpZD0iZGVzYzE4NyI+Q3JlYXRlZCB3aXRoIFNrZXRjaCBCZXRhLjwvZGVzYz4KICA8ZGVmcwogICAgIGlkPSJkZWZzMTg5IiAvPgogIDxnCiAgICAgaWQ9IlBhZ2UtMSIKICAgICBzdHJva2U9Im5vbmUiCiAgICAgc3Ryb2tlLXdpZHRoPSIxIgogICAgIGZpbGw9Im5vbmUiCiAgICAgZmlsbC1ydWxlPSJldmVub2RkIgogICAgIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPgogICAgPGcKICAgICAgIGlkPSJJY29uLVNldCIKICAgICAgIHNrZXRjaDp0eXBlPSJNU0xheWVyR3JvdXAiCiAgICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTAwLjAwMDAwMCwgLTIwNS4wMDAwMDApIgogICAgICAgZmlsbD0iIzAwMDAwMCIKICAgICAgIHN0eWxlPSJmaWxsOiMwMTAxMDE7ZmlsbC1vcGFjaXR5OjEiPgogICAgICA8cGF0aAogICAgICAgICBkPSJNMTMwLDIyNiBDMTMwLDIyNy4xMDQgMTI5LjEwNCwyMjggMTI4LDIyOCBMMTI1Ljg1OCwyMjggQzEyNS40MTMsMjI2LjI3OCAxMjMuODYyLDIyNSAxMjIsMjI1IEwxMTAsMjI1IEMxMDguMTM4LDIyNSAxMDYuNTg3LDIyNi4yNzggMTA2LjE0MiwyMjggTDEwNCwyMjggQzEwMi44OTYsMjI4IDEwMiwyMjcuMTA0IDEwMiwyMjYgTDEwMiwyMjQgQzEwMiwyMjIuODk2IDEwMi44OTYsMjIyIDEwNCwyMjIgTDEyOCwyMjIgQzEyOS4xMDQsMjIyIDEzMCwyMjIuODk2IDEzMCwyMjQgTDEzMCwyMjYgTDEzMCwyMjYgWiBNMTIyLDIzMSBMMTEwLDIzMSBDMTA4Ljg5NiwyMzEgMTA4LDIzMC4xMDQgMTA4LDIyOSBDMTA4LDIyNy44OTYgMTA4Ljg5NiwyMjcgMTEwLDIyNyBMMTIyLDIyNyBDMTIzLjEwNCwyMjcgMTI0LDIyNy44OTYgMTI0LDIyOSBDMTI0LDIzMC4xMDQgMTIzLjEwNCwyMzEgMTIyLDIzMSBMMTIyLDIzMSBaIE0xMDgsMjA5IEMxMDgsMjA3Ljg5NiAxMDguODk2LDIwNyAxMTAsMjA3IEwxMjIsMjA3IEMxMjMuMTA0LDIwNyAxMjQsMjA3Ljg5NiAxMjQsMjA5IEwxMjQsMjIwIEwxMDgsMjIwIEwxMDgsMjA5IEwxMDgsMjA5IFogTTEyOCwyMjAgTDEyNiwyMjAgTDEyNiwyMDkgQzEyNiwyMDYuNzkxIDEyNC4yMDksMjA1IDEyMiwyMDUgTDExMCwyMDUgQzEwNy43OTEsMjA1IDEwNiwyMDYuNzkxIDEwNiwyMDkgTDEwNiwyMjAgTDEwNCwyMjAgQzEwMS43OTEsMjIwIDEwMCwyMjEuNzkxIDEwMCwyMjQgTDEwMCwyMjYgQzEwMCwyMjguMjA5IDEwMS43OTEsMjMwIDEwNCwyMzAgTDEwNi4xNDIsMjMwIEMxMDYuNTg3LDIzMS43MjMgMTA4LjEzOCwyMzMgMTEwLDIzMyBMMTIyLDIzMyBDMTIzLjg2MiwyMzMgMTI1LjQxMywyMzEuNzIzIDEyNS44NTgsMjMwIEwxMjgsMjMwIEMxMzAuMjA5LDIzMCAxMzIsMjI4LjIwOSAxMzIsMjI2IEwxMzIsMjI0IEMxMzIsMjIxLjc5MSAxMzAuMjA5LDIyMCAxMjgsMjIwIEwxMjgsMjIwIFoiCiAgICAgICAgIGlkPSJwcmludCIKICAgICAgICAgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCIKICAgICAgICAgc3R5bGU9ImZpbGw6IzAxMDEwMTtmaWxsLW9wYWNpdHk6MSIgLz4KICAgIDwvZz4KICA8L2c+CiAgPG1ldGFkYXRhCiAgICAgaWQ9Im1ldGFkYXRhMzAyIj4KICAgIDxyZGY6UkRGPgogICAgICA8Y2M6V29yawogICAgICAgICByZGY6YWJvdXQ9IiI+CiAgICAgICAgPGRjOnRpdGxlPnByaW50PC9kYzp0aXRsZT4KICAgICAgPC9jYzpXb3JrPgogICAgPC9yZGY6UkRGPgogIDwvbWV0YWRhdGE+Cjwvc3ZnPgo="/>
 <rect width="1490" height="990" x="16505" y="1205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="1305" ry="100"/>
-<text class="small" x="17250" y="1700">c(kc lbrc)</text>
+<text class="small" x="17250" y="1700">icon/c…</text>
 <rect width="1490" height="990" x="5" y="2205" ry="100"/>
 <rect width="1290" height="790" x="105" y="2305" ry="100"/>
 <text class="big" x="750" y="2700"></text>
 <rect width="990" height="990" x="1505" y="2205" ry="100"/>
 <rect width="790" height="790" x="1605" y="2305" ry="100"/>
-<text class="small" x="2000" y="2700">c(kc a)</text>
+<image x="1650" y="2350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNNSAzYy0xLjA5IDAtMiAuOTEtMiAydjFoMlY1aDFWM1ptMyAwdjJoMlYzWm00IDB2MmgyVjNabTQgMHYyaDJWM1ptNCAwdjJoMlYzWm00IDB2MmgxdjFoMlY1YzAtMS4wOS0uOTEtMi0yLTJaTTMgOHYyaDJWOFptMjIgMHYyaDJWOFpNMTEgOWMtMS4wOSAwLTIgLjkxLTIgMnY4YzAgMS4wOS45MSAyIDIgMmg4YzEuMDkgMCAyLS45MSAyLTJ2LThjMC0xLjA5LS45MS0yLTItMlptMCAyaDh2OGgtOHptLTggMXYyaDJ2LTJ6bTIyIDB2Mmgydi0yWk0zIDE2djJoMnYtMnptMjIgMHYyaDJ2LTJaTTMgMjB2Mmgydi0yem0yMiAwdjJoMnYtMlpNMyAyNHYxYzAgMS4wOS45MSAyIDIgMmgxdi0ySDV2LTF6bTIyIDB2MWgtMXYyaDFjMS4wOSAwIDItLjkxIDItMnYtMVpNOCAyNXYyaDJ2LTJ6bTQgMHYyaDJ2LTJ6bTQgMHYyaDJ2LTJ6bTQgMHYyaDJ2LTJ6IiBzdHlsZT0iY29sb3I6IzAwMDtmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZTptZWRpdW07bGluZS1oZWlnaHQ6bm9ybWFsO2ZvbnQtZmFtaWx5OnNhbnMtc2VyaWY7Zm9udC12YXJpYW50LWxpZ2F0dXJlczpub3JtYWw7Zm9udC12YXJpYW50LXBvc2l0aW9uOm5vcm1hbDtmb250LXZhcmlhbnQtY2Fwczpub3JtYWw7Zm9udC12YXJpYW50LW51bWVyaWM6bm9ybWFsO2ZvbnQtdmFyaWFudC1hbHRlcm5hdGVzOm5vcm1hbDtmb250LWZlYXR1cmUtc2V0dGluZ3M6bm9ybWFsO3RleHQtaW5kZW50OjA7dGV4dC1hbGlnbjpzdGFydDt0ZXh0LWRlY29yYXRpb246bm9uZTt0ZXh0LWRlY29yYXRpb24tbGluZTpub25lO3RleHQtZGVjb3JhdGlvbi1zdHlsZTpzb2xpZDt0ZXh0LWRlY29yYXRpb24tY29sb3I6IzAwMDtsZXR0ZXItc3BhY2luZzpub3JtYWw7d29yZC1zcGFjaW5nOm5vcm1hbDt0ZXh0LXRyYW5zZm9ybTpub25lO3dyaXRpbmctbW9kZTpsci10YjtkaXJlY3Rpb246bHRyO3RleHQtb3JpZW50YXRpb246bWl4ZWQ7ZG9taW5hbnQtYmFzZWxpbmU6YXV0bztiYXNlbGluZS1zaGlmdDpiYXNlbGluZTt0ZXh0LWFuY2hvcjpzdGFydDt3aGl0ZS1zcGFjZTpub3JtYWw7c2hhcGUtcGFkZGluZzowO2NsaXAtcnVsZTpub256ZXJvO2Rpc3BsYXk6aW5saW5lO292ZXJmbG93OnZpc2libGU7dmlzaWJpbGl0eTp2aXNpYmxlO29wYWNpdHk6MTtpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWw7Y29sb3ItaW50ZXJwb2xhdGlvbjpzUkdCO2NvbG9yLWludGVycG9sYXRpb24tZmlsdGVyczpsaW5lYXJSR0I7c29saWQtY29sb3I6IzAwMDtzb2xpZC1vcGFjaXR5OjE7dmVjdG9yLWVmZmVjdDpub25lO2ZpbGw6IzAxMDEwMTtmaWxsLW9wYWNpdHk6MTtmaWxsLXJ1bGU6bm9uemVybztzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6MjtzdHJva2UtbGluZWNhcDpidXR0O3N0cm9rZS1saW5lam9pbjptaXRlcjtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2UtZGFzaG9mZnNldDowO3N0cm9rZS1vcGFjaXR5OjE7Y29sb3ItcmVuZGVyaW5nOmF1dG87aW1hZ2UtcmVuZGVyaW5nOmF1dG87c2hhcGUtcmVuZGVyaW5nOmF1dG87dGV4dC1yZW5kZXJpbmc6YXV0byIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+PC9zdmc+"/>
 <rect width="990" height="990" x="2505" y="2105" ry="100"/>
 <rect width="790" height="790" x="2605" y="2205" ry="100"/>
-<text class="small" x="3000" y="2600">c(kc s)</text>
+<image x="2650" y="2250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MzMuMzMzIiBoZWlnaHQ9IjczMy4zMzMiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMiAyMiI+PHBhdGggZmlsbD0iIzBmMGYwZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTcuMTcyIDBhMiAyIDAgMCAxIDEuNDE0LjU4NmwyLjgyOCAyLjgyOEEyIDIgMCAwIDEgMjIgNC44MjhWMTlhMyAzIDAgMCAxLTMgM0gzYTMgMyAwIDAgMS0zLTNWM2EzIDMgMCAwIDEgMy0zWk0zIDJhMSAxIDAgMCAwLTEgMXYxNmExIDEgMCAwIDAgMSAxaDF2LTZhMyAzIDAgMCAxIDMtM2g4YTMgMyAwIDAgMSAzIDN2NmgxYTEgMSAwIDAgMCAxLTFWNS44MjhhMiAyIDAgMCAwLS41ODYtMS40MTRsLTEuODI4LTEuODI4QTIgMiAwIDAgMCAxNi4xNzIgMkgxNnYyYTMgMyAwIDAgMS0zIDNIOWEzIDMgMCAwIDEtMy0zVjJabTEzIDE4di02YTEgMSAwIDAgMC0xLTFIN2ExIDEgMCAwIDAtMSAxdjZ6TTggMmg2djJhMSAxIDAgMCAxLTEgMUg5YTEgMSAwIDAgMS0xLTFaIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSJmaWxsOiMwMTAxMGY7ZmlsbC1vcGFjaXR5OjEiLz48L3N2Zz4="/>
 <rect width="990" height="990" x="3505" y="2005" ry="100"/>
 <rect width="790" height="790" x="3605" y="2105" ry="100"/>
-<text class="small" x="4000" y="2500">c(kc d)</text>
+<text class="small" x="4000" y="2500">icon/c…</text>
 <rect width="990" height="990" x="4505" y="2105" ry="100"/>
 <rect width="790" height="790" x="4605" y="2205" ry="100"/>
-<text class="small" x="5000" y="2600">c(kc f)</text>
+<image x="4650" y="2250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjYuNjY2IiBoZWlnaHQ9IjY2Ni42NjYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiA5YTcgNyAwIDEgMSAxNCAwQTcgNyAwIDAgMSAyIDltNy05YTkgOSAwIDEgMCA1LjYxOCAxNi4wMzJsMy42NzUgMy42NzVhMSAxIDAgMCAwIDEuNDE0LTEuNDE0bC0zLjY3NS0zLjY3NUE5IDkgMCAwIDAgOSAwIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSJmaWxsOiMwMTAxMDE7ZmlsbC1vcGFjaXR5OjEiLz48L3N2Zz4="/>
 <rect width="990" height="990" x="5505" y="2205" ry="100"/>
 <rect width="790" height="790" x="5605" y="2305" ry="100"/>
-<text class="small" x="6000" y="2700">c(kc g)</text>
+<image x="5650" y="2350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjYuNjY2IiBoZWlnaHQ9IjY2Ni42NjYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiA5YTcgNyAwIDEgMSAxNCAwQTcgNyAwIDAgMSAyIDltNy05YTkgOSAwIDEgMCA1LjYxOCAxNi4wMzJsMy42NzUgMy42NzVhMSAxIDAgMCAwIDEuNDE0LTEuNDE0bC0zLjY3NS0zLjY3NUE5IDkgMCAwIDAgOSAwIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSJmaWxsOiMwMTAxMDE7ZmlsbC1vcGFjaXR5OjEiLz48cGF0aCBkPSJNNS4wODYgOS4xNDRjLS4wMDMtLjQ0Ny0uMTA2LTMuOTYyIDMuNzU3LTQuMTE1IDQuMDk0IDAgMy44NzYgNC4xMTUgMy44NzYgNC4xMTUuMDA2LjI2LS4wNzYgMy42MzItMy44NzYgMy43MTgtMS44MDYtLjA4Ni0yLjk1LTIuMzUyLTIuOTUtMi4zNTJsMi4zMDEuNDQ3LTIuMTU2IDEuODE5LS4xNDUtMi4yNjYiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMTAxMDE7c3Ryb2tlLXdpZHRoOjEuMTI4O3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLW9wYWNpdHk6MSIvPjwvc3ZnPg=="/>
 <rect width="990" height="990" x="11505" y="2205" ry="100"/>
 <rect width="790" height="790" x="11605" y="2305" ry="100"/>
-<text class="small" x="12000" y="2700">c(kc h)</text>
+<text class="small" x="12000" y="2700">icon/c…</text>
 <rect width="990" height="990" x="12505" y="2105" ry="100"/>
 <rect width="790" height="790" x="12605" y="2205" ry="100"/>
-<text class="small" x="13000" y="2600">c(kc j)</text>
+<text class="small" x="13000" y="2600">icon/c…</text>
 <rect width="990" height="990" x="13505" y="2005" ry="100"/>
 <rect width="790" height="790" x="13605" y="2105" ry="100"/>
-<text class="small" x="14000" y="2500">c(kc k)</text>
+<text class="small" x="14000" y="2500">icon/c…</text>
 <rect width="990" height="990" x="14505" y="2105" ry="100"/>
 <rect width="790" height="790" x="14605" y="2205" ry="100"/>
-<text class="small" x="15000" y="2600">c(kc l)</text>
+<text class="small" x="15000" y="2600">icon/c…</text>
 <rect width="990" height="990" x="15505" y="2205" ry="100"/>
 <rect width="790" height="790" x="15605" y="2305" ry="100"/>
-<text class="small" x="16000" y="2700">c(kc scln)</text>
+<text class="small" x="16000" y="2700">icon/c…</text>
 <rect width="1490" height="990" x="16505" y="2205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="2305" ry="100"/>
-<text class="small" x="17250" y="2700">c(kc quote)</text>
+<text class="small" x="17250" y="2700">icon/c…</text>
 <rect width="1490" height="990" x="5" y="3205" ry="100"/>
 <rect width="1290" height="790" x="105" y="3305" ry="100"/>
 <image x="400" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjQuNiIgaGVpZ2h0PSI2NjQuNiIgdmlld0JveD0iMCAwIDE5LjkzOCAxOS45MzgiPjx0aXRsZT5pY19mbHVlbnRfa2V5Ym9hcmRfc2hpZnRfdXBwZXJjYXNlXzI0X3JlZ3VsYXI8L3RpdGxlPjxwYXRoIGZpbGw9IiMwMTAxMDEiIGQ9Ik0xNC4yMjUgMTguNDM4YS43NS43NSAwIDAgMSAuMTAyIDEuNDkzbC0uMTAyLjAwN2gtOC41YS43NS43NSAwIDAgMS0uMTAyLTEuNDkzbC4xMDItLjAwN1pNOC45ODIuMzA5YTEuNzUgMS43NSAwIDAgMSAyLjIzLjIwM2wuMTA3LjExOCA3Ljg2NSA5LjQzOGExLjc1IDEuNzUgMCAwIDEtMS4yIDIuODY0bC0uMTQ0LjAwNmgtMi44NjZsLjAwMSAyLjI1YTEuNzUgMS43NSAwIDAgMS0xLjQ1OCAxLjcyNmwtLjE0OC4wMTgtLjE0NC4wMDZoLTYuNWExLjc1IDEuNzUgMCAwIDEtMS43NDQtMS42MDZsLS4wMDYtLjE0NC0uMDAxLTIuMjVIMi4xMWExLjc1IDEuNzUgMCAwIDEtLjgzMi0uMjFsLS4xNDktLjA5LS4xNC0uMTA2YTEuNzUgMS43NSAwIDAgMS0uMzItMi4zMzdsLjA5Ny0uMTI3TDguNjMuNjNsLjEwNy0uMTE3LjExNy0uMTA3em0xLjE4NSAxLjI4MWEuMjUuMjUgMCAwIDAtLjI5NS0uMDY4bC0uMDU3LjAzNi0uMDMyLjAzMi03Ljg2NSA5LjQzOGEuMjUuMjUgMCAwIDAgLjEzNS40MDNsLjA1Ny4wMDdoMy42MTVhLjc1Ljc1IDAgMCAxIC43NDMuNjQ4bC4wMDcuMTAydjNhLjI1LjI1IDAgMCAwIC4xOTMuMjQzbC4wNTcuMDA3aDYuNWEuMjUuMjUgMCAwIDAgLjI0My0uMTkzbC4wMDctLjA1N3YtM2EuNzUuNzUgMCAwIDEgLjY0OC0uNzQzbC4xMDItLjAwN2gzLjYxNWEuMjUuMjUgMCAwIDAgLjIyNC0uMzYybC0uMDMyLS4wNDh6Ii8+PC9zdmc+"/>
 <rect width="990" height="990" x="1505" y="3205" ry="100"/>
 <rect width="790" height="790" x="1605" y="3305" ry="100"/>
-<text class="small" x="2000" y="3700">c(kc z)</text>
+<image x="1650" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1ODMuMzYzIiBoZWlnaHQ9IjU4My4zNjMiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxNy41MDEgMTcuNTAxIj48cGF0aCBzdHJva2U9IiMxYzI3NGMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Ik0uNzUgNS4xOWgxMWMxLjg3IDAgMi44MDQgMCAzLjUuNDAyYTMgMyAwIDAgMSAxLjA5OCAxLjA5OGMuNDAyLjY5Ni40MDIgMS42My40MDIgMy41czAgMi44MDQtLjQwMiAzLjVhMyAzIDAgMCAxLTEuMDk4IDEuMDk4Yy0uNjk2LjQwMi0xLjYzLjQwMi0zLjUuNDAyaC03bS00LTEwIDMtM20tMyAzIDMgMyIgc3R5bGU9InN0cm9rZTojMDEwMTAxO3N0cm9rZS1vcGFjaXR5OjEiLz48L3N2Zz4="/>
 <rect width="990" height="990" x="2505" y="3105" ry="100"/>
 <rect width="790" height="790" x="2605" y="3205" ry="100"/>
-<text class="small" x="3000" y="3600">c(kc x)</text>
+<image x="2650" y="3250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NTAiIGhlaWdodD0iNjUwIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMTkuNSAxOS41Ij48cGF0aCBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Im02LjcxIDE2LjI1IDgtMTUuNW0tOCAxNS41YTIuNSAyLjUgMCAxIDEtNSAwIDIuNSAyLjUgMCAwIDEgNSAwbTYgMC04LTE1LjVtOCAxNS41YTIuNSAyLjUgMCAxIDAgNSAwIDIuNSAyLjUgMCAwIDAtNSAwIiBzdHlsZT0ic3Ryb2tlOiMwMTAxMDE7c3Ryb2tlLW9wYWNpdHk6MSIvPjwvc3ZnPg=="/>
 <rect width="990" height="990" x="3505" y="3005" ry="100"/>
 <rect width="790" height="790" x="3605" y="3105" ry="100"/>
-<text class="small" x="4000" y="3500">c(kc c)</text>
+<image x="3650" y="3150" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NTAiIGhlaWdodD0iNjUwIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMTkuNSAxOS41Ij48cGF0aCBzdHJva2U9IiMwMDAiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Ik0xNS4yNSAxMS43NWgxLjVhMiAyIDAgMCAwIDItMnYtN2EyIDIgMCAwIDAtMi0yaC03YTIgMiAwIDAgMC0yIDJ2MS41bS01IDMuNWg3YTIgMiAwIDAgMSAyIDJ2N2EyIDIgMCAwIDEtMiAyaC03YTIgMiAwIDAgMS0yLTJ2LTdhMiAyIDAgMCAxIDItMiIgc3R5bGU9InN0cm9rZTojMDEwMTAxO3N0cm9rZS1vcGFjaXR5OjEiLz48L3N2Zz4="/>
 <rect width="990" height="990" x="4505" y="3105" ry="100"/>
 <rect width="790" height="790" x="4605" y="3205" ry="100"/>
-<text class="small" x="5000" y="3600">c(kc v)</text>
+<image x="4650" y="3250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NjYuNjY3IiBoZWlnaHQ9Ijc2Ni42NjciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMyAyMyI+PHBhdGggZmlsbD0iIzBmMGYwZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTEuNDYgMGMtLjc2NSAwLTEuMzcuMTI2LTEuODQzLjM2YTYgNiAwIDAgMC0uNDY4LjI2N0w5LjA1LjY5YTggOCAwIDAgMS0uMjcuMTY1Yy0uMjI1LjEzLS4zMTEuMTQ0LS4zMi4xNDZhMiAyIDAgMCAwLTIgMmgtMWEzIDMgMCAwIDAtMyAzdjE0YTMgMyAwIDAgMCAzIDNoMTJhMyAzIDAgMCAwIDMtM1Y2YTMgMyAwIDAgMC0zLTNoLTFhMiAyIDAgMCAwLTItMmMtLjAwOC0uMDAxLS4wOTUtLjAxNS0uMzItLjE0Ni0uMDg4LS4wNS0uMTcxLS4xMDMtLjI3LS4xNjVsLS4xLS4wNjJhNiA2IDAgMCAwLS40NjgtLjI2OEMxMi44MzEuMTI2IDEyLjIyNSAwIDExLjQ2IDBtNC43MzIgNWEyIDIgMCAwIDEtMS43MzIgMWgtNmEyIDIgMCAwIDEtMS43MzItMUg1LjQ2YTEgMSAwIDAgMC0xIDF2MTRhMSAxIDAgMCAwIDEgMWgxMmExIDEgMCAwIDAgMS0xVjZhMSAxIDAgMCAwLTEtMXptLTUuNjktMi44NDhjLjEyLS4wNTkuNC0uMTUyLjk1OC0uMTUycy44MzcuMDkzLjk1Ny4xNTJhNCA0IDAgMCAxIC4yOTUuMTcxbC4wNzQuMDQ3Yy4xMDQuMDY1LjIzLjE0NC4zNTIuMjE1LjI5My4xNy43NjUuNDE1IDEuMzIyLjQxNXYxaC02VjNjLjU1NyAwIDEuMDI5LS4yNDUgMS4zMjItLjQxNS4xMjMtLjA3LjI0OC0uMTUuMzUyLS4yMTVsLjA3NC0uMDQ3Yy4xMjgtLjA4LjIyLS4xMzMuMjk1LS4xNyIgY2xpcC1ydWxlPSJldmVub2RkIiBzdHlsZT0iZmlsbDojMDEwMTAxO2ZpbGwtb3BhY2l0eToxIi8+PC9zdmc+"/>
 <rect width="990" height="990" x="5505" y="3205" ry="100"/>
 <rect width="790" height="790" x="5605" y="3305" ry="100"/>
-<text class="small" x="6000" y="3700">c(kc b)</text>
+<text class="small" x="6000" y="3700">icon/c…</text>
 <rect width="990" height="1490" x="6505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="6605" y="2805" ry="100"/>
-<text class="small" x="7000" y="3450">c(kc minus)</text>
+<image x="6650" y="3100" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjYuNjY2IiBoZWlnaHQ9IjY2Ni42NjYiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMiA5YTcgNyAwIDEgMSAxNCAwQTcgNyAwIDAgMSAyIDltNy05YTkgOSAwIDEgMCA1LjYxOCAxNi4wMzJsMy42NzUgMy42NzVhMSAxIDAgMCAwIDEuNDE0LTEuNDE0bC0zLjY3NS0zLjY3NUE5IDkgMCAwIDAgOSAwIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSJmaWxsOiMwMTAxMDE7ZmlsbC1vcGFjaXR5OjEiLz48cGF0aCBmaWxsPSIjMDAwIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik01IDlhMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDEgMSAwIDJINmExIDEgMCAwIDEtMS0xIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSJmaWxsOiMwMTAxMDE7ZmlsbC1vcGFjaXR5OjEiLz48L3N2Zz4="/>
 <rect width="990" height="1490" x="10505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="10605" y="2805" ry="100"/>
-<text class="small" x="11000" y="3450">c(kc grave)</text>
+<text class="small" x="11000" y="3450">icon/c…</text>
 <rect width="990" height="990" x="11505" y="3205" ry="100"/>
 <rect width="790" height="790" x="11605" y="3305" ry="100"/>
-<text class="small" x="12000" y="3700">c(kc n)</text>
+<image x="11650" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiBmaWxsPSJub25lIiB2aWV3Qm94PSIwIDAgMTggMTgiPjxwYXRoIHN0cm9rZT0iIzAwMCIgc3Ryb2tlLXdpZHRoPSIxLjUiIGQ9Ik0yLjk4IDdoNC41YTEuNSAxLjUgMCAwIDAgMS41LTEuNVYxIi8+PHBhdGggZmlsbD0iIzAwMCIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNi44MzQuNzMyQTIuNSAyLjUgMCAwIDEgOC42IDBoNC44NzlhMi41IDIuNSAwIDAgMSAyLjUgMi41djEzYTIuNSAyLjUgMCAwIDEtMi41IDIuNWgtOWEyLjUgMi41IDAgMCAxLTIuNS0yLjVWNi42MjFhMi41IDIuNSAwIDAgMSAuNzMyLTEuNzY3Wk04LjYgMmEuNS41IDAgMCAwLS4zNTMuMTQ2TDQuMTI2IDYuMjY4YS41LjUgMCAwIDAtLjE0Ni4zNTNWMTUuNWEuNS41IDAgMCAwIC41LjVoOWEuNS41IDAgMCAwIC41LS41di0xM2EuNS41IDAgMCAwLS41LS41WiIgY2xpcC1ydWxlPSJldmVub2RkIiBzdHlsZT0iZmlsbDojMDEwMTAxO2ZpbGwtb3BhY2l0eToxIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41IiBkPSJNNi45OCAxMS41aDRtLTItMnY0IiBzdHlsZT0ic3Ryb2tlOiMwMTAxMDE7c3Ryb2tlLW9wYWNpdHk6MSIvPjwvc3ZnPg=="/>
 <rect width="990" height="990" x="12505" y="3105" ry="100"/>
 <rect width="790" height="790" x="12605" y="3205" ry="100"/>
-<text class="small" x="13000" y="3600">c(kc m)</text>
+<text class="small" x="13000" y="3600">icon/c…</text>
 <rect width="990" height="990" x="13505" y="3005" ry="100"/>
 <rect width="790" height="790" x="13605" y="3105" ry="100"/>
-<text class="small" x="14000" y="3500">c(kc comma)</text>
+<text class="small" x="14000" y="3500">icon/c…</text>
 <rect width="990" height="990" x="14505" y="3105" ry="100"/>
 <rect width="790" height="790" x="14605" y="3205" ry="100"/>
-<text class="small" x="15000" y="3600">c(kc dot)</text>
+<text class="small" x="15000" y="3600">icon/c…</text>
 <rect width="990" height="990" x="15505" y="3205" ry="100"/>
 <rect width="790" height="790" x="15605" y="3305" ry="100"/>
-<text class="small" x="16000" y="3700">c(kc slash)</text>
+<text class="small" x="16000" y="3700">icon/c…</text>
 <rect width="1490" height="990" x="16505" y="3205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="3305" ry="100"/>
 <image x="16900" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjQuNiIgaGVpZ2h0PSI2NjQuNiIgdmlld0JveD0iMCAwIDE5LjkzOCAxOS45MzgiPjx0aXRsZT5pY19mbHVlbnRfa2V5Ym9hcmRfc2hpZnRfdXBwZXJjYXNlXzI0X3JlZ3VsYXI8L3RpdGxlPjxwYXRoIGZpbGw9IiMwMTAxMDEiIGQ9Ik0xNC4yMjUgMTguNDM4YS43NS43NSAwIDAgMSAuMTAyIDEuNDkzbC0uMTAyLjAwN2gtOC41YS43NS43NSAwIDAgMS0uMTAyLTEuNDkzbC4xMDItLjAwN1pNOC45ODIuMzA5YTEuNzUgMS43NSAwIDAgMSAyLjIzLjIwM2wuMTA3LjExOCA3Ljg2NSA5LjQzOGExLjc1IDEuNzUgMCAwIDEtMS4yIDIuODY0bC0uMTQ0LjAwNmgtMi44NjZsLjAwMSAyLjI1YTEuNzUgMS43NSAwIDAgMS0xLjQ1OCAxLjcyNmwtLjE0OC4wMTgtLjE0NC4wMDZoLTYuNWExLjc1IDEuNzUgMCAwIDEtMS43NDQtMS42MDZsLS4wMDYtLjE0NC0uMDAxLTIuMjVIMi4xMWExLjc1IDEuNzUgMCAwIDEtLjgzMi0uMjFsLS4xNDktLjA5LS4xNC0uMTA2YTEuNzUgMS43NSAwIDAgMS0uMzItMi4zMzdsLjA5Ny0uMTI3TDguNjMuNjNsLjEwNy0uMTE3LjExNy0uMTA3em0xLjE4NSAxLjI4MWEuMjUuMjUgMCAwIDAtLjI5NS0uMDY4bC0uMDU3LjAzNi0uMDMyLjAzMi03Ljg2NSA5LjQzOGEuMjUuMjUgMCAwIDAgLjEzNS40MDNsLjA1Ny4wMDdoMy42MTVhLjc1Ljc1IDAgMCAxIC43NDMuNjQ4bC4wMDcuMTAydjNhLjI1LjI1IDAgMCAwIC4xOTMuMjQzbC4wNTcuMDA3aDYuNWEuMjUuMjUgMCAwIDAgLjI0My0uMTkzbC4wMDctLjA1N3YtM2EuNzUuNzUgMCAwIDEgLjY0OC0uNzQzbC4xMDItLjAwN2gzLjYxNWEuMjUuMjUgMCAwIDAgLjIyNC0uMzYybC0uMDMyLS4wNDh6Ii8+PC9zdmc+"/>
@@ -176,7 +176,7 @@ text.small{font:bold 200px sans-serif;}
 <text class="big" x="2000" y="4700"></text>
 <rect width="990" height="990" x="2505" y="4105" ry="100"/>
 <rect width="790" height="790" x="2605" y="4205" ry="100"/>
-<image x="2650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTQuODQ2IiBoZWlnaHQ9IjE1NC44NDYiPjx0ZXh0IHhtbDpzcGFjZT0icHJlc2VydmUiIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIGZpbGw9IiMwMTAxMDEiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7bGluZS1oZWlnaHQ6MS4yNTtmb250LWZhbWlseTpzYW5zLXNlcmlmOy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246c2Fucy1zZXJpZjtmb250LXZhcmlhbnQtbGlnYXR1cmVzOm5vbmU7c3Ryb2tlLXdpZHRoOjEuNDU5NSIgdHJhbnNmb3JtPSJzY2FsZSgxLjExNDA3IC44OTc2KSI+PHRzcGFuIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7Zm9udC1mYW1pbHk6c2Fucy1zZXJpZjstaW5rc2NhcGUtZm9udC1zcGVjaWZpY2F0aW9uOnNhbnMtc2VyaWY7c3Ryb2tlLXdpZHRoOjEuNDU5NSI+XjwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg=="/>
+<image x="2650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTQuODQ2IiBoZWlnaHQ9IjE1NC44NDYiPjx0ZXh0IHhtbDpzcGFjZT0icHJlc2VydmUiIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIGZpbGw9IiMwMTAxMDEiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7bGluZS1oZWlnaHQ6MS4yNTtmb250LWZhbWlseTpzYW5zLXNlcmlmO2ZvbnQtdmFyaWFudC1saWdhdHVyZXM6bm9uZTtzdHJva2Utd2lkdGg6MS40NTk1IiB0cmFuc2Zvcm09InNjYWxlKDEuMTE0MDcgLjg5NzYpIj48dHNwYW4geD0iLTEwLjY0OSIgeT0iMjIxLjUzNCIgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6NDAwO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1zaXplOjI4MC4yMjRweDtmb250LWZhbWlseTpzYW5zLXNlcmlmO3N0cm9rZS13aWR0aDoxLjQ1OTUiPl48L3RzcGFuPjwvdGV4dD48L3N2Zz4="/>
 <rect width="990" height="990" x="3505" y="4005" ry="100"/>
 <rect width="790" height="790" x="3605" y="4105" ry="100"/>
 <image x="3650" y="4150" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzQuNDg3IiBoZWlnaHQ9IjEzNC40ODciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAxMDEwMSIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNMzIuODY1IDQuOTc1YTIxLjM0OCAyMS4zNDggMCAxIDAtOC4xNyA0MS4wNzFoODUuMDk0YzExLjc5IDAgMjEuMzQ4LTkuNTU4IDIxLjM0OC0yMS4zNDhTMTIxLjU3OSAzLjM1IDEwOS43ODkgMy4zNSA4OC40NCAxMi45MDggODguNDQgMjQuNjk4djg1LjA5M2EyMS4zNDggMjEuMzQ4IDAgMSAwIDIxLjM0Ny0yMS4zNDhIMjQuNjk1YTIxLjM0OCAyMS4zNDggMCAxIDAgMjEuMzQ4IDIxLjM0OFYyNC42OThBMjEuMzUgMjEuMzUgMCAwIDAgMzIuODY1IDQuOTc1eiIgc3R5bGU9InN0cm9rZS13aWR0aDo2Ljc7c3Ryb2tlLWRhc2hhcnJheTpub25lIi8+PC9zdmc+"/>
@@ -191,13 +191,13 @@ text.small{font:bold 200px sans-serif;}
 <image x="13650" y="4150" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMzQuNDg3IiBoZWlnaHQ9IjEzNC40ODciPjxwYXRoIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAxMDEwMSIgc3Ryb2tlLXdpZHRoPSI1IiBkPSJNMzIuODY1IDQuOTc1YTIxLjM0OCAyMS4zNDggMCAxIDAtOC4xNyA0MS4wNzFoODUuMDk0YzExLjc5IDAgMjEuMzQ4LTkuNTU4IDIxLjM0OC0yMS4zNDhTMTIxLjU3OSAzLjM1IDEwOS43ODkgMy4zNSA4OC40NCAxMi45MDggODguNDQgMjQuNjk4djg1LjA5M2EyMS4zNDggMjEuMzQ4IDAgMSAwIDIxLjM0Ny0yMS4zNDhIMjQuNjk1YTIxLjM0OCAyMS4zNDggMCAxIDAgMjEuMzQ4IDIxLjM0OFYyNC42OThBMjEuMzUgMjEuMzUgMCAwIDAgMzIuODY1IDQuOTc1eiIgc3R5bGU9InN0cm9rZS13aWR0aDo2Ljc7c3Ryb2tlLWRhc2hhcnJheTpub25lIi8+PC9zdmc+"/>
 <rect width="990" height="990" x="14505" y="4105" ry="100"/>
 <rect width="790" height="790" x="14605" y="4205" ry="100"/>
-<image x="14650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTQuODQ2IiBoZWlnaHQ9IjE1NC44NDYiPjx0ZXh0IHhtbDpzcGFjZT0icHJlc2VydmUiIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIGZpbGw9IiMwMTAxMDEiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7bGluZS1oZWlnaHQ6MS4yNTtmb250LWZhbWlseTpzYW5zLXNlcmlmOy1pbmtzY2FwZS1mb250LXNwZWNpZmljYXRpb246c2Fucy1zZXJpZjtmb250LXZhcmlhbnQtbGlnYXR1cmVzOm5vbmU7c3Ryb2tlLXdpZHRoOjEuNDU5NSIgdHJhbnNmb3JtPSJzY2FsZSgxLjExNDA3IC44OTc2KSI+PHRzcGFuIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7Zm9udC1mYW1pbHk6c2Fucy1zZXJpZjstaW5rc2NhcGUtZm9udC1zcGVjaWZpY2F0aW9uOnNhbnMtc2VyaWY7c3Ryb2tlLXdpZHRoOjEuNDU5NSI+XjwvdHNwYW4+PC90ZXh0Pjwvc3ZnPg=="/>
+<image x="14650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNTQuODQ2IiBoZWlnaHQ9IjE1NC44NDYiPjx0ZXh0IHhtbDpzcGFjZT0icHJlc2VydmUiIHg9Ii0xMC42NDkiIHk9IjIyMS41MzQiIGZpbGw9IiMwMTAxMDEiIHN0eWxlPSJmb250LXN0eWxlOm5vcm1hbDtmb250LXZhcmlhbnQ6bm9ybWFsO2ZvbnQtd2VpZ2h0OjQwMDtmb250LXN0cmV0Y2g6bm9ybWFsO2ZvbnQtc2l6ZToyODAuMjI0cHg7bGluZS1oZWlnaHQ6MS4yNTtmb250LWZhbWlseTpzYW5zLXNlcmlmO2ZvbnQtdmFyaWFudC1saWdhdHVyZXM6bm9uZTtzdHJva2Utd2lkdGg6MS40NTk1IiB0cmFuc2Zvcm09InNjYWxlKDEuMTE0MDcgLjg5NzYpIj48dHNwYW4geD0iLTEwLjY0OSIgeT0iMjIxLjUzNCIgc3R5bGU9ImZvbnQtc3R5bGU6bm9ybWFsO2ZvbnQtdmFyaWFudDpub3JtYWw7Zm9udC13ZWlnaHQ6NDAwO2ZvbnQtc3RyZXRjaDpub3JtYWw7Zm9udC1zaXplOjI4MC4yMjRweDtmb250LWZhbWlseTpzYW5zLXNlcmlmO3N0cm9rZS13aWR0aDoxLjQ1OTUiPl48L3RzcGFuPjwvdGV4dD48L3N2Zz4="/>
 <rect width="990" height="990" x="15505" y="4205" ry="100"/>
 <rect width="790" height="790" x="15605" y="4305" ry="100"/>
-<text class="small" x="16000" y="4700">c(kc page up)</text>
+<text class="small" x="16000" y="4700">icon/c…</text>
 <rect width="990" height="990" x="16505" y="4205" ry="100"/>
 <rect width="790" height="790" x="16605" y="4305" ry="100"/>
-<text class="small" x="17000" y="4700">c(kc pgdn)</text>
+<text class="small" x="17000" y="4700">icon/c…</text>
 <rect width="990" height="990" x="6755" y="4505" ry="100"/>
 <rect width="790" height="790" x="6855" y="4605" ry="100"/>
 <image x="6900" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzYgMzYiPjx0aXRsZT5pY19mbHVlbnRfYXJyb3dfZG93bmxvYWRfNDhfcmVndWxhcjwvdGl0bGU+PHBhdGggZmlsbD0iIzAxMDEwMSIgZD0iTTYuMjkgMi41aDIzLjVhMS4yNSAxLjI1IDAgMCAwIC4xMjgtMi40OTRMMjkuNzkgMEg2LjI5YTEuMjUgMS4yNSAwIDAgMC0uMTI4IDIuNDk0emgyMy41em0xMS4zNzIgMzMuNDk0LjEyOC4wMDZhMS4yNSAxLjI1IDAgMCAwIDEuMjQ0LTEuMTIybC4wMDYtLjEyOFYxMC40Nmw1LjY0NyA1LjY0NmExLjI1IDEuMjUgMCAwIDAgMS43NjctMS43NjhMMTguNjc2IDYuNTZhMS4yNSAxLjI1IDAgMCAwLTEuNzY3IDBMOS4xMyAxNC4zMzhhMS4yNSAxLjI1IDAgMCAwIDEuNzY4IDEuNzY4bDUuNjQyLTUuNjQyVjM0Ljc1YzAgLjY0Ny40OTIgMS4xOCAxLjEyMiAxLjI0NGwuMTI4LjAwNloiLz48L3N2Zz4="/>
@@ -206,32 +206,32 @@ text.small{font:bold 200px sans-serif;}
 <image x="7900" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzYgMzYiPjx0aXRsZT5pY19mbHVlbnRfYXJyb3dfZG93bmxvYWRfNDhfcmVndWxhcjwvdGl0bGU+PHBhdGggZmlsbD0iIzAxMDEwMSIgZD0iTTYuMjkgMzMuNWgyMy41YTEuMjUgMS4yNSAwIDAgMSAuMTI4IDIuNDk0TDI5Ljc5IDM2SDYuMjlhMS4yNSAxLjI1IDAgMCAxLS4xMjgtMi40OTR6aDIzLjV6TTE3LjY2Mi4wMDYgMTcuNzkgMGMuNjQ3IDAgMS4xOC40OTIgMS4yNDQgMS4xMjJsLjAwNi4xMjh2MjQuMjlsNS42NDctNS42NDZhMS4yNSAxLjI1IDAgMCAxIDEuNzY3IDEuNzY4bC03Ljc3OCA3Ljc3OGExLjI1IDEuMjUgMCAwIDEtMS43NjcgMEw5LjEzIDIxLjY2MmExLjI1IDEuMjUgMCAwIDEgMS43NjgtMS43NjhsNS42NDIgNS42NDJWMS4yNWMwLS42NDcuNDkyLTEuMTggMS4xMjItMS4yNDRMMTcuNzkgMFoiLz48L3N2Zz4="/>
 <rect width="990" height="990" x="9255" y="4505" ry="100"/>
 <rect width="790" height="790" x="9355" y="4605" ry="100"/>
-<text class="small" x="9750" y="5000">c(kc esc)</text>
+<text class="small" x="9750" y="5000">icon/c…</text>
 <rect width="990" height="990" x="10255" y="4505" ry="100"/>
 <rect width="790" height="790" x="10355" y="4605" ry="100"/>
-<text class="small" x="10750" y="5000">c(kc delete)</text>
+<text class="small" x="10750" y="5000">icon/c…</text>
 <rect width="990" height="990" x="7755" y="5505" ry="100"/>
 <rect width="790" height="790" x="7855" y="5605" ry="100"/>
-<text class="small" x="8250" y="6000">c(kc right)</text>
+<text class="small" x="8250" y="6000">icon/c…</text>
 <rect width="990" height="990" x="9255" y="5505" ry="100"/>
 <rect width="790" height="790" x="9355" y="5605" ry="100"/>
-<text class="small" x="9750" y="6000">c(kc up)</text>
+<text class="small" x="9750" y="6000">icon/c…</text>
 <rect width="990" height="1990" x="5755" y="5505" ry="100"/>
 <rect width="790" height="1790" x="5855" y="5605" ry="100"/>
-<text class="small" x="6250" y="6500">c(kc enter)</text>
+<text class="small" x="6250" y="6500">icon/c…</text>
 <rect width="990" height="1990" x="6755" y="5505" ry="100"/>
 <rect width="790" height="1790" x="6855" y="5605" ry="100"/>
-<text class="small" x="7250" y="6500">c(kc tab)</text>
+<text class="small" x="7250" y="6500">icon/c…</text>
 <rect width="990" height="990" x="7755" y="6505" ry="100"/>
 <rect width="790" height="790" x="7855" y="6605" ry="100"/>
-<text class="small" x="8250" y="7000">c(kc left)</text>
+<text class="small" x="8250" y="7000">icon/c…</text>
 <rect width="990" height="990" x="9255" y="6505" ry="100"/>
 <rect width="790" height="790" x="9355" y="6605" ry="100"/>
-<text class="small" x="9750" y="7000">c(kc down)</text>
+<text class="small" x="9750" y="7000">icon/c…</text>
 <rect width="990" height="1990" x="10255" y="5505" ry="100"/>
 <rect width="790" height="1790" x="10355" y="5605" ry="100"/>
-<text class="small" x="10750" y="6500">c(kc bspc)</text>
+<text class="small" x="10750" y="6500">icon/c…</text>
 <rect width="990" height="1990" x="11255" y="5505" ry="100"/>
 <rect width="790" height="1790" x="11355" y="5605" ry="100"/>
-<text class="small" x="11750" y="6500">c(kc space)</text>
+<text class="small" x="11750" y="6500">icon/c…</text>
 </svg>
