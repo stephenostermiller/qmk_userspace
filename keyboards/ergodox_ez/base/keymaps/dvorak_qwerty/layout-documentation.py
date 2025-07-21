@@ -164,6 +164,8 @@ keycodes['KC_LEFT_ANGLE_BRACKET']={'tap':'<'}
 keycodes['KC_RIGHT_ANGLE_BRACKET']={'tap':'>'}
 keycodes['KC_LEFT_CURLY_BRACE']={'tap':'{'}
 keycodes['KC_RIGHT_CURLY_BRACE']={'tap':'}'}
+keycodes['KC_LBRC']={'tap':'{'}
+keycodes['KC_RBRC']={'tap':'}'}
 keycodes['KC_ASTERISK']={'tap':'*'}
 keycodes['KC_TILDE']={'tap':'~'}
 keycodes['KC_PLUS']={'tap':'+'}
@@ -277,10 +279,18 @@ def processKey(layout,variant,i,initial):
             for tdVariant in td:
                 layouts[layout][tdVariant][i]=td[tdVariant]
                 processKey(layout, tdVariant, i, False)
-        elif m:=re.search('C\((.*)\)',keycode):
+        elif m:=re.search(r'C\((.*)\)',keycode):
             layouts[layout][variant][i]=m[1]
             processKey(layout,variant,i,initial)
             layouts[layout][variant][i]='icon/control.svg'+layouts[layout][variant][i]
+        elif m:=re.search(r'A\((.*)\)',keycode):
+            layouts[layout][variant][i]=m[1]
+            processKey(layout,variant,i,initial)
+            layouts[layout][variant][i]='icon/alt.svg'+layouts[layout][variant][i]
+        elif m:=re.search(r'G\((.*)\)',keycode):
+            layouts[layout][variant][i]=m[1]
+            processKey(layout,variant,i,initial)
+            layouts[layout][variant][i]='icon/meta.svg'+layouts[layout][variant][i]
         elif re.search('[A-Z]_[A-Z0-9]',keycode):
             layouts[layout][variant][i]=re.sub('_',' ',keycode.lower())
         elif keycode == 'XXXXXXX' or keycode == '_______':
@@ -391,6 +401,7 @@ def toSvg(layout, variant):
     fh.write('<style>\n')
     fh.write('rect{fill:none;stroke:#000;stroke-width:10}\n')
     fh.write('text{font:bold 700px sans-serif;dominant-baseline:middle;text-anchor:middle}\n')
+    fh.write('text.medbig{font:bold 520px sans-serif;}\n')
     fh.write('text.medium{font:bold 450px sans-serif;}\n')
     fh.write('text.small{font:bold 200px sans-serif;}\n')
     fh.write('</style>\n')
@@ -400,20 +411,40 @@ def toSvg(layout, variant):
         content=''
         text = l[i]
         k = svgp[i]
-        if re.search(r"^icon/[^/]+\.svg$", text):
-            with open(text, "rb") as image_file:
-                imgType = re.sub('svg','svg+xml',re.sub(r'.*\.','',text))
-                imgB64 = base64.b64encode(image_file.read()).decode('utf-8')
-                content = f'<image x="{k['x']+round(k['width']/2)-350}" y="{k['y']+round(k['height']/2)-350}" width="700" height="700" href="data:image/{imgType};base64,{imgB64}"/>'
-        else:
-            textClass='big'
-            if len(text) > 2:
-                textClass='medium'
-            if len(text) > 5:
-                textClass='small'
-            if len(text) > 7:
-                text = text[:6]+"…"
-            content = f'<text class="{textClass}" x="{k['x']+round(k['width']/2)}" y="{k['y']+round(k['height']/2)}">{html.escape(text)}</text>'
+        tokens = list(filter(None, re.split(r"(icon/[^/]+\.svg)", text)))
+        length = 0
+        imgX = 0
+        imgY = 0
+        for x in tokens:
+            if x.startswith("icon/"):
+                length += 1
+            else:
+                length += len(x)
+        textClass='big'
+        imgSize = 700
+        if length > 1:
+            imgSize = 300
+            imgY = 150
+            textClass='medbig'
+        if length > 2:
+            textClass='medium'
+        if length > 5:
+            textClass='small'
+
+        for i,x in enumerate(tokens):
+            offX = 0
+            if i > 0:
+                offX = 400
+            if x.startswith("icon/"):
+                with open(x, "rb") as image_file:
+                    imgType = re.sub('svg','svg+xml',re.sub(r'.*\.','', x))
+                    imgB64 = base64.b64encode(image_file.read()).decode('utf-8')
+                    content += f'<image x="{k['x']+round(k['width']/2)-350+imgX+offX}" y="{k['y']+round(k['height']/2)-350+imgY}" width="{imgSize}" height="{imgSize}" href="data:image/{imgType};base64,{imgB64}"/>'
+            else:
+                if len(text) > 7:
+                    text = text[:6]+"…"
+                content += f'<text class="{textClass}" x="{k['x']+round(k['width']/2)+(offX/2)}" y="{k['y']+round(k['height']/2)}">{html.escape(x)}</text>'
+
         fh.write(f'<rect width="{k['width']-10}" height="{k['height']-10}" x="{k['x']+5}" y="{k['y']+5}" ry="100"/>\n')
         fh.write(f'<rect width="{k['width']-210}" height="{k['height']-210}" x="{k['x']+105}" y="{k['y']+105}" ry="100"/>\n')
         fh.write(content+'\n')

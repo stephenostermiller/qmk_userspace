@@ -3,195 +3,196 @@
 <style>
 rect{fill:none;stroke:#000;stroke-width:10}
 text{font:bold 700px sans-serif;dominant-baseline:middle;text-anchor:middle}
+text.medbig{font:bold 520px sans-serif;}
 text.medium{font:bold 450px sans-serif;}
 text.small{font:bold 200px sans-serif;}
 </style>
 <rect width="1490" height="990" x="5" y="205" ry="100"/>
 <rect width="1290" height="790" x="105" y="305" ry="100"/>
-<text class="big" x="750" y="700">`</text>
+<text class="big" x="750.0" y="700">`</text>
 <rect width="990" height="990" x="1505" y="205" ry="100"/>
 <rect width="790" height="790" x="1605" y="305" ry="100"/>
-<text class="big" x="2000" y="700">1</text>
+<text class="big" x="2000.0" y="700">1</text>
 <rect width="990" height="990" x="2505" y="105" ry="100"/>
 <rect width="790" height="790" x="2605" y="205" ry="100"/>
-<text class="big" x="3000" y="600">2</text>
+<text class="big" x="3000.0" y="600">2</text>
 <rect width="990" height="990" x="3505" y="5" ry="100"/>
 <rect width="790" height="790" x="3605" y="105" ry="100"/>
-<text class="big" x="4000" y="500">3</text>
+<text class="big" x="4000.0" y="500">3</text>
 <rect width="990" height="990" x="4505" y="105" ry="100"/>
 <rect width="790" height="790" x="4605" y="205" ry="100"/>
-<text class="big" x="5000" y="600">4</text>
+<text class="big" x="5000.0" y="600">4</text>
 <rect width="990" height="990" x="5505" y="205" ry="100"/>
 <rect width="790" height="790" x="5605" y="305" ry="100"/>
-<text class="big" x="6000" y="700">5</text>
+<text class="big" x="6000.0" y="700">5</text>
 <rect width="990" height="990" x="6505" y="205" ry="100"/>
 <rect width="790" height="790" x="6605" y="305" ry="100"/>
-<text class="big" x="7000" y="700">$</text>
+<text class="big" x="7000.0" y="700">$</text>
 <rect width="990" height="990" x="10505" y="205" ry="100"/>
 <rect width="790" height="790" x="10605" y="305" ry="100"/>
-<text class="big" x="11000" y="700">*</text>
+<text class="big" x="11000.0" y="700">*</text>
 <rect width="990" height="990" x="11505" y="205" ry="100"/>
 <rect width="790" height="790" x="11605" y="305" ry="100"/>
-<text class="big" x="12000" y="700">6</text>
+<text class="big" x="12000.0" y="700">6</text>
 <rect width="990" height="990" x="12505" y="105" ry="100"/>
 <rect width="790" height="790" x="12605" y="205" ry="100"/>
-<text class="big" x="13000" y="600">7</text>
+<text class="big" x="13000.0" y="600">7</text>
 <rect width="990" height="990" x="13505" y="5" ry="100"/>
 <rect width="790" height="790" x="13605" y="105" ry="100"/>
-<text class="big" x="14000" y="500">8</text>
+<text class="big" x="14000.0" y="500">8</text>
 <rect width="990" height="990" x="14505" y="105" ry="100"/>
 <rect width="790" height="790" x="14605" y="205" ry="100"/>
-<text class="big" x="15000" y="600">9</text>
+<text class="big" x="15000.0" y="600">9</text>
 <rect width="990" height="990" x="15505" y="205" ry="100"/>
 <rect width="790" height="790" x="15605" y="305" ry="100"/>
-<text class="big" x="16000" y="700">0</text>
+<text class="big" x="16000.0" y="700">0</text>
 <rect width="1490" height="990" x="16505" y="205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="305" ry="100"/>
-<text class="big" x="17250" y="700">\</text>
+<text class="big" x="17250.0" y="700">\</text>
 <rect width="1490" height="990" x="5" y="1205" ry="100"/>
 <rect width="1290" height="790" x="105" y="1305" ry="100"/>
-<text class="big" x="750" y="1700">&quot;</text>
+<text class="big" x="750.0" y="1700">&quot;</text>
 <rect width="990" height="990" x="1505" y="1205" ry="100"/>
 <rect width="790" height="790" x="1605" y="1305" ry="100"/>
-<text class="big" x="2000" y="1700">&#x27;</text>
+<text class="big" x="2000.0" y="1700">&#x27;</text>
 <rect width="990" height="990" x="2505" y="1105" ry="100"/>
 <rect width="790" height="790" x="2605" y="1205" ry="100"/>
-<text class="big" x="3000" y="1600">,</text>
+<text class="big" x="3000.0" y="1600">,</text>
 <rect width="990" height="990" x="3505" y="1005" ry="100"/>
 <rect width="790" height="790" x="3605" y="1105" ry="100"/>
-<text class="big" x="4000" y="1500">.</text>
+<text class="big" x="4000.0" y="1500">.</text>
 <rect width="990" height="990" x="4505" y="1105" ry="100"/>
 <rect width="790" height="790" x="4605" y="1205" ry="100"/>
-<text class="big" x="5000" y="1600">p</text>
+<text class="big" x="5000.0" y="1600">p</text>
 <rect width="990" height="990" x="5505" y="1205" ry="100"/>
 <rect width="790" height="790" x="5605" y="1305" ry="100"/>
-<text class="big" x="6000" y="1700">y</text>
+<text class="big" x="6000.0" y="1700">y</text>
 <rect width="990" height="1490" x="6505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="6605" y="1305" ry="100"/>
-<text class="big" x="7000" y="1950">%</text>
+<text class="big" x="7000.0" y="1950">%</text>
 <rect width="990" height="1490" x="10505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="10605" y="1305" ry="100"/>
-<text class="big" x="11000" y="1950">+</text>
+<text class="big" x="11000.0" y="1950">+</text>
 <rect width="990" height="990" x="11505" y="1205" ry="100"/>
 <rect width="790" height="790" x="11605" y="1305" ry="100"/>
-<text class="big" x="12000" y="1700">f</text>
+<text class="big" x="12000.0" y="1700">f</text>
 <rect width="990" height="990" x="12505" y="1105" ry="100"/>
 <rect width="790" height="790" x="12605" y="1205" ry="100"/>
-<text class="big" x="13000" y="1600">g</text>
+<text class="big" x="13000.0" y="1600">g</text>
 <rect width="990" height="990" x="13505" y="1005" ry="100"/>
 <rect width="790" height="790" x="13605" y="1105" ry="100"/>
-<text class="big" x="14000" y="1500">c</text>
+<text class="big" x="14000.0" y="1500">c</text>
 <rect width="990" height="990" x="14505" y="1105" ry="100"/>
 <rect width="790" height="790" x="14605" y="1205" ry="100"/>
-<text class="big" x="15000" y="1600">r</text>
+<text class="big" x="15000.0" y="1600">r</text>
 <rect width="990" height="990" x="15505" y="1205" ry="100"/>
 <rect width="790" height="790" x="15605" y="1305" ry="100"/>
-<text class="big" x="16000" y="1700">l</text>
+<text class="big" x="16000.0" y="1700">l</text>
 <rect width="1490" height="990" x="16505" y="1205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="1305" ry="100"/>
-<text class="big" x="17250" y="1700">/</text>
+<text class="big" x="17250.0" y="1700">/</text>
 <rect width="1490" height="990" x="5" y="2205" ry="100"/>
 <rect width="1290" height="790" x="105" y="2305" ry="100"/>
-<text class="big" x="750" y="2700">|</text>
+<text class="big" x="750.0" y="2700">|</text>
 <rect width="990" height="990" x="1505" y="2205" ry="100"/>
 <rect width="790" height="790" x="1605" y="2305" ry="100"/>
-<text class="big" x="2000" y="2700">a</text>
+<text class="big" x="2000.0" y="2700">a</text>
 <rect width="990" height="990" x="2505" y="2105" ry="100"/>
 <rect width="790" height="790" x="2605" y="2205" ry="100"/>
-<text class="big" x="3000" y="2600">o</text>
+<text class="big" x="3000.0" y="2600">o</text>
 <rect width="990" height="990" x="3505" y="2005" ry="100"/>
 <rect width="790" height="790" x="3605" y="2105" ry="100"/>
-<text class="big" x="4000" y="2500">e</text>
+<text class="big" x="4000.0" y="2500">e</text>
 <rect width="990" height="990" x="4505" y="2105" ry="100"/>
 <rect width="790" height="790" x="4605" y="2205" ry="100"/>
-<text class="big" x="5000" y="2600">u</text>
+<text class="big" x="5000.0" y="2600">u</text>
 <rect width="990" height="990" x="5505" y="2205" ry="100"/>
 <rect width="790" height="790" x="5605" y="2305" ry="100"/>
-<text class="big" x="6000" y="2700">i</text>
+<text class="big" x="6000.0" y="2700">i</text>
 <rect width="990" height="990" x="11505" y="2205" ry="100"/>
 <rect width="790" height="790" x="11605" y="2305" ry="100"/>
-<text class="big" x="12000" y="2700">d</text>
+<text class="big" x="12000.0" y="2700">d</text>
 <rect width="990" height="990" x="12505" y="2105" ry="100"/>
 <rect width="790" height="790" x="12605" y="2205" ry="100"/>
-<text class="big" x="13000" y="2600">h</text>
+<text class="big" x="13000.0" y="2600">h</text>
 <rect width="990" height="990" x="13505" y="2005" ry="100"/>
 <rect width="790" height="790" x="13605" y="2105" ry="100"/>
-<text class="big" x="14000" y="2500">t</text>
+<text class="big" x="14000.0" y="2500">t</text>
 <rect width="990" height="990" x="14505" y="2105" ry="100"/>
 <rect width="790" height="790" x="14605" y="2205" ry="100"/>
-<text class="big" x="15000" y="2600">n</text>
+<text class="big" x="15000.0" y="2600">n</text>
 <rect width="990" height="990" x="15505" y="2205" ry="100"/>
 <rect width="790" height="790" x="15605" y="2305" ry="100"/>
-<text class="big" x="16000" y="2700">s</text>
+<text class="big" x="16000.0" y="2700">s</text>
 <rect width="1490" height="990" x="16505" y="2205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="2305" ry="100"/>
-<text class="big" x="17250" y="2700">-</text>
+<text class="big" x="17250.0" y="2700">-</text>
 <rect width="1490" height="990" x="5" y="3205" ry="100"/>
 <rect width="1290" height="790" x="105" y="3305" ry="100"/>
-<text class="big" x="750" y="3700">(</text>
+<text class="big" x="750.0" y="3700">(</text>
 <rect width="990" height="990" x="1505" y="3205" ry="100"/>
 <rect width="790" height="790" x="1605" y="3305" ry="100"/>
-<text class="big" x="2000" y="3700">;</text>
+<text class="big" x="2000.0" y="3700">;</text>
 <rect width="990" height="990" x="2505" y="3105" ry="100"/>
 <rect width="790" height="790" x="2605" y="3205" ry="100"/>
-<text class="big" x="3000" y="3600">q</text>
+<text class="big" x="3000.0" y="3600">q</text>
 <rect width="990" height="990" x="3505" y="3005" ry="100"/>
 <rect width="790" height="790" x="3605" y="3105" ry="100"/>
-<text class="big" x="4000" y="3500">j</text>
+<text class="big" x="4000.0" y="3500">j</text>
 <rect width="990" height="990" x="4505" y="3105" ry="100"/>
 <rect width="790" height="790" x="4605" y="3205" ry="100"/>
-<text class="big" x="5000" y="3600">k</text>
+<text class="big" x="5000.0" y="3600">k</text>
 <rect width="990" height="990" x="5505" y="3205" ry="100"/>
 <rect width="790" height="790" x="5605" y="3305" ry="100"/>
-<text class="big" x="6000" y="3700">x</text>
+<text class="big" x="6000.0" y="3700">x</text>
 <rect width="990" height="1490" x="6505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="6605" y="2805" ry="100"/>
-<text class="big" x="7000" y="3450">&amp;</text>
+<text class="big" x="7000.0" y="3450">&amp;</text>
 <rect width="990" height="1490" x="10505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="10605" y="2805" ry="100"/>
-<text class="big" x="11000" y="3450">=</text>
+<text class="big" x="11000.0" y="3450">=</text>
 <rect width="990" height="990" x="11505" y="3205" ry="100"/>
 <rect width="790" height="790" x="11605" y="3305" ry="100"/>
-<text class="big" x="12000" y="3700">b</text>
+<text class="big" x="12000.0" y="3700">b</text>
 <rect width="990" height="990" x="12505" y="3105" ry="100"/>
 <rect width="790" height="790" x="12605" y="3205" ry="100"/>
-<text class="big" x="13000" y="3600">m</text>
+<text class="big" x="13000.0" y="3600">m</text>
 <rect width="990" height="990" x="13505" y="3005" ry="100"/>
 <rect width="790" height="790" x="13605" y="3105" ry="100"/>
-<text class="big" x="14000" y="3500">w</text>
+<text class="big" x="14000.0" y="3500">w</text>
 <rect width="990" height="990" x="14505" y="3105" ry="100"/>
 <rect width="790" height="790" x="14605" y="3205" ry="100"/>
-<text class="big" x="15000" y="3600">v</text>
+<text class="big" x="15000.0" y="3600">v</text>
 <rect width="990" height="990" x="15505" y="3205" ry="100"/>
 <rect width="790" height="790" x="15605" y="3305" ry="100"/>
-<text class="big" x="16000" y="3700">z</text>
+<text class="big" x="16000.0" y="3700">z</text>
 <rect width="1490" height="990" x="16505" y="3205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="3305" ry="100"/>
-<text class="big" x="17250" y="3700">)</text>
+<text class="big" x="17250.0" y="3700">)</text>
 <rect width="990" height="990" x="505" y="4205" ry="100"/>
 <rect width="790" height="790" x="605" y="4305" ry="100"/>
-<text class="big" x="1000" y="4700">?</text>
+<text class="big" x="1000.0" y="4700">?</text>
 <rect width="990" height="990" x="1505" y="4205" ry="100"/>
 <rect width="790" height="790" x="1605" y="4305" ry="100"/>
-<text class="big" x="2000" y="4700">:</text>
+<text class="big" x="2000.0" y="4700">:</text>
 <rect width="990" height="990" x="2505" y="4105" ry="100"/>
 <rect width="790" height="790" x="2605" y="4205" ry="100"/>
-<text class="big" x="3000" y="4600">&lt;</text>
+<text class="big" x="3000.0" y="4600">&lt;</text>
 <rect width="990" height="990" x="3505" y="4005" ry="100"/>
 <rect width="790" height="790" x="3605" y="4105" ry="100"/>
-<text class="big" x="4000" y="4500">[</text>
+<text class="big" x="4000.0" y="4500">[</text>
 <rect width="990" height="990" x="4505" y="4105" ry="100"/>
 <rect width="790" height="790" x="4605" y="4205" ry="100"/>
-<text class="big" x="5000" y="4600">{</text>
+<text class="big" x="5000.0" y="4600">{</text>
 <rect width="990" height="990" x="12505" y="4105" ry="100"/>
 <rect width="790" height="790" x="12605" y="4205" ry="100"/>
-<text class="big" x="13000" y="4600">}</text>
+<text class="big" x="13000.0" y="4600">}</text>
 <rect width="990" height="990" x="13505" y="4005" ry="100"/>
 <rect width="790" height="790" x="13605" y="4105" ry="100"/>
-<text class="big" x="14000" y="4500">]</text>
+<text class="big" x="14000.0" y="4500">]</text>
 <rect width="990" height="990" x="14505" y="4105" ry="100"/>
 <rect width="790" height="790" x="14605" y="4205" ry="100"/>
-<text class="big" x="15000" y="4600">&gt;</text>
+<text class="big" x="15000.0" y="4600">&gt;</text>
 <rect width="990" height="990" x="15505" y="4205" ry="100"/>
 <rect width="790" height="790" x="15605" y="4305" ry="100"/>
 <image x="15650" y="4350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NDAuMDU1IiBoZWlnaHQ9IjY0MC4wNTUiIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxOS4yMDIgMTkuMjAyIj48cGF0aCBzdHJva2U9IiMwMTAxMDEiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIiBkPSJNOS42NCAxNS42di02bTAgMCAyIDJtLTItMi0yIDJtMy0xMWgtNC44QzQuNzIuNiA0LjE2LjYgMy43MzQuODJhMiAyIDAgMCAwLS44NzQuODc0Yy0uMjIuNDI2LS4yMi45ODYtLjIyIDIuMTA2djExLjZjMCAxLjEyIDAgMS42OC4yMTggMi4xMDhhMiAyIDAgMCAwIC44NzQuODc0Yy40MjguMjE4Ljk4OC4yMTggMi4xMDguMjE4aDcuNmMxLjEyIDAgMS42OCAwIDIuMTA4LS4yMThhMiAyIDAgMCAwIC44NzQtLjg3NGMuMjE4LS40MjguMjE4LS45ODguMjE4LTIuMTA4VjYuNm0tNi02IDYgNm0tNi02VjVjMCAuNTYgMCAuODQuMTA5IDEuMDU0YTEgMSAwIDAgMCAuNDM3LjQzN2MuMjE0LjEwOS40OTQuMTA5IDEuMDU0LjEwOWg0LjQiIHN0eWxlPSJzdHJva2Utd2lkdGg6MS4yO3N0cm9rZS1kYXNoYXJyYXk6bm9uZSIvPjwvc3ZnPg=="/>

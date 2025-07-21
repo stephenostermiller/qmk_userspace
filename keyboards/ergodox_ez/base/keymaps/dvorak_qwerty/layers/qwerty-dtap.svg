@@ -3,168 +3,169 @@
 <style>
 rect{fill:none;stroke:#000;stroke-width:10}
 text{font:bold 700px sans-serif;dominant-baseline:middle;text-anchor:middle}
+text.medbig{font:bold 520px sans-serif;}
 text.medium{font:bold 450px sans-serif;}
 text.small{font:bold 200px sans-serif;}
 </style>
 <rect width="1490" height="990" x="5" y="205" ry="100"/>
 <rect width="1290" height="790" x="105" y="305" ry="100"/>
-<text class="big" x="750" y="700"></text>
+
 <rect width="990" height="990" x="1505" y="205" ry="100"/>
 <rect width="790" height="790" x="1605" y="305" ry="100"/>
-<text class="big" x="2000" y="700"></text>
+
 <rect width="990" height="990" x="2505" y="105" ry="100"/>
 <rect width="790" height="790" x="2605" y="205" ry="100"/>
-<text class="big" x="3000" y="600"></text>
+
 <rect width="990" height="990" x="3505" y="5" ry="100"/>
 <rect width="790" height="790" x="3605" y="105" ry="100"/>
-<text class="big" x="4000" y="500"></text>
+
 <rect width="990" height="990" x="4505" y="105" ry="100"/>
 <rect width="790" height="790" x="4605" y="205" ry="100"/>
-<text class="big" x="5000" y="600"></text>
+
 <rect width="990" height="990" x="5505" y="205" ry="100"/>
 <rect width="790" height="790" x="5605" y="305" ry="100"/>
-<text class="big" x="6000" y="700"></text>
+
 <rect width="990" height="990" x="6505" y="205" ry="100"/>
 <rect width="790" height="790" x="6605" y="305" ry="100"/>
-<text class="big" x="7000" y="700"></text>
+
 <rect width="990" height="990" x="10505" y="205" ry="100"/>
 <rect width="790" height="790" x="10605" y="305" ry="100"/>
-<text class="big" x="11000" y="700"></text>
+
 <rect width="990" height="990" x="11505" y="205" ry="100"/>
 <rect width="790" height="790" x="11605" y="305" ry="100"/>
-<text class="big" x="12000" y="700"></text>
+
 <rect width="990" height="990" x="12505" y="105" ry="100"/>
 <rect width="790" height="790" x="12605" y="205" ry="100"/>
-<text class="big" x="13000" y="600"></text>
+
 <rect width="990" height="990" x="13505" y="5" ry="100"/>
 <rect width="790" height="790" x="13605" y="105" ry="100"/>
-<text class="big" x="14000" y="500"></text>
+
 <rect width="990" height="990" x="14505" y="105" ry="100"/>
 <rect width="790" height="790" x="14605" y="205" ry="100"/>
-<text class="big" x="15000" y="600"></text>
+
 <rect width="990" height="990" x="15505" y="205" ry="100"/>
 <rect width="790" height="790" x="15605" y="305" ry="100"/>
-<text class="big" x="16000" y="700"></text>
+
 <rect width="1490" height="990" x="16505" y="205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="305" ry="100"/>
-<text class="big" x="17250" y="700"></text>
+
 <rect width="1490" height="990" x="5" y="1205" ry="100"/>
 <rect width="1290" height="790" x="105" y="1305" ry="100"/>
-<text class="big" x="750" y="1700"></text>
+
 <rect width="990" height="990" x="1505" y="1205" ry="100"/>
 <rect width="790" height="790" x="1605" y="1305" ry="100"/>
-<text class="big" x="2000" y="1700"></text>
+
 <rect width="990" height="990" x="2505" y="1105" ry="100"/>
 <rect width="790" height="790" x="2605" y="1205" ry="100"/>
-<text class="big" x="3000" y="1600"></text>
+
 <rect width="990" height="990" x="3505" y="1005" ry="100"/>
 <rect width="790" height="790" x="3605" y="1105" ry="100"/>
-<text class="big" x="4000" y="1500"></text>
+
 <rect width="990" height="990" x="4505" y="1105" ry="100"/>
 <rect width="790" height="790" x="4605" y="1205" ry="100"/>
-<text class="big" x="5000" y="1600"></text>
+
 <rect width="990" height="990" x="5505" y="1205" ry="100"/>
 <rect width="790" height="790" x="5605" y="1305" ry="100"/>
-<text class="big" x="6000" y="1700"></text>
+
 <rect width="990" height="1490" x="6505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="6605" y="1305" ry="100"/>
-<text class="big" x="7000" y="1950"></text>
+
 <rect width="990" height="1490" x="10505" y="1205" ry="100"/>
 <rect width="790" height="1290" x="10605" y="1305" ry="100"/>
-<text class="big" x="11000" y="1950"></text>
+
 <rect width="990" height="990" x="11505" y="1205" ry="100"/>
 <rect width="790" height="790" x="11605" y="1305" ry="100"/>
-<text class="big" x="12000" y="1700"></text>
+
 <rect width="990" height="990" x="12505" y="1105" ry="100"/>
 <rect width="790" height="790" x="12605" y="1205" ry="100"/>
-<text class="big" x="13000" y="1600"></text>
+
 <rect width="990" height="990" x="13505" y="1005" ry="100"/>
 <rect width="790" height="790" x="13605" y="1105" ry="100"/>
-<text class="big" x="14000" y="1500"></text>
+
 <rect width="990" height="990" x="14505" y="1105" ry="100"/>
 <rect width="790" height="790" x="14605" y="1205" ry="100"/>
-<text class="big" x="15000" y="1600"></text>
+
 <rect width="990" height="990" x="15505" y="1205" ry="100"/>
 <rect width="790" height="790" x="15605" y="1305" ry="100"/>
-<text class="big" x="16000" y="1700"></text>
+
 <rect width="1490" height="990" x="16505" y="1205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="1305" ry="100"/>
-<text class="big" x="17250" y="1700"></text>
+
 <rect width="1490" height="990" x="5" y="2205" ry="100"/>
 <rect width="1290" height="790" x="105" y="2305" ry="100"/>
-<text class="big" x="750" y="2700"></text>
+
 <rect width="990" height="990" x="1505" y="2205" ry="100"/>
 <rect width="790" height="790" x="1605" y="2305" ry="100"/>
-<text class="big" x="2000" y="2700"></text>
+
 <rect width="990" height="990" x="2505" y="2105" ry="100"/>
 <rect width="790" height="790" x="2605" y="2205" ry="100"/>
-<text class="big" x="3000" y="2600"></text>
+
 <rect width="990" height="990" x="3505" y="2005" ry="100"/>
 <rect width="790" height="790" x="3605" y="2105" ry="100"/>
-<text class="big" x="4000" y="2500"></text>
+
 <rect width="990" height="990" x="4505" y="2105" ry="100"/>
 <rect width="790" height="790" x="4605" y="2205" ry="100"/>
-<text class="big" x="5000" y="2600"></text>
+
 <rect width="990" height="990" x="5505" y="2205" ry="100"/>
 <rect width="790" height="790" x="5605" y="2305" ry="100"/>
-<text class="big" x="6000" y="2700"></text>
+
 <rect width="990" height="990" x="11505" y="2205" ry="100"/>
 <rect width="790" height="790" x="11605" y="2305" ry="100"/>
-<text class="big" x="12000" y="2700"></text>
+
 <rect width="990" height="990" x="12505" y="2105" ry="100"/>
 <rect width="790" height="790" x="12605" y="2205" ry="100"/>
-<text class="big" x="13000" y="2600"></text>
+
 <rect width="990" height="990" x="13505" y="2005" ry="100"/>
 <rect width="790" height="790" x="13605" y="2105" ry="100"/>
-<text class="big" x="14000" y="2500"></text>
+
 <rect width="990" height="990" x="14505" y="2105" ry="100"/>
 <rect width="790" height="790" x="14605" y="2205" ry="100"/>
-<text class="big" x="15000" y="2600"></text>
+
 <rect width="990" height="990" x="15505" y="2205" ry="100"/>
 <rect width="790" height="790" x="15605" y="2305" ry="100"/>
-<text class="big" x="16000" y="2700">¶</text>
+<text class="big" x="16000.0" y="2700">¶</text>
 <rect width="1490" height="990" x="16505" y="2205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="2305" ry="100"/>
-<text class="big" x="17250" y="2700"></text>
+
 <rect width="1490" height="990" x="5" y="3205" ry="100"/>
 <rect width="1290" height="790" x="105" y="3305" ry="100"/>
 <image x="400" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjQuNiIgaGVpZ2h0PSI2NjQuNiIgZmlsbD0iIzAxMDEwMSIgdmlld0JveD0iMCAwIDE5LjkzOCAxOS45MzgiPjxwYXRoIGQ9Ik0xNC4yMjUgMTguNDM4YS43NS43NSAwIDAgMSAuMTAyIDEuNDkzbC0uMTAyLjAwN2gtOC41YS43NS43NSAwIDAgMS0uMTAyLTEuNDkzbC4xMDItLjAwN1pNOC45ODIuMzA5YTEuNzUgMS43NSAwIDAgMSAyLjIzLjIwM2wuMTA3LjExOCA3Ljg2NSA5LjQzOGExLjc1IDEuNzUgMCAwIDEtMS4yIDIuODY0bC0uMTQ0LjAwNmgtMi44NjZsLjAwMSAyLjI1YTEuNzUgMS43NSAwIDAgMS0xLjQ1OCAxLjcyNmwtLjE0OC4wMTgtLjE0NC4wMDZoLTYuNWExLjc1IDEuNzUgMCAwIDEtMS43NDQtMS42MDZsLS4wMDYtLjE0NC0uMDAxLTIuMjVIMi4xMWExLjc1IDEuNzUgMCAwIDEtLjgzMi0uMjFsLS4xNDktLjA5LS4xNC0uMTA2YTEuNzUgMS43NSAwIDAgMS0uMzItMi4zMzdsLjA5Ny0uMTI3TDguNjMuNjNsLjEwNy0uMTE3LjExNy0uMTA3em0xLjE4NSAxLjI4MWEuMjUuMjUgMCAwIDAtLjI5NS0uMDY4bC0uMDU3LjAzNi0uMDMyLjAzMi03Ljg2NSA5LjQzOGEuMjUuMjUgMCAwIDAgLjEzNS40MDNsLjA1Ny4wMDdoMy42MTVhLjc1Ljc1IDAgMCAxIC43NDMuNjQ4bC4wMDcuMTAydjNhLjI1LjI1IDAgMCAwIC4xOTMuMjQzbC4wNTcuMDA3aDYuNWEuMjUuMjUgMCAwIDAgLjI0My0uMTkzbC4wMDctLjA1N3YtM2EuNzUuNzUgMCAwIDEgLjY0OC0uNzQzbC4xMDItLjAwN2gzLjYxNWEuMjUuMjUgMCAwIDAgLjIyNC0uMzYybC0uMDMyLS4wNDh6Ii8+PHBhdGggZD0ibTEyLjc2IDcuMjM2LTEuMDQ4IDQuMTEzaC0uOTkxbC0uNTU5LTIuMTZxLS4wMTctLjA2My0uMDQ2LS4xOS0uMDIzLS4xMjctLjA1OC0uMjc3bC0uMDUxLS4yODItLjAzNS0uMjEzcS0uMDA2LjA3NS0uMDM0LjIxM2wtLjA1Mi4yODJMOS44MjggOWwtLjA0Ni4xOTYtLjU1MyAyLjE1NGgtLjk5TDcuMTkgNy4yMzZoLjg1OGwuNTI0IDIuMjQ3cS4wMzUuMTMyLjA3NS4zMzQuMDQuMjAxLjA3NS40MDN0LjA1Mi4zNHEuMDE3LS4xNDQuMDUyLS4zNC4wMzQtLjIwMi4wNjktLjM4Ni4wNC0uMTkuMDctLjI5NGwuNTk4LTIuMzA0aC44MjRsLjU5OSAyLjMwNHEuMDI5LjA5OC4wNjMuMjg4LjA0LjE5LjA3NS4zOTJ0LjA1Mi4zNHEuMDE3LS4xNDQuMDUyLS4zNC4wMzQtLjIwMi4wNzUtLjQwM2wuMDc1LS4zMzQuNTI0LTIuMjQ3eiIgYXJpYS1sYWJlbD0iVyIgc3R5bGU9ImZvbnQtd2VpZ2h0OjcwMDtmb250LXNpemU6NS43NnB4O2xpbmUtaGVpZ2h0OjEuMjU7c3Ryb2tlLXdpZHRoOi4wMyIvPjwvc3ZnPg=="/>
 <rect width="990" height="990" x="1505" y="3205" ry="100"/>
 <rect width="790" height="790" x="1605" y="3305" ry="100"/>
-<text class="big" x="2000" y="3700"></text>
+
 <rect width="990" height="990" x="2505" y="3105" ry="100"/>
 <rect width="790" height="790" x="2605" y="3205" ry="100"/>
-<text class="big" x="3000" y="3600"></text>
+
 <rect width="990" height="990" x="3505" y="3005" ry="100"/>
 <rect width="790" height="790" x="3605" y="3105" ry="100"/>
-<text class="big" x="4000" y="3500"></text>
+
 <rect width="990" height="990" x="4505" y="3105" ry="100"/>
 <rect width="790" height="790" x="4605" y="3205" ry="100"/>
-<text class="big" x="5000" y="3600"></text>
+
 <rect width="990" height="990" x="5505" y="3205" ry="100"/>
 <rect width="790" height="790" x="5605" y="3305" ry="100"/>
-<text class="big" x="6000" y="3700"></text>
+
 <rect width="990" height="1490" x="6505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="6605" y="2805" ry="100"/>
-<text class="big" x="7000" y="3450"></text>
+
 <rect width="990" height="1490" x="10505" y="2705" ry="100"/>
 <rect width="790" height="1290" x="10605" y="2805" ry="100"/>
-<text class="big" x="11000" y="3450"></text>
+
 <rect width="990" height="990" x="11505" y="3205" ry="100"/>
 <rect width="790" height="790" x="11605" y="3305" ry="100"/>
-<text class="big" x="12000" y="3700"></text>
+
 <rect width="990" height="990" x="12505" y="3105" ry="100"/>
 <rect width="790" height="790" x="12605" y="3205" ry="100"/>
-<text class="big" x="13000" y="3600"></text>
+
 <rect width="990" height="990" x="13505" y="3005" ry="100"/>
 <rect width="790" height="790" x="13605" y="3105" ry="100"/>
-<text class="big" x="14000" y="3500"></text>
+
 <rect width="990" height="990" x="14505" y="3105" ry="100"/>
 <rect width="790" height="790" x="14605" y="3205" ry="100"/>
-<text class="big" x="15000" y="3600"></text>
+
 <rect width="990" height="990" x="15505" y="3205" ry="100"/>
 <rect width="790" height="790" x="15605" y="3305" ry="100"/>
-<text class="big" x="16000" y="3700"></text>
+
 <rect width="1490" height="990" x="16505" y="3205" ry="100"/>
 <rect width="1290" height="790" x="16605" y="3305" ry="100"/>
 <image x="16900" y="3350" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NjQuNiIgaGVpZ2h0PSI2NjQuNiIgdmlld0JveD0iMCAwIDE5LjkzOCAxOS45MzgiPjx0aXRsZT5pY19mbHVlbnRfa2V5Ym9hcmRfc2hpZnRfdXBwZXJjYXNlXzI0X3JlZ3VsYXI8L3RpdGxlPjxwYXRoIGZpbGw9IiMwMTAxMDEiIGQ9Ik0xNC4yMjUgMTguNDM4YS43NS43NSAwIDAgMSAuMTAyIDEuNDkzbC0uMTAyLjAwN2gtOC41YS43NS43NSAwIDAgMS0uMTAyLTEuNDkzbC4xMDItLjAwN1pNOC45ODIuMzA5YTEuNzUgMS43NSAwIDAgMSAyLjIzLjIwM2wuMTA3LjExOCA3Ljg2NSA5LjQzOGExLjc1IDEuNzUgMCAwIDEtMS4yIDIuODY0bC0uMTQ0LjAwNmgtMi44NjZsLjAwMSAyLjI1YTEuNzUgMS43NSAwIDAgMS0xLjQ1OCAxLjcyNmwtLjE0OC4wMTgtLjE0NC4wMDZoLTYuNWExLjc1IDEuNzUgMCAwIDEtMS43NDQtMS42MDZsLS4wMDYtLjE0NC0uMDAxLTIuMjVIMi4xMWExLjc1IDEuNzUgMCAwIDEtLjgzMi0uMjFsLS4xNDktLjA5LS4xNC0uMTA2YTEuNzUgMS43NSAwIDAgMS0uMzItMi4zMzdsLjA5Ny0uMTI3TDguNjMuNjNsLjEwNy0uMTE3LjExNy0uMTA3em0xLjE4NSAxLjI4MWEuMjUuMjUgMCAwIDAtLjI5NS0uMDY4bC0uMDU3LjAzNi0uMDMyLjAzMi03Ljg2NSA5LjQzOGEuMjUuMjUgMCAwIDAgLjEzNS40MDNsLjA1Ny4wMDdoMy42MTVhLjc1Ljc1IDAgMCAxIC43NDMuNjQ4bC4wMDcuMTAydjNhLjI1LjI1IDAgMCAwIC4xOTMuMjQzbC4wNTcuMDA3aDYuNWEuMjUuMjUgMCAwIDAgLjI0My0uMTkzbC4wMDctLjA1N3YtM2EuNzUuNzUgMCAwIDEgLjY0OC0uNzQzbC4xMDItLjAwN2gzLjYxNWEuMjUuMjUgMCAwIDAgLjIyNC0uMzYybC0uMDMyLS4wNDh6Ii8+PHBhdGggZD0iTTEyLjI3NCA4LjA2MWMwLTEuNTM3LTEuMDMyLTIuNzg4LTIuMjk5LTIuNzg4UzcuNjc2IDYuNTIzIDcuNjc2IDguMDZoLS41ODN2NC40MzRoNS43NjNWOC4wNlptLTMuNjU1IDBjMC0uOTA2LjYwOS0xLjY0NCAxLjM1Ni0xLjY0NHMxLjM1Ni43MzggMS4zNTYgMS42NDR6bTEuNjY0IDIuMDkzdjEuMjc1SDkuNjZ2LTEuMjc2YS43LjcgMCAwIDEtLjIxNS0uNTE0YzAtLjM1My4yMzYtLjYzOS41MjYtLjYzOXMuNTI3LjI4Ny41MjcuNjRhLjcuNyAwIDAgMS0uMjE1LjUxNHoiIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMwMTAxMDE7c3Ryb2tlLXdpZHRoOi40OTA0OTk7c3Ryb2tlLWxpbmVqb2luOnJvdW5kO3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utb3BhY2l0eToxIi8+PC9zdmc+"/>
@@ -194,10 +195,10 @@ text.small{font:bold 200px sans-serif;}
 <image x="14650" y="4250" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NjAuMTE3IiBoZWlnaHQ9IjU2MC4xMTciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxNC4wMDMgMTQuMDAzIj48cGF0aCBmaWxsPSIjMDEwMTAxIiBkPSJNMCAyLjVBMi41IDIuNSAwIDAgMSAyLjUgMGg5QTIuNSAyLjUgMCAwIDEgMTQgMi41VjNoLjAwM3YxSDE0djcuNWEyLjUgMi41IDAgMCAxLTIuNSAyLjVoLTlBMi41IDIuNSAwIDAgMSAwIDExLjVaTTEzIDN2LS41QTEuNSAxLjUgMCAwIDAgMTEuNSAxaC05QTEuNSAxLjUgMCAwIDAgMSAyLjVWM1pNMSA0djcuNUExLjUgMS41IDAgMCAwIDIuNSAxM2g5YTEuNSAxLjUgMCAwIDAgMS41LTEuNVY0WiIvPjxwYXRoIGQ9Im02LjM0MiA4LjQ2My0xLjE3NC0xLjc4aDEuMTI3bC43MDcgMS4xNi43MTMtMS4xNmgxLjEyN2wtMS4xODcgMS43OCAxLjI0IDEuODZINy43NjhsLS43NjYtMS4yNDctLjc2NyAxLjI0N0g1LjEwOFoiIGFyaWEtbGFiZWw9IngiIHN0eWxlPSJmb250LXdlaWdodDo3MDA7Zm9udC1zaXplOjYuNjY2NjdweDtsaW5lLWhlaWdodDoxLjI1O2ZpbGw6IzAxMDEwMTtzdHJva2Utd2lkdGg6LjAyNSIvPjwvc3ZnPg=="/>
 <rect width="990" height="990" x="15505" y="4205" ry="100"/>
 <rect width="790" height="790" x="15605" y="4305" ry="100"/>
-<text class="big" x="16000" y="4700"></text>
+
 <rect width="990" height="990" x="16505" y="4205" ry="100"/>
 <rect width="790" height="790" x="16605" y="4305" ry="100"/>
-<text class="big" x="17000" y="4700"></text>
+
 <rect width="990" height="990" x="6755" y="4505" ry="100"/>
 <rect width="790" height="790" x="6855" y="4605" ry="100"/>
 <image x="6900" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzYgMzYiPjx0aXRsZT5pY19mbHVlbnRfYXJyb3dfZG93bmxvYWRfNDhfcmVndWxhcjwvdGl0bGU+PHBhdGggZmlsbD0iIzAxMDEwMSIgZD0iTTYuMjkgMi41aDIzLjVhMS4yNSAxLjI1IDAgMCAwIC4xMjgtMi40OTRMMjkuNzkgMEg2LjI5YTEuMjUgMS4yNSAwIDAgMC0uMTI4IDIuNDk0emgyMy41em0xMS4zNzIgMzMuNDk0LjEyOC4wMDZhMS4yNSAxLjI1IDAgMCAwIDEuMjQ0LTEuMTIybC4wMDYtLjEyOFYxMC40Nmw1LjY0NyA1LjY0NmExLjI1IDEuMjUgMCAwIDAgMS43NjctMS43NjhMMTguNjc2IDYuNTZhMS4yNSAxLjI1IDAgMCAwLTEuNzY3IDBMOS4xMyAxNC4zMzhhMS4yNSAxLjI1IDAgMCAwIDEuNzY4IDEuNzY4bDUuNjQyLTUuNjQyVjM0Ljc1YzAgLjY0Ny40OTIgMS4xOCAxLjEyMiAxLjI0NGwuMTI4LjAwNloiLz48L3N2Zz4="/>
@@ -206,32 +207,32 @@ text.small{font:bold 200px sans-serif;}
 <image x="7900" y="4650" width="700" height="700" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MDAiIGhlaWdodD0iNjAwIiB2aWV3Qm94PSIwIDAgMzYgMzYiPjx0aXRsZT5pY19mbHVlbnRfYXJyb3dfZG93bmxvYWRfNDhfcmVndWxhcjwvdGl0bGU+PHBhdGggZmlsbD0iIzAxMDEwMSIgZD0iTTYuMjkgMzMuNWgyMy41YTEuMjUgMS4yNSAwIDAgMSAuMTI4IDIuNDk0TDI5Ljc5IDM2SDYuMjlhMS4yNSAxLjI1IDAgMCAxLS4xMjgtMi40OTR6aDIzLjV6TTE3LjY2Mi4wMDYgMTcuNzkgMGMuNjQ3IDAgMS4xOC40OTIgMS4yNDQgMS4xMjJsLjAwNi4xMjh2MjQuMjlsNS42NDctNS42NDZhMS4yNSAxLjI1IDAgMCAxIDEuNzY3IDEuNzY4bC03Ljc3OCA3Ljc3OGExLjI1IDEuMjUgMCAwIDEtMS43NjcgMEw5LjEzIDIxLjY2MmExLjI1IDEuMjUgMCAwIDEgMS43NjgtMS43NjhsNS42NDIgNS42NDJWMS4yNWMwLS42NDcuNDkyLTEuMTggMS4xMjItMS4yNDRMMTcuNzkgMFoiLz48L3N2Zz4="/>
 <rect width="990" height="990" x="9255" y="4505" ry="100"/>
 <rect width="790" height="790" x="9355" y="4605" ry="100"/>
-<text class="big" x="9750" y="5000"></text>
+
 <rect width="990" height="990" x="10255" y="4505" ry="100"/>
 <rect width="790" height="790" x="10355" y="4605" ry="100"/>
-<text class="big" x="10750" y="5000"></text>
+
 <rect width="990" height="990" x="7755" y="5505" ry="100"/>
 <rect width="790" height="790" x="7855" y="5605" ry="100"/>
-<text class="big" x="8250" y="6000"></text>
+
 <rect width="990" height="990" x="9255" y="5505" ry="100"/>
 <rect width="790" height="790" x="9355" y="5605" ry="100"/>
-<text class="big" x="9750" y="6000"></text>
+
 <rect width="990" height="1990" x="5755" y="5505" ry="100"/>
 <rect width="790" height="1790" x="5855" y="5605" ry="100"/>
-<text class="big" x="6250" y="6500"></text>
+
 <rect width="990" height="1990" x="6755" y="5505" ry="100"/>
 <rect width="790" height="1790" x="6855" y="5605" ry="100"/>
-<text class="big" x="7250" y="6500"></text>
+
 <rect width="990" height="990" x="7755" y="6505" ry="100"/>
 <rect width="790" height="790" x="7855" y="6605" ry="100"/>
-<text class="big" x="8250" y="7000"></text>
+
 <rect width="990" height="990" x="9255" y="6505" ry="100"/>
 <rect width="790" height="790" x="9355" y="6605" ry="100"/>
-<text class="big" x="9750" y="7000"></text>
+
 <rect width="990" height="1990" x="10255" y="5505" ry="100"/>
 <rect width="790" height="1790" x="10355" y="5605" ry="100"/>
-<text class="big" x="10750" y="6500"></text>
+
 <rect width="990" height="1990" x="11255" y="5505" ry="100"/>
 <rect width="790" height="1790" x="11355" y="5605" ry="100"/>
-<text class="big" x="11750" y="6500"></text>
+
 </svg>

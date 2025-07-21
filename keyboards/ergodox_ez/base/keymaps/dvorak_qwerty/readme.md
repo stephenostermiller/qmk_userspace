@@ -99,10 +99,22 @@ Otherwise the lights indicate the layout:
 ![](layers/qwerty-thold.svg)
 ### Qwerty Control
 ![](layers/qwerty-control-tap.svg)
+### Qwerty Control (Hold)
+![](layers/qwerty-control-hold.svg)
+### Qwerty Control (Shift)
+![](layers/qwerty-control-shift.svg)
 ### Qwerty Meta
 ![](layers/qwerty-meta-tap.svg)
+### Qwerty Meta (Hold)
+![](layers/qwerty-meta-hold.svg)
+### Qwerty Meta (Shift)
+![](layers/qwerty-meta-shift.svg)
 ### Qwerty Alt
 ![](layers/qwerty-alt-tap.svg)
+### Qwerty Alt (Hold)
+![](layers/qwerty-alt-hold.svg)
+### Qwerty Alt (Shift)
+![](layers/qwerty-alt-shift.svg)
 ### Fancy
 ![](layers/fancy-tap.svg)
 
