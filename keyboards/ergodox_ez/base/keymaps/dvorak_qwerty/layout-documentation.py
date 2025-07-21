@@ -281,15 +281,15 @@ def processKey(layout,variant,i,initial):
                 processKey(layout, tdVariant, i, False)
         elif m:=re.search(r'C\((.*)\)',keycode):
             layouts[layout][variant][i]=m[1]
-            processKey(layout,variant,i,initial)
+            processKey(layout,variant,i,False)
             layouts[layout][variant][i]='icon/control.svg'+layouts[layout][variant][i]
         elif m:=re.search(r'A\((.*)\)',keycode):
             layouts[layout][variant][i]=m[1]
-            processKey(layout,variant,i,initial)
+            processKey(layout,variant,i,False)
             layouts[layout][variant][i]='icon/alt.svg'+layouts[layout][variant][i]
         elif m:=re.search(r'G\((.*)\)',keycode):
             layouts[layout][variant][i]=m[1]
-            processKey(layout,variant,i,initial)
+            processKey(layout,variant,i,False)
             layouts[layout][variant][i]='icon/meta.svg'+layouts[layout][variant][i]
         elif re.search('[A-Z]_[A-Z0-9]',keycode):
             layouts[layout][variant][i]=re.sub('_',' ',keycode.lower())
