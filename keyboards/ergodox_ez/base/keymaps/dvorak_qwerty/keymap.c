@@ -20,7 +20,7 @@
 enum layer_names {
     LAY_DVORAK, // base
     LAY_QWERTY, // alternate swappable base
-    LAY_NUM_FN, // number keypad, function keys, available from either base layer
+    LAY_NUMBER_PAD, // number keypad, function keys, available from either base layer
     LAY_QWERTY_CONTROL, // qwerty overlay with ctrl key pressed
     LAY_QWERTY_META, // qwerty overlay with meta key pressed
     LAY_QWERTY_ALT, // qwerty overlay with alt key pressed
@@ -29,7 +29,7 @@ enum layer_names {
 
 // used as portions of tap dances
 enum custom_keycodes {
-    MO_TG_QWERTY = SAFE_RANGE, MO_TG_NUMFN,
+    MO_TG_QWERTY = SAFE_RANGE, MO_TG_NUM,
 };
 
 // handle custom keycodes
@@ -39,9 +39,9 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             // toggle the qwerty layer while held
             layer_invert(LAY_QWERTY);
             return false;
-        case MO_TG_NUMFN:
+        case MO_TG_NUM:
              // toggle the num/fn layer while held
-            layer_invert(LAY_NUM_FN);
+            layer_invert(LAY_NUMBER_PAD);
             return false;
     }
     return true;
@@ -472,7 +472,7 @@ const eztd_data_t eztd_data[] PROGMEM = {
     [RCDT_META] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_BRACKET, LM(LAY_QWERTY_META, MOD_MASK_GUI), KC_FULL_SCREEN),
     [RCDT_CRTL] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_ANGLE_BRACKET, LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL), A(KC_F4)),
     [RCDT_SHFT] = EZTD_TAP_HOLD_DTAP(KC_RIGHT_PAREN, KC_RIGHT_SHIFT, KC_CAPS),
-    [LAY_OUT] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP(KC_COLON, MO_TG_NUMFN, TG(LAY_NUM_FN), MO_TG_QWERTY, TG(LAY_QWERTY)),
+    [LAY_OUT] = EZTD_TAP_HOLD_DTAP_DHOLD_TTAP(KC_COLON, MO_TG_NUM, TG(LAY_NUMBER_PAD), MO_TG_QWERTY, TG(LAY_QWERTY)),
     [FANC_ALPH] = EZTD_TAP_HOLD_DTAP(KC_QUESTION, KC_UNICODE_FANCY_ALPHABET_MOMENTARY, KC_UNICODE_FANCY_ALPHABET_CYCLE),
     [TD_PERC] = EZTD_ALLTAP_HOLD(KC_PERCENT, C(S(KC_O))),
     [TD_AMP] = EZTD_ALLTAP_HOLD_DHOLD(KC_AMPERSAND, C(S(KC_M)), KC_AUDIO_MUTE),
@@ -625,7 +625,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                                                               KC_RIGHT,          KC_UP,
                                                                 KC_ENTER,      KC_TAB,        KC_LEFT,           KC_DOWN,       KC_BSPC,       KC_SPACE
   ),
-  [LAY_NUM_FN] = LAYOUT_ergodox_pretty(
+  [LAY_NUMBER_PAD] = LAYOUT_ergodox_pretty(
 /*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
     TD(EM_SMILE),  TD(F1_FRAC),   TD(F2_FRAC),   TD(F3_FRAC),   TD(F4_FRAC),   TD(F5_FRAC),   TD(EM_LGL_IP),     TD(MTH_CLCLS), TD(F6_FRAC),   TD(F7_FRAC),   TD(F8_FRAC),   TD(F9_FRAC),   TD(F10_FRAC),  KC_F11,
     TD(EM_LIKE),   TD(EM_SAD),    TD(NS_ARROW),  TD(NW_ARROW),  TD(N_ARROW),   TD(NE_ARROW),  TD(EM_BALLOT),     TD(DIVIDES),   KC_KP_7,       KC_KP_8,       KC_KP_9,       TD(SUBTRACTS), TD(TD_INF),    KC_F12,
@@ -784,7 +784,7 @@ bool any_light_blinking(void){
 // use call back when scanning for keypresses to set lights
 void matrix_scan_user(void) {
 
-    if(IS_LAYER_ON(LAY_NUM_FN)){
+    if(IS_LAYER_ON(LAY_NUMBER_PAD)){
         // Blue light is ARROWLOCK
         light_state[BLUE_LIGHT] = host_keyboard_led_state().num_lock ? LIGHT_OFF : LIGHT_ON;
     } else {
@@ -799,7 +799,7 @@ void matrix_scan_user(void) {
         light_state[GREEN_LIGHT] = LIGHT_BLINKING_INVERSE_MED;
     } else {
         // Red light is NUM/FN
-        light_state[RED_LIGHT] = layer_state_cmp(layer_state, LAY_NUM_FN) ? LIGHT_ON : LIGHT_OFF;
+        light_state[RED_LIGHT] = layer_state_cmp(layer_state, LAY_NUMBER_PAD) ? LIGHT_ON : LIGHT_OFF;
 
         // Green light is QWERTY
         light_state[GREEN_LIGHT] = (layer_state_cmp(layer_state, LAY_QWERTY) || layer_state_cmp(layer_state, LAY_QWERTY_CONTROL) || layer_state_cmp(layer_state, LAY_QWERTY_META) || layer_state_cmp(layer_state, LAY_QWERTY_ALT)) ? LIGHT_ON : LIGHT_OFF;

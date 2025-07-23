@@ -76,8 +76,8 @@ for code in basic_codes.keys():
 
 keycodes['C(S(KC_M))']={'tap':'icon/mute-mic.svg'}
 keycodes['C(S(KC_O))']={'tap':'icon/camera-off.svg'}
-keycodes['TG(LAY_NUM_FN)']={'tap':'icon/keypad.svg'}
-keycodes['MO_TG_NUMFN']={'tap':'icon/keypad.svg'}
+keycodes['TG(LAY_NUMBER_PAD)']={'tap':'icon/keypad.svg'}
+keycodes['MO_TG_NUM']={'tap':'icon/keypad.svg'}
 keycodes['LM(LAY_QWERTY_CONTROL, MOD_MASK_CTRL)']={'tap':'icon/control-qwerty.svg'}
 keycodes['LM(LAY_QWERTY_META, MOD_MASK_GUI)']={'tap':'icon/meta-qwerty.svg'}
 keycodes['LM(LAY_QWERTY_ALT, MOD_MASK_ALT)']={'tap':'icon/alt-qwerty.svg'}
@@ -491,13 +491,12 @@ for layout in layouts:
 
 keycap_priority = [
     {"layout": "dvorak", "variant": "tap", "dark-mode": "#fff", "light-mode": "#000"},
-    {"layout": "qwerty", "variant": "tap", "dark-mode": "#aaa", "light-mode": "#888"},
-    {"layout": "dvorak", "variant": "hold", "dark-mode": "#0ff", "light-mode": "#00c"},
-    {"layout": "dvorak", "variant": "dtap", "dark-mode": "#8f8", "light-mode": "#090"},
-    {"layout": "num_fn", "variant": "tap", "dark-mode": "#ff0", "light-mode": "#088"},
-    {"layout": "dvorak", "variant": "dhold", "dark-mode": "#88f", "light-mode": "#880"},
+    {"layout": "qwerty", "variant": "tap", "dark-mode": "#8f8", "light-mode": "#090"},
+    {"layout": "dvorak", "variant": "hold", "dark-mode": "#0ff", "light-mode": "#088"},
+    {"layout": "dvorak", "variant": "dtap", "dark-mode": "#aaa", "light-mode": "#888"},
+    {"layout": "number_pad", "variant": "tap", "dark-mode": "#f88", "light-mode": "#a00"},
     {"layout": "dvorak", "variant": "ttap", "dark-mode": "#f0f", "light-mode": "#808"},
-    {"layout": "num_fn", "variant": "hold", "dark-mode": "#f88", "light-mode": "#a00"},
+    {"layout": "number_pad", "variant": "hold", "dark-mode": "#ff0", "light-mode": "#880"},
 ]
 
 def getKeycapLabels(i, colorMode):
@@ -581,6 +580,7 @@ def writeKeycapsSvg(fileName, colorMode):
         fh.write('rect{fill:none;stroke:#666;stroke-width:0.01in;stroke-dasharray:1,4}\n')
     fh.write('text{font:bold .4in sans-serif;dominant-baseline:middle;text-anchor:middle}\n')
     fh.write('text.medium{font:bold .16in sans-serif;}\n')
+    fh.write('text.left{text-anchor:start}\n')
     fh.write('text.small{font:bold .08in sans-serif;}\n')
     fh.write('</style>\n')
     for i, k in enumerate(svgp):
@@ -592,6 +592,19 @@ def writeKeycapsSvg(fileName, colorMode):
         }
         fh.write(f'<rect width="{dim["w"]}in" height="{dim["h"]}in" x="{dim["x"]}in" y="{dim["y"]}in"/>\n')
         labelsToSvg(fh, getKeycapLabels(i, colorMode), dim);
+
+    fh.write(f'<rect width="2in" height="1in" x=".5in" y="2.9in"/>\n')
+    fh.write(f'<text fill="{keycap_priority[2][colorMode]}" class="medium left" x=".75in" y="3.1in">shift/hold</text>\n');
+    fh.write(f'<text fill="{keycap_priority[3][colorMode]}" class="medium left" x=".75in" y="3.3in">double tap</text>\n');
+    fh.write(f'<text fill="{keycap_priority[5][colorMode]}" class="medium left" x=".75in" y="3.5in">triple tap</text>\n');
+    fh.write(f'<text fill="{keycap_priority[6][colorMode]}" class="medium left" x=".75in" y="3.7in">number pad hold</text>\n');
+
+    fh.write(f'<rect width="2in" height="1in" x="7in" y="2.9in"/>\n')
+    fh.write(f'<text fill="{keycap_priority[0][colorMode]}" class="medium left" x="7.25in" y="3.1in">dvorak</text>\n');
+    fh.write(f'<text fill="{keycap_priority[4][colorMode]}" class="medium left" x="7.25in" y="3.3in">number pad</text>\n');
+    fh.write(f'<text fill="{keycap_priority[1][colorMode]}" class="medium left" x="7.25in" y="3.5in">qwerty</text>\n');
+    fh.write(f'<text fill="blue" class="medium left" x="7.25in" y="3.7in">caps lock</text>\n');
+
     fh.write('</svg>')
     fh.close()
 

@@ -64,7 +64,6 @@ Otherwise the lights indicate the layout:
 
 ## Layers
 
-
 ### Dvorak
 ![](layers/dvorak-tap.svg)
 ### Dvorak (Hold)
@@ -79,18 +78,18 @@ Otherwise the lights indicate the layout:
 ![](layers/dvorak-ttap.svg)
 ### Dvorak (Triple Hold)
 ![](layers/dvorak-thold.svg)
-### Num Fn
-![](layers/num-fn-tap.svg)
-### Num Fn (Hold)
-![](layers/num-fn-hold.svg)
-### Num Fn (Double Tap)
-![](layers/num-fn-dtap.svg)
-### Num Fn (Double Hold)
-![](layers/num-fn-dhold.svg)
-### Num Fn (Triple Tap)
-![](layers/num-fn-ttap.svg)
-### Num Fn (Triple Hold)
-![](layers/num-fn-thold.svg)
+### Number Pad
+![](layers/number-pad-tap.svg)
+### Number Pad (Hold)
+![](layers/number-pad-hold.svg)
+### Number Pad (Double Tap)
+![](layers/number-pad-dtap.svg)
+### Number Pad (Double Hold)
+![](layers/number-pad-dhold.svg)
+### Number Pad (Triple Tap)
+![](layers/number-pad-ttap.svg)
+### Number Pad (Triple Hold)
+![](layers/number-pad-thold.svg)
 ### Qwerty
 ![](layers/qwerty-tap.svg)
 ### Qwerty (Hold)
@@ -237,7 +236,7 @@ License: Public Domain
 ### <img width=30px src=icon/media-player.svg> Media Player
 License: MIT License, Authors: Stephen Ostermiller, Orchid, Vmware
 
-### <img width=30px src=icon/keypad.svg> Keypad
+### <img width=30px src=icon/keypad.svg> Number Pad
 License: MIT License, Author: Ionicons
 
 ### <img width=30px src=icon/fancy-alphabet.svg> Fancy Alphabet
