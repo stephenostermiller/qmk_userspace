@@ -682,7 +682,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [LAY_FANCY] = LAYOUT_ergodox_pretty(
 /*  KEY COLUMN 1,  KEY COLUMN 2,  KEY COLUMN 3,  KEY COLUMN 4,  KEY COLUMN 5,  KEY COLUMN 6,  KEY COLUMN 7,      KEY COLUMN 8,  KEY COLUMN 9,  KEY COLUMN 10, KEY COLUMN 11, KEY COLUMN 12, KEY COLUMN 13, KEY COLUMN 14, */
-    UFA_DS,        _______,       _______,       _______,       _______,       _______,       UFA_FRK,            UFA_MON,      _______,       _______,       _______,       _______,       _______,       XXXXXXX,
+    UFA_DS,        _______,       _______,       _______,       _______,       _______,       UFA_FRK,            UFA_MON,      _______,       _______,       _______,       _______,       _______,       UFA_CUR,
     UFA_CIR,       _______,       _______,       _______,       _______,       _______,       UFA_FB,             UFA_ITC,      _______,       _______,       _______,       _______,       _______,       XXXXXXX,
     UFA_NC,        _______,       _______,       _______,       _______,       _______,                                         _______,       _______,       _______,       _______,       _______,       XXXXXXX,
     _______,       _______,       _______,       _______,       _______,       _______,       UFA_REG,            UFA_BI,       _______,       _______,       _______,       _______,       _______,       _______,

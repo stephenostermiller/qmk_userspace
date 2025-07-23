@@ -140,6 +140,7 @@ keycodes['UFA_ITC']={'tap':'icon/fancy-italic.svg'}
 keycodes['UFA_BI']={'tap':'icon/fancy-bold-italic.svg'}
 keycodes['UFA_BLD']={'tap':'icon/fancy-bold.svg'}
 keycodes['UFA_WDE']={'tap':'icon/fancy-wide.svg'}
+keycodes['UFA_CUR']={'tap':'icon/fancy-cursed.svg'}
 keycodes['UFA_RSM']={'tap':'icon/fancy-ransom.svg'}
 keycodes['C(KC_C)']={'tap':'icon/copy.svg'}
 keycodes['C(KC_X)']={'tap':'icon/cut.svg'}
