@@ -605,3 +605,10 @@ for c in unicode:
 for c in tapdances:
     if c not in tap_dance_used:
         print(f"not used: {c} {tapdances[c]}", file=sys.stderr)
+
+print("")
+print("## Stats")
+print(f"- Tap dances: {len(tapdances)}")
+print(f"- Unicode keys: {len(unicode)}")
+print(f"- Unicode fancy letters: 840")
+print(f"- Key overrides: {len(shiftOverrides)}")

@@ -55,6 +55,13 @@ Otherwise the lights indicate the layout:
 - Quickly flashing blue light: CAPS word
 - Slowly flashing blue light: CAPS lock
 
+## Stats
+
+- Tap dances: 72
+- Unicode keys: 183
+- Unicode fancy letters: 840
+- Key overrides: 21
+
 ## Layers
 
 
